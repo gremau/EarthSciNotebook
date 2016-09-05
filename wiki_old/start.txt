@@ -1,0 +1,40 @@
+~~NOTOC~~
+======Greg Maurer's research wiki======
+
+{{:hiddencanyon:hcimg_3855_scaled_.jpg?225  |Hidden Canyon Met datalogger}}
+
+This is the wiki for [[http://pronghorns.net/about.html|Greg Maurer's]] research projects, which are focused on biogeochemical cycling in the seasonally snow-covered ecosystems of the western U.S. This research is based at the [[http://bioweb.biology.utah.edu/bowling/|Bowling lab]], in the [[http://www.biology.utah.edu|University of Utah Biology Department]].
+
+**Cautionary note:**
+All data, code, figures, results, and discussions are presented in their raw, preliminary form. They have not been peer reviewed and are provided without guarantee of quality, accuracy, or safety.
+
+<- //back to [[http://pronghorns.net/|pronghorns.net Main]]//
+
+=====Navigation=====
+
+**Pages on the site are grouped into these topics:**
+  * [[topicindex#Active research projects|Active research projects]]
+  * [[topicindex#Procedures|Lab and field procedures]]
+  * [[topicindex#Instruments|Instruments]]
+  * [[topicindex#Research sites|Research sites]]
+  * There is also a **[[topicindex|Complete topic index]]**
+
+** Currently active pages: **
+{{changes>render = list(signature, summary)}}
+
+=====Using this site===== 
+This [[wp>wiki]] records day to day research activities for various research projects, including field and lab notes, method development, preliminary results, data analysis code, figures, photos, and discussions. It is essentially an open version of the electronic [[wp>lab notebook]] for [[http://pronghorns.net/about.html|Greg Maurer's]] research projects. Because it is a wiki, this site can also be used for scientific collaboration. Those who would like to add to, comment on, or edit content on this site should email <admin@pronghorns.net>. **Off-topic posts will be removed.**
+
+Before you begin take a look at:
+  * [[wiki:standards|Rules and conventions]]
+  * The [[faq|FAQ]]
+  * If you would like to contribute or edit see the [[wiki:syntax|DokuWiki Syntax]] page to learn how.
+  * You can test your editing in the [[playground:playground|wiki playground]].
+
+
+=====Copyright information=====
+All site content, unless otherwise noted, is licensed under the [[http://creativecommons.org/licenses/by-sa/4.0|CC Attribution Share Alike]] license 4.0.
+
+Unless otherwise noted, all software and source code is copyrighted 2007-2014 (c) //[[greg@pronghorns.net|Greg Maurer]]// and is licensed under the Apache License, version 2.0. You may not use these files except in compliance with this license. A copy of the license can be found at [[http://www.apache.org/licenses/LICENSE-2.0]].
+
+Please see the [[wiki:copyright|copyright page]] for more on software copyrights and licensing information.

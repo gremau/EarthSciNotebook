@@ -1,0 +1,81 @@
+====== (Old) Topic Index [SnowUnderSoil Wiki] ======
+** There is a new Topic Index [[topicindex|here]]**
+===== Experiments =====
+Pages covering experimental design and hypothesis testing for current experiments. Should include links to all measurements made for each experiment.
+
+  * :-D[[experiments:label_decomposition|Decomposition of labeled litter]] at Niwot Ridge - ON HOLD --- //[[primaryproductivity@gmail.com|Greg Maurer]] 2010/08/09 13:11//
+  * :-D[[experiments:hc_snowmanipulation|Enhanced dust deposition on a forest snowpack]] at Hidden Canyon.
+  * :-D[[experiments:hc_carboncycle|Effects of snowpack variability on soil carbon cycling]] at Hidden Canyon.
+  * :-D[[experiments:hc_waterbalance|Effects of snowpack variability on water balance]] at Hidden Canyon.
+  * Size and distribution of [[experiments:west_carbonstocks|carbon stocks]] in the NRCS Snow Survey network (for western U.S. mountain ranges).
+  * [[experiments:west_carbonturnover|Turnover times of soil carbon]] in western U.S. mountain ranges.
+  * :-D[[experiments:west_stationdata|Analysis of climate, soil moisture, and temperature data]] from western U.S. mountain ranges.
+
+===== Instruments =====
+Contain documentation for operating, calibrating, and maintaining field and lab instruments, sensors, etc. There are 
+also notes on programs, calibration constants, and conversion coefficients for instruments currently in use.
+  * [[instruments:li-190|Li-Cor Quantum sensor (LI-190)]]
+  * :-)[[instruments:hc_dataloggers|Hidden Canyon dataloggers]]
+  * Notes, conventions, and code for [[instruments:edlog|EDLOG programming]] (Campbell datalogger control)
+  * [[instruments:li-6400|Li-Cor 6400 portable soil respiration system]] (in use at Hidden Canyon)
+  * :-)[[instruments:hc_communications|Communications system]] at Hidden Canyon
+
+===== Measurements =====
+Documenting current or past measurement campaigns, with preliminary data and links to procedures and instrumentation.
+  * :-)[[measurements:hc_profiles|Soil temperature and soil moisture profiles (Hidden Canyon)]]
+  * :-) Meteorology and other environmental measurements at the [[measurements:hc_towers|Hidden Canyon towers]].
+  * :-)[[measurements:hc_snowmelt|Snowmelt in control and dust-addition plots]] in Hidden Canyon.
+  * :-)[[measurements:hc_soilresp|Soil respiration at Hidden Canyon]]
+  * :-)[[measurements:hc_xylempsi|Xylem water potential at Hidden Canyon]]
+  * :-)[[measurements:hc_decomposition|Litterbag decomposition at Hidden Canyon]]
+  * [[measurements:west_soilclimate|Soils and climate data]] from numerous stations measuring snowpack, met, and soil variables.
+  * [[measurements:west_carbonstocks|Quantifying forest carbon stocks]] in the NRCS Snow Survey network.
+  * :-)[[measurements:hc_trees|Spatial data on all trees at Hidden Canyon]]
+
+===== Procedures =====
+Protocols for making measurements in the field or the lab, processing samples for analysis, or analyzing data. Site or experiment-specific info should be appended as necessary.
+
+== Laboratory protocols ==
+  * :-)[[procedures:snotel_soilprocessing|SNOTEL soil/organics processing]] for samples returned to lab
+  * [[procedures:ea-irms_prep|Soil sample prep for EA-IRMS analysis]] at SIRFER
+  * [[procedures:14c_graphitization|Graphitization of soils]] for AMS <sup>14</sup>C analysis
+  * [[procedures:exetainer_co2|Measuring exetainer gas samples]] for CO<sub>2</sub> and C isotopes
+
+== Field protocols ==
+  * :-)[[procedures:snotel_soilsampling|SNOTEL soil sampling protocol]]
+  * [[procedures:manual_soilresp|Manual soil respiration measurements]] (Hidden Canyon)
+  * [[procedures:belowsnow_soilresp|Below-snow respiration measurements]](Hidden Canyon)
+  * [[procedures:dustonsnow|Dust deposition on snowpacks]] (Hidden Canyon)
+  * [[procedures:hc_georeferencing|Georeferencing the Hidden Canyon research site]]
+
+== Data analysis and instrumentation programming ==
+  * [[procedures:programming|Data analysis programming]]: notes and conventions on using Python, MATLAB/Octave, R for data analysis
+  * [[procedures:code|Code clearinghouse]]: an index of data analysis scripts.
+  * :-)[[procedures:west_stationdata|Collection of monitoring station data]] from around the west
+  * :-)[[procedures:west_stationanalysis|Programs for analyzing SNOTEL soil profiles]]
+  * [[procedures:profiledata|Procedures for analyzing soil profile data]]
+
+===== Results =====
+Pages containing preliminary research results, figures, and some discussion.
+== Continuous data ==
+  * :-)[[results:hc_towers|Tower data from Hidden Canyon]] - mostly met data from the Met and Forest towers.
+  * :-)[[results:hc_profiles|Soil profile data from Hidden Canyon]] - Soil moisture and temperature from 8 profiles.
+
+===== Sites =====
+These pages describe research sites and link to relevant data sources and activity logs. Three primary research sites are currently active in this project:
+  - :-)[[sites:hiddencanyon|Hidden Canyon]] in the Wasatch Mountains near Salt Lake City.
+    * A south-facing mixed conifer forest at 9500 feet. It is instrumented with met stations and soil moisture/temperature profiles. A snowpack manipulation, and soil respiration and decomposition measurements will be conducted here through 2012. The site was established by the Bowling Lab in the Fall of 2009.
+    * :-)[[sites:hc_2010_log|2010 activity log]], :-)[[sites:hc_2011_log|2011 activity log]]
+  - [[sites:snowsurvey|NRCS Snow Survey sites]] located in mountains around the western U.S. (http://www.wcc.nrcs.usda.gov/)
+    * This is a network of mountain sites where manual (snow courses) and automated (SNOTEL sites) measurements of snowpack (SWE) are taken for water supply forecasting. Manual measurements date back to the 1930's.
+  - [[sites:niwotridge|Niwot Ridge]] - a high elevation [[http://www.lternet.edu/|LTER]] and [[http://public.ornl.gov/ameriflux/|Ameriflux]] site in Colorado.
+    * A high elevation supalpine forest and alpine tundra site. Extensive research on tundra and forest ecology has been in progress here for a long time. The Bowling lab has instrumentation that measures biosphere-atmosphere interactions (CO<sub>2</sub> mainly).
+
+===== Related projects =====
+These pages cover additional projects we work on, but that are not part of Greg Maurer's dissertation.
+  * Snow deposition
+    * :-)[[snowdep:2010activitylog|2010 Activity log]]
+    * :-)[[snowdep:sampling|Snow sampling and cleanliness procedures]]
+    * :-)[[snowdep:labprocessing|Processing snow samples for analysis]]
+    * :-)[[snowdep:standards|Mixing ion standards]]
+    * :-)[[snowdep:analysislog_1]]

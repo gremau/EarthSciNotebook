@@ -1,0 +1,22 @@
+======Math and statistics toolboxes======
+A variety of computation tools for doing math and statistics in data analysis.
+
+See also: [[procedures:programming|General programming info]] on some of the tools mentioned below
+
+=====General numerical tools=====
+  * [[procedures:numpytips|NumPy]] - Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
+
+=====Statistics=====
+  * SciPy
+  * [[http://gretl.sourceforge.net|gretl]] - Gnu regression, Econometrics and Time-series library.
+  * [[http://pandas.pydata.org|pandas]] - the Python Data Analysis Library.
+    * Has DataFrame objects - equivalent to the data.frame object in R
+    * Has tools for many statistics (covariance, correlation, regression)
+    * Timeseries analysis
+    * Missing data functions
+    * Some stats may be moved to StatsModels (below)
+  * [[http://statsmodels.sourceforge.net|StatsModels]] - Python module with classes and functions for many statistical models, tests, and data exploration.
+
+=====Symbolic Math=====
+  * [[http://maxima.sourceforge.net/|Maxima]] - a computer algebra system (similar to Mathematica/Maple)
+  * [[http://sympy.org/en/index.html|SymPy]] - Symbolic math/algebra with Python.

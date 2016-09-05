@@ -1,0 +1,42 @@
+FIXME
+====== Western U.S. montane soil carbon cycling ======
+
+Soil samples are collected from montane and subalpine forests around the U.S. along with descriptive information about that forest.
+
+=== Some research objectives ===
+
+
+=== Related projects ===
+  * The [[west_stationdata:overview|SNOTEL soil climate project]].
+
+===== Hypotheses =====
+
+===== Experimental design =====
+
+=== Design changelog ===
+
+===== Methods =====
+  * [[procedures:manual_soilresp|Growing season soil respiration]] with the [[instruments:li-6400|Li-Cor 6400 system]].
+  * [[procedures:belowsnow_soilresp|Below-snow soil respiration]] measurements made with the inlet/tubing system and exetainers.
+  * [[procedures:litterbags|Litterbag mass loss]] measurement of winter and summer decomposition.
+
+===== Measurement details and logs =====
+==== On-site data collection ====
+== Aboveground data ==
+== Soil and belowground measurements ==
+
+  * Log
+
+==== Soil sample C, N, and stable isotope analysis ====
+
+  * Log
+
+==== Radiocarbon analysis of soils ====
+
+  * Log
+
+==== Intact soil core incubations ====
+
+  * Log
+
+==== Other logs ====

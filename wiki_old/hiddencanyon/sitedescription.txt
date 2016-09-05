@@ -1,0 +1,48 @@
+====== Hidden Canyon (Wasatch Mtns, UT) ======
+{{:hiddencanyon:hc_10-24-08_scaled_.jpg?250 |Hidden Canyon site in October 2008}}
+**Location description**
+  * Elevation: 9400 ft
+  * Aspect: 197-205° (South-Southwest)
+  * Slope: 20-22° at towers
+  * Dominant tree species: Engelmann spruce, Subalpine fir, Aspen
+  * There are 2 [[hiddencanyon:georeferencing|georeferenced grids]] and other markers.
+  * Site of [[hc_ecohydrology:overview|ecohydrology experiments]] (snowmelt, soil carbon cycling, and plant water balance) 
+  * Established by the Bowling Lab in the Fall of 2009.
+
+===== Measurements =====
+**Hidden Canyon has:**
+  * A [[hiddencanyon:mettowers|meteorological tower]] located in a clearing to the west of the study forest.
+  * A [[hiddencanyon:mettowers|forest met tower]] that records aboveground and belowground climate variables in the forest.
+  * Eight [[hiddencanyon:soilprofiles|soil profiles]] that measure soil temperature and water content.
+  * Some [[hc_ecohydrology:snowmeltlog_1|snow measurements]], part of the [[hc_ecohydrology:overview|ecohydrology experiments]].
+  * [[hc_ecohydrology:soilresplog_1|Soil respiration]] measurements
+  * [[hc_ecohydrology:litterbaglog_1|Decomposition measurements]] using litterbags
+  * [[hc_ecohydrology:ecosystemwaterlog_1|Xylem water potential]] measurements
+  * All trees have location, species, and status data [[trees|here]].
+
+===== Communication =====
+This site is connected to the internet via a wireless modem. This modem is connected via radio to both dataloggers, so both can be accessed from the Bowling lab with LoggerNet. See [[hiddencanyon:communicationsystem|this page]] for information on how this works.
+
+===== Site logs =====
+** Activity logs document all site visits (beginning Dec 20, 2009) **
+  * [[hiddencanyon:hc2013_log|2013 activity log]]
+  * [[hiddencanyon:hc2012_log|2012 activity log]]
+  * [[hiddencanyon:hc2011_log|2011 activity log]]
+  * [[hiddencanyon:hc2010_log|2010 activity log]]
+  * [[hiddencanyon:analysislog_1|HiddenCanyon data analysis]]
+  * [[hiddencanyon:mettowerlog_1|Met tower log]]
+  * [[hiddencanyon:soilprofilelog_1|Soil profile log]]
+  * [[hc_ecohydrology:snowmeltlog_1|Snowmelt experiment log]]
+
+===== TO DO list =====
+  - <del>Remove Sentek sensors</del>
+  - <del>Remove Profiles 1, 1d, 3, 3d and Mux1</del>
+  - <del>Remove sensors on F1 datalogger tower, including both downward looking IR surface temp sensors</del>
+  - <del>Take down ropes and signs around site</del>
+  - Remove all flagging.
+  - <del>Remove second enclosure/battery on solar panel tower.</del>
+  - <del>Tighten nut on upward PAR sensor</del>
+  - Remove profiles 2d and 4d
+  - Wiring to Mux 3 needs to be pulled/cut out
+  - Take down Forest, Met, Solar towers
+  - Flagging, stakes, and resp collars should be removed.
