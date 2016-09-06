@@ -41,6 +41,7 @@ edit content on this site should email <admin@pronghorns.net>.
 
 Before you begin take a look at:
 
+* bl
 * [Rules and conventions](wiki:standards "wikilink")
 * The [FAQ](faq "wikilink")
 * If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
