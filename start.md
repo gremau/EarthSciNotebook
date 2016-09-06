@@ -41,12 +41,12 @@ edit content on this site should email <admin@pronghorns.net>.
 
 Before you begin take a look at:
 
- * [Rules and conventions](wiki:standards "wikilink")
- * The [FAQ](faq "wikilink")
- * If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
- * You can test your editing in the [wiki playground](playground:playground "wikilink")
+* [Rules and conventions](wiki:standards "wikilink")
+* The [FAQ](faq "wikilink")
+* If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
+* You can test your editing in the [wiki playground](playground:playground "wikilink")
 
-##### Copyright information
+### Copyright information
 
 All site content, unless otherwise noted, is licensed under the [CC Attribution Share Alike](http://creativecommons.org/licenses/by-sa/4.0) license
 4.0.
