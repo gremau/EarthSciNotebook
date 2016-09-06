@@ -1,6 +1,6 @@
 # Greg Maurer's research wiki
 
-[[media/hiddencanyon/hcimg_3855_scaled_.jpg|width=225px|align=right|alt="Hidden Canyon Met datalogger"]]
+[[media/hiddencanyon/hcimg_3855_scaled_.jpg|width=225px|frame|align=right|alt="Hidden Canyon Met datalogger"]]
 
 This is the wiki for [Greg Maurer's](http://pronghorns.net/about.html)
 research projects, which are focused on biogeochemical cycling in the
@@ -20,11 +20,11 @@ without guarantee of quality, accuracy, or safety.
 
 **Pages on the site are grouped into these topics:**
 
- * [Active research projects](topicindex#Active_research_projects)
- * [Lab and field procedures](topicindex#Procedures )
- * [Instruments](topicindex#Instruments)
- * [Research sites](topicindex#Research_sites)
- * There is also a **[Complete topic index](topicindex)**
+* [Active research projects](topicindex#Active_research_projects)
+* [Lab and field procedures](topicindex#Procedures )
+* [Instruments](topicindex#Instruments)
+* [Research sites](topicindex#Research_sites)
+* There is also a **[Complete topic index](topicindex)**
 
 **Currently active pages:**
 
