@@ -41,11 +41,10 @@ edit content on this site should email <admin@pronghorns.net>.
 
 Before you begin take a look at:
 
-* bl
-* [Rules and conventions](wiki:standards "wikilink")
-* The [FAQ](faq "wikilink")
-* If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
-* You can test your editing in the [wiki playground](playground:playground "wikilink")
+* [Rules and conventions](wiki:standards "wikilink")
+* The [FAQ](faq "wikilink")
+* If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
+* You can test your editing in the [wiki playground](playground:playground "wikilink")
 
 ### Copyright information
 
