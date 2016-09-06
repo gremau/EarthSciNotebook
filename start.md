@@ -16,7 +16,7 @@ without guarantee of quality, accuracy, or safety.
 
 <- back to [pronghorns.net/Main](http://pronghorns.net/)
 
-##### Navigation
+## Navigation
 
 **Pages on the site are grouped into these topics:**
 
