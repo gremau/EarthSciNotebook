@@ -1,5 +1,7 @@
 # Greg Maurer's research wiki
 
+[[media/hiddencanyon/hcimg_3855_scaled_.jpg|width=225px|align=right|alt="Hidden Canyon Met datalogger"]]
+
 This is the wiki for [Greg
 Maurer's](http://pronghorns.net/about.html) research
 projects, which are focused on biogeochemical cycling in the seasonally
