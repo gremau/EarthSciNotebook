@@ -18,9 +18,6 @@ without guarantee of quality, accuracy, or safety.
 
 ## Navigation
 
-* hello
-* there
-
 **Pages on the site are grouped into these topics:**
 
 * [Active research projects](topicindex#Active_research_projects)
@@ -28,8 +25,6 @@ without guarantee of quality, accuracy, or safety.
 * [Instruments](topicindex#Instruments)
 * [Research sites](topicindex#Research_sites)
 * There is also a **[Complete topic index](topicindex)**
-
-**Currently active pages:**
 
 ## Using this site
 
