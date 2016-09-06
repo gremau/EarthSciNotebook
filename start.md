@@ -18,13 +18,16 @@ without guarantee of quality, accuracy, or safety.
 
 ## Navigation
 
+* hello
+* there
+
 **Pages on the site are grouped into these topics:**
 
-* [Active research projects](topicindex#Active_research_projects)
-* [Lab and field procedures](topicindex#Procedures )
-* [Instruments](topicindex#Instruments)
-* [Research sites](topicindex#Research_sites)
-* There is also a **[Complete topic index](topicindex)**
+* [Active research projects](topicindex#Active_research_projects)
+* [Lab and field procedures](topicindex#Procedures )
+* [Instruments](topicindex#Instruments)
+* [Research sites](topicindex#Research_sites)
+* There is also a **[Complete topic index](topicindex)**
 
 **Currently active pages:**
 
