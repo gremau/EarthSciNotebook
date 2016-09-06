@@ -37,7 +37,7 @@ Maurer's](http://pronghorns.net/about.html "wikilink") research
 projects. Because it is a wiki, this site can also be used for
 scientific collaboration. Those who would like to add to, comment on, or
 edit content on this site should email <admin@pronghorns.net>.
-\*\*Off-topic posts will be removed.\*\*
+**Off-topic posts will be removed.**
 
 Before you begin take a look at:
 
