@@ -2,7 +2,7 @@ FIXME - add Milford Flat dust info
 
 #### Dust composition and origin
 
-[[media/misc/dustmap.jpg|width=300px|alt="Dust collection sites along the Buckhorn Draw Road (San Rafael Swell, UT"]] Dust used in this project is derived from
+[[media/misc/dustmap.jpg|width=300px|align=left|alt="Dust collection sites along the Buckhorn Draw Road (San Rafael Swell, UT"]] Dust used in this project is derived from
 the Chinle-Moenkopi formation of the Colorado Plateau. The nutrient and
 chemical composition has been described in [Neff et al,
 2006](http://www.springerlink.com/content/8q3412683074272n/)((Neff,
