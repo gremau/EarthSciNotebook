@@ -2,17 +2,14 @@ FIXME - add Milford Flat dust info
 
 #### Dust composition and origin
 
-[[media/misc/dustmap.jpg|width=300px|align=left|alt="Dust collection sites along the Buckhorn Draw Road (San Rafael Swell, UT"]] Dust used in this project is derived from
-the Chinle-Moenkopi formation of the Colorado Plateau. The nutrient and
-chemical composition has been described in [Neff et al,
-2006](http://www.springerlink.com/content/8q3412683074272n/)((Neff,
-J.C., Reynolds, R., Sanford Jr., R.L., Fernandez, D., Lamothe, P.
-Controls of bedrock geochemistry on soil and plant nutrients in
-Southeastern Utah (2006) Ecosystems, 9 (6), pp. 879-893. doi:
-10.1007/s10021-005-0092-8)) This dust was collected on 20 Feb, 2010
-along the Buckhorn Draw Road in the San Rafael Swell of Utah. This
-material was wet at the time of collection. It was dried and then sifted
-to .5mm before application.
+[[media/misc/dustmap.jpg|width=300px|align=left|alt="Dust collection sites
+along the Buckhorn Draw Road (San Rafael Swell, UT"]] Dust used in this
+project is derived from the Chinle-Moenkopi formation of the Colorado Plateau.
+The nutrient and chemical composition has been described in [Neff et al,
+2006](http://www.springerlink.com/content/8q3412683074272n/). This dust was
+collected on 20 Feb, 2010 along the Buckhorn Draw Road in the San Rafael
+Swell of Utah. This material was wet at the time of collection. It was dried
+and then sifted to .5mm before application.
 
 Chinle 1
 --------
