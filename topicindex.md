@@ -1,4 +1,4 @@
-##### Active research projects
+# Active research projects
 
 Each research project has its own
 [namespace](http://www.dokuwiki.org/namespaces). Within these
@@ -35,7 +35,7 @@ Niwot girdling study (niwot\_girdling)
  * Methods: [Data QC](/niwot_girdling/data_qc), [Soil analysis](/niwot_girdling/soilanalysis), [Soil extract 13C procedure](/procedures/soilextract_13c)\
  * [Activity log](/niwot_girdling/activitylog_1)
 
-##### Procedures
+# Procedures
 
 Protocols for making measurements in the field or the lab, processing
 samples for analysis, or analyzing data. Intended as a general
@@ -85,7 +85,7 @@ Research writing
  * [Pandoc](/procedures/pandoc) document converter and markup syntax.\
  * [LaTeX tips](/procedures/latextips)
 
-##### Math
+# Math
 
 Pages covering statistical and mathematical concepts, or numerical
 methods used in data analysis. Some of these pages are composed
@@ -117,7 +117,7 @@ currently in use.
  * [Sentek EnviroSCAN soil moisture profiles](/instruments/sentek_enviroscan) (there are a couple at Hidden Canyon).\
  * [EA-IRMS protocol](/instruments/ea-irms_sirfer) at the SIRFER lab.
 
-##### Research Sites
+# Research Sites
 
 Research sites (or networks) have their own namespace. Pages in a site
 namespace should have descriptive information about the sites
@@ -151,7 +151,7 @@ Niwot Ridge LTER
  * A high elevation [LTER](http://www.lternet.edu/) and [Ameriflux](http://public.ornl.gov/ameriflux/) site in Colorado.\
  * Extensive research on tundra and forest ecology has been in progress here for a long time. The Bowling lab has instrumentation that measures biosphere-atmosphere interactions (CO~2~ mainly).
 
-##### Inactive research projects
+# Inactive research projects
 
 These are either completed or on hold.
 
