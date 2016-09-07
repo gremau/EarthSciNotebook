@@ -14,4 +14,6 @@ Steps for this are:
 
 4. do some custom editing of the new markdown pages
 
+    for file in *.txt.md; do git mv "$file" "${file//txt./}"; done
+
 The first page to be complete is [[start]]
