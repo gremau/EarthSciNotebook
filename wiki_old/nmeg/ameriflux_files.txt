@@ -1,5 +1,0 @@
-These files contain:
-
-They are made by:
-
-UNM_Ameriflux_File_Maker_TWH.m 

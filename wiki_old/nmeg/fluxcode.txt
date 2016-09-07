@@ -1,5 +1,0 @@
-====Making files====
-  * [[NMEG:fluxall_files|FluxAll files]]
-  * [[NMEG:rbd_files|QC and for_gap_filling files]]
-  * [[NMEG:ameriflux_files|Ameriflux files]]
-  * [[NMEG:soildata_files|Complete soil data files]]
