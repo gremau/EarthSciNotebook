@@ -8,10 +8,6 @@ site-specific methods), project logs, and results pages. Overview pages
 describe the project objectives, hypotheses, and research approach, and
 should link to all other pages in the project namespace.
 
-## New Mexico Elevation Gradient flux processing
-
-* NMEG [[flux code|nmeg_fluxcode]]
-
 ## Hidden Canyon ecohydrology (hc_ecohydrology)
 
 * [[Overview|hc_overview]]
