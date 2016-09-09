@@ -14,10 +14,10 @@ New Mexico Elevation Gradient flux processing
 Hidden Canyon ecohydrology (hc_ecohydrology)
 ---------------------------------------------
 
-* [Overview](/hc_ecohydrology/overview)
+* [Overview](hc_overview)
 * Experimental design: [[hc_snowmeltdesign]], [/hiddencanyon/soilprofiles](/hiddencanyon/soilprofiles)
 * Methods: [westerndust](westerndust), [procedures:dustonsnow](/procedures/dustonsnow), [/procedures/snowpacksublimation](/procedures/snowpacksublimation), [procedures:xylempressure](/procedures/xylempressure), [procedures:belowsnow_soilresp](/procedures/belowsnow_soilresp), [procedures:manual_soilresp](/procedures/manual_soilresp), [procedures:litterbags](/procedures/litterbags)
-* Measurement logs (preliminary results): [Snowmelt](/hc_ecohydrology/snowmeltlog_1), [Ecosystem water](/hc_ecohydrology/ecosystemwaterlog_1) (soil moisture and xylem water potential), [Soil respiration](/hc_ecohydrology/soilresplog_1), [Litter bags](/hc_ecohydrology/litterbaglog_1)
+* Measurement logs (preliminary results): [Snowmelt](hc_snowmeltlog_1), [Ecosystem water](hc_ecosystemwaterlog_1) (soil moisture and xylem water potential), [Soil respiration](hc_soilresplog_1), [Litter bags](hc_litterbaglog_1)
 * [Hidden Canyon activity logs](/hiddencanyon/sitedescription#Site_logs), [data
 analysis log](/hiddencanyon/analysislog_1)
 
