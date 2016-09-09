@@ -16,7 +16,7 @@
 Insert a citation with `\cite{citationID}`, where `citationID` is the
 identifier in a BibTeX (.bib) bibliography file. The `.bib` is defined
 somewhere in the LaTeX file with
-`\bibliography{\~\\user...\\bibfile.bib}`. There are other, improved
+`\bibliography{\~\user...\bibfile.bib}`. There are other, improved
 implementations for citations, such as
 [natbib](http://www.ctan.org/tex-archive/macros/latex/contrib/natbib).
 
