@@ -1,9 +1,8 @@
 # 2010 Soil Respiration measurements
 
-[[media/hc_2010_rs.png|width=350px|alt=2010 Respiration collars]]
+[[media/hiddencanyon/hc_2010_rs.png|width=350px|alt=2010 Respiration collars]]
 
-Growing season 2010
--------------------
+## Growing season 2010
 
 * Replaced chemical traps and bought 2 new batteries in July 2010.
 * Installed collars, 10 in each plot, on July 12.
@@ -12,17 +11,15 @@ Growing season 2010
 * Replaced collar T1 (0.5m west) on October 15th.
 * Forgot the temperature probes Oct 16th.`
 
-Fall/Early Winter 2010
-----------------------
+## Fall/Early Winter 2010
 
 * Installed 18 snow inlets in early October
 * 6 each in plot 1 & 2 (3 around each profile), and 3 each in plot 3 & 4 (near Profiles 5 & 7).
 * Tubing ends need to be capped and the sampling protocol needs to be developed.`
 
-##### 2011 Soil Respiration measurements
+# 2011 Soil Respiration measurements
 
-January-March (below snow)
---------------------------
+## January-March (below snow)
 
 * Early Jan - Have finished capping and otherwise preparing the tubing ends to be accessed.
 * Jan 21 - First inlet samples taken. This was an incomplete set of samples.
@@ -33,8 +30,7 @@ January-March (below snow)
 * There was some water in the tubing on the last measurement date.
 * Concentrations got pretty high (8000ppm) but I haven't calculated fluxes yet.
 
-July 13-14
-----------
+## July 13-14
 
 * Installed respiration collars on the evening of the 13th
 * Measured respiration on the morning of the 14th`

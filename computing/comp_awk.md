@@ -43,11 +43,11 @@ print \$1 " " \$2 " " \$9 " " \$12 }' AZ\_soilstations.csv
 `{` `print` `$1` `"` `"` `$2` `"` `"` `$9` `"` `"` `$12` `}'`
 `AZ_soilstations.csv` Outputs:
 
-` snotel 310 AZ BALDY`\
-` snotel 1121 AZ FORT VALLEY`\
-` snotel 969 AZ HAPPY JACK`\
-` snotel 1125 AZ MORMON MTN SUMMIT`\
-` snotel 861 AZ WHITE HORSE LAKE`
+snotel 310 AZ BALDY
+snotel 1121 AZ FORT VALLEY
+snotel 969 AZ HAPPY JACK
+snotel 1125 AZ MORMON MTN SUMMIT
+snotel 861 AZ WHITE HORSE LAKE`
 
 As can logical expressions such as AND (&&) and OR (||): <code awk> awk
 -F"," '( \$1 == "snotel" ) && ( \$7 &gt; 7000 ) { print }'
@@ -60,42 +60,42 @@ AZ\_soilstations.csv
 Other features:
 ---------------
 
-` * Can use arithmetic operators (+-*/%^)`\
-` * Can use conditional statements for control flow:`\
-`   * if ( //expression// ) //statement1// else //statement2//`\
-`   * while ( //expression// ) //statement//`\
-`   * for ( //expression1//; //expression// ; //expression2// ) //statement//`\
-`   * do //statement// while( //expression// )`\
-` * Some important environmental variables:`\
-`   * NF (number of columns) `\
-`   * NR (the current line that awk is working on)`\
-`   * END (true if awk reaches the EOF)`\
-`   * BEGIN (true before awk reads anything)`
+* Can use arithmetic operators (+-*/%^)
+* Can use conditional statements for control flow:
+  * if ( //expression// ) //statement1// else //statement2//
+  * while ( //expression// ) //statement//
+  * for ( //expression1//; //expression// ; //expression2// ) //statement//
+  * do //statement// while( //expression// )
+* Some important environmental variables:
+  * NF (number of columns) 
+  * NR (the current line that awk is working on)
+  * END (true if awk reaches the EOF)
+  * BEGIN (true before awk reads anything)`
 
 Built in functions
 ------------------
 
-` * gsub(r,s)       substitutes s for r globally in current input line, returns the  number of substitutions `\
-` * gsub(r,s,t)     substitutes s for r in t globally, returns number of substitutions `\
-` * index(s,t)      returns position of string t in s, 0 if not present `\
-` * length(s)       returns length of s `\
-` * match(s,r)      returns position in s where r occurs, 0 if not present `\
-` * split(s,a)      splits s into array a on FS, returns number of fields `\
-` * split(s,a,r)    splits s into array a on r, returns number of fields `\
-` * sprintf(fmt, expr-list) returns expr-list formatted according to format string  specified by fmt `\
-` * sub(r,s)        substitutes s for first r in current input line, returns number of substitutions `\
-` * sub(r,s,t)      substitutes s for first r in t, returns number of substitutions `\
-` * substr(s,p)     returns suffix s starting at position p `\
-` * substr(s,p,n)   returns substring of s length n starting at position p `
+* gsub(r,s)       substitutes s for r globally in current input line, returns the  number of substitutions 
+* gsub(r,s,t)     substitutes s for r in t globally, returns number of substitutions 
+* index(s,t)      returns position of string t in s, 0 if not present 
+* length(s)       returns length of s 
+* match(s,r)      returns position in s where r occurs, 0 if not present 
+* split(s,a)      splits s into array a on FS, returns number of fields 
+* split(s,a,r)    splits s into array a on r, returns number of fields 
+* sprintf(fmt, expr-list) returns expr-list formatted according to format string  specified by fmt 
+* sub(r,s)        substitutes s for first r in current input line, returns number of substitutions 
+* sub(r,s,t)      substitutes s for first r in t, returns number of substitutions 
+* substr(s,p)     returns suffix s starting at position p 
+* substr(s,p,n)   returns substring of s length n starting at position p `
 
 ##### Command line usage
 
 -   -   Note that: \*\*
 
-` * Input can come from files or be piped in from shell commands.`\
-` * Output can be redirected into files or piped to bash, etc.`\
-` * Lots of these are from `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/ "wikilink")` or `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/ "wikilink")\
-` * Also see examples in the `[`shell` `scripting`
+* Input can come from files or be piped in from shell commands.
+* Output can be redirected into files or piped to bash, etc.
+* Lots of these are from `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/ "wikilink")or `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/ "wikilink")\
+* Also see examples in the `[`shell` `scripting`
 `page`](procedures:shellscripts "wikilink")`.`
 
 Convert Windows/DOS newlines (CRLF) to Unix newlines (LF) from Unix.
@@ -136,20 +136,20 @@ directory of files with awk: <code bash> ls junk\* | awk '{print "mv
 BEGIN blocks allow initialization code (such as setting variables)
 before running the code block on each line of the input file: <code awk>
 
-` BEGIN { `\
-`         FS=":" `\
-` } `\
-` { print $1 }`\
-` # Setting the field separator is best done in a BEGIN block before running the code block`
+BEGIN { 
+        FS=":" 
+} 
+{ print $1 }
+# Setting the field separator is best done in a BEGIN block before running the code block`
 
 </code> End blocks do end of script reporting or calculations:
 <code awk>
 
-` BEGIN { x=0 } `\
-` /^$/  { x=x+1 } `\
-` END   { print "I found " x " blank lines. :)" }`\
-` # Prints out the number of blank lines in the file`
+BEGIN { x=0 } 
+/^$/  { x=x+1 } 
+END   { print "I found " x " blank lines. :)" }
+# Prints out the number of blank lines in the file`
 
 </code> If saved in a file the script above could be run with:
 
-` awk -f myfile.awk AZ_soilstations.csv`
+awk -f myfile.awk AZ_soilstations.csv`

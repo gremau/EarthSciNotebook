@@ -3,40 +3,39 @@
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
--   -   See also:\*\* [General
-        programming](programming "wikilink") page.
+**See also:** [[General programming|comp_programming]] page.
 
 ##### Filesystem
 
-` * **`*`~/data/`*`** - on its own partition, regularly backed up`\
-`   *  **`*`current/`*`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a `*`**data_analysis**`*` directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**`\
-`     *  **project_1/**`\
-`       * Lab and field spreadsheets...`\
-`       * Maps of plot locations, etc`\
-`       * Documentation files for dataloggers, etc`\
-`       * Papers in progress`\
-`       * **data_analysis/**`\
-`         * **symlink to ../rawdata/project_1/**`\
-`         * **m/**`\
-`           * matlab scripts and functions`\
-`         * **py/**`\
-`           * python scripts and functions`\
-`         * **processed_data/**`\
-`           * textfiles with (for example) data exported from spreadsheets in parent directory, data from processing scripts, plot locations converted to UTM (from map), etc.`\
-`     *  **project_2/**`\
-`       * ...`\
-`       * **data_analysis/**`\
-`         * **symlink to ../rawdata/project_2/**`\
-`         * **m/**`\
-`         * ...`\
-`   * **`*`archive/`*`** - same as above but for projects that are completed/not maintained`\
-`     *  **oldproject_1/**`\
-`   * **`*`rawdata/`*`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).`\
-`     * **project_1/**`\
-`       * textfile1 (long-term climate measurments from a nearby weather station)`\
-`       * textfile2 (datalogger .dat file)`\
-`     * **project_2/**`\
-`       * ...`
+* **`*`~/data/`*`** - on its own partition, regularly backed up
+  *  **`*`current/`*`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a `*`**data_analysis**`*directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
+    *  **project_1/**
+      * Lab and field spreadsheets...
+      * Maps of plot locations, etc
+      * Documentation files for dataloggers, etc
+      * Papers in progress
+      * **data_analysis/**
+        * **symlink to ../rawdata/project_1/**
+        * **m/**
+          * matlab scripts and functions
+        * **py/**
+          * python scripts and functions
+        * **processed_data/**
+          * textfiles with (for example) data exported from spreadsheets in parent directory, data from processing scripts, plot locations converted to UTM (from map), etc.
+    *  **project_2/**
+      * ...
+      * **data_analysis/**
+        * **symlink to ../rawdata/project_2/**
+        * **m/**
+        * ...
+  * **`*`archive/`*`** - same as above but for projects that are completed/not maintained
+    *  **oldproject_1/**
+  * **`*`rawdata/`*`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
+    * **project_1/**
+      * textfile1 (long-term climate measurments from a nearby weather station)
+      * textfile2 (datalogger .dat file)
+    * **project_2/**
+      * ...`
 
 ##### General Workflow
 
@@ -45,12 +44,12 @@ This refers to current projects, each of which is stored in a
 
 ### Data collected in the field or lab
 
-` - In general, this data must be transcribed from field sheets, downloaded from instruments, formatted, etc, and this is most often done using spreadsheets or text files. `\
-`   - Some formatting, editing, or summary creation of textfiles can be done with `[`shell`
-`scripts`](procedures:shellscripts "wikilink")`, `[`procedures:awk`](procedures:awk "wikilink")`, etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.`\
-` - Processed data can be exported as a textfile to the **projectname/data_analysis/processed_data/** directory, or put in the rawdata/ directory (if it fits criteria above).`\
-` - Data is then processed and analyzed with python, matlab, or other scripts located in the **projectname/data_analysis/** directory`\
-` - This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.`
+- In general, this data must be transcribed from field sheets, downloaded from instruments, formatted, etc, and this is most often done using spreadsheets or text files. 
+  - Some formatting, editing, or summary creation of textfiles can be done with `[`shell`
+`scripts`](procedures:shellscripts "wikilink")`, `[`procedures:awk`](procedures:awk "wikilink")`, etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
+- Processed data can be exported as a textfile to the **projectname/data_analysis/processed_data/** directory, or put in the rawdata/ directory (if it fits criteria above).
+- Data is then processed and analyzed with python, matlab, or other scripts located in the **projectname/data_analysis/** directory
+- This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.`
 
 The generalized workflow looks like this:
 -----------------------------------------
@@ -64,11 +63,11 @@ The generalized workflow looks like this:
 
 ### Data from elsewhere
 
-` - Often this is downloaded as text data (ie, from SNOTEL, etc) in (hopefully) quality-checked form. However some munging may be necessary to trim, format, or otherwise make the data easier to use `\
-`   - Probably use `[`shell`
-`scripts`](procedures:shellscripts "wikilink")`, `[`procedures:awk`](procedures:awk "wikilink")`, etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.`\
-` - Data can then be directly placed in the **~/data/rawdata/projectname/** directory`\
-` - Follow steps 3 & 4, as above.`
+- Often this is downloaded as text data (ie, from SNOTEL, etc) in (hopefully) quality-checked form. However some munging may be necessary to trim, format, or otherwise make the data easier to use 
+  - Probably use `[`shell`
+`scripts`](procedures:shellscripts "wikilink")`, `[`procedures:awk`](procedures:awk "wikilink")`, etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
+- Data can then be directly placed in the **~/data/rawdata/projectname/** directory
+- Follow steps 3 & 4, as above.`
 
 The generalized workflow looks like this:
 -----------------------------------------
@@ -86,10 +85,10 @@ The generalized workflow looks like this:
 In terms of actual pieces of code, there are generally several types
 that recur in each project.
 
-` - a loading function`\
-` - a data cleaning function`\
-` - the function(s) that actually do the analysis (calculating, transforming, selecting data)`\
-` - the script(s) that produce reports or plots using the analysis functions above`
+- a loading function
+- a data cleaning function
+- the function(s) that actually do the analysis (calculating, transforming, selecting data)
+- the script(s) that produce reports or plots using the analysis functions above`
 
 In practice, this means that in each data analysis project folder, there
 will be (at least) one version of each of these types of functions.
