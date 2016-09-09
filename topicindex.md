@@ -147,7 +147,7 @@ NRCS Snow Survey sites
 Niwot Ridge LTER
 ----------------
 
-* A high elevation [LTER|http://www.lternet.edu/]] and [[Ameriflux|http://public.ornl.gov/ameriflux/) site in Colorado.
+* A high elevation [[LTER|http://www.lternet.edu/]] and [[Ameriflux|http://public.ornl.gov/ameriflux/]] site in Colorado.
 * Extensive research on tundra and forest ecology has been in progress here for a long time. The Bowling lab has instrumentation that measures biosphere-atmosphere interactions (CO~2~ mainly).
 
 # Inactive research projects
