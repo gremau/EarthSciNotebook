@@ -17,3 +17,5 @@ Steps for this are:
     for file in *.txt.md; do git mv "$file" "${file//txt./}"; done
 
 The first page to be complete is [[start]]
+
+[[pandoc]]
