@@ -8,13 +8,11 @@ site-specific methods), project logs, and results pages. Overview pages
 describe the project objectives, hypotheses, and research approach, and
 should link to all other pages in the project namespace.
 
-New Mexico Elevation Gradient flux processing
----------------------------------------------
+## New Mexico Elevation Gradient flux processing
 
 * NMEG [[flux code|nmeg_fluxcode]]
 
-Hidden Canyon ecohydrology (hc_ecohydrology)
----------------------------------------------
+## Hidden Canyon ecohydrology (hc_ecohydrology)
 
 * [[Overview|hc_overview]]
 * Experimental design: [[Snowmelt manipulation|hc_snowmeltdesign]], [[Soil profiles|hc_soilprofiles]]
@@ -23,15 +21,13 @@ Hidden Canyon ecohydrology (hc_ecohydrology)
 * [[Hidden Canyon activity logs|hc_sitedescription]], [[data
 analysis log|hc_analysislog_1]]
 
-Western U.S. soil carbon cycling (west_carboncycle)
-----------------------------------------------------
+## Western U.S. soil carbon cycling (west_carboncycle)
 
 * [[Overview|snotelC_overview]]
 * Methods: [[Protocol for SNOTEL visits|snotelC_fieldprotocol]], [[Initial sample processing|snotelC_sampleprocessing]]
 * Logs: [[SNOTEL visits|snotelC_log1]], [[Sample processing|snotelC_sampleprocessinglog_1]], [[Data analysis|snotelC_analysislog_1]], [[Sample processing tables|snotelC_sampletables]].
 
-Niwot girdling study (niwot_girdling)
---------------------------------------
+## Niwot girdling study (niwot_girdling)
 
 * Methods: [[Data QC|niwot_data_qc]], [[Soil analysis|niwot_soilanalysis]], [[Soil extract 13C procedure|proc_soilextract_13c]]
 * [[Activity log|niwot_activitylog_1]]
@@ -43,8 +39,7 @@ samples for analysis, or analyzing data. Intended as a general
 reference, but site or experiment-specific info can be appended as
 necessary.
 
-Laboratory protocols
---------------------
+## Laboratory protocols
 
 * [[Measuring exetainer gas samples|proc_exetainer_co2]] for CO~2~ and C isotopes
 * [[Acid treatment of soils|proc_soilacidtreatment]] to remove carbonates.
@@ -54,8 +49,7 @@ Laboratory protocols
 * [[Snowpack dust loading|proc_snowpackdustloading]]
 * [[δ13C analysis of soil extracts|proc_soilextract_13c]]
 
-Field protocols
----------------
+## Field protocols
 
 * [[Manual soil respiration measurements|proc_manual_soilresp]] (Hidden Canyon)
 * [[Below-snow respiration measurements|proc_belowsnow_soilresp]](Hidden Canyon)
@@ -67,8 +61,7 @@ Field protocols
 * [[Canopy photography|proc_canopyphotos]]
 * [[Georeferencing with GPS|proc_gps]]
 
-Data analysis and instrumentation programming
----------------------------------------------
+## Data analysis and instrumentation programming
 
 * [[Data analysis programming|comp_programming]]: General info for using Python/MATLAB/Octave/R for data analysis
 * [[Python tips|comp_pythontips]], [[Numpy tips|comp_numpytips]], [[Using IPython|comp_ipython]]
@@ -79,8 +72,7 @@ Data analysis and instrumentation programming
 * [[Workflow for data analysis|comp_data_analysis_workflow]]
 * [[Geospatial data analysis|comp_geospatial]]
 
-Research writing
-----------------
+## Research writing
 
 * [[Text file tips|comp_textfiles]]
 * [[Pandoc|comp_pandoc]] document converter and markup syntax.
@@ -127,27 +119,23 @@ For example: site maps, research plot layouts, technical info and
 schematics for research installations (weather stations, etc.),
 activity/maintenance logs, etc.
 
-Hidden Canyon
--------------
+## Hidden Canyon
 
 * [[Site description|hc_sitedescription]], [[Tree location data|hc_trees]]
 * Instrumentation: [hc_communicationsystem|hc_communicationsystem]], [[hc_dataloggers|hc_dataloggers]], [[hc_mettowers|hc_mettowers]], [[hc_soilprofiles|hc_soilprofiles]], [[hc_georeferencing|hc_georeferencing]]
 * [[2010 activity log|hc_2010_log]], [[2011 activity log|hc_2011_log]], [[2012 activity log|hc_2012_log]], [[data analysis log|hc_analysislog_1]]
 
-Red Butte Canyon
-----------------
+## Red Butte Canyon
 
 * Above the University of Utah campus. There is a weather station network there.
 * [[RBC Weather Station info|rb_weatherstations]], [[WS maintenance log|rb_weather_log]], [[Using cr10 dataloggers|inst_cr10dataloggers]]
 
-NRCS Snow Survey sites
-----------------------
+## NRCS Snow Survey sites
 
 * A network of mountain sites in the western U.S. where manual (snow courses) and automated (SNOTEL sites) measurements of snowpack (SWE) are taken for water supply forecasting. Manual measurements date back to the 1930's.
 * [[Official site|http://www.wcc.nrcs.usda.gov/]]
 
-Niwot Ridge LTER
-----------------
+## Niwot Ridge LTER
 
 * A high elevation [[LTER|http://www.lternet.edu/]] and [[Ameriflux|http://public.ornl.gov/ameriflux/]] site in Colorado.
 * Extensive research on tundra and forest ecology has been in progress here for a long time. The Bowling lab has instrumentation that measures biosphere-atmosphere interactions (CO~2~ mainly).
@@ -158,15 +146,13 @@ These are either completed or on hold.
 
 * [[ Niwot Ridge label decomposition - overview|niwot_labeldecomp_overview]] ON HOLD --- //[Greg Maurer|primaryproductivity@gmail.com]] 2010/08/09 13:11//
 
-Ion deposition in snow (snowdep)
---------------------------------
+## Ion deposition in snow (snowdep)
 
 * Methods: [[Snow sampling and cleanliness procedures|snowdep_sampling]], [[Processing snow samples for analysis|snowdep_labprocessing]], [[Mixing ion standards|snowdep_standards]]
 * [[Data analysis log|snowdep_analysislog_1]]
 * [[Activity log (not used)|snowdep_activitylog_1]]
 
-Western U.S. soil climate analysis (west_stationdata)
-------------------------------------------------------
+## Western U.S. soil climate analysis (west_stationdata)
 
 * [[Overview|soilclim_overview]]
 * Methods: [[Data collection and prep|soilclim_data]], [[Data programming
