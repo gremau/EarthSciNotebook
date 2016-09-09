@@ -16,8 +16,8 @@ Hidden Canyon ecohydrology (hc_ecohydrology)
 
 * [[Overview|hc_overview]]
 * Experimental design: [[Snowmelt manipulation|hc_snowmeltdesign]], [[Soil profiles|hc_soilprofiles]]
-* Methods: [[Dust|westerndust]], [[Dust on snow|procedures/proc_dustonsnow]], [[Snowpack sublimation|proc_snowpacksublimation]], [[Xylem pressure|proc_xylempressure]], [[Below-snow soil resp|proc_belowsnow_soilresp]], [[Warm season resp|proc_manual_soilresp]], [[Litter bags|proc_litterbags]]
-* Measurement logs (preliminary results): [[Snowmelt|hc_snowmeltlog_1]], [[Ecosystem water|hc_ecosystemwaterlog_1]] (soil moisture and xylem water potential), [[Soil respiration:hc_soilresplog_1]], [[Litter bags|hc_litterbaglog_1]]
+* Methods: [[Dust|westerndust]], [[Dust on snow|proc_dustonsnow]], [[Snowpack sublimation|proc_snowpacksublimation]], [[Xylem pressure|proc_xylempressure]], [[Below-snow soil resp|proc_belowsnow_soilresp]], [[Warm season resp|proc_manual_soilresp]], [[Litter bags|proc_litterbags]]
+* Measurement logs (preliminary results): [[Snowmelt|hc_snowmeltlog_1]], [[Ecosystem water|hc_ecosystemwaterlog_1]] (soil moisture and xylem water potential), [[Soil respiration|hc_soilresplog_1]], [[Litter bags|hc_litterbaglog_1]]
 * [[Hidden Canyon activity logs|hc_sitedescription]], [[data
 analysis log|hc_analysislog_1]]
 
@@ -25,8 +25,8 @@ Western U.S. soil carbon cycling (west_carboncycle)
 ----------------------------------------------------
 
 * [[Overview|snotelC_overview]]
-* Methods: [[Protocol for SNOTEL visits|snotelC_snotelfieldprotocol]], [[Initial sample processing|snotelC_snotelsampleprocessing]]
-* Logs: [[SNOTEL visits|snotelC_snotellog_1]], [[Sample processing|snotelC_sampleprocessinglog_1]], [[Data analysis|snotelC_analysislog_1]], [[Sample processing tables|snotelC_sampletables]].
+* Methods: [[Protocol for SNOTEL visits|snotelC_fieldprotocol]], [[Initial sample processing|snotelC_sampleprocessing]]
+* Logs: [[SNOTEL visits|snotelC_log1]], [[Sample processing|snotelC_sampleprocessinglog_1]], [[Data analysis|snotelC_analysislog_1]], [[Sample processing tables|snotelC_sampletables]].
 
 Niwot girdling study (niwot_girdling)
 --------------------------------------
@@ -93,8 +93,8 @@ primarily of links to further information on the subject.
 * [[Computation toolboxes|math_toolboxes]] - tools for computing math and statistics.
 * [[Time series analysis|math_timeseries]] - assorted methods for analyzing time series data to extract meaningful statistics.
 * [[ANOVA|math_anova]] - analysis of variance for various experimental designs.
-* [[Reversing calibration equations|math_quadratic_eq_calib]] - using the quadratic equation to back out sensor output from calibrated data (if calibration is known).
-* [[Principal components analysis|math_pca]] and [Principal components regression|math_pcr]]
+* [[Reverse calibration equations|math_quadratic_eq_calib]] - using the quadratic equation to back out sensor output from calibrated data (if calibration is known).
+* [[Principal components analysis|math_pca]] and [[Principal components regression|math_pcr]]
 * [[Correlation|math_correlation]]
 * [[Testing for normality|math_normalitytests]]
 * [[Linear regression|math_linear_regression]] - Bivariate (one independent variable) and multiple regression (>1 ind. variable).
@@ -159,7 +159,7 @@ These are either completed or on hold.
 Ion deposition in snow (snowdep)
 --------------------------------
 
-* Methods: [Snow sampling and cleanliness procedures|snowdep_sampling]], [[Processing snow samples for analysis|snowdep_labprocessing]], [[Mixing ion standards|snowdep_standards]]
+* Methods: [[Snow sampling and cleanliness procedures|snowdep_sampling]], [[Processing snow samples for analysis|snowdep_labprocessing]], [[Mixing ion standards|snowdep_standards]]
 * [[Data analysis log|snowdep_analysislog_1]]
 * [[Activity log (not used)|snowdep_activitylog_1]]
 
@@ -171,4 +171,4 @@ Western U.S. soil climate analysis (west_stationdata)
 documentation|soilclim_programdocs]], [[Data QC (cleaning)|soilclim_data_qc]], [[Statistical approach & methods|soilclim_statistics]]
 * Logs: [[Data analysis log|soilclim_analysislog_1]]
 * [[Publication outline|soilclim_publicationoutline]]
-* Paper at [ Water Resources Research|http://dx.doi.org/10.1002/2013WR014452]]
+* Paper at [[Water Resources Research|http://dx.doi.org/10.1002/2013WR014452]]
