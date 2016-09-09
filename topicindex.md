@@ -9,30 +9,30 @@ should link to all other pages in the project namespace.
 New Mexico Elevation Gradient flux processing
 ---------------------------------------------
 
-* NMEG [flux code](nmeg:fluxcode)
+* NMEG [[flux code|nmeg_fluxcode]]
 
 Hidden Canyon ecohydrology (hc_ecohydrology)
 ---------------------------------------------
 
-* [[Overview|hiddencanyon/hc_overview]]
-* Experimental design: [[hc_snowmeltdesign]], [/hiddencanyon/soilprofiles](/hiddencanyon/soilprofiles)
-* Methods: [[westerndust]], [[Dust on snow|procedures/proc_dustonsnow]], [[Snowpack sublimation|proc_snowpacksublimation]], [[Xylem pressure|proc_xylempressure]], [procedures:belowsnow_soilresp](/procedures/belowsnow_soilresp), [procedures:manual_soilresp](/procedures/manual_soilresp), [procedures:litterbags](/procedures/litterbags)
-* Measurement logs (preliminary results): [Snowmelt](hc_snowmeltlog_1), [Ecosystem water](hc_ecosystemwaterlog_1) (soil moisture and xylem water potential), [Soil respiration](hc_soilresplog_1), [Litter bags](hc_litterbaglog_1)
-* [Hidden Canyon activity logs](/hiddencanyon/sitedescription#Site_logs), [data
-analysis log](/hiddencanyon/analysislog_1)
+* [[Overview|hc_overview]]
+* Experimental design: [[Snowmelt manipulation|hc_snowmeltdesign]], [[Soil profiles|hc_soilprofiles]]
+* Methods: [[Dust|westerndust]], [[Dust on snow|procedures/proc_dustonsnow]], [[Snowpack sublimation|proc_snowpacksublimation]], [[Xylem pressure|proc_xylempressure]], [[Below-snow soil resp|proc_belowsnow_soilresp]], [[Warm season resp|proc_manual_soilresp]], [[Litter bags|proc_litterbags]]
+* Measurement logs (preliminary results): [[Snowmelt|hc_snowmeltlog_1]], [[Ecosystem water|hc_ecosystemwaterlog_1]] (soil moisture and xylem water potential), [[Soil respiration:hc_soilresplog_1]], [[Litter bags|hc_litterbaglog_1]]
+* [[Hidden Canyon activity logs|hc_sitedescription]], [[data
+analysis log|hc_analysislog_1]]
 
 Western U.S. soil carbon cycling (west_carboncycle)
 ----------------------------------------------------
 
-* [Overview](/west_carboncycle/overview)
-* Methods: [Protocol for SNOTEL visits](/west_carboncycle/snotelfieldprotocol), [Initial sample processing](/west_carboncycle/snotelsampleprocessing)
-* Logs: [SNOTEL visits](/west_carboncycle/snotellog_1), [Sample processing](/west_carboncycle/sampleprocessinglog_1), [Data analysis](/west_carboncycle/analysislog_1), [Sample processing tables](/west_carboncycle/sampletables).
+* [[Overview|snotelC_overview]]
+* Methods: [[Protocol for SNOTEL visits|snotelC_snotelfieldprotocol]], [[Initial sample processing|snotelC_snotelsampleprocessing]]
+* Logs: [[SNOTEL visits|snotelC_snotellog_1]], [[Sample processing|snotelC_sampleprocessinglog_1]], [[Data analysis|snotelC_analysislog_1]], [[Sample processing tables|snotelC_sampletables]].
 
 Niwot girdling study (niwot_girdling)
 --------------------------------------
 
-* Methods: [Data QC](/niwot_girdling/data_qc), [Soil analysis](/niwot_girdling/soilanalysis), [Soil extract 13C procedure](/procedures/soilextract_13c)
-* [Activity log](/niwot_girdling/activitylog_1)
+* Methods: [[Data QC|niwot_data_qc]], [[Soil analysis|niwot_soilanalysis]], [[Soil extract 13C procedure|proc_soilextract_13c]]
+* [[Activity log|niwot_activitylog_1]]
 
 # Procedures
 
@@ -44,45 +44,45 @@ necessary.
 Laboratory protocols
 --------------------
 
-* [Measuring exetainer gas samples](/procedures/exetainer_co2) for CO~2~ and C isotopes
-* [Acid treatment of soils](/procedures/soilacidtreatment) to remove carbonates.
-* [Soil sample prep for EA-IRMS analysis](/procedures/ea-irms_soilprep) at SIRFER.
-* [Graphitization of soils](/procedures/14c_graphitization) for AMS ^14^C analysis
-* [Preparing and taking data from tree cores](/procedures/treecores)
-* [Snowpack dust loading](/procedures/snowpackdustloading)
-* [δ13C analysis of soil extracts](/procedures/soilextract_13c)
+* [[Measuring exetainer gas samples|proc_exetainer_co2]] for CO~2~ and C isotopes
+* [[Acid treatment of soils|proc_soilacidtreatment]] to remove carbonates.
+* [[Soil sample prep for EA-IRMS analysis|proc_ea-irms_soilprep]] at SIRFER.
+* [[Graphitization of soils|proc_14c_graphitization]] for AMS ^14^C analysis
+* [[Preparing and taking data from tree cores|proc_treecores]]
+* [[Snowpack dust loading|proc_snowpackdustloading]]
+* [[δ13C analysis of soil extracts|proc_soilextract_13c]]
 
 Field protocols
 ---------------
 
-* [Manual soil respiration measurements](/procedures/manual_soilresp) (Hidden Canyon)
-* [Below-snow respiration measurements](/procedures/belowsnow_soilresp)(Hidden Canyon)
-* [procedures:litterbags](/procedures/litterbags)
-* [Dust deposition on snowpacks](/procedures/dustonsnow) (Hidden Canyon)
-* [procedures:measuringswe](/procedures/measuringswe)
-* [procedures:xylempressure](/procedures/xylempressure)
-* [procedures:snowpacksublimation](/procedures/snowpacksublimation)
-* [Canopy photography](/procedures/canopyphotos)
-* [Georeferencing with GPS](/procedures/gps)
+* [[Manual soil respiration measurements|proc_manual_soilresp]] (Hidden Canyon)
+* [[Below-snow respiration measurements|proc_belowsnow_soilresp]](Hidden Canyon)
+* [[procedures:litterbags|proc_litterbags]]
+* [[Dust deposition on snowpacks|proc_dustonsnow]] (Hidden Canyon)
+* [[procedures:measuringswe|proc_measuringswe]]
+* [[procedures:xylempressure|proc_xylempressure]]
+* [[procedures:snowpacksublimation|proc_snowpacksublimation]]
+* [[Canopy photography|proc_canopyphotos]]
+* [[Georeferencing with GPS|proc_gps]]
 
 Data analysis and instrumentation programming
 ---------------------------------------------
 
-* [Data analysis programming](/procedures/programming): General info for using Python/MATLAB/Octave/R for data analysis
-* [Python tips](/procedures/pythontips), [Numpy tips](/procedures/numpytips), [Using IPython](/procedures/ipython)
-* [Matlab tips](/procedures/matlabtips)
-* [Shell scripts](/procedures/shellscripts), [AWK](/procedures/awk), [Vim](/procedures/vimtips), and [assorted textfile tips](/procedures/textfiles)
-* [mercurial](/procedures/mercurial), and [git](/procedures/git): 2 version control systems.
-* [Tips for analyzing sensor timeseries](/procedures/sensordata_tips)
-* [Workflow for data analysis](/procedures/data_analysis_workflow)
-* [Geospatial data analysis](/procedures/geospatial)
+* [[Data analysis programming|comp_programming]]: General info for using Python/MATLAB/Octave/R for data analysis
+* [[Python tips|comp_pythontips]], [[Numpy tips|comp_numpytips]], [[Using IPython|comp_ipython]]
+* [[Matlab tips|comp_matlabtips]]
+* [[Shell scripts|comp_shellscripts]], [[AWK|comp_awk]], [[Vim|comp_vimtips]], and [[assorted textfile tips|comp_textfiles]]
+* [[mercurial|comp_mercurial]], and [[git|comp_git]]: 2 version control systems.
+* [[Tips for analyzing sensor timeseries|comp_sensordata_tips]]
+* [[Workflow for data analysis|comp_data_analysis_workflow]]
+* [[Geospatial data analysis|comp_geospatial]]
 
 Research writing
 ----------------
 
-* [Text file tips](/procedures/textfiles)
-* [Pandoc](/procedures/pandoc) document converter and markup syntax.
-* [LaTeX tips](/procedures/latextips)
+* [[Text file tips|comp_textfiles]]
+* [[Pandoc|comp_pandoc]] document converter and markup syntax.
+* [[LaTeX tips|comp_latextips]]
 
 # Math
 
@@ -90,17 +90,17 @@ Pages covering statistical and mathematical concepts, or numerical
 methods used in data analysis. Some of these pages are composed
 primarily of links to further information on the subject.
 
-* [Computation toolboxes](/math/toolboxes) - tools for computing math and statistics.
-* [Time series analysis](/math/timeseries) - assorted methods for analyzing time series data to extract meaningful statistics.
-* [ANOVA](/math/anova) - analysis of variance for various experimental designs.
-* [Reversing calibration equations](/math/quadratic_eq_calib) - using the quadratic equation to back out sensor output from calibrated data (if calibration is known).
-* [Principal components analysis](/math/pca) and [Principal components regression](/math/pcr)
-* [Correlation](/math/correlation)
-* [Testing for normality](/math/normalitytests)
-* [Linear regression](/math/linear_regression) - Bivariate (one independent variable) and multiple regression (>1 ind. variable).
-* [ Multilevel/Mixed/Heirarchical statistical models](/math/multilevel_models)
-* [Integration](/math/integration) - of functions, or sampled data such as a timeseries
-* [Decay and turnover](/math/decay_turnover) functions.
+* [[Computation toolboxes|math_toolboxes]] - tools for computing math and statistics.
+* [[Time series analysis|math_timeseries]] - assorted methods for analyzing time series data to extract meaningful statistics.
+* [[ANOVA|math_anova]] - analysis of variance for various experimental designs.
+* [[Reversing calibration equations|math_quadratic_eq_calib]] - using the quadratic equation to back out sensor output from calibrated data (if calibration is known).
+* [[Principal components analysis|math_pca]] and [Principal components regression|math_pcr]]
+* [[Correlation|math_correlation]]
+* [[Testing for normality|math_normalitytests]]
+* [[Linear regression|math_linear_regression]] - Bivariate (one independent variable) and multiple regression (>1 ind. variable).
+* [[ Multilevel/Mixed/Heirarchical statistical models|math_multilevel_models]]
+* [[Integration|math_integration]] - of functions, or sampled data such as a timeseries
+* [[Decay and turnover|math_decay_turnover]] functions.
 
 # Instruments
 
@@ -109,12 +109,12 @@ and lab instruments, sensors, etc. There are also notes on programs,
 calibration constants, and conversion coefficients for instruments
 currently in use.
 
-* [Li-Cor Quantum sensor (LI-190)](/instruments/li-190)
-* Notes, conventions, and code for [EDLOG programming](/instruments/edlog) (Campbell datalogger control)
-* [Li-Cor 6400 portable soil respiration system](/instruments/li-6400) (in use at Hidden Canyon)
-* [Campbell cr10 dataloggers](/instruments/cr10dataloggers) (several old ones in Red Butte Canyon)
-* [Sentek EnviroSCAN soil moisture profiles](/instruments/sentek_enviroscan) (there are a couple at Hidden Canyon).
-* [EA-IRMS protocol](/instruments/ea-irms_sirfer) at the SIRFER lab.
+* [[Li-Cor Quantum sensor (LI-190)|inst_li-190]]
+* Notes, conventions, and code for [[EDLOG programming|inst_edlog]] (Campbell datalogger control)
+* [[Li-Cor 6400 portable soil respiration system|inst_li-6400]] (in use at Hidden Canyon)
+* [[Campbell cr10 dataloggers|inst_cr10dataloggers]] (several old ones in Red Butte Canyon)
+* [[Sentek EnviroSCAN soil moisture profiles|inst_sentek_enviroscan]] (there are a couple at Hidden Canyon).
+* [[EA-IRMS protocol|inst_ea-irms_sirfer]] at the SIRFER lab.
 
 # Research Sites
 
@@ -128,47 +128,47 @@ activity/maintenance logs, etc.
 Hidden Canyon
 -------------
 
-* [Site description](/hiddencanyon/sitedescription), [Tree location data](/hiddencanyon/trees)
-* Instrumentation: [/hiddencanyon/communicationsystem](/hiddencanyon/communicationsystem), [/hiddencanyon/dataloggers](/hiddencanyon/dataloggers), [/hiddencanyon/mettowers](/hiddencanyon/mettowers), [/hiddencanyon/soilprofiles](/hiddencanyon/soilprofiles), [/hiddencanyon/georeferencing](/hiddencanyon/georeferencing)
-* [2010 activity log](/hiddencanyon/hc2010_log), [2011 activity log](/hiddencanyon/hc2011_log), [2012 activity log](/hiddencanyon/hc2012_log), [data analysis log](/hiddencanyon/analysislog_1)
+* [[Site description|hc_sitedescription]], [[Tree location data|hc_trees]]
+* Instrumentation: [hc_communicationsystem|hc_communicationsystem]], [[hc_dataloggers|hc_dataloggers]], [[hc_mettowers|hc_mettowers]], [[hc_soilprofiles|hc_soilprofiles]], [[hc_georeferencing|hc_georeferencing]]
+* [[2010 activity log|hc_2010_log]], [[2011 activity log|hc_2011_log]], [[2012 activity log|hc_2012_log]], [[data analysis log|hc_analysislog_1]]
 
 Red Butte Canyon
 ----------------
 
 * Above the University of Utah campus. There is a weather station network there.
-* [RBC Weather Station info](/redbutte/weatherstations), [WS maintenance log](/redbutte/rbweather_log), [Using cr10 dataloggers](/instruments/cr10dataloggers)
+* [[RBC Weather Station info|rb_weatherstations]], [[WS maintenance log|rb_weather_log]], [[Using cr10 dataloggers|inst_cr10dataloggers]]
 
 NRCS Snow Survey sites
 ----------------------
 
 * A network of mountain sites in the western U.S. where manual (snow courses) and automated (SNOTEL sites) measurements of snowpack (SWE) are taken for water supply forecasting. Manual measurements date back to the 1930's.
-* [Official site](http://www.wcc.nrcs.usda.gov/)
+* [[Official site|http://www.wcc.nrcs.usda.gov/]]
 
 Niwot Ridge LTER
 ----------------
 
-* A high elevation [LTER](http://www.lternet.edu/) and [Ameriflux](http://public.ornl.gov/ameriflux/) site in Colorado.
+* A high elevation [LTER|http://www.lternet.edu/]] and [[Ameriflux|http://public.ornl.gov/ameriflux/) site in Colorado.
 * Extensive research on tundra and forest ecology has been in progress here for a long time. The Bowling lab has instrumentation that measures biosphere-atmosphere interactions (CO~2~ mainly).
 
 # Inactive research projects
 
 These are either completed or on hold.
 
-* [ Niwot Ridge label decomposition - overview](niwot_labeldecomp_overview) ON HOLD --- //[Greg Maurer](primaryproductivity@gmail.com) 2010/08/09 13:11//
+* [[ Niwot Ridge label decomposition - overview|niwot_labeldecomp_overview]] ON HOLD --- //[Greg Maurer|primaryproductivity@gmail.com]] 2010/08/09 13:11//
 
 Ion deposition in snow (snowdep)
 --------------------------------
 
-* Methods: [Snow sampling and cleanliness procedures](wasatchsnowdep:sampling), [Processing snow samples for analysis](wasatchsnowdep:labprocessing), [Mixing ion standards](wasatchsnowdep:standards)
-* [Data analysis log](wasatchsnowdep:analysislog_1)
-* [Activity log (not used)](wasatchsnowdep:activitylog_1)
+* Methods: [Snow sampling and cleanliness procedures|snowdep_sampling]], [[Processing snow samples for analysis|snowdep_labprocessing]], [[Mixing ion standards|snowdep_standards]]
+* [[Data analysis log|snowdep_analysislog_1]]
+* [[Activity log (not used)|snowdep_activitylog_1]]
 
 Western U.S. soil climate analysis (west_stationdata)
 ------------------------------------------------------
 
-* [Overview](west_stationdata:overview)
-* Methods: [Data collection and prep](west_stationdata:data), [Data programming
-documentation](west_stationdata:programdocs), [Data QC (cleaning)](west_stationdata:data_qc), [Statistical approach & methods](west_stationdata:statistics)
-* Logs: [Data analysis log](west_stationdata:analysislog_1)
-* [Publication outline](west_stationdata:publicationoutline)
-* Paper at [ Water Resources Research](http://dx.doi.org/10.1002/2013WR014452)
+* [[Overview|soilclim_overview]]
+* Methods: [[Data collection and prep|soilclim_data]], [[Data programming
+documentation|soilclim_programdocs]], [[Data QC (cleaning)|soilclim_data_qc]], [[Statistical approach & methods|soilclim_statistics]]
+* Logs: [[Data analysis log|soilclim_analysislog_1]]
+* [[Publication outline|soilclim_publicationoutline]]
+* Paper at [ Water Resources Research|http://dx.doi.org/10.1002/2013WR014452]]
