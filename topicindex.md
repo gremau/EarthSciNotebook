@@ -1,3 +1,5 @@
+[[_TOC_|levels = 3]]
+
 # Active research projects
 
 Each research project has its own directory. Within these
