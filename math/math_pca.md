@@ -1,32 +1,32 @@
 # Principal components analysis
 
-` * Excellent for high-dimensional (multivariate) datasets that exhibit some collinearity. 
-` * Most useful for hypothesis generation, not hypothesis testing.
-` * No division of dataset into dependent and independent variables.
-` * Reduces the dimensionality of complex data.
-` * There is no significance value or test of a null hypotheses given by the technique.
-` * Not necessarily an end in itself, but best followed with further inferential tests, such as ANOVA or regression on the first and second principal components.`
+* Excellent for high-dimensional (multivariate) datasets that exhibit some collinearity. 
+* Most useful for hypothesis generation, not hypothesis testing.
+* No division of dataset into dependent and independent variables.
+* Reduces the dimensionality of complex data.
+* There is no significance value or test of a null hypotheses given by the technique.
+* Not necessarily an end in itself, but best followed with further inferential tests, such as ANOVA or regression on the first and second principal components.`
 
 ## Procedure
 
 #### 1. Choose variables to include
 
-`   * In descriptive studies it is often best to include all numerical variables measured.
-`   * Probably best to leave out the dependent variables you are interested in.
-`   * Check each variable for normality (`[`see`
+  * In descriptive studies it is often best to include all numerical variables measured.
+  * Probably best to leave out the dependent variables you are interested in.
+  * Check each variable for normality (`[`see`
 `here`](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/)`)?
-`   * Log transform each variable?
-`   * Sometimes rare observations can be excluded.`
+  * Log transform each variable?
+  * Sometimes rare observations can be excluded.`
 
 #### 2. PCA calculations
 
 The basic steps in this process are:
 
-` - Center and scale all variables (Often the PCA software will do this automatically).
-` - Calculate a correlation matrix for the chosen variables.
-` - Calculate the eigenvalues (% variance explained) and eigenvectors (loadings) of the correlation matrix.
-` - Calculate singular values from the square root of the eigenvalues (StdDev).
-` - Calculate axis scores for each observation on each axis.`
+- Center and scale all variables (Often the PCA software will do this automatically).
+- Calculate a correlation matrix for the chosen variables.
+- Calculate the eigenvalues (% variance explained) and eigenvectors (loadings) of the correlation matrix.
+- Calculate singular values from the square root of the eigenvalues (StdDev).
+- Calculate axis scores for each observation on each axis.`
 
 #### 3. Examine variance explained by the principal components
 
@@ -67,8 +67,8 @@ Biplots are a nice way to summarize an ordination like PCA. They show
 the tendencies in the data, but they are not an inferential test in any
 way. They consist of two components:
 
-` - A scattergraph of ordination scores for observations (rows) in the matrix, like the ordination diagram above.
-` - A set of vectors representing the eigenvector loadings for each variable. These are arrows drawn from the origin to the designated coordinate.`
+- A scattergraph of ordination scores for observations (rows) in the matrix, like the ordination diagram above.
+- A set of vectors representing the eigenvector loadings for each variable. These are arrows drawn from the origin to the designated coordinate.`
 
 ## Inferential statistics following PCA
 
@@ -90,12 +90,12 @@ ordination axes.
 
 ## Some resources
 
-` * `[`Short`
+* `[`Short`
 `tutorial`](http://www.iiap.res.in/astrostat/tuts/pca.html)\
-` * An `[`in-depth`
-`tutorial`](http://strata.uga.edu/software/pdf/pcaTutorial.pdf)` using R.
-` * An `[`in-depth`
-`tutorial`](http://www.snl.salk.edu/~shlens/pca.pdf)` with MATLAB code.
-` * Another `[`in-depth`
-`tutorial`](http://scholar.google.com/scholar_url?hl=en&q=http://www.sccg.sk/~haladova/principal_components.pdf&sa=X&scisig=AAGBfm3brQ976aczTJEORvef-6Eq4UZEFg&oi=scholarr)` with MATLAB code.
-` * Much of this page is summarized from //Multivariate Statistics for the Environmental Sciences// by Peter J. A. Shaw.`
+* An `[`in-depth`
+`tutorial`](http://strata.uga.edu/software/pdf/pcaTutorial.pdf)using R.
+* An `[`in-depth`
+`tutorial`](http://www.snl.salk.edu/~shlens/pca.pdf)with MATLAB code.
+* Another `[`in-depth`
+`tutorial`](http://scholar.google.com/scholar_url?hl=en&q=http://www.sccg.sk/~haladova/principal_components.pdf&sa=X&scisig=AAGBfm3brQ976aczTJEORvef-6Eq4UZEFg&oi=scholarr)with MATLAB code.
+* Much of this page is summarized from //Multivariate Statistics for the Environmental Sciences// by Peter J. A. Shaw.`

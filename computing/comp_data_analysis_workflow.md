@@ -40,7 +40,7 @@ through the data analysis process.
 ## General Workflow
 
 This refers to current projects, each of which is stored in a
-*\*\*data/current/projectname/\*\** directory.
+***data/current/projectname/*** directory.
 
 ### Data collected in the field or lab
 
@@ -54,10 +54,10 @@ This refers to current projects, each of which is stored in a
 The generalized workflow looks like this:
 -----------------------------------------
 
- **Field/Lab measurements\*\* =&gt; projectname/ =&gt; \*\*Process
-        to text\*\* =&gt; (\*\*QC/data munging\*\* =&gt;)
-        projectname/processed\_data/ =&gt; \*\*Analysis with
-        matlab/python/r (calculation, summary data, plots)\*\* =&gt;
+ **Field/Lab measurements** =&gt; projectname/ =&gt; **Process
+        to text** =&gt; (**QC/data munging** =&gt;)
+        projectname/processed\_data/ =&gt; **Analysis with
+        matlab/python/r (calculation, summary data, plots)** =&gt;
         projectname/processed\_data/ (OR projectname/, papers, wiki,
         reports, etc for finished products)
 
@@ -72,9 +72,9 @@ The generalized workflow looks like this:
 The generalized workflow looks like this:
 -----------------------------------------
 
- **Download data\*\* =&gt; (\*\*QC/Data munging\*\* =&gt;)
-        rawdata/projectname/ =&gt; \*\*Analysis with matlab/python/r
-        (calculation, summary data, plots)\*\* =&gt;
+ **Download data** =&gt; (**QC/Data munging** =&gt;)
+        rawdata/projectname/ =&gt; **Analysis with matlab/python/r
+        (calculation, summary data, plots)** =&gt;
         /projectname/data\_analysis/processed\_data (OR /projectname/,
         wiki, paper, etc for finished products)
 
@@ -102,7 +102,7 @@ discussion of about these types of issues
 
 ### Versioning
 
-Within each project folder in \*\*data/data\_analysis\*\* there is a
+Within each project folder in **data/data\_analysis** there is a
 versioning repository (.hg or .git). These repositories are initialized
 early in the development of the project and commits are made to the
 repository when substantial changes are made to the codebase. For

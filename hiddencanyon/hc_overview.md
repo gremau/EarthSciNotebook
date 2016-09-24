@@ -17,16 +17,16 @@ have high spatial and interannual variability.
 These experiments use artificial perturbations of the snowmelt cycle
 along with natural spatial and interannual variability to explore:
 
-` * The influence of dust deposition on forest snowpack dynamics.
-` * Seasonal, interannual, and spatial patterns of snow accumulation and melt in a subalpine forest.
-` * Seasonal patterns in soil moisture availability and water availability for trees under varied snowpacks and snowmelt cycles. 
-` * The response of soil organisms to varied snowpack dynamics.`
+* The influence of dust deposition on forest snowpack dynamics.
+* Seasonal, interannual, and spatial patterns of snow accumulation and melt in a subalpine forest.
+* Seasonal patterns in soil moisture availability and water availability for trees under varied snowpacks and snowmelt cycles. 
+* The response of soil organisms to varied snowpack dynamics.`
 
 ## Hypotheses
 
-` - Enhanced dust deposition on a forest snowpack surface leads to an accelerated snowmelt cycle, higher rates of sublimation water loss, and reductions in ecosystem water availability.
-` - Early snowmelt (whether from dust or natural variability) in an area will lead to more rapid depletion of soil moisture and longer periods of low tree xylem water potentials during the following growing season.
-` - Seasonal patterns in soil moisture and xylem water potentials will be similar in low snowpack and early melt scenarios.`
+- Enhanced dust deposition on a forest snowpack surface leads to an accelerated snowmelt cycle, higher rates of sublimation water loss, and reductions in ecosystem water availability.
+- Early snowmelt (whether from dust or natural variability) in an area will lead to more rapid depletion of soil moisture and longer periods of low tree xylem water potentials during the following growing season.
+- Seasonal patterns in soil moisture and xylem water potentials will be similar in low snowpack and early melt scenarios.`
 
 ## Experimental design
 
@@ -35,38 +35,38 @@ dust to the snowpack surface with the intention of accelerating the
 snowmelt cycle. We expect the responses in the hypotheses above to occur
 as a result. The experiment's plot and sensor designs are desribed in:
 
-` * `[`Snowmelt` `experiment`
-`design`](hiddencanyon:snowmeltdesign)` - Control and dust-addition plot layout, dust loading.
-` * `[`Hidden` `Canyon` `soil`
-`profiles`](hiddencanyon:soilprofiles)` - locations, sensors, depths, etc.
-` * `[`Hidden` `Canyon` `met`
-`towers`](hiddencanyon:mettowers)` - locations and sensors`
+* `[`Snowmelt`experiment`
+`design`](hiddencanyon:snowmeltdesign)- Control and dust-addition plot layout, dust loading.
+* `[`Hidden`Canyon`soil`
+`profiles`](hiddencanyon:soilprofiles)- locations, sensors, depths, etc.
+* `[`Hidden`Canyon`met`
+`towers`](hiddencanyon:mettowers)- locations and sensors`
 
 ### Design changelog
 
-` * Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the `[`snowmelt`
+* Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the `[`snowmelt`
 `design`
-`page`](hiddencanyon:snowmeltdesign)` for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
-` * `[`Xylem` `water`
-`potential`](hc_ecohydrology:ecosystemwaterlog_1)` (and `[`soil`
+`page`](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
+* `[`Xylem`water`
+`potential`](hc_ecohydrology:ecosystemwaterlog_1)(and `[`soil`
 `respiration`](hc_ecohydrology:soilresplog_1)`) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
-` * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
-` * Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
+* Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
+* Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
 
 ## Methods
 
-` * `[`Dust-on-snow` `procedures`
+* `[`Dust-on-snow`procedures`
 `page`](procedures:dustonsnow)`: info on dust and how it is applied.
-` * `[`SWE`
+* `[`SWE`
 `measurements`](procedures:measuringswe)`: Measuring snowmelt (SWE disappearance) with a Federal Sampler is described here.
-` * `[`Measuring` `xylem` `water`
-`potential`](procedures:xylempressure)` with a pressure bomb. 
-` * `[`Measuring` `sublimation` `at` `the` `snow`
-`surface`](procedures:snowpacksublimation)` (multiple methods).
-` * `[`Snowpack` `albedo`
+* `[`Measuring`xylem`water`
+`potential`](procedures:xylempressure)with a pressure bomb. 
+* `[`Measuring`sublimation`at`the`snow`
+`surface`](procedures:snowpacksublimation)(multiple methods).
+* `[`Snowpack`albedo`
 `measurements`](procedures:snowpackalbedo)\
-` * `[`Measuring` `snowpack` `dust`
-`loading`](procedures:snowpackdustloading)` (natural or artificial).`
+* `[`Measuring`snowpack`dust`
+`loading`](procedures:snowpackdustloading)(natural or artificial).`
 
 ## Measurement details and logs
 
@@ -77,7 +77,7 @@ Measurements are made using a Federal Snow Sampler. 10 or more locations
 are measured in Control and dust addition plots, and these measurement
 locations are roughly the same (within 2m) at each measurement date.
 
-` * `[`Hidden` `Canyon` `snowmelt`
+* `[`Hidden`Canyon`snowmelt`
 `log`](hc_ecohydrology:snowmeltlog_1)`: dust deposition dates, SWE data, photos, etc.`
 
 ### Melt timing
@@ -90,7 +90,7 @@ related to canopy density, slope position, or other spatially linked
 influences on snowpack energy balance. This method is still being
 developed.
 
-` * `[`Hidden` `Canyon` `GRID` `snowmelt`
+* `[`Hidden`Canyon`GRID`snowmelt`
 `log`](hc_ecohydrology:gridmeltlog_1)
 
 ### Regional SWE and melt rate
@@ -99,7 +99,7 @@ Weather, climate, and snowpack/snowmelt data from nearby SNOTEL sites or
 other stations in the region can provide important context for the
 Hidden Canyon experiments.
 
-` *`[`Regional` `snowpack`
+*`[`Regional`snowpack`
 `log`](hc_ecohydrology:regionalsnowpacklog_1)
 
 ### Soil water and plant xylem pressure
@@ -115,7 +115,7 @@ made between 1 and 5pm, and predawn measurements are made between 4 and
 7am on consecutive days. Days immediately following rain events are
 avoided.
 
-` * `[`Ecosystem` `water`
+* `[`Ecosystem`water`
 `log`](hc_ecohydrology:ecosystemwaterlog_1)`: Xylem water potential, soil moisture, and related measurement data.`
 
 ### Snow surface measurements
@@ -127,14 +127,14 @@ loading, and albedo measurements of the snow surface. Not all of these
 have well defined measurement methods yet, but development of these
 methods is important.
 
-` * `[`Snow` `surface`
+* `[`Snow`surface`
 `log`](hc_ecohydrology:snowsurfacelog_1)
 
 ### Other logs
 
-` * `[`Met`
+* `[`Met`
 `measurements`](hiddencanyon:mettowers)`: meteorological measurements at Hidden Canyon towers.
-` * `[`Soil`
+* `[`Soil`
 `profiles`](hiddencanyon:soilprofiles)`: soil temperature and soil moisture data from the control and treatment plots.`
 
 FIXME
@@ -150,22 +150,22 @@ soil respiration and organic matter decomposition.
 
 ### Some research objectives
 
-` * To understand seasonal and interannual patterns of soil respiration and decomposition in Wasatch Mountain forests and how these patterns are determined by seasonal snowpacks.
-` * To measure differences in soil CO`~`2`~` fluxes and litter decomposition between dust addition (early melt) and control snowpack treatments.
-` * To study the response of soil organisms to varied snowpack dynamics.
-` * To understand the relative importance of winter vs. growing season periods for soil carbon cycle processes.`
+* To understand seasonal and interannual patterns of soil respiration and decomposition in Wasatch Mountain forests and how these patterns are determined by seasonal snowpacks.
+* To measure differences in soil CO`~`2`~fluxes and litter decomposition between dust addition (early melt) and control snowpack treatments.
+* To study the response of soil organisms to varied snowpack dynamics.
+* To understand the relative importance of winter vs. growing season periods for soil carbon cycle processes.`
 
 ### Related projects
 
-` * The `[`ecohydrology`
-`experiments`](hc_ecohydrology:overview)` at Hidden Canyon`
+* The `[`ecohydrology`
+`experiments`](hc_ecohydrology:overview)at Hidden Canyon`
 
 ## Hypotheses
 
-` - Soil respiration (CO`~`2`~` efflux) and decomposition (mass loss) are limited by moisture availability for a longer portion of the growing season in low snowpack or early snowmelt years (or areas within a landscape).
-` - Areas (or years) with early snowmelt or smaller snowpack accumulations will have reduced growing season soil CO`~`2`~` fluxes and annual litter mass loss compared the opposite case.
-` - Accelerated snowmelt will lead to earlier peaks in below-snow soil CO`~`2`~` fluxes during the transition from winter to spring.
-` - A shorter snowcovered period will reduce the amount of litter decomposed in winter and the growing season.`
+- Soil respiration (CO`~`2`~efflux) and decomposition (mass loss) are limited by moisture availability for a longer portion of the growing season in low snowpack or early snowmelt years (or areas within a landscape).
+- Areas (or years) with early snowmelt or smaller snowpack accumulations will have reduced growing season soil CO`~`2`~fluxes and annual litter mass loss compared the opposite case.
+- Accelerated snowmelt will lead to earlier peaks in below-snow soil CO`~`2`~fluxes during the transition from winter to spring.
+- A shorter snowcovered period will reduce the amount of litter decomposed in winter and the growing season.`
 
 ## Experimental design
 
@@ -174,33 +174,33 @@ dust to the snowpack surface with the intention of accelerating the
 snowmelt cycle. We expect the responses in the hypotheses above to occur
 as a result. The experiment's plot and sensor designs are desribed in:
 
-` * `[`Snowmelt` `experiment`
-`design`](hiddencanyon:snowmeltdesign)` - Control and dust-addition plot layout, dust loading.
-` * `[`Hidden` `Canyon` `soil`
-`profiles`](hiddencanyon:soilprofiles)` - locations, sensors, depths, etc.
-` * `[`Hidden` `Canyon` `met`
-`towers`](hiddencanyon:mettowers)` - locations and sensors`
+* `[`Snowmelt`experiment`
+`design`](hiddencanyon:snowmeltdesign)- Control and dust-addition plot layout, dust loading.
+* `[`Hidden`Canyon`soil`
+`profiles`](hiddencanyon:soilprofiles)- locations, sensors, depths, etc.
+* `[`Hidden`Canyon`met`
+`towers`](hiddencanyon:mettowers)- locations and sensors`
 
 ### Design changelog
 
-` * Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the `[`snowmelt`
+* Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the `[`snowmelt`
 `design`
-`page`](hiddencanyon:snowmeltdesign)` for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time.
-` * `[`Soil`
-`respiration`](hc_ecohydrology:soilresplog_1)` was measured during the 2010 growing season at 10 collars in each plot (1 & 2). We found little difference between control and treatment and are considering adding more collars for 2011.
-` * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
-` * Snow inlets (6 inlets in plots 1 & 2, 3 inlets in plots 3 & 4) and litterbags (6 sets in each of 6 plots) were deployed in early October 2010.
-` * Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
+`page`](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time.
+* `[`Soil`
+`respiration`](hc_ecohydrology:soilresplog_1)was measured during the 2010 growing season at 10 collars in each plot (1 & 2). We found little difference between control and treatment and are considering adding more collars for 2011.
+* Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
+* Snow inlets (6 inlets in plots 1 & 2, 3 inlets in plots 3 & 4) and litterbags (6 sets in each of 6 plots) were deployed in early October 2010.
+* Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
 
 ## Methods
 
-` * `[`Growing` `season` `soil`
-`respiration`](procedures:manual_soilresp)` with the `[`Li-Cor`
-`6400` `system`](instruments:li-6400)`.
-` * `[`Below-snow` `soil`
-`respiration`](procedures:belowsnow_soilresp)` measurements made with the inlet/tubing system and exetainers.
-` * `[`Litterbag` `mass`
-`loss`](procedures:litterbags)` measurement of winter and summer decomposition.`
+* `[`Growing`season`soil`
+`respiration`](procedures:manual_soilresp)with the `[`Li-Cor`
+`6400`system`](instruments:li-6400)`.
+* `[`Below-snow`soil`
+`respiration`](procedures:belowsnow_soilresp)measurements made with the inlet/tubing system and exetainers.
+* `[`Litterbag`mass`
+`loss`](procedures:litterbags)measurement of winter and summer decomposition.`
 
 ## Measurement details and logs
 
@@ -214,7 +214,7 @@ hours (between 9am and noon) and measurement locations alternate between
 control and treatment collars so that soil temperature increases during
 the measurement period occur evenly between treatments.
 
-` * `[`Hidden` `Canyon` `soil` `respiration`
+* `[`Hidden`Canyon`soil`respiration`
 `log`](hc_ecohydrology:soilresplog_1)`: measurement locations, dates, and preliminary data.`
 
 #### Below-snow soil respiration
@@ -230,7 +230,7 @@ and bring the snowpack air to the sampling fitting. Samples are
 transfered into an evacuated Labco Exetainer with a syrnge, needle, and
 septa. Three samples of ambient air (above snow) are also collected.
 
-` * `[`Hidden` `Canyon` `soil` `respiration`
+* `[`Hidden`Canyon`soil`respiration`
 `log`](hc_ecohydrology:soilresplog_1)`: measurement locations, dates, and preliminary data.`
 
 #### Litterbag decomposition
@@ -245,12 +245,12 @@ Measurements are made in both the Treatment (dust addition) and Control
 (natural dust loading) plots, and the snow-free date is recorded for
 each set of bags every spring.
 
-` * `[`Hidden` `Canyon` `litterbag`
+* `[`Hidden`Canyon`litterbag`
 `log`](hc_ecohydrology:litterbaglog_1)`: bag assembly, placement, recovery, and measurement.`
 
 ### Other logs
 
-` * `[`Met`
+* `[`Met`
 `measurements`](hiddencanyon:mettowers)`: meteorological measurements at Hidden Canyon towers.
-` * `[`Soil`
+* `[`Soil`
 `profiles`](hiddencanyon:soilprofiles)`: soil temperature and soil moisture data from the control and treatment plots.`

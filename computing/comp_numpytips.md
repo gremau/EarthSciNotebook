@@ -3,7 +3,7 @@
 NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
 
- **See also:\*\* [Python tips](procedures:pythontips),
+ **See also:** [Python tips](procedures:pythontips),
         [General programming](procedures:programming) pages.
 
 ## Date/time objects and arrays
@@ -33,14 +33,14 @@ the following way. ~~~
 
 def datestr2num(s):
 
-`   return datetime.datetime.strptime(s, "%Y/%m/%d")`
+  return datetime.datetime.strptime(s, "%Y/%m/%d")`
 
 1.  then, this function can be passed as a converter argument in
     a genfromtxt() call
 
 datetxt = genfromtxt(datapath + 'swe.txt', skiprows=2, delimiter=',',
 
-`                     usecols=(0,), converters={0: datestr2num})`
+                    usecols=(0,), converters={0: datestr2num})`
 
 ~~~
 
@@ -114,7 +114,7 @@ containing Nan values, the Nan value will be propagated to the result.
 This can be avoided by using boolean arrays (such as from *isnan*) to
 remove Nan values from the calculation. There are also a number of
 functions that will perform operations on an array while leaving out nan
-values (\*\*nansum(), nanmax(), nanmin(), etc.\*\*).
+values (**nansum(), nanmax(), nanmin(), etc.**).
 
 ~~~ In [4]: sum(b) Out[4]: nan # should be 43, but the
 nan propagates to the answer
@@ -148,12 +148,12 @@ In [9]: c = ma.array(b, mask=isnan(b))
 In [10]: c Out[10]: masked\_array(data = [0.0 1.0 -- 3.0 4.0 5.0
 6.0 7.0 8.0 9.0],
 
-`            mask = [False False  True False False False False False False False],
-`      fill_value = 1e+20)`
+           mask = [False False  True False False False False False False False],
+     fill_value = 1e+20)`
 
 ~~~ Once the masked array is created, the data and the mask are both
-accessible using the built in attributes \*\*.data\*\* and
-\*\*.mask\*\*. \*\*ANY\*\* functions and methods that operate on arrays
+accessible using the built in attributes **.data** and
+**.mask**. **ANY** functions and methods that operate on arrays
 operate the same on masked arrays, but the masked values are left out of
 the calculation. ~~~ In [11]: c.data Out[11]: array([ 0.,
 1., nan, 3., 4., 5., 6., 7., 8., 9.])
@@ -174,18 +174,18 @@ the masked or unmasked data can be accessed using the mask itself (or
 In [17]: d Out[17]: masked\_array(data = [0.0 1.0 -- 3.0 4.0 -- --
 -- -- --],
 
-`            mask = [False False  True False False  True  True  True  True  True],
-`      fill_value = 1e+20)`
+           mask = [False False  True False False  True  True  True  True  True],
+     fill_value = 1e+20)`
 
 In [18]: d[\~d.mask] Out[18]: masked\_array(data = [0.0 1.0 3.0
 4.0],
 
-`            mask = [False False False False],
-`      fill_value = 1e+20)`
+           mask = [False False False False],
+     fill_value = 1e+20)`
 
 ~~~
 
- **Other things to note:\*\*
+ **Other things to note:**
 
 The mask argument in *ma.array* must be convertible to a boolean array
 of the same size as the input data array. Adding the *fill\_value=x*

@@ -6,19 +6,19 @@ this website and its content should be aware of.
 ## Content created in this wiki
 
 All content created in the wiki at <http://pronghorns.net/wiki>, by any
-user, is licensed under the \*\*Creative Commons Attribution Share-Alike
-license\*\* (abbreviation: CC-BY-SA).
+user, is licensed under the **Creative Commons Attribution Share-Alike
+license** (abbreviation: CC-BY-SA).
 
 This means you have these rights:
 
-` - You may read the content
-` - You may change the content
-` - You may redistribute the content in its original or changed form`
+- You may read the content
+- You may change the content
+- You may redistribute the content in its original or changed form`
 
 But you must agree to these terms:
 
-` - You may only redistribute it under the same terms
-` - If you redistribute the content you must credit the original author (usually as an originating url)`
+- You may only redistribute it under the same terms
+- If you redistribute the content you must credit the original author (usually as an originating url)`
 
 If you would like to post copyrighted content on this website, such as
 images or figures, please credit the copyright holder and include a link
@@ -40,11 +40,11 @@ OR CONDITIONS OF ANY KIND, either express or implied. See the License
 for the specific language governing permissions and limitations under
 the License.
 
-` * "Python" is a registered trademark of the `[`Python` `Software`
+* "Python" is a registered trademark of the `[`Python`Software`
 `Foundation`](http://www.python.org)`.
-` * "R" is a registered trademark of the `[`R` `Software`
+* "R" is a registered trademark of the `[`R`Software`
 `Foundation`](http://www.r-project.org/)`.
-` * "MATLAB" is a registered trademark of `[`The`
+* "MATLAB" is a registered trademark of `[`The`
 `MathWorks`](http://www.mathworks.com)`.`
 
 ## The wiki itself
@@ -56,11 +56,11 @@ License](http://www.gnu.org/licenses/gpl.html) Version 2.
 
 ## Further reading on copyrights and licensing
 
-` * `[`More` `on` `Apache` `Software` `Foundation`
+* `[`More`on`Apache`Software`Foundation`
 `licensing`](http://www.apache.org/licenses/)\
-` * `[`Creative` `Commons` `-` `learn`
+* `[`Creative`Commons`-`learn`
 `more`](http://creativecommons.org/learn/)\
-` * `[`The` `Open` `Source`
+* `[`The`Open`Source`
 `Initiative`](http://opensource.org)\
-` * `[`Frequently` `Asked` `Questions` `about` `the` `GNU`
+* `[`Frequently`Asked`Questions`about`the`GNU`
 `GPL`](http://www.fsf.org/licenses/gpl-faq.html)

@@ -64,24 +64,24 @@ Data could be present up to present, except for occasional gaps in the
 record. Some of this info comes from the README.TXT file in the
 CurrentData folder of the RBWS Dropbox.
 
-` * Weather station 1:
-`   * 02 Apr, 1992 - Begin air temp and precip sensors
-`   * 30 Jun, 1995 - Begin wind sensor
-`   * 08 Mar, 2000 - Begin RH and vapor pressure sensors
-`   * Jun 2004 - Order of column headings changes, begin hourly data output
-`   * 22 May, 2005 - Change hourly data output to 10 minute data output, add PAR sensor
-` * Weather station 2, 4, 6:
-`   * 11 Aug, 1982 - Begin air temp, wind speed, PAR(?), and vapor pressure ( :!: see note above about problems with vp) sensors
-`   * 01 Jun, 1991 - Light measurements seem to end around this time for all stations.
-`   * 07 Apr & 14 May, 1992 - Begin WS2 & 4 precip sensor
-`   * 26 Apr, 1993 - Begin WS6 precip sensor.
-`   * June 2004 - Order of column headings change`
+* Weather station 1:
+  * 02 Apr, 1992 - Begin air temp and precip sensors
+  * 30 Jun, 1995 - Begin wind sensor
+  * 08 Mar, 2000 - Begin RH and vapor pressure sensors
+  * Jun 2004 - Order of column headings changes, begin hourly data output
+  * 22 May, 2005 - Change hourly data output to 10 minute data output, add PAR sensor
+* Weather station 2, 4, 6:
+  * 11 Aug, 1982 - Begin air temp, wind speed, PAR(?), and vapor pressure ( :!: see note above about problems with vp) sensors
+  * 01 Jun, 1991 - Light measurements seem to end around this time for all stations.
+  * 07 Apr & 14 May, 1992 - Begin WS2 & 4 precip sensor
+  * 26 Apr, 1993 - Begin WS6 precip sensor.
+  * June 2004 - Order of column headings change`
 
 Missing data
 ------------
 
-` * **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
-` * **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see `[`here`](instruments:cr10dataloggers#Preventing_data_loss)`).`
+* **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
+* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see `[`here`](instruments:cr10dataloggers#Preventing_data_loss)`).`
 
 ## Current Data
 
@@ -118,16 +118,16 @@ module, and a number of sensors (which vary slightly between sites).
 
 #### Site Visit Protocol
 
- **Materials list\*\*
+ **Materials list**
 
-` * A tested, empty storage module for each station. Make sure it has the appropriate datalogger program loaded into location 8.
-` * CR10KD keypad
-` * Voltage/Multimeter for testing solar and battery voltages.
-` * Labeling tape and sharpie for labeling modules as they are swapped out.
-` * Screwdrivers, including a small standard (Campbell issue ones are easy to find)
-` * Electrical tape
-` * Any sensor hardware that needs to be replaced
-` * Extra serial cable (blue, three ended ones)`
+* A tested, empty storage module for each station. Make sure it has the appropriate datalogger program loaded into location 8.
+* CR10KD keypad
+* Voltage/Multimeter for testing solar and battery voltages.
+* Labeling tape and sharpie for labeling modules as they are swapped out.
+* Screwdrivers, including a small standard (Campbell issue ones are easy to find)
+* Electrical tape
+* Any sensor hardware that needs to be replaced
+* Extra serial cable (blue, three ended ones)`
 
 Upon visiting each site, one should write the date of visitation in the
 log book along with the datalogger time, day of year, and year. With the
@@ -139,7 +139,7 @@ established by visual inspection and datalogger inspection, remove the
 existing storage module and replace it with one that has been erased and
 tested in the lab.
 
- **//IMPORTANT NOTE//\*\* - Remember to load the weather station
+ **//IMPORTANT NOTE//** - Remember to load the weather station
         program into location 8 of the replacement storage module. This
         will keep the datalogger from forgetting its program after a
         power outage. See

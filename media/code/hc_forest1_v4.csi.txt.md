@@ -16,11 +16,11 @@ version 3 (01/13/2010): Added CS 615 loops to the Campbell processing instructio
 in the profiles)\
 version 4 (10/16/2010): Added table 2 (switch on relay for radio power), Changed mux wiring and added\
 third MUX.\
-\*\*\*Note that campbell 616s on MUX 1 & 2 are enabled with SW12V, not COM ports (avoids serial mode problem)
+**\*Note that campbell 616s on MUX 1 & 2 are enabled with SW12V, not COM ports (avoids serial mode problem)
 
 -   Table 1 Program
 
-` 01: 60        Execution Interval (seconds)`
+01: 60        Execution Interval (seconds)`
 
 ------------------------- Datalogger measurements -------------------------------\
 \
@@ -106,7 +106,7 @@ Bare (sheath) ---&gt; signal ground\
 Clock with control port 2\
 Pit 1 & 3 wired in order: 1-5cm, 1-20cm, 1-60cm, 3-60cm, 3-5cm, 3-20cm\
 \
-\*\*\* Loop 1: \*\*\*\
+**\* Loop 1: **\*\
 \
 4 CS-615s in Profile 1 (all 3 depths) & 3 (60cm)
 
@@ -115,35 +115,35 @@ Pit 1 & 3 wired in order: 1-5cm, 1-20cm, 1-60cm, 3-60cm, 3-5cm, 3-20cm\
 `1: 0        Delay
 `2: 2        Loop Count`
 
-`    5:  Step Loop Index (P90)
-`     1: 2        Step`
+   5:  Step Loop Index (P90)
+    1: 2        Step`
 
-`    6:  Do (P86)
-`     1: 72       Pulse Port 2`
+   6:  Do (P86)
+    1: 72       Pulse Port 2`
 
-`    7:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   7:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 Use SW12V to enable sensors
 
-`    8:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   8:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
-`    9:  Period Average (SE) (P27)
-`     1: 2        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 1        SE Channel
-`     4: 10       No. of Cycles
-`     5: 5        Timeout (0.01 sec units)
-`     6: 3     -- Loc [ Period1   ]
-`     7: .001     Multiplier
-`     8: 0.0      Offset`
+   9:  Period Average (SE) (P27)
+    1: 2        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 1        SE Channel
+    4: 10       No. of Cycles
+    5: 5        Timeout (0.01 sec units)
+    6: 3     -- Loc [ Period1   ]
+    7: .001     Multiplier
+    8: 0.0      Offset`
 
-`    10:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   10:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 11: End (P95)
 
@@ -162,7 +162,7 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 `8: 0.0      C4
 `9: 0.0      C5`
 
-\*\*\* Loop 2: \*\*\*\
+**\* Loop 2: **\*\
 \
 2 CS-616s in Profile 3 (5 & 20cm)
 
@@ -222,7 +222,7 @@ Pause MUX1 on channel 4
 Clock with control port 3\
 Pit 2 & 4 wired in order: 2-5cm, 2-20cm, 2-60cm, , 4-5cm, 4-20cm, 4-60cm\
 \
-\*\*\* Loop 1: \*\*\*\
+**\* Loop 1: **\*\
 \
 2 CS-615s in Profile 2 (5 & 20cm)
 
@@ -273,7 +273,7 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 `8: 0.0      C4
 `9: 0.0      C5`
 
-\*\*\* Loop 2: \*\*\*\
+**\* Loop 2: **\*\
 \
 4 CS-616s in Profile 2 (60cm) and 4 (5,20,60cm)
 
@@ -282,35 +282,35 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 `1: 0        Delay
 `2: 2        Loop Count`
 
-`    27:  Step Loop Index (P90)
-`     1: 2        Step`
+   27:  Step Loop Index (P90)
+    1: 2        Step`
 
-`    28:  Do (P86)
-`     1: 73       Pulse Port 3`
+   28:  Do (P86)
+    1: 73       Pulse Port 3`
 
-`    29:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   29:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 Use period average command with SW12V excitation (instead of P138).
 
-`    30:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   30:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
-`    31:  Period Average (SE) (P27)
-`     1: 2        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 3        SE Channel
-`     4: 100      No. of Cycles
-`     5: 1        Timeout (0.01 sec units)
-`     6: 11    -- Loc [ Period9   ]
-`     7: 1        Multiplier
-`     8: 0.0      Offset`
+   31:  Period Average (SE) (P27)
+    1: 2        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 3        SE Channel
+    4: 100      No. of Cycles
+    5: 1        Timeout (0.01 sec units)
+    6: 11    -- Loc [ Period9   ]
+    7: 1        Multiplier
+    8: 0.0      Offset`
 
-`    32:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   32:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 33: End (P95)
 
@@ -338,7 +338,7 @@ Pause MUX2 on channel 4
 Clock with control port 4\
 Pit 5 & 7 wired in order: 5-5cm, 5-20cm, 5-60cm, , 7-5cm, 7-20cm, 7-60cm\
 \
-\*\*\* Loop 1: \*\*\*\
+**\* Loop 1: **\*\
 \
 6 CS-616s in Profile 5 & 7 (all depths)
 
@@ -347,25 +347,25 @@ Pit 5 & 7 wired in order: 5-5cm, 5-20cm, 5-60cm, , 7-5cm, 7-20cm, 7-60cm\
 `1: 0        Delay
 `2: 3        Loop Count`
 
-`    37:  Step Loop Index (P90)
-`     1: 2        Step`
+   37:  Step Loop Index (P90)
+    1: 2        Step`
 
-`    38:  Do (P86)
-`     1: 74       Pulse Port 4`
+   38:  Do (P86)
+    1: 74       Pulse Port 4`
 
-`    39:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   39:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
-`    40:  CS616 Water Content Reflectometer (P138)
-`     1: 2        Reps
-`     2: 5        SE Channel
-`     3: 17       All reps use C7
-`     4: 15    -- Loc [ Period13  ]
-`     5: 1.0      Multiplier
-`     6: 0.0      Offset`
+   40:  CS616 Water Content Reflectometer (P138)
+    1: 2        Reps
+    2: 5        SE Channel
+    3: 17       All reps use C7
+    4: 15    -- Loc [ Period13  ]
+    5: 1.0      Multiplier
+    6: 0.0      Offset`
 
 41: End (P95)
 
@@ -383,7 +383,7 @@ CONVERT period 13-18 to soil VWC
 `8: 0.0      C4
 `9: 0.0      C5`
 
-\*\*\* Loop 2: \*\*\*\
+**\* Loop 2: **\*\
 \
 6 thermistors (107s) in Profile 5 & 7 (all depths)
 
@@ -392,19 +392,19 @@ CONVERT period 13-18 to soil VWC
 `1: 0        Delay
 `2: 3        Loop Count`
 
-`    44:  Step Loop Index (P90)
-`     1: 2        Step`
+   44:  Step Loop Index (P90)
+    1: 2        Step`
 
-`    45:  Do (P86)
-`     1: 74       Pulse Port 4`
+   45:  Do (P86)
+    1: 74       Pulse Port 4`
 
-`    46:  Temp (107) (P11)
-`     1: 2        Reps
-`     2: 5        SE Channel
-`     3: 23       Excite all reps w/E3, 60Hz, 10ms delay
-`     4: 39    -- Loc [ P5_5st    ]
-`     5: 1.0      Multiplier
-`     6: 0.0      Offset`
+   46:  Temp (107) (P11)
+    1: 2        Reps
+    2: 5        SE Channel
+    3: 23       Excite all reps w/E3, 60Hz, 10ms delay
+    4: 39    -- Loc [ P5_5st    ]
+    5: 1.0      Multiplier
+    6: 0.0      Offset`
 
 47: End (P95)
 
@@ -428,46 +428,46 @@ Profile 1d & 3d wired in order: 1d-5cm, 1d-20cm, 1d-60cm, , 3d-5cm, 3d-20cm, 3d-
 `1: 0        Delay
 `2: 6        Loop Count`
 
-`    50:  Step Loop Index (P90)
-`     1: 3        Step`
+   50:  Step Loop Index (P90)
+    1: 3        Step`
 
-`    51:  Do (P86)
-`     1: 72       Pulse Port 2`
+   51:  Do (P86)
+    1: 72       Pulse Port 2`
 
 POWER UP SENSOR
 
-`    52:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   52:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    53:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 50       Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   53:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 50       Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    54:  Port Serial I/O (P15)
-`     1: 1        Reps
-`     2: 31       TTL ASCII, 1200 Baud
-`     3: 0        TX after CTS
-`     4: 5        No RTS/DTR, C5 TXD/RXD
-`     5: 45       Start Loc for TX [ P3d_5_1   ]
-`     6: 0        Number of Locs to TX
-`     7: 13       Termination Character for RX
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
-`    10: 45   --  Start Loc for RX [ P3d_5_1   ]
-`    11: 1        Multiplier for RX
-`    12: 0        Offset for RX`
+   54:  Port Serial I/O (P15)
+    1: 1        Reps
+    2: 31       TTL ASCII, 1200 Baud
+    3: 0        TX after CTS
+    4: 5        No RTS/DTR, C5 TXD/RXD
+    5: 45       Start Loc for TX [ P3d_5_1   ]
+    6: 0        Number of Locs to TX
+    7: 13       Termination Character for RX
+    8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
+    9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
+   10: 45   --  Start Loc for RX [ P3d_5_1   ]
+   11: 1        Multiplier for RX
+   12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    55:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   55:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 56: End (P95)
 
@@ -485,46 +485,46 @@ Set number of times to increment MUX1
 `1: 0        Delay
 `2: 6        Loop Count`
 
-`    58:  Step Loop Index (P90)
-`     1: 3        Step`
+   58:  Step Loop Index (P90)
+    1: 3        Step`
 
-`    59:  Do (P86)
-`     1: 73       Pulse Port 3`
+   59:  Do (P86)
+    1: 73       Pulse Port 3`
 
 POWER UP SENSOR
 
-`    60:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   60:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    61:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 50       Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   61:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 50       Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    62:  Port Serial I/O (P15)
-`     1: 1        Reps
-`     2: 31       TTL ASCII, 1200 Baud
-`     3: 0        TX after CTS
-`     4: 6        No RTS/DTR, C6 TXD/RXD
-`     5: 63       Start Loc for TX [ P4d_5_1   ]
-`     6: 0        Number of Locs to TX
-`     7: 13       Termination Character for RX
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
-`    10: 63   --  Start Loc for RX [ P4d_5_1   ]
-`    11: 1        Multiplier for RX
-`    12: 0        Offset for RX`
+   62:  Port Serial I/O (P15)
+    1: 1        Reps
+    2: 31       TTL ASCII, 1200 Baud
+    3: 0        TX after CTS
+    4: 6        No RTS/DTR, C6 TXD/RXD
+    5: 63       Start Loc for TX [ P4d_5_1   ]
+    6: 0        Number of Locs to TX
+    7: 13       Termination Character for RX
+    8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
+    9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
+   10: 63   --  Start Loc for RX [ P4d_5_1   ]
+   11: 1        Multiplier for RX
+   12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    63:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   63:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 64: End (P95)
 
@@ -1116,10 +1116,10 @@ turn off sensor
 `3: .2811    F
 `4: 30       Then Do`
 
-`    139:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 107      Z Loc [ WS_For_ms ]`
+   139:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 107      Z Loc [ WS_For_ms ]`
 
 140: End (P95)
 
@@ -1141,10 +1141,10 @@ turn off sensor
 `3: 360      F
 `4: 30       Then Do`
 
-`    143:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 108      Z Loc [ WDir_For  ]`
+   143:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 108      Z Loc [ WDir_For  ]`
 
 144: End (P95)
 
@@ -1217,7 +1217,7 @@ Run table every half hour
 
 -   Table 2 Program
 
-` 02: 1800      Execution Interval (seconds)`
+02: 1800      Execution Interval (seconds)`
 
 set control port 8 high every 8 hours
 

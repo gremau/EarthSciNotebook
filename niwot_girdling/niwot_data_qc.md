@@ -1,6 +1,6 @@
 # Niwot/Fraser girdling study data QC
 
- **See also:\*\* [Activity log](activitylog_1)
+ **See also:** [Activity log](activitylog_1)
 
 ## Soil CO2 data
 
@@ -53,8 +53,8 @@ documented in the old Niwot\_gasbench\_verX.m scripts, and in Dave
 Bowling's lab notebook #5, pp 58-59. For 2012 this was refined by
 adding two other methods of bad-data removal.
 
-Currently, two regression relationships, \*\*IRMS area vs. IRGA
-CO~2~\*\* and \*\*δ13C vs. 1/IRGA CO~2~\*\*, are generated for each site
+Currently, two regression relationships, **IRMS area vs. IRGA
+CO~2~** and **δ13C vs. 1/IRGA CO~2~**, are generated for each site
 in 2011 and 2012. A threshold distance is set for each line and
 datapoints beyond this threshold are removed. This threshold is the same
 in both years and for both sites. This technique should remove anomalies
@@ -72,13 +72,13 @@ using depth/concentration thresholds in the soilCO2\_tdist.m file.
 
 ## Final QC'd data
 
- **Number of samples removed, 2011\*\*
+ **Number of samples removed, 2011**
 
 \^ Problem \^ IRGA dates \^ GB dates \^ IRGA/IRMS CO2 \^ d13C/invCO2 \^
 Enr. deep d13CO2 \^ Total 2011 \^ | NWT | 70 | 10 | 9 | 1 | 5 | 95 | |
 FEF | 49 | 56 | 15 | 4 | 0 | 124 | 219 samples removed total
 
- **Number of samples removed, 2012\*\*
+ **Number of samples removed, 2012**
 
 \^ Problem \^ IRGA dates \^ GB dates \^ IRGA/IRMS CO2 \^ d13C/invCO2 \^
 Enr. deep d13CO2 \^ Total 2012 \^ | NWT | 70 | 20 | 4 | 4 | 2 | 100 | |

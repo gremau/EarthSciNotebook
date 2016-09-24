@@ -43,8 +43,8 @@ Unfortunately there is no standard output data format for GPS data among
 the many makers of GPS units. Luckily there are some open and
 interchangeable geodata formats and software tools to do the conversion.
 
-` * `[`The` `GPX` `data`
+* `[`The`GPX`data`
 `format`](http://www.topografix.com/gpx.asp)\
-` * `[`GPSBabel`
-`software`](http://www.gpsbabel.org/)` - excellent for converting data formats.
-` * FIXME - currently have no idea how to use Trimble DGPS data with any other software besides Trimble Geomatics Office.`
+* `[`GPSBabel`
+`software`](http://www.gpsbabel.org/)- excellent for converting data formats.
+* FIXME - currently have no idea how to use Trimble DGPS data with any other software besides Trimble Geomatics Office.`

@@ -3,27 +3,27 @@
 Assorted notes on using the ipython interactive shell. Official
 documentation is at <http://ipython.org>.
 
- **See also:\*\* [General programming](programming),
+ **See also:** [General programming](programming),
         [Python tips](pythontips) pages.
 
 ## Basics
 
- **Pylab\*\* - Starting ipython with the *--pylab* option imports
+ **Pylab** - Starting ipython with the *--pylab* option imports
         numpy and matplotlib libraries into the workspace.
 
 <!-- -->
 
- **Inline help\*\* - Following any object of function name with a
+ **Inline help** - Following any object of function name with a
         "?" gives info or documentation about the item.
 
 <!-- -->
 
- **Shell access\*\* - to run a command in the system shell prefix
+ **Shell access** - to run a command in the system shell prefix
         it with an exclamation point: *!ping www.bbc.co.uk*
 
 <!-- -->
 
- **ipdb\*\* - ipython has an enhanced debugger (not sure if this is
+ **ipdb** - ipython has an enhanced debugger (not sure if this is
         enabled by default :!:)
 
 ## Magic commands
@@ -109,7 +109,7 @@ Inline plotting
 
 Matplotlib plots can now be displayed right in the terminal window. To
 make this happen all the time, start the qtconsole with:
-`--pylab=inline` Matplotlib figures can also be individually embedded in
+`--pylab=inlineMatplotlib figures can also be individually embedded in
 the qtconsole workspace using something like *display(gcf())*
 
 Saving "notebooks"

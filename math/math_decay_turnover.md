@@ -28,6 +28,6 @@ with time is defined as
 where \$I\$ is the input to the pool, \$k\$ is the decomposition rate,
 and \$S\$ is the size of the pool.
 
- **Resources \*\*
+ **Resources **
 
 <http://www.plantsciences.ucdavis.edu/agroecology/staff/documents/encycl.pdf>

@@ -6,9 +6,9 @@ numbers are related in some way (see
 Here are some methods to test for or describe a relationship (usually a
 linear one) between random variables, or two sets of data.
 
- **Resources\*\*
+ **Resources**
 
-` * `[`John` `Cook's`
+* `[`John`Cook's`
 `take`](http://www.johndcook.com/blog/2008/11/05/how-to-calculate-pearson-correlation-accurately/)
 
 ## Parametric
@@ -20,8 +20,8 @@ which yields a correlation coefficient between 1 and -1. This test
 should give the same significance (p-value) as a simple linear
 regression on the same data.
 
-` * Use `*`cor.test`*` in R.
-` * Use `*`scipy.stats.pearsonr`*` or `*`pandas.DataFrame.corr(method='pearson')`*` in python`
+* Use `*`cor.test`*in R.
+* Use `*`scipy.stats.pearsonr`*or `*`pandas.DataFrame.corr(method='pearson')`*in python`
 
 #### Simple linear regression
 
@@ -31,10 +31,10 @@ be calculated as the square root of the R^2^
 with the sign of the slope of the regression line (the coefficient of
 x).
 
-` * Use `*`lm`*` in R
-` * Use `*`regress`*` in MATLAB.
-` * Numpy has `*`polyfit`*` and Scipy has `*`linregress`*\
-` * See other notes `[`here`](linear_regression)`.`
+* Use `*`lm`*in R
+* Use `*`regress`*in MATLAB.
+* Numpy has `*`polyfit`*and Scipy has `*`linregress`*\
+* See other notes `[`here`](linear_regression)`.`
 
 ## Non-parametric
 
@@ -62,12 +62,12 @@ uses Kendall's Tau for analyzing climate trends.
 
 It can be hard to get a good significance value if you are doing
 multiple comparisons. Lots of people recommend against this, but the
-\*\*Bonferroni\*\* correction can be applied. Also, it may be useful to
+**Bonferroni** correction can be applied. Also, it may be useful to
 construct 95% confidence intervals around a correlation, and use that
 instead (does it include 0?).
 
- **Further reading on this\*\*
+ **Further reading on this**
 
-` * Gotelli and Ellison, Chapter 10
-` * `[`SE`
+* Gotelli and Ellison, Chapter 10
+* `[`SE`
 `question`](http://stats.stackexchange.com/questions/5750/look-and-you-shall-find-a-correlation)

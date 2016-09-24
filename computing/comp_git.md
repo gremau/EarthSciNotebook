@@ -1,7 +1,7 @@
 ======Version control with Git===== A distributed version control
 system.
 
- **See also:\*\* [Mercurial DVCS](procedures:mercurial)
+ **See also:** [Mercurial DVCS](procedures:mercurial)
 
 ## Resources:
 

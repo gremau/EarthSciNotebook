@@ -9,283 +9,283 @@ site](hiddencanyon:sitedescription):
 Early December
 --------------
 
-` * Forest 1 datalogger seems to have failed in early November. Began troubleshooting this.
-` * Installed signs around perimeter of forest and tightened up ropes
-` * There are some tracks through the area already`
+* Forest 1 datalogger seems to have failed in early November. Began troubleshooting this.
+* Installed signs around perimeter of forest and tightened up ropes
+* There are some tracks through the area already`
 
 15-16 Oct, 2010
 ---------------
 
-` * Wired MUX 3 to Forest datalogger
-` * Installed new datalogger program and made sure it was working (see `[`here`](hiddencanyon:dataloggers)`)
-` * Forest1 measurements became functional at ~2:30pm Oct 16th
-` * Deployed all litterbags on the 15th (180 in 36 reps)
-` * Final xylem pressure and soil respiration measurements for the season (all on the 16th) but forgot soil temp probe.
-` * Tidied all wires and tubing and sealed enclosures for winter.`
+* Wired MUX 3 to Forest datalogger
+* Installed new datalogger program and made sure it was working (see `[`here`](hiddencanyon:dataloggers)`)
+* Forest1 measurements became functional at ~2:30pm Oct 16th
+* Deployed all litterbags on the 15th (180 in 36 reps)
+* Final xylem pressure and soil respiration measurements for the season (all on the 16th) but forgot soil temp probe.
+* Tidied all wires and tubing and sealed enclosures for winter.`
 
 Early October visits
 --------------------
 
-` * Installed profiles 5 and 7
-` * Finished installing undersnow inlets and measured all tubing lengths.
-` * More litter collected and litter bags made, weighed, and filled.
-` * Installed post and enclosure for MUX 3
-` * Began rewiring Forest1 datalogger and connections to MUX 1 & 2
-` * Downloaded Forest1 data on Oct 8th, up to 11am averages
-` * Forest1 down from Oct 8th to the 15th`
+* Installed profiles 5 and 7
+* Finished installing undersnow inlets and measured all tubing lengths.
+* More litter collected and litter bags made, weighed, and filled.
+* Installed post and enclosure for MUX 3
+* Began rewiring Forest1 datalogger and connections to MUX 1 & 2
+* Downloaded Forest1 data on Oct 8th, up to 11am averages
+* Forest1 down from Oct 8th to the 15th`
 
 13 - 25 Sept, 2010
 ------------------
 
 Several visits during this time:
 
-` * Installed wiring for charging station at solar tower, reoriented 30W panel, and completed caging.
-` * Installed undersnow CO`~`2`~` inlets and tubing for plots 1, 2, and the bottom half of 3.
-` * Collected some litter, but more will be necessary.
-` * Flagged plots 1-6 with pink flagging tape
-` * Dug holes for profiles 5 & 7 (new plot and profile scheme detailed `[`here`](hiddencanyon:snowmeltdesign)`)
-` * Measured respiration and xylem psi in plots 1 and 2.`
+* Installed wiring for charging station at solar tower, reoriented 30W panel, and completed caging.
+* Installed undersnow CO`~`2`~inlets and tubing for plots 1, 2, and the bottom half of 3.
+* Collected some litter, but more will be necessary.
+* Flagged plots 1-6 with pink flagging tape
+* Dug holes for profiles 5 & 7 (new plot and profile scheme detailed `[`here`](hiddencanyon:snowmeltdesign)`)
+* Measured respiration and xylem psi in plots 1 and 2.`
 
 8-10 Sept, 2010
 ---------------
 
-` * Installed caging around solar, met, and forest towers and fixed all wiring that was chewed.
-` * Replaced 3 malfunctioning Decagon sensors (P1-60, P5-20, P7-60)
-` * Forest 1 radio and relay are installed and functioning`
+* Installed caging around solar, met, and forest towers and fixed all wiring that was chewed.
+* Replaced 3 malfunctioning Decagon sensors (P1-60, P5-20, P7-60)
+* Forest 1 radio and relay are installed and functioning`
 
 3-4 Sept, 2010
 --------------
 
-` * Measured xylem water potential in the afternoon (2-4pm, 3rd).
-` * Measured soil respiration at all collars (10:30am-1pm, 3rd)
-` * Measured predawn xylem water potential (5-7am, Aug 4th).
-` * Downloaded data from both dataloggers.
-` * Continued install of Forest 1 radio, and put new program on Forest1 datalogger.
-` * Put out tarps for litter collection.
-` * Examined potential sites for new SM/ST profiles.
-` * Fixed chewed up wiring to Treatment IR radiometer, there is other rodent damage to fix.`
+* Measured xylem water potential in the afternoon (2-4pm, 3rd).
+* Measured soil respiration at all collars (10:30am-1pm, 3rd)
+* Measured predawn xylem water potential (5-7am, Aug 4th).
+* Downloaded data from both dataloggers.
+* Continued install of Forest 1 radio, and put new program on Forest1 datalogger.
+* Put out tarps for litter collection.
+* Examined potential sites for new SM/ST profiles.
+* Fixed chewed up wiring to Treatment IR radiometer, there is other rodent damage to fix.`
 
 26 Aug, 2010
 ------------
 
-` * Installed wireless modem, Base radio, Met1 radio, and associated antennas and relays.
-` * New datalogger program to Met1 datalogger (added table 2, changed Judd depth sensor offset)
-` * Dowloaded data from both dataloggers (after 5pm average)
-` * Partial install of Forest1 radio
-` * Can connect to Met1 datalogger as of 8am Friday morning --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)` 2010/08/27 11:30//`
+* Installed wireless modem, Base radio, Met1 radio, and associated antennas and relays.
+* New datalogger program to Met1 datalogger (added table 2, changed Judd depth sensor offset)
+* Dowloaded data from both dataloggers (after 5pm average)
+* Partial install of Forest1 radio
+* Can connect to Met1 datalogger as of 8am Friday morning --- //`[`Greg`
+`Maurer`](primaryproductivity@gmail.com)2010/08/27 11:30//`
 
 13-14 August, 2010
 ------------------
 
-` * Measured xylem water potential in the afternoon (2-4pm, Aug 13).
-` * Measured predawn xylem water potential (5-7am, Aug 14).
-` * Measured soil respiration at all collars (Aug 14, 8-11:30am)
-` * Downloaded all data from dataloggers.
-` * Checked wiring for Profile 6-20cm - OK
-` * Brought collars from north side of Hidden Canyon back.
-` * Collected Boletes!`
+* Measured xylem water potential in the afternoon (2-4pm, Aug 13).
+* Measured predawn xylem water potential (5-7am, Aug 14).
+* Measured soil respiration at all collars (Aug 14, 8-11:30am)
+* Downloaded all data from dataloggers.
+* Checked wiring for Profile 6-20cm - OK
+* Brought collars from north side of Hidden Canyon back.
+* Collected Boletes!`
 
 2-3 August, 2010
 ----------------
 
-` * Measured xylem water potential in the evening (5pm, Aug 2).
-` * Measured predawn xylem water potential (4am, Aug 3).
-` * Downloaded all data from dataloggers.`
+* Measured xylem water potential in the evening (5pm, Aug 2).
+* Measured predawn xylem water potential (4am, Aug 3).
+* Downloaded all data from dataloggers.`
 
 23 July, 2010
 -------------
 
-` * Measured soil respiration at all collars - data looks ok.`
+* Measured soil respiration at all collars - data looks ok.`
 
 22 July, 2010
 -------------
 
-` * Downloaded data from dataloggers
-` * Soil respiration attempt # 2 FAILED - again due to batteries. Try again tomorrow.`
+* Downloaded data from dataloggers
+* Soil respiration attempt # 2 FAILED - again due to batteries. Try again tomorrow.`
 
 16 July, 2010
 -------------
 
-` * Soil respiration measurements - FAILED - batteries died, need at least 2 more good batteries to complete all 20 collars.`
+* Soil respiration measurements - FAILED - batteries died, need at least 2 more good batteries to complete all 20 collars.`
 
 12 July, 2010
 -------------
 
-` * Downloaded data from dataloggers
-` * All grid points are melted out.
-` * Adjusted lower (30w) solar panel a bit.
-` * Labeled collars`
+* Downloaded data from dataloggers
+* All grid points are melted out.
+* Adjusted lower (30w) solar panel a bit.
+* Labeled collars`
 
 23 June, 2010
 -------------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * Most of Control and Treatment are melted out, no new dust needed
-` * Logged melt progress at grid points.
-` * Installed respiration collars, 10 in each swath`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* Most of Control and Treatment are melted out, no new dust needed
+* Logged melt progress at grid points.
+* Installed respiration collars, 10 in each swath`
 
 16 June, 2010
 -------------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * No new dust applied, old dust is still visible.
-` * Logged melt progress at grid points.
-` * Fixed guywire on solar tower.`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* No new dust applied, old dust is still visible.
+* Logged melt progress at grid points.
+* Fixed guywire on solar tower.`
 
 9 June, 2010
 ------------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * No new dust applied, old dust is still visible.
-` * Dug snow pits and measured depth of dust layers.
-` * Logged melt progress at grid points`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* No new dust applied, old dust is still visible.
+* Dug snow pits and measured depth of dust layers.
+* Logged melt progress at grid points`
 
 3 June, 2010
 ------------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * Sixth dust application - 3.5 mason jars (12000g each)
-` * There is bare ground visible in the middle of the treatment plot.`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* Sixth dust application - 3.5 mason jars (12000g each)
+* There is bare ground visible in the middle of the treatment plot.`
 
 25 May, 2010
 ------------
 
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * Fifth dust application - 3.5 mason jars (12000g each).`
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* Fifth dust application - 3.5 mason jars (12000g each).`
 
 14 May, 2010
 ------------
 
-` * Downloaded data from both dataloggers
-` * Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
-` * Fourth dust application - 3.5 mason jars (12000g each).`
+* Downloaded data from both dataloggers
+* Measured SWE in control plots (n-10), treatment plots (n-10), and on the east side of treatment (n=5)
+* Fourth dust application - 3.5 mason jars (12000g each).`
 
 6 May, 2010
 -----------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n=6), treatment plots (n=6), and on the east side of treatment (n=3).
-` * Third dust application - 4 mason jars (1200g each).`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n=6), treatment plots (n=6), and on the east side of treatment (n=3).
+* Third dust application - 4 mason jars (1200g each).`
 
 24 April, 2010
 --------------
 
-` * Downloaded data from both dataloggers.
-` * Measured SWE in control plots (n=6), treatment plots (n=6), and on the east side of treatment (n=3).
-` * Second dust application went well - 4 mason jars (1200g each).`
+* Downloaded data from both dataloggers.
+* Measured SWE in control plots (n=6), treatment plots (n=6), and on the east side of treatment (n=3).
+* Second dust application went well - 4 mason jars (1200g each).`
 
 8 April, 2010
 -------------
 
-` * Downloaded data from both dataloggers
-` * First dust application. 3 mason jars (~1200g each) covers roughly the entire area.
-` * More battery power might help.`
+* Downloaded data from both dataloggers
+* First dust application. 3 mason jars (~1200g each) covers roughly the entire area.
+* More battery power might help.`
 
 25 March, 2010
 --------------
 
-` * Downloaded data from both dataloggers.
-` * Changed wiring from Forest1 to MUX2 - Power and signal for Campbell sensors was moved to the extra pair of wires in Line 2.
-` * Carried up some dust and the vacuum.`
+* Downloaded data from both dataloggers.
+* Changed wiring from Forest1 to MUX2 - Power and signal for Campbell sensors was moved to the extra pair of wires in Line 2.
+* Carried up some dust and the vacuum.`
 
 18 March, 2010
 --------------
 
-` * Downloaded data from both dataloggers
-` * Dust application should commence next week. `
+* Downloaded data from both dataloggers
+* Dust application should commence next week. `
 
 4 March, 2010
 -------------
 
-` * Downloaded data from both dataloggers
-` * Checked wiring at MUX2 and Forest1 to troubleshoot Campbell sensors --- fixed one potential wiring problem at MUX2
-` * Mounted treatment IR radiometer on post
-` * Extended rope at top of stand`
+* Downloaded data from both dataloggers
+* Checked wiring at MUX2 and Forest1 to troubleshoot Campbell sensors --- fixed one potential wiring problem at MUX2
+* Mounted treatment IR radiometer on post
+* Extended rope at top of stand`
 
 18 Feb, 2010
 ------------
 
-` * Downloaded data from both dataloggers.
-` * Tested 3 malfunctioning Decagon sensors at sensor leads with the testing datalogger. All appear broken.
-` * Fixed EDLOG problem with Canopy and Control (input terminal mismatch). They now appear to be working.
-` * Measured slope and aspect of Met and Forest towers
-` * Hammered in mounting post for Treatment IR radiometer
-` * Added ropes at top of stand - still needs signs`
+* Downloaded data from both dataloggers.
+* Tested 3 malfunctioning Decagon sensors at sensor leads with the testing datalogger. All appear broken.
+* Fixed EDLOG problem with Canopy and Control (input terminal mismatch). They now appear to be working.
+* Measured slope and aspect of Met and Forest towers
+* Hammered in mounting post for Treatment IR radiometer
+* Added ropes at top of stand - still needs signs`
 
 4 Feb, 2010
 -----------
 
-` * Gave Tom Painter and Dave a tour the site and talked science.
-` * Roped off another 100 feet of forest at the lower east edge of the plot.`
+* Gave Tom Painter and Dave a tour the site and talked science.
+* Roped off another 100 feet of forest at the lower east edge of the plot.`
 
 2 Feb, 2010
 -----------
 
-` * Downloaded data from both dataloggers
-` * Fixed wiring at Mux 2 (one free wire, some terminals a bit loose)
-` * Verified that wiring from Mux 2 to Forest 1 datalogger is connected correctly.
-` * Looked for shorts, but didn't find anything too bad - some cable shields are probably touching, but it shouldn't matter (right?).
-` * Added another 50 feet of rope, but there is still more needed below that.`
+* Downloaded data from both dataloggers
+* Fixed wiring at Mux 2 (one free wire, some terminals a bit loose)
+* Verified that wiring from Mux 2 to Forest 1 datalogger is connected correctly.
+* Looked for shorts, but didn't find anything too bad - some cable shields are probably touching, but it shouldn't matter (right?).
+* Added another 50 feet of rope, but there is still more needed below that.`
 
 25 Jan, 2010
 ------------
 
-` * Downloaded data from both dataloggers
-` * Reversed wiring for downward looking PAR - should be working now.
-` * Changed REBS negative correction factor to a negative value in Met1 EDLOG program.
-` * Roped and signed east side of forest, lower paths still need to be blocked`
+* Downloaded data from both dataloggers
+* Reversed wiring for downward looking PAR - should be working now.
+* Changed REBS negative correction factor to a negative value in Met1 EDLOG program.
+* Roped and signed east side of forest, lower paths still need to be blocked`
 
 14 Jan, 2010
 ------------
 
-` * Met tower 
-`   * Lowered met tower crossbars - crossbar 1 is at roughly 3.85 m, crossbar 2 is at 3.7m
-`   * Leveled upward PAR, downward PAR, wind, and Rnet sensors
-`   * Wind sensor is oriented properly now (arrow facing S) and is unobstructed
-`   * Reoriented met tower so crossbars are N/S (1) and E/W (2)
-`   * Connected downward PAR sensor leads, bridged with 560Ω resistor at terminals, and jumpered Diff Low to ground
-`   * New program (HC_MET1_V2.csi) uploaded. All sensors but downward PAR appear to be working now.
-` * Forest tower
-`   * Pointed Canopy IR radiometer horizontally in the downhill direction (southwest)
-`   * New program (HC_FOREST1_v3.csi) uploaded. This made all the CS-615s work
-` * Collected data from both dataloggers.`
+* Met tower 
+  * Lowered met tower crossbars - crossbar 1 is at roughly 3.85 m, crossbar 2 is at 3.7m
+  * Leveled upward PAR, downward PAR, wind, and Rnet sensors
+  * Wind sensor is oriented properly now (arrow facing S) and is unobstructed
+  * Reoriented met tower so crossbars are N/S (1) and E/W (2)
+  * Connected downward PAR sensor leads, bridged with 560Ω resistor at terminals, and jumpered Diff Low to ground
+  * New program (HC_MET1_V2.csi) uploaded. All sensors but downward PAR appear to be working now.
+* Forest tower
+  * Pointed Canopy IR radiometer horizontally in the downhill direction (southwest)
+  * New program (HC_FOREST1_v3.csi) uploaded. This made all the CS-615s work
+* Collected data from both dataloggers.`
 
 10 Jan, 2010
 ------------
 
-` * Tried to troubleshoot the Decagon sensor problems
-`   * Checked junction to MUX wiring and it appears to be sound. Wires are correctly connected and it looks like there is excitation and a signal at the sensor leads.
-`   * Don't know why there is -INF  or zeros at the Forest1 datalogger (could be faulty sensors)
-`   * Also tried and 80 ms delay before powering up sensors - didn't help
-`   * Pit 7 60cm is still going in and out also.
-` * Downloaded data from Forest1`
+* Tried to troubleshoot the Decagon sensor problems
+  * Checked junction to MUX wiring and it appears to be sound. Wires are correctly connected and it looks like there is excitation and a signal at the sensor leads.
+  * Don't know why there is -INF  or zeros at the Forest1 datalogger (could be faulty sensors)
+  * Also tried and 80 ms delay before powering up sensors - didn't help
+  * Pit 7 60cm is still going in and out also.
+* Downloaded data from Forest1`
 
 7 Jan, 2010
 -----------
 
-` * Downloaded data and uploaded HC_Forest1_v2.csi to Forest1 (small delay change in serial io)
-` * Attached windset to Met1 logger (with extension) and treatment IR radiometer (with extension) to Forest1
-` * New signs
-` * Tried to troubleshoot soil moisture sensors, but two decagons and the 615s are not working
-`   * Tightened all MUX terminals (this may have fixed one sensor)
-`   * Checked juction box 1 and it looks OK
-`   * Found which Campbell sensors are 615's
-`   * Problem with remaining decagons is likely a wiring problem from junction box to multiplexer (or bad sensors)`
+* Downloaded data and uploaded HC_Forest1_v2.csi to Forest1 (small delay change in serial io)
+* Attached windset to Met1 logger (with extension) and treatment IR radiometer (with extension) to Forest1
+* New signs
+* Tried to troubleshoot soil moisture sensors, but two decagons and the 615s are not working
+  * Tightened all MUX terminals (this may have fixed one sensor)
+  * Checked juction box 1 and it looks OK
+  * Found which Campbell sensors are 615's
+  * Problem with remaining decagons is likely a wiring problem from junction box to multiplexer (or bad sensors)`
 
 20 Dec, 2009
 ------------
 
-` * Downloaded data from Forest1 and Met1 datalogger
-` * Finished attaching sensors to Met1 and Forest1 dataloggers
-` * Met1 wind sensor, downward PAR, and forest treatment IR radiometer still not connected`
+* Downloaded data from Forest1 and Met1 datalogger
+* Finished attaching sensors to Met1 and Forest1 dataloggers
+* Met1 wind sensor, downward PAR, and forest treatment IR radiometer still not connected`
 
 18 Dec, 2009
 ------------
 
-` * Downloaded data from Forest1 datalogger
-` * Marked off treatment and control swaths with flagging tapes. Treatment is marked with two flags per branch.`
+* Downloaded data from Forest1 datalogger
+* Marked off treatment and control swaths with flagging tapes. Treatment is marked with two flags per branch.`

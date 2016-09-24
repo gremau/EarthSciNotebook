@@ -39,9 +39,9 @@ print \$1 " " \$2 " " \$9 " " \$12 }' AZ\_soilstations.csv
 2.  outputs: scan 2026 AZ WALNUT GULCH #1
 
 ~~~ Comparison expressions (==, &lt;, &gt;, &lt;=, &gt;=, !=, plus
-\~ (matches) and !\~) can also be used: `awk` `-F","` `'$1=="snotel"`
-`{` `print` `$1` `"` `"` `$2` `"` `"` `$9` `"` `"` `$12` `}'`
-`AZ_soilstations.csv` Outputs:
+\~ (matches) and !\~) can also be used: `awk`-F","`'$1=="snotel"`
+`{`print`$1`"`"`$2`"`"`$9`"`"`$12`}'`
+`AZ_soilstations.csvOutputs:
 
 snotel 310 AZ BALDY
 snotel 1121 AZ FORT VALLEY
@@ -90,21 +90,21 @@ Built in functions
 
 ## Command line usage
 
- **Note that: \*\*
+ **Note that: **
 
 * Input can come from files or be piped in from shell commands.
 * Output can be redirected into files or piped to bash, etc.
 * Lots of these are from `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)or `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)\
-* Also see examples in the `[`shell` `scripting`
+* Also see examples in the `[`shell`scripting`
 `page`](procedures:shellscripts)`.`
 
 Convert Windows/DOS newlines (CRLF) to Unix newlines (LF) from Unix.
-Removes the carriage return (\\r) \*\*at the end\*\* of the line (\$ at
-end of search pattern), leaving linefeed: `awk` `'{` `sub(/\r$/,"");`
-`print` `}'` `filename.txt` This would remove \*\*one or more\*\* (+ in
-pattern) \*\*leading\*\* (\^ in pattern) spaces for each line: `awk`
-`'{` `sub(/^` `+/,"");` `print` `}'` `filename.txt` This would remove
-one or more leading spaces \*\*or tabs\*\* (brackets join multiple
+Removes the carriage return (\\r) **at the end** of the line (\$ at
+end of search pattern), leaving linefeed: `awk`'{`sub(/\r$/,"");`
+`print`}'`filename.txtThis would remove **one or more** (+ in
+pattern) **leading** (\^ in pattern) spaces for each line: `awk`
+`'{`sub(/^`+/,"");`print`}'`filename.txtThis would remove
+one or more leading spaces **or tabs** (brackets join multiple
 search terms) in the fifth column only (the \$5 marks column 5):
 ~~~ awk -F"," ' BEGIN{OFS=","} { gsub(/\^ +/,"", \$5); print }'
 AZ\_soilstations.csv
@@ -115,14 +115,14 @@ AZ\_soilstations.csv
     separator (OFS) must be set in a begin block.
 
 ~~~ To do the same operation on several fields just add another
-statement to the code block: `awk` `-F","` `'` `BEGIN{OFS=","}` `{`
-`gsub(/^` `+/,"",` `$5);` `gsub(/^` `+/,"",` `$7);` `print` `}'`
-`AZ_soilstations.csv` This command will print a textfile containing
+statement to the code block: `awk`-F","`'`BEGIN{OFS=","}`{`
+`gsub(/^`+/,"",`$5);`gsub(/^`+/,"",`$7);`print`}'`
+`AZ_soilstations.csvThis command will print a textfile containing
 sitenumbers for each of a sites SNOTEL files in a data directory with
 filenames like 828\_ALL\_WATERYEAR=2002.csv (all files begin with an
 integer site code and there are files for multiple years in the
-directory). `ls` `*.csv` `|` `awk` `-F"_"` `'{print` `$1}'` `>`
-`sitelist.txt` This nifty bash command moves and renames an entire
+directory). `ls`*.csv`|`awk`-F"_"`'{print`$1}'`>`
+`sitelist.txtThis nifty bash command moves and renames an entire
 directory of files with awk: ~~~ ls junk\* | awk '{print "mv
 "\$0" ../trashdir/"\$0".dat"}' | bash
 

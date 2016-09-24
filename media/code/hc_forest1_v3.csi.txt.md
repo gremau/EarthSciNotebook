@@ -12,7 +12,7 @@ version 3 01/13/10): Added CS 615 loops to the Campbell processing instructions 
 
 -   Table 1 Program
 
-` 01: 60        Execution Interval (seconds)`
+01: 60        Execution Interval (seconds)`
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -81,47 +81,47 @@ Set number of times to increment MUX1
 `1: 0        Delay
 `2: 6        Loop Count`
 
-`    5:  Step Loop Index (P90)
-`     1: 3        Step`
+   5:  Step Loop Index (P90)
+    1: 3        Step`
 
-`    6:  Do (P86)
-`     1: 72       Pulse Port 2`
+   6:  Do (P86)
+    1: 72       Pulse Port 2`
 
 POWER UP SENSOR
 
-`    7:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   7:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    8:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 50       Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   8:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 50       Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 READ SERIAL DATA\
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    9:  Port Serial I/O (P15)
-`     1: 1        Reps
-`     2: 31       TTL ASCII, 1200 Baud
-`     3: 0        TX after CTS
-`     4: 5        No RTS/DTR, C5 TXD/RXD
-`     5: 3        Start Loc for TX [ P1_5_1    ]
-`     6: 0        Number of Locs to TX
-`     7: 13       Termination Character for RX
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
-`    10: 3    --  Start Loc for RX [ P1_5_1    ]
-`    11: 1        Multiplier for RX
-`    12: 0        Offset for RX`
+   9:  Port Serial I/O (P15)
+    1: 1        Reps
+    2: 31       TTL ASCII, 1200 Baud
+    3: 0        TX after CTS
+    4: 5        No RTS/DTR, C5 TXD/RXD
+    5: 3        Start Loc for TX [ P1_5_1    ]
+    6: 0        Number of Locs to TX
+    7: 13       Termination Character for RX
+    8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
+    9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
+   10: 3    --  Start Loc for RX [ P1_5_1    ]
+   11: 1        Multiplier for RX
+   12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    10:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   10:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 11: End (P95)
 
@@ -141,35 +141,35 @@ CAMPBELL LOOP 1: All 3 616 sensors in Pit 2
 `1: 0        Delay
 `2: 3        Loop Count`
 
-`    13:  Step Loop Index (P90)
-`     1: 1        Step`
+   13:  Step Loop Index (P90)
+    1: 1        Step`
 
-`    14:  Do (P86)
-`     1: 72       Pulse Port 2`
+   14:  Do (P86)
+    1: 72       Pulse Port 2`
 
-`    15:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   15:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 USE SW12V to enable CS616, C5 & C6 are in serial mode
 
-`    16:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   16:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
-`    17:  Period Average (SE) (P27)
-`     1: 1        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 1        SE Channel
-`     4: 100      No. of Cycles
-`     5: 1        Timeout (0.01 sec units)
-`     6: 21    -- Loc [ Period1   ]
-`     7: 1.0      Multiplier
-`     8: 0.0      Offset`
+   17:  Period Average (SE) (P27)
+    1: 1        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 1        SE Channel
+    4: 100      No. of Cycles
+    5: 1        Timeout (0.01 sec units)
+    6: 21    -- Loc [ Period1   ]
+    7: 1.0      Multiplier
+    8: 0.0      Offset`
 
-`    18:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   18:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 19: End (P95)
 
@@ -194,35 +194,35 @@ CAMPBELL LOOP 2: 5 & 20cm 615s in Profile 4
 `1: 0        Delay
 `2: 2        Loop Count`
 
-`    22:  Step Loop Index (P90)
-`     1: 1        Step`
+   22:  Step Loop Index (P90)
+    1: 1        Step`
 
-`    23:  Do (P86)
-`     1: 72       Pulse Port 2`
+   23:  Do (P86)
+    1: 72       Pulse Port 2`
 
-`    24:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   24:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 USE SW12V to enable CS616, C5 & C6 are in serial mode
 
-`    25:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   25:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
-`    26:  Period Average (SE) (P27)
-`     1: 1        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 1        SE Channel
-`     4: 10       No. of Cycles
-`     5: 5        Timeout (0.01 sec units)
-`     6: 24    -- Loc [ Period4   ]
-`     7: .001     Multiplier
-`     8: 0.0      Offset`
+   26:  Period Average (SE) (P27)
+    1: 1        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 1        SE Channel
+    4: 10       No. of Cycles
+    5: 5        Timeout (0.01 sec units)
+    6: 24    -- Loc [ Period4   ]
+    7: .001     Multiplier
+    8: 0.0      Offset`
 
-`    27:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   27:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 28: End (P95)
 
@@ -313,46 +313,46 @@ Set number of times to increment MUX2
 `1: 0        Delay
 `2: 6        Loop Count`
 
-`    39:  Step Loop Index (P90)
-`     1: 3        Step`
+   39:  Step Loop Index (P90)
+    1: 3        Step`
 
-`    40:  Do (P86)
-`     1: 74       Pulse Port 4`
+   40:  Do (P86)
+    1: 74       Pulse Port 4`
 
 POWER UP SENSOR
 
-`    41:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   41:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    42:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 50       Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   42:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 50       Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    43:  Port Serial I/O (P15)
-`     1: 1        Reps
-`     2: 31       TTL ASCII, 1200 Baud
-`     3: 0        TX after CTS
-`     4: 6        No RTS/DTR, C6 TXD/RXD
-`     5: 33       Start Loc for TX [ P5_5_1    ]
-`     6: 0        Number of Locs to TX
-`     7: 13       Termination Character for RX
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
-`    10: 33   --  Start Loc for RX [ P5_5_1    ]
-`    11: 1        Multiplier for RX
-`    12: 0        Offset for RX`
+   43:  Port Serial I/O (P15)
+    1: 1        Reps
+    2: 31       TTL ASCII, 1200 Baud
+    3: 0        TX after CTS
+    4: 6        No RTS/DTR, C6 TXD/RXD
+    5: 33       Start Loc for TX [ P5_5_1    ]
+    6: 0        Number of Locs to TX
+    7: 13       Termination Character for RX
+    8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)
+    9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)
+   10: 33   --  Start Loc for RX [ P5_5_1    ]
+   11: 1        Multiplier for RX
+   12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    44:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   44:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 45: End (P95)
 
@@ -372,35 +372,35 @@ Set number of times to increment MUX2
 `1: 0        Delay
 `2: 2        Loop Count`
 
-`    47:  Step Loop Index (P90)
-`     1: 1        Step`
+   47:  Step Loop Index (P90)
+    1: 1        Step`
 
-`    48:  Do (P86)
-`     1: 74       Pulse Port 4`
+   48:  Do (P86)
+    1: 74       Pulse Port 4`
 
-`    49:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   49:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
-`    50:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   50:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
 USE SW12V to enable CS616, C5 & C6 are in serial mode
 
-`    51:  Period Average (SE) (P27)
-`     1: 1        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 2        SE Channel
-`     4: 100      No. of Cycles
-`     5: 1        Timeout (0.01 sec units)
-`     6: 51    -- Loc [ Period7   ]
-`     7: 1.0      Multiplier
-`     8: 0.0      Offset`
+   51:  Period Average (SE) (P27)
+    1: 1        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 2        SE Channel
+    4: 100      No. of Cycles
+    5: 1        Timeout (0.01 sec units)
+    6: 51    -- Loc [ Period7   ]
+    7: 1.0      Multiplier
+    8: 0.0      Offset`
 
-`    52:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   52:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 53: End (P95)
 
@@ -425,35 +425,35 @@ CAMPBELL LOOP 2: 615s in Profile 6 (60cm) and Profile 8 (all 3 depths)
 `1: 0        Delay
 `2: 4        Loop Count`
 
-`    56:  Step Loop Index (P90)
-`     1: 1        Step`
+   56:  Step Loop Index (P90)
+    1: 1        Step`
 
-`    57:  Do (P86)
-`     1: 74       Pulse Port 4`
+   57:  Do (P86)
+    1: 74       Pulse Port 4`
 
-`    58:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 0        Delay W/Ex (0.01 sec units)
-`     3: 1        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   58:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 0        Delay W/Ex (0.01 sec units)
+    3: 1        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 USE SW12V to enable CS615s, C5 & C6 are in serial mode
 
-`    59:  Do (P86)
-`     1: 49       Turn On Switched 12V`
+   59:  Do (P86)
+    1: 49       Turn On Switched 12V`
 
-`    60:  Period Average (SE) (P27)
-`     1: 1        Reps
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
-`     3: 2        SE Channel
-`     4: 10       No. of Cycles
-`     5: 5        Timeout (0.01 sec units)
-`     6: 53    -- Loc [ Period9   ]
-`     7: .001     Multiplier
-`     8: 0.0      Offset`
+   60:  Period Average (SE) (P27)
+    1: 1        Reps
+    2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output
+    3: 2        SE Channel
+    4: 10       No. of Cycles
+    5: 5        Timeout (0.01 sec units)
+    6: 53    -- Loc [ Period9   ]
+    7: .001     Multiplier
+    8: 0.0      Offset`
 
-`    61:  Do (P86)
-`     1: 59       Turn Off Switched 12V`
+   61:  Do (P86)
+    1: 59       Turn Off Switched 12V`
 
 62: End (P95)
 
@@ -1052,10 +1052,10 @@ turn off sensor
 `3: .2811    F
 `4: 30       Then Do`
 
-`    138:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 89       Z Loc [ WS_For_ms ]`
+   138:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 89       Z Loc [ WS_For_ms ]`
 
 139: End (P95)
 
@@ -1077,10 +1077,10 @@ turn off sensor
 `3: 360      F
 `4: 30       Then Do`
 
-`    142:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 90       Z Loc [ WDir_For  ]`
+   142:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 90       Z Loc [ WDir_For  ]`
 
 143: End (P95)
 
@@ -1165,7 +1165,7 @@ turn off sensor
 
 -   Table 2 Program
 
-` 02: 0.0000    Execution Interval (seconds)`
+02: 0.0000    Execution Interval (seconds)`
 
 -   Table 3 Subroutines
 

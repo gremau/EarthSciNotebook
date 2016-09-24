@@ -4,8 +4,8 @@
 
 ## Introduction
 
-` * Overview of SNOTEL network and its suitability for understanding ST and SM across the landscape.
-` * Papers - Goodrich, Bartlett papers.`
+* Overview of SNOTEL network and its suitability for understanding ST and SM across the landscape.
+* Papers - Goodrich, Bartlett papers.`
 
 ## Methods
 
@@ -40,7 +40,7 @@ the same time period is also plotted in the middle panel (dashed black
 line) to illustrate that T~soil~ is decoupled from T~air~ and remains
 near zero C when a snowpack is present.
 
-` * Include a low elevation/low snowpack site in this (2 site comparison)?`
+* Include a low elevation/low snowpack site in this (2 site comparison)?`
 
 #### Figure C - Elevational soil temperature gradients
 
@@ -52,8 +52,8 @@ near zero at all SNOTEL sites along an elevation transect during winter
 months. This is in contrast to the same transect of sites in July, where
 T~soil~ roughly follows the atmospheric temperature lapse rate.
 
-` * Combine with Fig D in 2 panel?
-` * These are actually a mean of all the wateryear means - might check the quality of this.`
+* Combine with Fig D in 2 panel?
+* These are actually a mean of all the wateryear means - might check the quality of this.`
 
 #### Figure D - Air-soil temperature offsets across the landscape
 
@@ -65,8 +65,8 @@ showing 1 StdDev. An example point showing the mean StdDev of T~air~ is
 also plotted (inset). Wintertime offsets between air and soil
 temperature increase with elevation.
 
-` * FIXME - maybe the offset/elevation plot should be calculated for all 12 months
-` * These are actually a mean of all the wateryear means - might check the quality of this.`
+* FIXME - maybe the offset/elevation plot should be calculated for all 12 months
+* These are actually a mean of all the wateryear means - might check the quality of this.`
 
 #### Figure E - Snowpack effect on mean annual soil temperature
 
@@ -78,8 +78,8 @@ sites (with soil sensor profiles. Each point is MAST (grey) or MAT
 this difference is related to snowpack duration. Lines are linear
 regression.
 
-` * FIXME - probably only need the duration plot, and may be more clear with boxplots or regressions lines.
-` * Needs error bars`
+* FIXME - probably only need the duration plot, and may be more clear with boxplots or regressions lines.
+* Needs error bars`
 
 #### Figure F - Inter-annual variability in snowpack/soil temp
 
@@ -90,7 +90,7 @@ near-zero T~soil~ during the remainder of the snowcovered period. In
 water year 2010, a small early-season snowpack led to colder T~soil~ for
 much of the snowcovered period.
 
-` * Should there be a similar figure with spring snowmelt/soil temps?`
+* Should there be a similar figure with spring snowmelt/soil temps?`
 
 #### Figure G - Early season snowpack and soil temperature
 
@@ -109,10 +109,10 @@ for reference.
 :west\_stationdata:gsvwc\_snowrain.png?200|}} Melt timing has a greater
 effect on growing season soil moisture than snowpack size.
 
-` * Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.
-` * Panel B: Mean July, August, September soil moisture plotted versus the wateryear melt day of the prior spring snowpack.`
+* Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.
+* Panel B: Mean July, August, September soil moisture plotted versus the wateryear melt day of the prior spring snowpack.`
 
-` * FIXME - still some fixing to do - perhaps all 3 depths can go on one plot, and then have SWE and meltday side by side.`
+* FIXME - still some fixing to do - perhaps all 3 depths can go on one plot, and then have SWE and meltday side by side.`
 
 #### Figure I - Stability of winter soil moisture
 
@@ -143,4 +143,4 @@ line.
 {{ :west\_stationdata:monthlysoiltempgradient2.png?150|}} Monthly avg
 soil-air T offset by elevation
 
-` * FIXME - this figure might be redundant, could be combined with air-soil T offsets (for 12 months)?`
+* FIXME - this figure might be redundant, could be combined with air-soil T offsets (for 12 months)?`

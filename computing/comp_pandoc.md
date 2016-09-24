@@ -14,7 +14,7 @@ Be sure to install:
 
 ## Basic use
 
-`pandoc -o` writes output to the file following the `-o`, with
+`pandoc -owrites output to the file following the `-o`, with
 formatting based on the file extension. For example, the following
 command creates a pdf file from a text file (via pdflatex):
 
@@ -31,18 +31,18 @@ conversion.
 
 ### Passing variables
 
-The `-V` (or `--variable`) option changes formatting, fonts, or other
+The `-V(or `--variable`) option changes formatting, fonts, or other
 settings during a pandoc conversion.
 
     pandoc cover_master.txt -V geometry:margin=1.5in -o  cover_master.pdf
     # create pdf with 1.5in margins
 
-Other variables that can be passed with `-V` are
+Other variables that can be passed with `-Vare
 [here](http://johnmacfarlane.net/pandoc/README.html#templates)
 
 ### Include in header
 
-When `-s` (or `--standalone`) is used, pandoc adds the header and footers
+When `-s(or `--standalone`) is used, pandoc adds the header and footers
 needed for a standalone document in the output format. To see the
 default template used, type `pandoc -D FORMAT`. There are a couple of
 ways to change what is in this header. The `-H=FILE`

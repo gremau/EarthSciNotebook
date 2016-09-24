@@ -4,7 +4,7 @@ Collection of environmental data, including met and soils data, from
 NRCS, Ameriflux, and other research stations and its processing for
 analysis is covered here.
 
- **See also:\*\* [Overview
+ **See also:** [Overview
         page](west_stationdata:overview), [Data program
         documentation](programdocs), [Data analysis
         log](analysislog_1)
@@ -13,10 +13,10 @@ analysis is covered here.
 
 ## Objectives
 
-` * Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.
-` * Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.
-` * Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.
-` * Assess the relationships between spatial or inter-annual variability in SM/ST, climate, and snowpack dynamics among sites.`
+* Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.
+* Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.
+* Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.
+* Assess the relationships between spatial or inter-annual variability in SM/ST, climate, and snowpack dynamics among sites.`
 
 ## Data Sources
 
@@ -28,12 +28,12 @@ division of the USDA's Natural Resources Conservation Service runs the
 Snow Survey (Snow Courses), SNOTEL network, and SCAN network and
 provides a few online interfaces for accessing this data.
 
-` * `[`The` `NWCC` `station`
-`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)` lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.
-` * `[`Individual` `station`
-`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)` like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.
-` * `[`The` `Snow` `Course` `data`
-`portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)` allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
+* `[`The`NWCC`station`
+`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.
+* `[`Individual`station`
+`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.
+* `[`The`Snow`Course`data`
+`portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
 
 ### Other (potentially useful) sites
 
@@ -55,12 +55,12 @@ Files are downloaded from [the NWCC station inventory
 site](http://www.wcc.nrcs.usda.gov/nwcc/inventory). The
 original column headers are:
 
-` network,station id,start_date,end_date,lat,lon,elev,element,state,county,basin,site_name,site_info_link,cdbs_id,shef_id,gmt_offset,`
+network,station id,start_date,end_date,lat,lon,elev,element,state,county,basin,site_name,site_info_link,cdbs_id,shef_id,gmt_offset,`
 
 Several inventory files, selected using the dropdowns, are useful:
 
-` - Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.
-` - Selecting **soil moisture and temperature** gives a file containing only sites with soil sensor profiles (SCAN and SNOTEL).`
+- Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.
+- Selecting **soil moisture and temperature** gives a file containing only sites with soil sensor profiles (SCAN and SNOTEL).`
 
 These inventory files have been put into a master spreadsheet that keeps
 track of sites and the data collected for them (see the inventory
@@ -78,8 +78,8 @@ integer | - | | Date | Date | yyyy-mm-dd | - | | Time | Time of
 measurement | hh:mm | - | | SMS.I-1:-2(-8, -20) | Soil moisture @ -2 in
 (or -8in, -20in) | VWC (%) | hourly average | | STO.I-1:-2(-8, -20) |
 Soil moisture @ -2 in (or -8in, -20in) | °C | hourly average | |
-STO.I-1:0 or STO.I-2:0 | \*\*Calculated values are sometimes present at
-odd depths (0) or marked with I-2 (ignore these)\*\* |||
+STO.I-1:0 or STO.I-2:0 | **Calculated values are sometimes present at
+odd depths (0) or marked with I-2 (ignore these)** |||
 
 Data collected:
 ---------------
@@ -90,8 +90,8 @@ All datafiles for UT, ID SNOTEL sites with soil profiles.
 
 Files downloaded from individual station sites by specifying download of
 daily wateryear data for all sensors. One file for each year that the
-sensors have been in operation must be downloaded. \*\*Instantaneous
-measurements in these files are for 12AM\*\* (data is the same as 12am
+sensors have been in operation must be downloaded. **Instantaneous
+measurements in these files are for 12AM** (data is the same as 12am
 files - see below). These files include daily calculated temperatures
 (TMAX, TMIN, TAVG).
 
@@ -111,9 +111,9 @@ Instantaneous | | STO.I-1:-2(-8, -20) | Soil temp @ -2 in (or -8in,
 in (or -8in, -20in) | grams/l | Instantaneous | | RDC.I-1:-2(-8, -20) |
 Real dielectric constant (each soil sensor) | unitless | Instantaneous |
 | BATT.I-1 | Battery voltage | voltage | Instantaneous | | STO.I-1:0 or
-STO.I-2:0 | \*\*Calculated values are sometimes present at odd depths
-(0) or marked with I-2 (ignore these)\*\* ||| | WTEQ.I-2 | \*\*Some
-sites have additional (backup?) measurements - Ignore these \*\* |||
+STO.I-2:0 | **Calculated values are sometimes present at odd depths
+(0) or marked with I-2 (ignore these)** ||| | WTEQ.I-2 | **Some
+sites have additional (backup?) measurements - Ignore these ** |||
 
 Note that the calculated values (for temperature) are suspect prior to
 hourly recording of measurements (see note below).
@@ -131,7 +131,7 @@ contain instantaneous measurements for any sensors chosen (including
 all) at the time period chosen. They do not include summary data (TMIN,
 TMAX, TAVG) like the files above).
 
- **NOTE:\*\* At many snotel sites, true hourly measurements did not
+ **NOTE:** At many snotel sites, true hourly measurements did not
         begin until well after the site was established (mid to late
         90's at many).
 
@@ -165,12 +165,12 @@ should be updated with this change.
 See the sensor history page (linked on individual SNOTEL site pages) for
 detailed info on sensor maintenance, movement, or replacement.
 
-` - Louis Meadow site had sensors moved on 12/15/2003. Apparently sensors at -4 and -8 were moved to -8 and -20 respectively. Not sure if sensors were physically moved, or just renamed in the datalogger output.`
+- Louis Meadow site had sensors moved on 12/15/2003. Apparently sensors at -4 and -8 were moved to -8 and -20 respectively. Not sure if sensors were physically moved, or just renamed in the datalogger output.`
 
 ### Other Notes:
 
-` * WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)
-` * At least some files start or end with a few lines of data collected at odd intervals (bad data).`
+* WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)
+* At least some files start or end with a few lines of data collected at odd intervals (bad data).`
 
 ## Data processing and filtering
 
@@ -198,12 +198,12 @@ temp, max air temp, min air temp, snow depth, and snow water equivalent
 each site, with these fields and formats:
 
 \^ Station ID \^ Date sampled \^ Variable code \^ Value \^ Quality
-control flag \^ | \*\*3-4 digit int\*\* | \*\*yyyy-mmm-dd hh:mm:ss\*\* |
-\*\*String\*\* | \*\*Float\*\* | \*\*Character\*\* | | 345 | 2003-Sep-06
+control flag \^ | **3-4 digit int** | **yyyy-mmm-dd hh:mm:ss** |
+**String** | **Float** | **Character** | | 345 | 2003-Sep-06
 21:00:00 | WTEQ | -0.3 | V | | 345 | 2003-Sep-06 22:00:00 | WTEQ | -0.3
 | V | | 345 | 2003-Sep-06 23:00:00 | WTEQ | -0.2 | E |
 
-Soil moisture and soil temperature files \*\*do not have a QC control
-column\*\*. The station ID's are indexed along with their name, state,
+Soil moisture and soil temperature files **do not have a QC control
+column**. The station ID's are indexed along with their name, state,
 elevations, lat/lon, install dates, and other info in the
-\*\*soil\_stations.csv\*\* file.
+**soil\_stations.csv** file.

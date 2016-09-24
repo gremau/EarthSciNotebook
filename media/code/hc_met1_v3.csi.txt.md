@@ -12,7 +12,7 @@ judd sensor offset to 340\
 
 -   Table 1 Program
 
-` 01: 5         Execution Interval (seconds)`
+01: 5         Execution Interval (seconds)`
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -104,10 +104,10 @@ turn off sensor
 `3: .2811    F
 `4: 30       Then Do`
 
-`    11:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 6        Z Loc [ WS_Met_ms ]`
+   11:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 6        Z Loc [ WS_Met_ms ]`
 
 12: End (P95)
 
@@ -129,10 +129,10 @@ turn off sensor
 `3: 360      F
 `4: 30       Then Do`
 
-`    15:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 7        Z Loc [ WDir_Met  ]`
+   15:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 7        Z Loc [ WDir_Met  ]`
 
 16: End (P95)
 
@@ -334,10 +334,10 @@ Set negative values to zero
 `3: 0.0      F
 `4: 30       Then Do`
 
-`    41:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 30       Z Loc [ PAR_Up    ]`
+   41:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 30       Z Loc [ PAR_Up    ]`
 
 42: End (P95)
 
@@ -372,10 +372,10 @@ Set negative values to zero
 `3: 0.0      F
 `4: 30       Then Do`
 
-`    46:  Z=F x 10^n (P30)
-`     1: 0        F
-`     2: 0        n, Exponent of 10
-`     3: 31       Z Loc [ PAR_Dn    ]`
+   46:  Z=F x 10^n (P30)
+    1: 0        F
+    2: 0        n, Exponent of 10
+    3: 31       Z Loc [ PAR_Dn    ]`
 
 47: End (P95)
 
@@ -407,15 +407,15 @@ Convert mV to umoles m\^-2 s\^-1
 
 Apply positive calibration and windspeed correction
 
-`    51:  Do (P86)
-`     1: 1        Call Subroutine 1`
+   51:  Do (P86)
+    1: 1        Call Subroutine 1`
 
 52: Else (P94)
 
 Apply negative calibration and windspeed correction
 
-`    53:  Do (P86)
-`     1: 2        Call Subroutine 2`
+   53:  Do (P86)
+    1: 2        Call Subroutine 2`
 
 54: End (P95)
 
@@ -438,16 +438,16 @@ Turn on for one minute and measure every 30 min
 `2: 30       Interval (same units as above)
 `3: 30       Then Do`
 
-`    57:  Volt (SE) (P1)
-`     1: 1        Reps
-`     2: 15       5000 mV, Fast Range
-`     3: 5        SE Channel
-`     4: 32       Loc [ P_mb      ]
-`     5: .2       Multiplier
-`     6: 600      Offset`
+   57:  Volt (SE) (P1)
+    1: 1        Reps
+    2: 15       5000 mV, Fast Range
+    3: 5        SE Channel
+    4: 32       Loc [ P_mb      ]
+    5: .2       Multiplier
+    6: 600      Offset`
 
-`    58:  Do (P86)
-`     1: 51       Set Port 1 Low`
+   58:  Do (P86)
+    1: 51       Set Port 1 Low`
 
 59: End (P95)
 
@@ -554,7 +554,7 @@ Run table every half hour
 
 -   Table 2 Program
 
-` 02: 1800      Execution Interval (seconds)`
+02: 1800      Execution Interval (seconds)`
 
 set control port 5 high every 8 hours
 
@@ -580,41 +580,41 @@ Positive Net R calibration and windspeed correction.
 
 `1: 1        Subroutine 1`
 
-`    2:  Z=X+F (P34)
-`     1: 6        X Loc [ WS_Met_ms ]
-`     2: .2       F
-`     3: 35       Z Loc [ C         ]`
+   2:  Z=X+F (P34)
+    1: 6        X Loc [ WS_Met_ms ]
+    2: .2       F
+    3: 35       Z Loc [ C         ]`
 
-`    3:  Z=X*F (P37)
-`     1: 35       X Loc [ C         ]
-`     2: 0.066    F
-`     3: 36       Z Loc [ A         ]`
+   3:  Z=X*F (P37)
+    1: 35       X Loc [ C         ]
+    2: 0.066    F
+    3: 36       Z Loc [ A         ]`
 
-`    4:  Z=X+F (P34)
-`     1: 35       X Loc [ C         ]
-`     2: 0.066    F
-`     3: 37       Z Loc [ B         ]`
+   4:  Z=X+F (P34)
+    1: 35       X Loc [ C         ]
+    2: 0.066    F
+    3: 37       Z Loc [ B         ]`
 
-`    5:  Z=X/Y (P38)
-`     1: 36       X Loc [ A         ]
-`     2: 37       Y Loc [ B         ]
-`     3: 38       Z Loc [ Corr_Fact ]`
+   5:  Z=X/Y (P38)
+    1: 36       X Loc [ A         ]
+    2: 37       Y Loc [ B         ]
+    3: 38       Z Loc [ Corr_Fact ]`
 
-`    6:  Z=Z+1 (P32)
-`     1: 38       Z Loc [ Corr_Fact ]`
+   6:  Z=Z+1 (P32)
+    1: 38       Z Loc [ Corr_Fact ]`
 
 \
 Enter the positive multiplier (p.ppp - inscribed on sensor)\
 
-`    7:  Z=X*F (P37)
-`     1: 28       X Loc [ Rn_mV     ]
-`     2: 8.65     F
-`     3: 29       Z Loc [ Rn_Wm2    ]`
+   7:  Z=X*F (P37)
+    1: 28       X Loc [ Rn_mV     ]
+    2: 8.65     F
+    3: 29       Z Loc [ Rn_Wm2    ]`
 
-`    8:  Z=X*Y (P36)
-`     1: 29       X Loc [ Rn_Wm2    ]
-`     2: 38       Y Loc [ Corr_Fact ]
-`     3: 29       Z Loc [ Rn_Wm2    ]`
+   8:  Z=X*Y (P36)
+    1: 29       X Loc [ Rn_Wm2    ]
+    2: 38       Y Loc [ Corr_Fact ]
+    3: 29       Z Loc [ Rn_Wm2    ]`
 
 9: End (P95)
 
@@ -624,28 +624,28 @@ Negative Net R calibration and windspeed correction
 
 `1: 2        Subroutine 2`
 
-`    11:  Z=X*F (P37)
-`     1: 6        X Loc [ WS_Met_ms ]
-`     2: .00174   F
-`     3: 36       Z Loc [ A         ]`
+   11:  Z=X*F (P37)
+    1: 6        X Loc [ WS_Met_ms ]
+    2: .00174   F
+    3: 36       Z Loc [ A         ]`
 
-`    12:  Z=X+F (P34)
-`     1: 36       X Loc [ A         ]
-`     2: .99755   F
-`     3: 38       Z Loc [ Corr_Fact ]`
+   12:  Z=X+F (P34)
+    1: 36       X Loc [ A         ]
+    2: .99755   F
+    3: 38       Z Loc [ Corr_Fact ]`
 
 \
 Enter negative multiplier (n.nnn - inscribed on sensor)\
 
-`    13:  Z=X*F (P37)
-`     1: 28       X Loc [ Rn_mV     ]
-`     2: -10.54   F
-`     3: 29       Z Loc [ Rn_Wm2    ]`
+   13:  Z=X*F (P37)
+    1: 28       X Loc [ Rn_mV     ]
+    2: -10.54   F
+    3: 29       Z Loc [ Rn_Wm2    ]`
 
-`    14:  Z=X*Y (P36)
-`     1: 29       X Loc [ Rn_Wm2    ]
-`     2: 38       Y Loc [ Corr_Fact ]
-`     3: 29       Z Loc [ Rn_Wm2    ]`
+   14:  Z=X*Y (P36)
+    1: 29       X Loc [ Rn_Wm2    ]
+    2: 38       Y Loc [ Corr_Fact ]
+    3: 29       Z Loc [ Rn_Wm2    ]`
 
 15: End (P95)
 
@@ -657,50 +657,50 @@ Judd T and snow Depth measurement subroutine
 
 Turn on sensor
 
-`    17:  Do (P86)
-`     1: 42       Set Port 2 High`
+   17:  Do (P86)
+    1: 42       Set Port 2 High`
 
 Delay for 0.8 sec before T measurement
 
-`    18:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 80       Delay W/Ex (0.01 sec units)
-`     3: 0        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   18:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 80       Delay W/Ex (0.01 sec units)
+    3: 0        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 Measure T in Celsius
 
-`    19:  Volt (Diff) (P2)
-`     1: 1        Reps
-`     2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)
-`     3: 4        DIFF Channel
-`     4: 33       Loc [ SnowD_T_C ]
-`     5: .2       Multiplier
-`     6: -273     Offset`
+   19:  Volt (Diff) (P2)
+    1: 1        Reps
+    2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)
+    3: 4        DIFF Channel
+    4: 33       Loc [ SnowD_T_C ]
+    5: .2       Multiplier
+    6: -273     Offset`
 
 Delay at least 1.8 sec for depth measurements
 
-`    20:  Delay w/Opt Excitation (P22)
-`     1: 1        Ex Channel
-`     2: 180      Delay W/Ex (0.01 sec units)
-`     3: 0        Delay After Ex (0.01 sec units)
-`     4: 0        mV Excitation`
+   20:  Delay w/Opt Excitation (P22)
+    1: 1        Ex Channel
+    2: 180      Delay W/Ex (0.01 sec units)
+    3: 0        Delay After Ex (0.01 sec units)
+    4: 0        mV Excitation`
 
 Measure depth and convert to cm\
-\*\*\*OFFSET is distance from GROUND in CM\*\*\*
+**\*OFFSET is distance from GROUND in CM**\*
 
-`    21:  Volt (Diff) (P2)
-`     1: 1        Reps
-`     2: 20       Auto, 60 Hz Reject, Slow Range (OS>1.06)
-`     3: 4        DIFF Channel
-`     4: 34       Loc [ SnowD_cm  ]
-`     5: -.5      Multiplier
-`     6: 340      Offset`
+   21:  Volt (Diff) (P2)
+    1: 1        Reps
+    2: 20       Auto, 60 Hz Reject, Slow Range (OS>1.06)
+    3: 4        DIFF Channel
+    4: 34       Loc [ SnowD_cm  ]
+    5: -.5      Multiplier
+    6: 340      Offset`
 
 Turn off sensor
 
-`    22:  Do (P86)
-`     1: 52       Set Port 2 Low`
+   22:  Do (P86)
+    1: 52       Set Port 2 Low`
 
 23: End (P95)
 

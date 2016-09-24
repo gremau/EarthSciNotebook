@@ -8,10 +8,10 @@ and receives regular [dust additions](procedures:dustonsnow)
 during the spring. The other is a control and receives only natural dust
 loading. Each plot is instrumented as follows:
 
-` * One Apogee infrared radiometer to measure snow surface temperature
-` * Two soil moisture profiles with Campbell CS-615/16 sensors at 5, 20, and 60cm depths. One is in an upslope position and one is in a dowslope position.
-` * Two soil moisture AND temperature profiles, each with 3 Decagon EC-TM sensors at the same depths. Again, one of these profiles is high and one is low.
-` * Additional measurements for the soil carbon cycling and water balance parts of the experiment (see `[`project`
+* One Apogee infrared radiometer to measure snow surface temperature
+* Two soil moisture profiles with Campbell CS-615/16 sensors at 5, 20, and 60cm depths. One is in an upslope position and one is in a dowslope position.
+* Two soil moisture AND temperature profiles, each with 3 Decagon EC-TM sensors at the same depths. Again, one of these profiles is high and one is low.
+* Additional measurements for the soil carbon cycling and water balance parts of the experiment (see `[`project`
 `overview`](hc_ecohydrology:overview)`) are replicated in each each plot.`
 
 ## 2011 Experimental design
