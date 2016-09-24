@@ -79,10 +79,10 @@ gasbench:
 
 We need to oxidize the carbon in the sample as completely as possible.
 In the Benatti paper, experimentally determined optimum values are given
-for the ratio of the Fenton's reagent components (\[H~2~O~2~\]:\[Fe++\]
+for the ratio of the Fenton's reagent components ([H~2~O~2~]:[Fe++]
 = 4.5:1), the ratio of Fenton's reagent to oxidizeable C
-(\[H~2~O~2~\]:\[COD\] = 9:1), and reaction pH (4 or less). The highest
-\[H~2~O~2~\]:\[COD\] value tested was 9:1, but other literature suggests
+([H~2~O~2~]:[COD] = 9:1), and reaction pH (4 or less). The highest
+[H~2~O~2~]:[COD] value tested was 9:1, but other literature suggests
 that additional H~2~O~2~ will increase the completion of the oxidation
 reaction. So, to be safe, we'll use these ratios to start
 

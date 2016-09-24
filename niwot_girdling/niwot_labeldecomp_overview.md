@@ -121,7 +121,7 @@ installation.
 
  **Microcosm design including roots \*\*
 
-\^ \^ Snowpack treatment \^\^\^ \^ No. of microcosms(\# inlets) |
+\^ \^ Snowpack treatment \^\^\^ \^ No. of microcosms(# inlets) |
 \*\*Removal\*\* | \*\*Control\*\* | \*\*Control (no label)\*\* | \^
 Needle litter | 9(3) | 9(3) | 9(3) | \^ Root litter | 9(3) | 9(3) | 9(3)
 | //18 sample inlets total//

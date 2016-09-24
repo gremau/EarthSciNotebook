@@ -40,12 +40,12 @@ inserted at 5 cm, 20 cm, and 60 cm depths and the layers of excavated
 soil were replaced in order, and compacted using foot pressure. Several
 types of sensors are in use, in separate profiles. Four sensor profiles
 (1d, 2d, 3d, 4d) measure both soil temperature and soil volumetric water
-content using [hiddencanyon:soilprofiles\#Decagon
+content using [hiddencanyon:soilprofiles#Decagon
 EC-TM's](hiddencanyon:soilprofiles#Decagon_EC-TM's)
 (combination sensors. Four profiles (1,2,3,4) measure soil volumetric
-water content only using [\[hiddencanyon:soilprofiles\#Campbell
+water content only using [[hiddencanyon:soilprofiles#Campbell
 CS-616's]([hiddencanyon:soilprofiles#Campbell_CS-616's) or
-[\[hiddencanyon:soilprofiles\#Campbell
+[[hiddencanyon:soilprofiles#Campbell
 CS-615's]([hiddencanyon:soilprofiles#Campbell_CS-615's)
 sensors. Two sensor profiles (5 & 7) have both water content
 reflectometers (CS-616s) and thermistors (Campbell 107s) installed in

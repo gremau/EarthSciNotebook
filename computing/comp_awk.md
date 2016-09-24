@@ -36,7 +36,7 @@ and name of all scan sites in the file: ~~~ awk -F"," '/scan/ {
 print \$1 " " \$2 " " \$9 " " \$12 }' AZ\_soilstations.csv
 
 1.  search expressions should be surrounded with forward slashes.
-2.  outputs: scan 2026 AZ WALNUT GULCH \#1
+2.  outputs: scan 2026 AZ WALNUT GULCH #1
 
 ~~~ Comparison expressions (==, &lt;, &gt;, &lt;=, &gt;=, !=, plus
 \~ (matches) and !\~) can also be used: `awk` `-F","` `'$1=="snotel"`

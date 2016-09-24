@@ -44,16 +44,16 @@ The settings used for Hidden Canyon are shown below as an example.
 ` - Lens projection is Polar (azimuthal equidistant) for Sigma lenses.
 ` - Topographic mask: This is a vector of azimuth and zenith angles that masks the horizon line if there are ridglines, mountains, etc that block the sun at the photographic location for part of the day. These can be generated with a GIS, or with the provided software. They can be saved in a //.msk// file for use with multiple photos. Currently I just pick a photo and fuss with the array values until it looks right.`
 
-<file> --- IMAGE --- Initial Cursor Point: 11.88 degrees. \# Declination
-Projection Distortion: Polar \# For sigma lens
+<file> --- IMAGE --- Initial Cursor Point: 11.88 degrees. # Declination
+Projection Distortion: Polar # For sigma lens
 
 --- SITE --- Latitude: 40:367 North Longitude: 111:342 West Elevation:
-2890 Slope: 21 \# Measured Aspect: 200 \# Measured Topographic Mask: Yes
-\# Created in the configuration interface
+2890 Slope: 21 # Measured Aspect: 200 # Measured Topographic Mask: Yes
+# Created in the configuration interface
 
---- RESOLUTION --- Solar Time Step: 2 mins Growing Season Start: 4:15 \#
+--- RESOLUTION --- Solar Time Step: 2 mins Growing Season Start: 4:15 #
 Beginning of growing season for seasonal calculations. Growing Season
-End: 10:31 \# End of growing season for seasonal calculations. Azimuth
+End: 10:31 # End of growing season for seasonal calculations. Azimuth
 Regions: 36 Zenith Regions: 9
 
 --- RADIATION --- Data Source: Modelled Solar Constant: 1367 Output

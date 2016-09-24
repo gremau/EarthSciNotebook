@@ -92,7 +92,7 @@ using packages, etc. A couple I use for pdfs of journal articles are:
 
 Pandoc is capable of including citations from an associated
 bibliographic database (usually a BibTex file). Citations in a pandoc
-markdown file look like this: *\[@citationid\]* , where *citationid* is
+markdown file look like this: *[@citationid]* , where *citationid* is
 defined in the associated .bib file. To convert a pandoc file with
 citations, run:
 

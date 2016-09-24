@@ -163,7 +163,7 @@ files removed, 0 files unresolved
     original commit. Only m/file1.m will change
 2.  
 
-hg update -r 1 \# takes us back to the current commit version (see log)
+hg update -r 1 # takes us back to the current commit version (see log)
 - hg update without arguments will also do this ~~~
 
 #### Rollback
@@ -180,15 +180,15 @@ webserver.
 ### Using diff
 
 ~~~ greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg diff
--r 0 m/file1.m \# -r 0 means compare current version to original commit
+-r 0 m/file1.m # -r 0 means compare current version to original commit
 version diff -r d0eea9c4d2d5 m/file1.m --- a/m/file1.m Wed Dec 28
 14:10:55 2011 -0700 +++ b/m/file1.m Thu Dec 29 16:14:30 2011 -0700 @@
 -4,6 +4,9 @@
 
 `%`
 
--% data is from CNisotopedata files in rawdata folder. \# this line
-removed -% \# and this one + \# this and the next 2 lines added +I added
+-% data is from CNisotopedata files in rawdata folder. # this line
+removed -% # and this one + # this and the next 2 lines added +I added
 this line +
 
 `clear;          % clear memory

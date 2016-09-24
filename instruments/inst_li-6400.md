@@ -113,9 +113,9 @@ will likely need changing:
 ` - Increase the dead time
 ` - Increase `*`Delta`*
 
-Increasing *Delta* ensures that \[CO~2~\] does not shoot through the
+Increasing *Delta* ensures that [CO~2~] does not shoot through the
 measurement range too fast. The other changes accomodate the need for a
-overshoot of *Target-Delta*. There is an initial spike in \[CO~2~\]
+overshoot of *Target-Delta*. There is an initial spike in [CO~2~]
 following the scrub, which is physical rather than biological and should
 not be measured. By extending the time and CO~2~ range before
 measurement begins, you avoid including that spike.
@@ -126,8 +126,8 @@ scrub/bypass know on the soda-lime as close to bypass as possible is
 helpful, as is a careful choice of *Delta* value. *Delta* should be
 large enough so that rising from *Target-Delta* to *Target+Delta* takes
 some time (the machine should beep a dozen times or so), but small
-enough so that \[CO~2~\] actually reaches *Target+Delta* (or close to
-it) before the machine stops the measurement automatically. If \[CO~2~\]
+enough so that [CO~2~] actually reaches *Target+Delta* (or close to
+it) before the machine stops the measurement automatically. If [CO~2~]
 does not even reach *Target*, *Delta* is too large.
 
 If the scrub seems to overshoot *Target-Delta* by a large margin, even

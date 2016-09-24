@@ -36,7 +36,7 @@ track them as they are processed and analyzed.
 | | //x// | | | | | | | | \^ FL | 3 | | 3 | | 3 | 3 | //3// | 3 | //3//
 | | | | | | | | \^sirfer? | | | 3 | | x | | //x// | | //x// | | | | | |
 | | \^ BLP | 3 | 3 | ? | 9 | 3 | 3 | //2// | 3 | //2// | | | | | 9 | | 2
-sample dates, 4 plots, ignore \#3, roots to come? | \^sirfer? | | | | |
+sample dates, 4 plots, ignore #3, roots to come? | \^sirfer? | | | | |
 x | | //x// | | //x// | | | | | | | | \^ BLT | 3 | 3 | 3 | 9 | 3 | 3 |
 //3// | 3 | //3// | | | | | 9 | | 2 sample dates | \^sirfer? | | | 3 | |
 x | | //x// | | //x// | | | | | | | | \^ BD | 3 | | 3 | | 3 | 3 | //3//

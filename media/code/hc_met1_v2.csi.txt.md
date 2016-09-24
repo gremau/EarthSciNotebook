@@ -137,7 +137,7 @@ turn off sensor
 
 \
 ---- Apogee SI-111 Infrared radiometer----\
-\# 2363 - pointed at snow surface\
+# 2363 - pointed at snow surface\
 First measure resistnce of the thermistor and calculate sensor body\
 temperature
 

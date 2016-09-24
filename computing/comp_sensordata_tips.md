@@ -48,13 +48,13 @@ decimal day array: <code python decday.py>
 
 1.  create decimal day
 
-year = m\[:,1\] day = m\[:,2\] \# a sequential day of 1-365 (or 366 in
-leapyear) hhmm = m\[:,3\] \# timestamp formatted as hhmm hh = floor(hhmm
+year = m[:,1] day = m[:,2] # a sequential day of 1-365 (or 366 in
+leapyear) hhmm = m[:,3] # timestamp formatted as hhmm hh = floor(hhmm
 / 100) mm = hhmm - hh \* 100 dd = day + (hh + (mm / 60)) / 24
 
 1.  create a cumulative decimal day
 
-year\_cum = year - 2009 \# the starting year is arbitrary dd\_cum =
+year\_cum = year - 2009 # the starting year is arbitrary dd\_cum =
 (year\_cum \* 365) + dd ~~~
 
 ## Data filtering, interpolation, and moving window statistics

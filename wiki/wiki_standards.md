@@ -1,4 +1,4 @@
-# Rules & Conventions \[SoilUnderSnow Wiki\]
+# Rules & Conventions [SoilUnderSnow Wiki]
 
 ## Rules
 

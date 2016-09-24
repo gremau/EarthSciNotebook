@@ -482,7 +482,7 @@ POWER OFF MUX2
 Sensors at Forest1 tower\
 \
 ----- Apogee SI-111 Infrared radiometers-----\
-\# 2361 - located over treatment plot\
+# 2361 - located over treatment plot\
 First measure resistnce of the thermistor and calculate sensor body\
 temperature
 
@@ -652,7 +652,7 @@ Target temperature calculation based on m and b coefficients.
 `3: 82       Z Loc [ SurfT_T_C ]`
 
 ---- Apogee SI-111 Infrared radiometer ----\
-\# 2364 - located over control treatment plot near Forest1\
+# 2364 - located over control treatment plot near Forest1\
 First measure resistnce of the thermistor and calculate sensor body\
 temperature
 
@@ -822,7 +822,7 @@ Target temperature calculation based on m and b coefficients.
 `3: 84       Z Loc [ SurfT_C_C ]`
 
 ---- Apogee SI-111 Infrared radiometer----\
-\# 2362 - pointed at canopy near Forest1\
+# 2362 - pointed at canopy near Forest1\
 First measure resistnce of the thermistor and calculate sensor body\
 temperature
 

@@ -97,11 +97,11 @@ pdb.set\_trace()
 
 1.  once in interactive mode several commands can be issued
 
-n \# execute the next line p var1, var2, var3 \# print the value of
-variables c \# exit interactive debugger and continue running program l
-\# list area of program where you currently are s \# step into a
-subroutine (function call on that line) r \# if in a subroutine,
-continue until returned to original subroutine call q \# crash out of
+n # execute the next line p var1, var2, var3 # print the value of
+variables c # exit interactive debugger and continue running program l
+# list area of program where you currently are s # step into a
+subroutine (function call on that line) r # if in a subroutine,
+continue until returned to original subroutine call q # crash out of
 debugging
 
 1.  if there are variable assignments or other changes to be made they
@@ -135,7 +135,7 @@ pdb.runeval(expression)
 1.  calls the specified function and passes any specified arguments to
     it:
 
-pdb.runcall(function\[, argument, ...\])
+pdb.runcall(function[, argument, ...])
 
 1.  performs postmortem debugging of the specified traceback
 

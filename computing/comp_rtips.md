@@ -4,7 +4,7 @@
 
 Packages are installed from a CRAN repository to a local library
 directory. The default users library must be created at
-*\~/R/x86\_64-pc-linux-gnu-library/{version\#}*, but packages can also
+*\~/R/x86\_64-pc-linux-gnu-library/{version#}*, but packages can also
 be installed to */usr/local/lib/R/site-library* if permissions allow.
 
 Install packages using:

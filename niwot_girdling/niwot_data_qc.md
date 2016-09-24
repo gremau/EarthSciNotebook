@@ -50,7 +50,7 @@ In 2011, outliers were removed by distance from a regression line of
 IRMS area on IRGA CO~2~. It looks like this regression line was created
 before removing all the bad sampling/instrument dates (above). This is
 documented in the old Niwot\_gasbench\_verX.m scripts, and in Dave
-Bowling's lab notebook \#5, pp 58-59. For 2012 this was refined by
+Bowling's lab notebook #5, pp 58-59. For 2012 this was refined by
 adding two other methods of bad-data removal.
 
 Currently, two regression relationships, \*\*IRMS area vs. IRGA

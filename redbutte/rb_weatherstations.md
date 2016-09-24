@@ -20,15 +20,15 @@ aggregated, quality checked, and made available to the public.
 ## Weather Station Site Metadata
 
 \^ Station \^ Location description \^ Latitude \^ Longitude \^ Elevation
-\^ Historical data span \^ Current data span \^ | RB \#1 | Biology
+\^ Historical data span \^ Current data span \^ | RB #1 | Biology
 Experimental Garden| 40° 46' | 110° 50' |1515 m | 1942 - 1964 | 1991 -
-present | | RB \#2 | Head of RB Reservoir | 40° 47' | 111° 48' | 1653 m
-| 1942 - 1964 | 1982 - present | | RB \#3 | Along RB Creek at Brush
-Basin | 40° 48' |111° 47' | 1865 m |1942 - 1952 | Retired | | RB \#4 |
+present | | RB #2 | Head of RB Reservoir | 40° 47' | 111° 48' | 1653 m
+| 1942 - 1964 | 1982 - present | | RB #3 | Along RB Creek at Brush
+Basin | 40° 48' |111° 47' | 1865 m |1942 - 1952 | Retired | | RB #4 |
 Along RB Creek 100 m west of Beaver Cyn | 40° 48' | 111° 46' | 1890 m |
-1942 - 1971 | 1982 - present| | RB \#5 | Parleys Fork 100 m above inlet
+1942 - 1971 | 1982 - present| | RB #5 | Parleys Fork 100 m above inlet
 to RB Creek | 40° 47' | 111° 48' | 1753 m | 1942 - 1956 | Retired | | RB
-\#6 | Top of Elk Fork | 40° 49' | 111° 46' | 2195 m | 1946 - 1971 | 1982
+#6 | Top of Elk Fork | 40° 49' | 111° 46' | 2195 m | 1946 - 1971 | 1982
 - present | More information on geology, hydrology, ecology, vegetation,
 and other aspects of the canyon can be found at the [Red Butte Canyon
 Research Natural Area website](http://redbuttecanyon.net/).
