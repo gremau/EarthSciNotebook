@@ -13,7 +13,7 @@ dataloggers are both a bit tricky.
 #### Standard auger method
 
 This installation is for uniform, fine textured soils. Details
-[here](http://www.campbellsci.com/enviroscan "wikilink"). In rocky
+[here](http://www.campbellsci.com/enviroscan). In rocky
 mountain soils it is better to opt for the slurry method below (in my
 opinion).
 
@@ -48,11 +48,11 @@ the top of the board are 5 input/output pins labeled from 1 to 5. Most
 pins have broken off and they are now soldered to wires. The terminals
 are (in order):
 
-` - +12Vin`\
-` - not used`\
-` - not used`\
-` - Ground`\
-` - SDI-12 data`
+` - +12Vin`\
+` - not used`\
+` - not used`\
+` - Ground`\
+` - SDI-12 data`
 
 The +12V and Ground wires must be connected to an appropriate power
 source (12V/SW12V and G on a Campbell 23x for example) and the SDI-12
@@ -73,4 +73,4 @@ Edlog program
 
 ==
 
-` is a working program for measuring a Sentek probe with 4 sensors using a Campbell cr23x datalogger.`
+` is a working program for measuring a Sentek probe with 4 sensors using a Campbell cr23x datalogger.`

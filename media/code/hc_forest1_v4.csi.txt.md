@@ -20,7 +20,7 @@ third MUX.\
 
 -   Table 1 Program
 
-` 01: 60        Execution Interval (seconds)`
+` 01: 60        Execution Interval (seconds)`
 
 ------------------------- Datalogger measurements -------------------------------\
 \
@@ -28,13 +28,13 @@ third MUX.\
 
 1: Batt Voltage (P10)
 
-`1: 1        Loc [ batt_volt ]`
+`1: 1        Loc [ batt_volt ]`
 
 ----Measure panel temperature of datalogger----
 
 2: Panel Temperature (P17)
 
-`1: 2        Loc [ panelT    ]`
+`1: 2        Loc [ panelT    ]`
 
 \_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\
 MUX Notes\
@@ -94,7 +94,7 @@ Bare (sheath) ---&gt; signal ground\
 
 3: Do (P86)
 
-`1: 41       Set Port 1 High`
+`1: 41       Set Port 1 High`
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\
 ||||||||||||||||||||||||| Campbell sensor loops (MUX 1-3) ||||||||||||||||||||||||\
@@ -112,38 +112,38 @@ Pit 1 & 3 wired in order: 1-5cm, 1-20cm, 1-60cm, 3-60cm, 3-5cm, 3-20cm\
 
 4: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 2        Loop Count`
+`1: 0        Delay`\
+`2: 2        Loop Count`
 
-`    5:  Step Loop Index (P90)`\
-`     1: 2        Step`
+`    5:  Step Loop Index (P90)`\
+`     1: 2        Step`
 
-`    6:  Do (P86)`\
-`     1: 72       Pulse Port 2`
+`    6:  Do (P86)`\
+`     1: 72       Pulse Port 2`
 
-`    7:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 0        Delay W/Ex (0.01 sec units)`\
-`     3: 1        Delay After Ex (0.01 sec units)`\
-`     4: 0        mV Excitation`
+`    7:  Delay w/Opt Excitation (P22)`\
+`     1: 1        Ex Channel`\
+`     2: 0        Delay W/Ex (0.01 sec units)`\
+`     3: 1        Delay After Ex (0.01 sec units)`\
+`     4: 0        mV Excitation`
 
 Use SW12V to enable sensors
 
-`    8:  Do (P86)`\
-`     1: 49       Turn On Switched 12V`
+`    8:  Do (P86)`\
+`     1: 49       Turn On Switched 12V`
 
-`    9:  Period Average (SE) (P27)`\
-`     1: 2        Reps`\
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
-`     3: 1        SE Channel`\
-`     4: 10       No. of Cycles`\
-`     5: 5        Timeout (0.01 sec units)`\
-`     6: 3     -- Loc [ Period1   ]`\
-`     7: .001     Multiplier`\
-`     8: 0.0      Offset`
+`    9:  Period Average (SE) (P27)`\
+`     1: 2        Reps`\
+`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
+`     3: 1        SE Channel`\
+`     4: 10       No. of Cycles`\
+`     5: 5        Timeout (0.01 sec units)`\
+`     6: 3     -- Loc [ Period1   ]`\
+`     7: .001     Multiplier`\
+`     8: 0.0      Offset`
 
-`    10:  Do (P86)`\
-`     1: 59       Turn Off Switched 12V`
+`    10:  Do (P86)`\
+`     1: 59       Turn Off Switched 12V`
 
 11: End (P95)
 
@@ -152,15 +152,15 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 
 12: Polynomial (P55)
 
-`1: 4        Reps`\
-`2: 3        X Loc [ Period1   ]`\
-`3: 21       F(X) Loc [ P1_5sm    ]`\
-`4: -0.187   C0`\
-`5: 0.037    C1`\
-`6: 0.335    C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 4        Reps`\
+`2: 3        X Loc [ Period1   ]`\
+`3: 21       F(X) Loc [ P1_5sm    ]`\
+`4: -0.187   C0`\
+`5: 0.037    C1`\
+`6: 0.335    C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 \*\*\* Loop 2: \*\*\*\
 \
@@ -168,55 +168,55 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 
 13: Do (P86)
 
-`1: 72       Pulse Port 2`
+`1: 72       Pulse Port 2`
 
 14: Delay w/Opt Excitation (P22)
 
-`1: 1        Ex Channel`\
-`2: 0        Delay W/Ex (0.01 sec units)`\
-`3: 1        Delay After Ex (0.01 sec units)`\
-`4: 0        mV Excitation`
+`1: 1        Ex Channel`\
+`2: 0        Delay W/Ex (0.01 sec units)`\
+`3: 1        Delay After Ex (0.01 sec units)`\
+`4: 0        mV Excitation`
 
 Use period average command with SW12V excitation (instead of P138).
 
 15: Do (P86)
 
-`1: 49       Turn On Switched 12V`
+`1: 49       Turn On Switched 12V`
 
 16: Period Average (SE) (P27)
 
-`1: 2        Reps`\
-`2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
-`3: 1        SE Channel`\
-`4: 100      No. of Cycles`\
-`5: 1        Timeout (0.01 sec units)`\
-`6: 7        Loc [ Period5   ]`\
-`7: 1        Multiplier`\
-`8: 0.0      Offset`
+`1: 2        Reps`\
+`2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
+`3: 1        SE Channel`\
+`4: 100      No. of Cycles`\
+`5: 1        Timeout (0.01 sec units)`\
+`6: 7        Loc [ Period5   ]`\
+`7: 1        Multiplier`\
+`8: 0.0      Offset`
 
 17: Do (P86)
 
-`1: 59       Turn Off Switched 12V`
+`1: 59       Turn Off Switched 12V`
 
 CONVERT period 5 & 6 to soil VWC
 
 18: Polynomial (P55)
 
-`1: 2        Reps`\
-`2: 7        X Loc [ Period5   ]`\
-`3: 25       F(X) Loc [ P3_5sm    ]`\
-`4: -.0663   C0`\
-`5: -.0063   C1`\
-`6: 0.0007   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 2        Reps`\
+`2: 7        X Loc [ Period5   ]`\
+`3: 25       F(X) Loc [ P3_5sm    ]`\
+`4: -.0663   C0`\
+`5: -.0063   C1`\
+`6: 0.0007   C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 Pause MUX1 on channel 4
 
 19: Do (P86)
 
-`1: 72       Pulse Port 2`
+`1: 72       Pulse Port 2`
 
 -\*-\*-\*-\*-\*-\*-\*-\*-\* MUX 2 \*-\*-\*-\*-\*-\*-\*-\*-\*-\*-\
 Clock with control port 3\
@@ -228,50 +228,50 @@ Pit 2 & 4 wired in order: 2-5cm, 2-20cm, 2-60cm, , 4-5cm, 4-20cm, 4-60cm\
 
 20: Do (P86)
 
-`1: 73       Pulse Port 3`
+`1: 73       Pulse Port 3`
 
 21: Delay w/Opt Excitation (P22)
 
-`1: 1        Ex Channel`\
-`2: 0        Delay W/Ex (0.01 sec units)`\
-`3: 1        Delay After Ex (0.01 sec units)`\
-`4: 0        mV Excitation`
+`1: 1        Ex Channel`\
+`2: 0        Delay W/Ex (0.01 sec units)`\
+`3: 1        Delay After Ex (0.01 sec units)`\
+`4: 0        mV Excitation`
 
 Use SW12V to enable sensors
 
 22: Do (P86)
 
-`1: 49       Turn On Switched 12V`
+`1: 49       Turn On Switched 12V`
 
 23: Period Average (SE) (P27)
 
-`1: 2        Reps`\
-`2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
-`3: 3        SE Channel`\
-`4: 10       No. of Cycles`\
-`5: 5        Timeout (0.01 sec units)`\
-`6: 9        Loc [ Period7   ]`\
-`7: .001     Multiplier`\
-`8: 0.0      Offset`
+`1: 2        Reps`\
+`2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
+`3: 3        SE Channel`\
+`4: 10       No. of Cycles`\
+`5: 5        Timeout (0.01 sec units)`\
+`6: 9        Loc [ Period7   ]`\
+`7: .001     Multiplier`\
+`8: 0.0      Offset`
 
 24: Do (P86)
 
-`1: 59       Turn Off Switched 12V`
+`1: 59       Turn Off Switched 12V`
 
 CONVERT Periods 7 & 8 to soil VWC\
 These coefficients are for a low EC ( &lt;1.0 dS per meter)
 
 25: Polynomial (P55)
 
-`1: 2        Reps`\
-`2: 9        X Loc [ Period7   ]`\
-`3: 27       F(X) Loc [ P2_5sm    ]`\
-`4: -0.187   C0`\
-`5: 0.037    C1`\
-`6: 0.335    C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 2        Reps`\
+`2: 9        X Loc [ Period7   ]`\
+`3: 27       F(X) Loc [ P2_5sm    ]`\
+`4: -0.187   C0`\
+`5: 0.037    C1`\
+`6: 0.335    C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 \*\*\* Loop 2: \*\*\*\
 \
@@ -279,38 +279,38 @@ These coefficients are for a low EC ( &lt;1.0 dS per meter)
 
 26: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 2        Loop Count`
+`1: 0        Delay`\
+`2: 2        Loop Count`
 
-`    27:  Step Loop Index (P90)`\
-`     1: 2        Step`
+`    27:  Step Loop Index (P90)`\
+`     1: 2        Step`
 
-`    28:  Do (P86)`\
-`     1: 73       Pulse Port 3`
+`    28:  Do (P86)`\
+`     1: 73       Pulse Port 3`
 
-`    29:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 0        Delay W/Ex (0.01 sec units)`\
-`     3: 1        Delay After Ex (0.01 sec units)`\
-`     4: 0        mV Excitation`
+`    29:  Delay w/Opt Excitation (P22)`\
+`     1: 1        Ex Channel`\
+`     2: 0        Delay W/Ex (0.01 sec units)`\
+`     3: 1        Delay After Ex (0.01 sec units)`\
+`     4: 0        mV Excitation`
 
 Use period average command with SW12V excitation (instead of P138).
 
-`    30:  Do (P86)`\
-`     1: 49       Turn On Switched 12V`
+`    30:  Do (P86)`\
+`     1: 49       Turn On Switched 12V`
 
-`    31:  Period Average (SE) (P27)`\
-`     1: 2        Reps`\
-`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
-`     3: 3        SE Channel`\
-`     4: 100      No. of Cycles`\
-`     5: 1        Timeout (0.01 sec units)`\
-`     6: 11    -- Loc [ Period9   ]`\
-`     7: 1        Multiplier`\
-`     8: 0.0      Offset`
+`    31:  Period Average (SE) (P27)`\
+`     1: 2        Reps`\
+`     2: 4        200 kHz Max Freq @ 500 mV Peak to Peak, Period Output`\
+`     3: 3        SE Channel`\
+`     4: 100      No. of Cycles`\
+`     5: 1        Timeout (0.01 sec units)`\
+`     6: 11    -- Loc [ Period9   ]`\
+`     7: 1        Multiplier`\
+`     8: 0.0      Offset`
 
-`    32:  Do (P86)`\
-`     1: 59       Turn Off Switched 12V`
+`    32:  Do (P86)`\
+`     1: 59       Turn Off Switched 12V`
 
 33: End (P95)
 
@@ -318,21 +318,21 @@ CONVERT period 9-12 to soil VWC
 
 34: Polynomial (P55)
 
-`1: 4        Reps`\
-`2: 11       X Loc [ Period9   ]`\
-`3: 29       F(X) Loc [ P2_60sm   ]`\
-`4: -.0663   C0`\
-`5: -.0063   C1`\
-`6: 0.0007   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 4        Reps`\
+`2: 11       X Loc [ Period9   ]`\
+`3: 29       F(X) Loc [ P2_60sm   ]`\
+`4: -.0663   C0`\
+`5: -.0063   C1`\
+`6: 0.0007   C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 Pause MUX2 on channel 4
 
 35: Do (P86)
 
-`1: 73       Pulse Port 3`
+`1: 73       Pulse Port 3`
 
 -\*-\*-\*-\*-\*-\*-\*-\*-\* MUX 3 \*-\*-\*-\*-\*-\*-\*-\*-\*-\*-\
 Clock with control port 4\
@@ -344,28 +344,28 @@ Pit 5 & 7 wired in order: 5-5cm, 5-20cm, 5-60cm, , 7-5cm, 7-20cm, 7-60cm\
 
 36: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 3        Loop Count`
+`1: 0        Delay`\
+`2: 3        Loop Count`
 
-`    37:  Step Loop Index (P90)`\
-`     1: 2        Step`
+`    37:  Step Loop Index (P90)`\
+`     1: 2        Step`
 
-`    38:  Do (P86)`\
-`     1: 74       Pulse Port 4`
+`    38:  Do (P86)`\
+`     1: 74       Pulse Port 4`
 
-`    39:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 0        Delay W/Ex (0.01 sec units)`\
-`     3: 1        Delay After Ex (0.01 sec units)`\
-`     4: 0        mV Excitation`
+`    39:  Delay w/Opt Excitation (P22)`\
+`     1: 1        Ex Channel`\
+`     2: 0        Delay W/Ex (0.01 sec units)`\
+`     3: 1        Delay After Ex (0.01 sec units)`\
+`     4: 0        mV Excitation`
 
-`    40:  CS616 Water Content Reflectometer (P138)`\
-`     1: 2        Reps`\
-`     2: 5        SE Channel`\
-`     3: 17       All reps use C7`\
-`     4: 15    -- Loc [ Period13  ]`\
-`     5: 1.0      Multiplier`\
-`     6: 0.0      Offset`
+`    40:  CS616 Water Content Reflectometer (P138)`\
+`     1: 2        Reps`\
+`     2: 5        SE Channel`\
+`     3: 17       All reps use C7`\
+`     4: 15    -- Loc [ Period13  ]`\
+`     5: 1.0      Multiplier`\
+`     6: 0.0      Offset`
 
 41: End (P95)
 
@@ -373,15 +373,15 @@ CONVERT period 13-18 to soil VWC
 
 42: Polynomial (P55)
 
-`1: 6        Reps`\
-`2: 15       X Loc [ Period13  ]`\
-`3: 33       F(X) Loc [ P5_5sm    ]`\
-`4: -.0663   C0`\
-`5: -.0063   C1`\
-`6: 0.0007   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 6        Reps`\
+`2: 15       X Loc [ Period13  ]`\
+`3: 33       F(X) Loc [ P5_5sm    ]`\
+`4: -.0663   C0`\
+`5: -.0063   C1`\
+`6: 0.0007   C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 \*\*\* Loop 2: \*\*\*\
 \
@@ -389,28 +389,28 @@ CONVERT period 13-18 to soil VWC
 
 43: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 3        Loop Count`
+`1: 0        Delay`\
+`2: 3        Loop Count`
 
-`    44:  Step Loop Index (P90)`\
-`     1: 2        Step`
+`    44:  Step Loop Index (P90)`\
+`     1: 2        Step`
 
-`    45:  Do (P86)`\
-`     1: 74       Pulse Port 4`
+`    45:  Do (P86)`\
+`     1: 74       Pulse Port 4`
 
-`    46:  Temp (107) (P11)`\
-`     1: 2        Reps`\
-`     2: 5        SE Channel`\
-`     3: 23       Excite all reps w/E3, 60Hz, 10ms delay`\
-`     4: 39    -- Loc [ P5_5st    ]`\
-`     5: 1.0      Multiplier`\
-`     6: 0.0      Offset`
+`    46:  Temp (107) (P11)`\
+`     1: 2        Reps`\
+`     2: 5        SE Channel`\
+`     3: 23       Excite all reps w/E3, 60Hz, 10ms delay`\
+`     4: 39    -- Loc [ P5_5st    ]`\
+`     5: 1.0      Multiplier`\
+`     6: 0.0      Offset`
 
 47: End (P95)
 
 48: Do (P86)
 
-`1: 74       Pulse Port 4`
+`1: 74       Pulse Port 4`
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\
 ||||||||||||||||||||||||| Decagon sensor loops (MUX 1-3) |||||||||||||||||||||||||\
@@ -425,49 +425,49 @@ Profile 1d & 3d wired in order: 1d-5cm, 1d-20cm, 1d-60cm, , 3d-5cm, 3d-20cm, 3d-
 
 49: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 6        Loop Count`
+`1: 0        Delay`\
+`2: 6        Loop Count`
 
-`    50:  Step Loop Index (P90)`\
-`     1: 3        Step`
+`    50:  Step Loop Index (P90)`\
+`     1: 3        Step`
 
-`    51:  Do (P86)`\
-`     1: 72       Pulse Port 2`
+`    51:  Do (P86)`\
+`     1: 72       Pulse Port 2`
 
 POWER UP SENSOR
 
-`    52:  Do (P86)`\
-`     1: 49       Turn On Switched 12V`
+`    52:  Do (P86)`\
+`     1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    53:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 0        Delay W/Ex (0.01 sec units)`\
-`     3: 50       Delay After Ex (0.01 sec units)`\
-`     4: 0        mV Excitation`
+`    53:  Delay w/Opt Excitation (P22)`\
+`     1: 1        Ex Channel`\
+`     2: 0        Delay W/Ex (0.01 sec units)`\
+`     3: 50       Delay After Ex (0.01 sec units)`\
+`     4: 0        mV Excitation`
 
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    54:  Port Serial I/O (P15)`\
-`     1: 1        Reps`\
-`     2: 31       TTL ASCII, 1200 Baud`\
-`     3: 0        TX after CTS`\
-`     4: 5        No RTS/DTR, C5 TXD/RXD`\
-`     5: 45       Start Loc for TX [ P3d_5_1   ]`\
-`     6: 0        Number of Locs to TX`\
-`     7: 13       Termination Character for RX`\
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)`\
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)`\
-`    10: 45   --  Start Loc for RX [ P3d_5_1   ]`\
-`    11: 1        Multiplier for RX`\
-`    12: 0        Offset for RX`
+`    54:  Port Serial I/O (P15)`\
+`     1: 1        Reps`\
+`     2: 31       TTL ASCII, 1200 Baud`\
+`     3: 0        TX after CTS`\
+`     4: 5        No RTS/DTR, C5 TXD/RXD`\
+`     5: 45       Start Loc for TX [ P3d_5_1   ]`\
+`     6: 0        Number of Locs to TX`\
+`     7: 13       Termination Character for RX`\
+`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)`\
+`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)`\
+`    10: 45   --  Start Loc for RX [ P3d_5_1   ]`\
+`    11: 1        Multiplier for RX`\
+`    12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    55:  Do (P86)`\
-`     1: 59       Turn Off Switched 12V`
+`    55:  Do (P86)`\
+`     1: 59       Turn Off Switched 12V`
 
 56: End (P95)
 
@@ -482,49 +482,49 @@ Set number of times to increment MUX1
 
 57: Beginning of Loop (P87)
 
-`1: 0        Delay`\
-`2: 6        Loop Count`
+`1: 0        Delay`\
+`2: 6        Loop Count`
 
-`    58:  Step Loop Index (P90)`\
-`     1: 3        Step`
+`    58:  Step Loop Index (P90)`\
+`     1: 3        Step`
 
-`    59:  Do (P86)`\
-`     1: 73       Pulse Port 3`
+`    59:  Do (P86)`\
+`     1: 73       Pulse Port 3`
 
 POWER UP SENSOR
 
-`    60:  Do (P86)`\
-`     1: 49       Turn On Switched 12V`
+`    60:  Do (P86)`\
+`     1: 49       Turn On Switched 12V`
 
 DELAY FOR SENSOR TO POWER UP AND SEND DATA - Important!
 
-`    61:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 0        Delay W/Ex (0.01 sec units)`\
-`     3: 50       Delay After Ex (0.01 sec units)`\
-`     4: 0        mV Excitation`
+`    61:  Delay w/Opt Excitation (P22)`\
+`     1: 1        Ex Channel`\
+`     2: 0        Delay W/Ex (0.01 sec units)`\
+`     3: 50       Delay After Ex (0.01 sec units)`\
+`     4: 0        mV Excitation`
 
 MAKE SURE MUX COMMON GND IS NOT SHARED WITH POWER GROUND, OTHERWISE\
 SIGNAL IS SHORTED.
 
-`    62:  Port Serial I/O (P15)`\
-`     1: 1        Reps`\
-`     2: 31       TTL ASCII, 1200 Baud`\
-`     3: 0        TX after CTS`\
-`     4: 6        No RTS/DTR, C6 TXD/RXD`\
-`     5: 63       Start Loc for TX [ P4d_5_1   ]`\
-`     6: 0        Number of Locs to TX`\
-`     7: 13       Termination Character for RX`\
-`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)`\
-`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)`\
-`    10: 63   --  Start Loc for RX [ P4d_5_1   ]`\
-`    11: 1        Multiplier for RX`\
-`    12: 0        Offset for RX`
+`    62:  Port Serial I/O (P15)`\
+`     1: 1        Reps`\
+`     2: 31       TTL ASCII, 1200 Baud`\
+`     3: 0        TX after CTS`\
+`     4: 6        No RTS/DTR, C6 TXD/RXD`\
+`     5: 63       Start Loc for TX [ P4d_5_1   ]`\
+`     6: 0        Number of Locs to TX`\
+`     7: 13       Termination Character for RX`\
+`     8: 50       RX Buffer Size or Max Chars to RX if Par 2 indexed (--)`\
+`     9: 1        Time Out for CTS (TX) and/or RX (0.01 sec units)`\
+`    10: 63   --  Start Loc for RX [ P4d_5_1   ]`\
+`    11: 1        Multiplier for RX`\
+`    12: 0        Offset for RX`
 
 POWER OFF SENSOR
 
-`    63:  Do (P86)`\
-`     1: 59       Turn Off Switched 12V`
+`    63:  Do (P86)`\
+`     1: 59       Turn Off Switched 12V`
 
 64: End (P95)
 
@@ -536,7 +536,7 @@ POWER OFF (RES low) all 3 muxes
 
 65: Do (P86)
 
-`1: 51       Set Port 1 Low`
+`1: 51       Set Port 1 Low`
 
 \_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*
 
@@ -552,168 +552,168 @@ temperature
 
 66: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 7        SE Channel`\
-`4: 1        Excite all reps w/Exchan 1`\
-`5: 2500     mV Excitation`\
-`6: 81       Loc [ mV_thrm   ]`\
-`7: 1.0      Multiplier`\
-`8: 0.0      Offset`
+`1: 1        Reps`\
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
+`3: 7        SE Channel`\
+`4: 1        Excite all reps w/Exchan 1`\
+`5: 2500     mV Excitation`\
+`6: 81       Loc [ mV_thrm   ]`\
+`7: 1.0      Multiplier`\
+`8: 0.0      Offset`
 
 67: Z=1/X (P42)
 
-`1: 81       X Loc [ mV_thrm   ]`\
-`2: 82       Z Loc [ 1_mV_thrm ]`
+`1: 81       X Loc [ mV_thrm   ]`\
+`2: 82       Z Loc [ 1_mV_thrm ]`
 
 68: Z=X+F (P34)
 
-`1: 82       X Loc [ 1_mV_thrm ]`\
-`2: -1.0     F`\
-`3: 83       Z Loc [ 2_mV_thrm ]`
+`1: 82       X Loc [ 1_mV_thrm ]`\
+`2: -1.0     F`\
+`3: 83       Z Loc [ 2_mV_thrm ]`
 
 69: Z=X\*F (P37)
 
-`1: 83       X Loc [ 2_mV_thrm ]`\
-`2: 24900    F`\
-`3: 84       Z Loc [ R_thrm    ]`
+`1: 83       X Loc [ 2_mV_thrm ]`\
+`2: 24900    F`\
+`3: 84       Z Loc [ R_thrm    ]`
 
 70: Z=LN(X) (P40)
 
-`1: 84       X Loc [ R_thrm    ]`\
-`2: 85       Z Loc [ InR_thrm  ]`
+`1: 84       X Loc [ R_thrm    ]`\
+`2: 85       Z Loc [ InR_thrm  ]`
 
 71: Z=X\*F (P37)
 
-`1: 85       X Loc [ InR_thrm  ]`\
-`2: 0.001    F`\
-`3: 86       Z Loc [ Scaled_R  ]`
+`1: 85       X Loc [ InR_thrm  ]`\
+`2: 0.001    F`\
+`3: 86       Z Loc [ Scaled_R  ]`
 
 72: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 86       X Loc [ Scaled_R  ]`\
-`3: 87       F(X) Loc [ SH_Coeffs ]`\
-`4: .001129  C0`\
-`5: .234108  C1`\
-`6: 0.0      C2`\
-`7: 87.7547  C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 86       X Loc [ Scaled_R  ]`\
+`3: 87       F(X) Loc [ SH_Coeffs ]`\
+`4: .001129  C0`\
+`5: .234108  C1`\
+`6: 0.0      C2`\
+`7: 87.7547  C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 73: Z=1/X (P42)
 
-`1: 87       X Loc [ SH_Coeffs ]`\
-`2: 88       Z Loc [ SB_Temp_K ]`
+`1: 87       X Loc [ SH_Coeffs ]`\
+`2: 88       Z Loc [ SB_Temp_K ]`
 
 74: Z=X+F (P34)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: -273.15  F`\
-`3: 89       Z Loc [ SB_Temp_C ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: -273.15  F`\
+`3: 89       Z Loc [ SB_Temp_C ]`
 
 Measure mV output of thermopile
 
 75: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 21       10 mV, 60 Hz Reject, Slow Range`\
-`3: 5        DIFF Channel`\
-`4: 90       Loc [ mV_tpile  ]`\
-`5: 1.0      Multiplier`\
-`6: 0.0      Offset`
+`1: 1        Reps`\
+`2: 21       10 mV, 60 Hz Reject, Slow Range`\
+`3: 5        DIFF Channel`\
+`4: 90       Loc [ mV_tpile  ]`\
+`5: 1.0      Multiplier`\
+`6: 0.0      Offset`
 
 Calculation of m(slope) coefficient for target temperature calculation.\
 Each sensor has unique C0, C1, and C2 values on their calibration sheet.
 
 76: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 91       F(X) Loc [ m_slope   ]`\
-`4: 14338.4  C0`\
-`5: 62.2373  C1`\
-`6: 0.86384  C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 91       F(X) Loc [ m_slope   ]`\
+`4: 14338.4  C0`\
+`5: 62.2373  C1`\
+`6: 0.86384  C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 77: Z=X\*F (P37)
 
-`1: 91       X Loc [ m_slope   ]`\
-`2: 99999    F`\
-`3: 91       Z Loc [ m_slope   ]`
+`1: 91       X Loc [ m_slope   ]`\
+`2: 99999    F`\
+`3: 91       Z Loc [ m_slope   ]`
 
 Calculation of b (intercept) coefficient for target calculation. Each\
 sensor has unique C values (again - on calib sheet).
 
 78: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 92       F(X) Loc [ b_inter   ]`\
-`4: -12.7368 C0`\
-`5: -4.82953 C1`\
-`6: 0.28300  C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 92       F(X) Loc [ b_inter   ]`\
+`4: -12.7368 C0`\
+`5: -4.82953 C1`\
+`6: 0.28300  C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 79: Z=X\*F (P37)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 99999    F`\
-`3: 92       Z Loc [ b_inter   ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 99999    F`\
+`3: 92       Z Loc [ b_inter   ]`
 
 Target temperature calculation based on m and b coefficients.
 
 80: Z=F x 10\^n (P30)
 
-`1: 0.4      F`\
-`2: 1        n, Exponent of 10`\
-`3: 93       Z Loc [ Exponent1 ]`
+`1: 0.4      F`\
+`2: 1        n, Exponent of 10`\
+`3: 93       Z Loc [ Exponent1 ]`
 
 81: Z=F x 10\^n (P30)
 
-`1: .025     F`\
-`2: 1        n, Exponent of 10`\
-`3: 94       Z Loc [ Exponent2 ]`
+`1: .025     F`\
+`2: 1        n, Exponent of 10`\
+`3: 94       Z Loc [ Exponent2 ]`
 
 82: Z=X\^Y (P47)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: 93       Y Loc [ Exponent1 ]`\
-`3: 95       Z Loc [ 1_SB_4Pow ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: 93       Y Loc [ Exponent1 ]`\
+`3: 95       Z Loc [ 1_SB_4Pow ]`
 
 83: Z=X\*Y (P36)
 
-`1: 90       X Loc [ mV_tpile  ]`\
-`2: 91       Y Loc [ m_slope   ]`\
-`3: 96       Z Loc [ 2_mVxm    ]`
+`1: 90       X Loc [ mV_tpile  ]`\
+`2: 91       Y Loc [ m_slope   ]`\
+`3: 96       Z Loc [ 2_mVxm    ]`
 
 84: Z=X+Y (P33)
 
-`1: 95       X Loc [ 1_SB_4Pow ]`\
-`2: 96       Y Loc [ 2_mVxm    ]`\
-`3: 97       Z Loc [ 3_Sum1    ]`
+`1: 95       X Loc [ 1_SB_4Pow ]`\
+`2: 96       Y Loc [ 2_mVxm    ]`\
+`3: 97       Z Loc [ 3_Sum1    ]`
 
 85: Z=X+Y (P33)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 97       Y Loc [ 3_Sum1    ]`\
-`3: 98       Z Loc [ 4_Sum2    ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 97       Y Loc [ 3_Sum1    ]`\
+`3: 98       Z Loc [ 4_Sum2    ]`
 
 86: Z=X\^Y (P47)
 
-`1: 98       X Loc [ 4_Sum2    ]`\
-`2: 94       Y Loc [ Exponent2 ]`\
-`3: 99       Z Loc [ SurfT_T_K ]`
+`1: 98       X Loc [ 4_Sum2    ]`\
+`2: 94       Y Loc [ Exponent2 ]`\
+`3: 99       Z Loc [ SurfT_T_K ]`
 
 87: Z=X+F (P34)
 
-`1: 99       X Loc [ SurfT_T_K ]`\
-`2: -273.15  F`\
-`3: 100      Z Loc [ SurfT_T_C ]`
+`1: 99       X Loc [ SurfT_T_K ]`\
+`2: -273.15  F`\
+`3: 100      Z Loc [ SurfT_T_C ]`
 
 ---- Apogee SI-111 Infrared radiometer ----\
 \# 2364 - located over control treatment plot near Forest1\
@@ -722,168 +722,168 @@ temperature
 
 88: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 8        SE Channel`\
-`4: 1        Excite all reps w/Exchan 1`\
-`5: 2500     mV Excitation`\
-`6: 81       Loc [ mV_thrm   ]`\
-`7: 1.0      Multiplier`\
-`8: 0.0      Offset`
+`1: 1        Reps`\
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
+`3: 8        SE Channel`\
+`4: 1        Excite all reps w/Exchan 1`\
+`5: 2500     mV Excitation`\
+`6: 81       Loc [ mV_thrm   ]`\
+`7: 1.0      Multiplier`\
+`8: 0.0      Offset`
 
 89: Z=1/X (P42)
 
-`1: 81       X Loc [ mV_thrm   ]`\
-`2: 82       Z Loc [ 1_mV_thrm ]`
+`1: 81       X Loc [ mV_thrm   ]`\
+`2: 82       Z Loc [ 1_mV_thrm ]`
 
 90: Z=X+F (P34)
 
-`1: 82       X Loc [ 1_mV_thrm ]`\
-`2: -1.0     F`\
-`3: 83       Z Loc [ 2_mV_thrm ]`
+`1: 82       X Loc [ 1_mV_thrm ]`\
+`2: -1.0     F`\
+`3: 83       Z Loc [ 2_mV_thrm ]`
 
 91: Z=X\*F (P37)
 
-`1: 83       X Loc [ 2_mV_thrm ]`\
-`2: 24900    F`\
-`3: 84       Z Loc [ R_thrm    ]`
+`1: 83       X Loc [ 2_mV_thrm ]`\
+`2: 24900    F`\
+`3: 84       Z Loc [ R_thrm    ]`
 
 92: Z=LN(X) (P40)
 
-`1: 84       X Loc [ R_thrm    ]`\
-`2: 85       Z Loc [ InR_thrm  ]`
+`1: 84       X Loc [ R_thrm    ]`\
+`2: 85       Z Loc [ InR_thrm  ]`
 
 93: Z=X\*F (P37)
 
-`1: 85       X Loc [ InR_thrm  ]`\
-`2: 0.001    F`\
-`3: 86       Z Loc [ Scaled_R  ]`
+`1: 85       X Loc [ InR_thrm  ]`\
+`2: 0.001    F`\
+`3: 86       Z Loc [ Scaled_R  ]`
 
 94: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 86       X Loc [ Scaled_R  ]`\
-`3: 87       F(X) Loc [ SH_Coeffs ]`\
-`4: .001129  C0`\
-`5: .234108  C1`\
-`6: 0.0      C2`\
-`7: 87.7547  C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 86       X Loc [ Scaled_R  ]`\
+`3: 87       F(X) Loc [ SH_Coeffs ]`\
+`4: .001129  C0`\
+`5: .234108  C1`\
+`6: 0.0      C2`\
+`7: 87.7547  C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 95: Z=1/X (P42)
 
-`1: 87       X Loc [ SH_Coeffs ]`\
-`2: 88       Z Loc [ SB_Temp_K ]`
+`1: 87       X Loc [ SH_Coeffs ]`\
+`2: 88       Z Loc [ SB_Temp_K ]`
 
 96: Z=X+F (P34)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: -273.15  F`\
-`3: 89       Z Loc [ SB_Temp_C ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: -273.15  F`\
+`3: 89       Z Loc [ SB_Temp_C ]`
 
 Measure mV output of thermopile
 
 97: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 21       10 mV, 60 Hz Reject, Slow Range`\
-`3: 6        DIFF Channel`\
-`4: 90       Loc [ mV_tpile  ]`\
-`5: 1.0      Multiplier`\
-`6: 0.0      Offset`
+`1: 1        Reps`\
+`2: 21       10 mV, 60 Hz Reject, Slow Range`\
+`3: 6        DIFF Channel`\
+`4: 90       Loc [ mV_tpile  ]`\
+`5: 1.0      Multiplier`\
+`6: 0.0      Offset`
 
 Calculation of m(slope) coefficient for target temperature calculation.\
 Each sensor has unique C0, C1, and C2 values on their calibration sheet.
 
 98: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 91       F(X) Loc [ m_slope   ]`\
-`4: 13076.1  C0`\
-`5: 73.8305  C1`\
-`6: .60645   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 91       F(X) Loc [ m_slope   ]`\
+`4: 13076.1  C0`\
+`5: 73.8305  C1`\
+`6: .60645   C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 99: Z=X\*F (P37)
 
-`1: 91       X Loc [ m_slope   ]`\
-`2: 99999    F`\
-`3: 91       Z Loc [ m_slope   ]`
+`1: 91       X Loc [ m_slope   ]`\
+`2: 99999    F`\
+`3: 91       Z Loc [ m_slope   ]`
 
 Calculation of b (intercept) coefficient for target calculation. Each\
 sensor has unique C values (again - on calib sheet).
 
 100: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 92       F(X) Loc [ b_inter   ]`\
-`4: -82.1327 C0`\
-`5: -9.16495 C1`\
-`6: 0.35482  C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 92       F(X) Loc [ b_inter   ]`\
+`4: -82.1327 C0`\
+`5: -9.16495 C1`\
+`6: 0.35482  C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 101: Z=X\*F (P37)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 99999    F`\
-`3: 92       Z Loc [ b_inter   ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 99999    F`\
+`3: 92       Z Loc [ b_inter   ]`
 
 Target temperature calculation based on m and b coefficients.
 
 102: Z=F x 10\^n (P30)
 
-`1: 0.4      F`\
-`2: 1        n, Exponent of 10`\
-`3: 93       Z Loc [ Exponent1 ]`
+`1: 0.4      F`\
+`2: 1        n, Exponent of 10`\
+`3: 93       Z Loc [ Exponent1 ]`
 
 103: Z=F x 10\^n (P30)
 
-`1: .025     F`\
-`2: 1        n, Exponent of 10`\
-`3: 94       Z Loc [ Exponent2 ]`
+`1: .025     F`\
+`2: 1        n, Exponent of 10`\
+`3: 94       Z Loc [ Exponent2 ]`
 
 104: Z=X\^Y (P47)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: 93       Y Loc [ Exponent1 ]`\
-`3: 95       Z Loc [ 1_SB_4Pow ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: 93       Y Loc [ Exponent1 ]`\
+`3: 95       Z Loc [ 1_SB_4Pow ]`
 
 105: Z=X\*Y (P36)
 
-`1: 90       X Loc [ mV_tpile  ]`\
-`2: 91       Y Loc [ m_slope   ]`\
-`3: 96       Z Loc [ 2_mVxm    ]`
+`1: 90       X Loc [ mV_tpile  ]`\
+`2: 91       Y Loc [ m_slope   ]`\
+`3: 96       Z Loc [ 2_mVxm    ]`
 
 106: Z=X+Y (P33)
 
-`1: 95       X Loc [ 1_SB_4Pow ]`\
-`2: 96       Y Loc [ 2_mVxm    ]`\
-`3: 97       Z Loc [ 3_Sum1    ]`
+`1: 95       X Loc [ 1_SB_4Pow ]`\
+`2: 96       Y Loc [ 2_mVxm    ]`\
+`3: 97       Z Loc [ 3_Sum1    ]`
 
 107: Z=X+Y (P33)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 97       Y Loc [ 3_Sum1    ]`\
-`3: 98       Z Loc [ 4_Sum2    ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 97       Y Loc [ 3_Sum1    ]`\
+`3: 98       Z Loc [ 4_Sum2    ]`
 
 108: Z=X\^Y (P47)
 
-`1: 98       X Loc [ 4_Sum2    ]`\
-`2: 94       Y Loc [ Exponent2 ]`\
-`3: 101      Z Loc [ SurfT_C_K ]`
+`1: 98       X Loc [ 4_Sum2    ]`\
+`2: 94       Y Loc [ Exponent2 ]`\
+`3: 101      Z Loc [ SurfT_C_K ]`
 
 109: Z=X+F (P34)
 
-`1: 101      X Loc [ SurfT_C_K ]`\
-`2: -273.15  F`\
-`3: 102      Z Loc [ SurfT_C_C ]`
+`1: 101      X Loc [ SurfT_C_K ]`\
+`2: -273.15  F`\
+`3: 102      Z Loc [ SurfT_C_C ]`
 
 ---- Apogee SI-111 Infrared radiometer----\
 \# 2362 - pointed at canopy near Forest1\
@@ -892,259 +892,259 @@ temperature
 
 110: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 13       SE Channel`\
-`4: 1        Excite all reps w/Exchan 1`\
-`5: 2500     mV Excitation`\
-`6: 81       Loc [ mV_thrm   ]`\
-`7: 1.0      Multiplier`\
-`8: 0.0      Offset`
+`1: 1        Reps`\
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
+`3: 13       SE Channel`\
+`4: 1        Excite all reps w/Exchan 1`\
+`5: 2500     mV Excitation`\
+`6: 81       Loc [ mV_thrm   ]`\
+`7: 1.0      Multiplier`\
+`8: 0.0      Offset`
 
 111: Z=1/X (P42)
 
-`1: 81       X Loc [ mV_thrm   ]`\
-`2: 82       Z Loc [ 1_mV_thrm ]`
+`1: 81       X Loc [ mV_thrm   ]`\
+`2: 82       Z Loc [ 1_mV_thrm ]`
 
 112: Z=X+F (P34)
 
-`1: 82       X Loc [ 1_mV_thrm ]`\
-`2: -1.0     F`\
-`3: 83       Z Loc [ 2_mV_thrm ]`
+`1: 82       X Loc [ 1_mV_thrm ]`\
+`2: -1.0     F`\
+`3: 83       Z Loc [ 2_mV_thrm ]`
 
 113: Z=X\*F (P37)
 
-`1: 83       X Loc [ 2_mV_thrm ]`\
-`2: 24900    F`\
-`3: 84       Z Loc [ R_thrm    ]`
+`1: 83       X Loc [ 2_mV_thrm ]`\
+`2: 24900    F`\
+`3: 84       Z Loc [ R_thrm    ]`
 
 114: Z=LN(X) (P40)
 
-`1: 84       X Loc [ R_thrm    ]`\
-`2: 85       Z Loc [ InR_thrm  ]`
+`1: 84       X Loc [ R_thrm    ]`\
+`2: 85       Z Loc [ InR_thrm  ]`
 
 115: Z=X\*F (P37)
 
-`1: 85       X Loc [ InR_thrm  ]`\
-`2: 0.001    F`\
-`3: 86       Z Loc [ Scaled_R  ]`
+`1: 85       X Loc [ InR_thrm  ]`\
+`2: 0.001    F`\
+`3: 86       Z Loc [ Scaled_R  ]`
 
 116: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 86       X Loc [ Scaled_R  ]`\
-`3: 87       F(X) Loc [ SH_Coeffs ]`\
-`4: .001129  C0`\
-`5: .234108  C1`\
-`6: 0.0      C2`\
-`7: 87.7547  C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 86       X Loc [ Scaled_R  ]`\
+`3: 87       F(X) Loc [ SH_Coeffs ]`\
+`4: .001129  C0`\
+`5: .234108  C1`\
+`6: 0.0      C2`\
+`7: 87.7547  C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 117: Z=1/X (P42)
 
-`1: 87       X Loc [ SH_Coeffs ]`\
-`2: 88       Z Loc [ SB_Temp_K ]`
+`1: 87       X Loc [ SH_Coeffs ]`\
+`2: 88       Z Loc [ SB_Temp_K ]`
 
 118: Z=X+F (P34)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: -273.15  F`\
-`3: 89       Z Loc [ SB_Temp_C ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: -273.15  F`\
+`3: 89       Z Loc [ SB_Temp_C ]`
 
 Measure mV output of thermopile
 
 119: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 21       10 mV, 60 Hz Reject, Slow Range`\
-`3: 8        DIFF Channel`\
-`4: 90       Loc [ mV_tpile  ]`\
-`5: 1.0      Multiplier`\
-`6: 0.0      Offset`
+`1: 1        Reps`\
+`2: 21       10 mV, 60 Hz Reject, Slow Range`\
+`3: 8        DIFF Channel`\
+`4: 90       Loc [ mV_tpile  ]`\
+`5: 1.0      Multiplier`\
+`6: 0.0      Offset`
 
 Calculation of m(slope) coefficient for target temperature calculation.\
 Each sensor has unique C0, C1, and C2 values on their calibration sheet.
 
 120: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 91       F(X) Loc [ m_slope   ]`\
-`4: 14222.3  C0`\
-`5: 68.0776  C1`\
-`6: .77405   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 91       F(X) Loc [ m_slope   ]`\
+`4: 14222.3  C0`\
+`5: 68.0776  C1`\
+`6: .77405   C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 121: Z=X\*F (P37)
 
-`1: 91       X Loc [ m_slope   ]`\
-`2: 99999    F`\
-`3: 91       Z Loc [ m_slope   ]`
+`1: 91       X Loc [ m_slope   ]`\
+`2: 99999    F`\
+`3: 91       Z Loc [ m_slope   ]`
 
 Calculation of b (intercept) coefficient for target calculation. Each\
 sensor has unique C values (again - on calib sheet).
 
 122: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 89       X Loc [ SB_Temp_C ]`\
-`3: 92       F(X) Loc [ b_inter   ]`\
-`4: -72.4861 C0`\
-`5: -2.25549 C1`\
-`6: 0.24962  C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
-`9: 0.0      C5`
+`1: 1        Reps`\
+`2: 89       X Loc [ SB_Temp_C ]`\
+`3: 92       F(X) Loc [ b_inter   ]`\
+`4: -72.4861 C0`\
+`5: -2.25549 C1`\
+`6: 0.24962  C2`\
+`7: 0.0      C3`\
+`8: 0.0      C4`\
+`9: 0.0      C5`
 
 123: Z=X\*F (P37)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 99999    F`\
-`3: 92       Z Loc [ b_inter   ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 99999    F`\
+`3: 92       Z Loc [ b_inter   ]`
 
 Target temperature calculation based on m and b coefficients.
 
 124: Z=F x 10\^n (P30)
 
-`1: 0.4      F`\
-`2: 1        n, Exponent of 10`\
-`3: 93       Z Loc [ Exponent1 ]`
+`1: 0.4      F`\
+`2: 1        n, Exponent of 10`\
+`3: 93       Z Loc [ Exponent1 ]`
 
 125: Z=F x 10\^n (P30)
 
-`1: .025     F`\
-`2: 1        n, Exponent of 10`\
-`3: 94       Z Loc [ Exponent2 ]`
+`1: .025     F`\
+`2: 1        n, Exponent of 10`\
+`3: 94       Z Loc [ Exponent2 ]`
 
 126: Z=X\^Y (P47)
 
-`1: 88       X Loc [ SB_Temp_K ]`\
-`2: 93       Y Loc [ Exponent1 ]`\
-`3: 95       Z Loc [ 1_SB_4Pow ]`
+`1: 88       X Loc [ SB_Temp_K ]`\
+`2: 93       Y Loc [ Exponent1 ]`\
+`3: 95       Z Loc [ 1_SB_4Pow ]`
 
 127: Z=X\*Y (P36)
 
-`1: 90       X Loc [ mV_tpile  ]`\
-`2: 91       Y Loc [ m_slope   ]`\
-`3: 96       Z Loc [ 2_mVxm    ]`
+`1: 90       X Loc [ mV_tpile  ]`\
+`2: 91       Y Loc [ m_slope   ]`\
+`3: 96       Z Loc [ 2_mVxm    ]`
 
 128: Z=X+Y (P33)
 
-`1: 95       X Loc [ 1_SB_4Pow ]`\
-`2: 96       Y Loc [ 2_mVxm    ]`\
-`3: 97       Z Loc [ 3_Sum1    ]`
+`1: 95       X Loc [ 1_SB_4Pow ]`\
+`2: 96       Y Loc [ 2_mVxm    ]`\
+`3: 97       Z Loc [ 3_Sum1    ]`
 
 129: Z=X+Y (P33)
 
-`1: 92       X Loc [ b_inter   ]`\
-`2: 97       Y Loc [ 3_Sum1    ]`\
-`3: 98       Z Loc [ 4_Sum2    ]`
+`1: 92       X Loc [ b_inter   ]`\
+`2: 97       Y Loc [ 3_Sum1    ]`\
+`3: 98       Z Loc [ 4_Sum2    ]`
 
 130: Z=X\^Y (P47)
 
-`1: 98       X Loc [ 4_Sum2    ]`\
-`2: 94       Y Loc [ Exponent2 ]`\
-`3: 103      Z Loc [ CanT_K    ]`
+`1: 98       X Loc [ 4_Sum2    ]`\
+`2: 94       Y Loc [ Exponent2 ]`\
+`3: 103      Z Loc [ CanT_K    ]`
 
 131: Z=X+F (P34)
 
-`1: 103      X Loc [ CanT_K    ]`\
-`2: -273.15  F`\
-`3: 104      Z Loc [ CanT_C    ]`
+`1: 103      X Loc [ CanT_K    ]`\
+`2: -273.15  F`\
+`3: 104      Z Loc [ CanT_C    ]`
 
 ---- HMP45A RH/T sensor ----\
 
 132: Do (P86)
 
-`1: 49       Turn On Switched 12V`
+`1: 49       Turn On Switched 12V`
 
 Stabilize sensor
 
 133: Delay w/Opt Excitation (P22)
 
-`1: 1        Ex Channel`\
-`2: 0        Delay W/Ex (0.01 sec units)`\
-`3: 15       Delay After Ex (0.01 sec units)`\
-`4: 0        mV Excitation`
+`1: 1        Ex Channel`\
+`2: 0        Delay W/Ex (0.01 sec units)`\
+`3: 15       Delay After Ex (0.01 sec units)`\
+`4: 0        mV Excitation`
 
 Measure temperature
 
 134: Volt (SE) (P1)
 
-`1: 1        Reps`\
-`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
-`3: 17       SE Channel`\
-`4: 105      Loc [ AirT_For  ]`\
-`5: 0.1      Multiplier`\
-`6: -40      Offset`
+`1: 1        Reps`\
+`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
+`3: 17       SE Channel`\
+`4: 105      Loc [ AirT_For  ]`\
+`5: 0.1      Multiplier`\
+`6: -40      Offset`
 
 Measure relative humidity
 
 135: Volt (SE) (P1)
 
-`1: 1        Reps`\
-`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
-`3: 18       SE Channel`\
-`4: 106      Loc [ RH_For    ]`\
-`5: 0.1      Multiplier`\
-`6: 0.0      Offset`
+`1: 1        Reps`\
+`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
+`3: 18       SE Channel`\
+`4: 106      Loc [ RH_For    ]`\
+`5: 0.1      Multiplier`\
+`6: 0.0      Offset`
 
 turn off sensor
 
 136: Do (P86)
 
-`1: 59       Turn Off Switched 12V`
+`1: 59       Turn Off Switched 12V`
 
 -----Met-One windset - wind speed and direction-----
 
 137: Pulse (P3)
 
-`1: 1        Reps`\
-`2: 1        Pulse Channel 1`\
-`3: 22       Switch Closure, Output Hz`\
-`4: 107      Loc [ WS_For_ms ]`\
-`5: .799     Multiplier`\
-`6: .2811    Offset`
+`1: 1        Reps`\
+`2: 1        Pulse Channel 1`\
+`3: 22       Switch Closure, Output Hz`\
+`4: 107      Loc [ WS_For_ms ]`\
+`5: .799     Multiplier`\
+`6: .2811    Offset`
 
 138: If (X&lt;=&gt;F) (P89)
 
-`1: 107      X Loc [ WS_For_ms ]`\
-`2: 1        =`\
-`3: .2811    F`\
-`4: 30       Then Do`
+`1: 107      X Loc [ WS_For_ms ]`\
+`2: 1        =`\
+`3: .2811    F`\
+`4: 30       Then Do`
 
-`    139:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
-`     3: 107      Z Loc [ WS_For_ms ]`
+`    139:  Z=F x 10^n (P30)`\
+`     1: 0        F`\
+`     2: 0        n, Exponent of 10`\
+`     3: 107      Z Loc [ WS_For_ms ]`
 
 140: End (P95)
 
 141: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 19       SE Channel`\
-`4: 2        Excite all reps w/Exchan 2`\
-`5: 5000     mV Excitation`\
-`6: 108      Loc [ WDir_For  ]`\
-`7: 712      Multiplier`\
-`8: 0.0      Offset`
+`1: 1        Reps`\
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
+`3: 19       SE Channel`\
+`4: 2        Excite all reps w/Exchan 2`\
+`5: 5000     mV Excitation`\
+`6: 108      Loc [ WDir_For  ]`\
+`7: 712      Multiplier`\
+`8: 0.0      Offset`
 
 142: If (X&lt;=&gt;F) (P89)
 
-`1: 108      X Loc [ WDir_For  ]`\
-`2: 3        >=`\
-`3: 360      F`\
-`4: 30       Then Do`
+`1: 108      X Loc [ WDir_For  ]`\
+`2: 3        >=`\
+`3: 360      F`\
+`4: 30       Then Do`
 
-`    143:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
-`     3: 108      Z Loc [ WDir_For  ]`
+`    143:  Z=F x 10^n (P30)`\
+`     1: 0        F`\
+`     2: 0        n, Exponent of 10`\
+`     3: 108      Z Loc [ WDir_For  ]`
 
 144: End (P95)
 
@@ -1152,88 +1152,88 @@ turn off sensor
 
 145: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 30       Interval (same units as above)`\
-`3: 10       Set Output Flag High (Flag 0)`
+`1: 0        Minutes (Seconds --) into a`\
+`2: 30       Interval (same units as above)`\
+`3: 10       Set Output Flag High (Flag 0)`
 
 146: Set Active Storage Area (P80)\^12982
 
-`1: 1        Final Storage Area 1`\
-`2: 1        Array ID`
+`1: 1        Final Storage Area 1`\
+`2: 1        Array ID`
 
 147: Resolution (P78)
 
-`1: 0        Low Resolution`
+`1: 0        Low Resolution`
 
 148: Real Time (P77)\^13262
 
-`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
+`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
 
 149: Average (P71)\^25120
 
-`1: 1        Reps`\
-`2: 1        Loc [ batt_volt ]`
+`1: 1        Reps`\
+`2: 1        Loc [ batt_volt ]`
 
 150: Average (P71)\^5738
 
-`1: 1        Reps`\
-`2: 2        Loc [ panelT    ]`
+`1: 1        Reps`\
+`2: 2        Loc [ panelT    ]`
 
 151: Average (P71)\^4500
 
-`1: 18       Reps`\
-`2: 3        Loc [ Period1   ]`
+`1: 18       Reps`\
+`2: 3        Loc [ Period1   ]`
 
 152: Average (P71)\^27730
 
-`1: 60       Reps`\
-`2: 21       Loc [ P1_5sm    ]`
+`1: 60       Reps`\
+`2: 21       Loc [ P1_5sm    ]`
 
 153: Average (P71)\^29314
 
-`1: 1        Reps`\
-`2: 100      Loc [ SurfT_T_C ]`
+`1: 1        Reps`\
+`2: 100      Loc [ SurfT_T_C ]`
 
 154: Average (P71)\^29457
 
-`1: 1        Reps`\
-`2: 102      Loc [ SurfT_C_C ]`
+`1: 1        Reps`\
+`2: 102      Loc [ SurfT_C_C ]`
 
 155: Average (P71)\^1649
 
-`1: 5        Reps`\
-`2: 104      Loc [ CanT_C    ]`
+`1: 5        Reps`\
+`2: 104      Loc [ CanT_C    ]`
 
 156: Wind Vector (P69)\^30082
 
-`1: 1        Reps`\
-`2: 0        Samples per Sub-Interval`\
-`3: 0        S, theta(1), sigma(theta(1)) with polar sensor`\
-`4: 107      Wind Speed/East Loc [ WS_For_ms ]`\
-`5: 108      Wind Direction/North Loc [ WDir_For  ]`
+`1: 1        Reps`\
+`2: 0        Samples per Sub-Interval`\
+`3: 0        S, theta(1), sigma(theta(1)) with polar sensor`\
+`4: 107      Wind Speed/East Loc [ WS_For_ms ]`\
+`5: 108      Wind Direction/North Loc [ WDir_For  ]`
 
 Controls relay that switches on/off forest radio\
 Run table every half hour
 
 -   Table 2 Program
 
-` 02: 1800      Execution Interval (seconds)`
+` 02: 1800      Execution Interval (seconds)`
 
 set control port 8 high every 8 hours
 
 1: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 480      Interval (same units as above)`\
-`3: 48       Set Port 8 High`
+`1: 0        Minutes (Seconds --) into a`\
+`2: 480      Interval (same units as above)`\
+`3: 48       Set Port 8 High`
 
 set control port 8 low 30 minutes later
 
 2: If time is (P92)
 
-`1: 30       Minutes (Seconds --) into a`\
-`2: 480      Interval (same units as above)`\
-`3: 58       Set Port 8 Low`
+`1: 30       Minutes (Seconds --) into a`\
+`2: 480      Interval (same units as above)`\
+`3: 58       Set Port 8 Low`
 
 -   Table 3 Subroutines
 

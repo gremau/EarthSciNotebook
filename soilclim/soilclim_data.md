@@ -4,19 +4,19 @@ Collection of environmental data, including met and soils data, from
 NRCS, Ameriflux, and other research stations and its processing for
 analysis is covered here.
 
--   -   See also:\*\* [Overview
-        page](west_stationdata:overview "wikilink"), [Data program
-        documentation](programdocs "wikilink"), [Data analysis
-        log](analysislog_1 "wikilink")
+ **See also:\*\* [Overview
+        page](west_stationdata:overview), [Data program
+        documentation](programdocs), [Data analysis
+        log](analysislog_1)
 
 //Start date: 25 Jan, 2010//
 
 ##### Objectives
 
-` * Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.`\
-` * Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.`\
-` * Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.`\
-` * Assess the relationships between spatial or inter-annual variability in SM/ST, climate, and snowpack dynamics among sites.`
+` * Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.`\
+` * Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.`\
+` * Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.`\
+` * Assess the relationships between spatial or inter-annual variability in SM/ST, climate, and snowpack dynamics among sites.`
 
 ##### Data Sources
 
@@ -28,39 +28,39 @@ division of the USDA's Natural Resources Conservation Service runs the
 Snow Survey (Snow Courses), SNOTEL network, and SCAN network and
 provides a few online interfaces for accessing this data.
 
-` * `[`The` `NWCC` `station`
-`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory "wikilink")` lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.`\
-` * `[`Individual` `station`
-`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az "wikilink")` like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.`\
-` * `[`The` `Snow` `Course` `data`
-`portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html "wikilink")` allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
+` * `[`The` `NWCC` `station`
+`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)` lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.`\
+` * `[`Individual` `station`
+`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)` like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.`\
+` * `[`The` `Snow` `Course` `data`
+`portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)` allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
 
 ### Other (potentially useful) sites
 
 The [Ameriflux
-network](http://public.ornl.gov/ameriflux/index.html "wikilink"),
+network](http://public.ornl.gov/ameriflux/index.html),
 [Fraser Experimental
-Forest](http://www.fs.fed.us/rm/fraser/ "wikilink"), Tenderfoot? New
+Forest](http://www.fs.fed.us/rm/fraser/), Tenderfoot? New
 Mexico flux gradient?
 
 ##### SNOTEL and SCAN raw data files
 
 Files are downloaded as .csv (usually), and are often edited using
 various [text editing and data file handling
-tools](procedures:programming#Text_editing_and_data_file_handling "wikilink").
+tools](procedures:programming#Text_editing_and_data_file_handling).
 
 #### Soil station inventory files
 
 Files are downloaded from [the NWCC station inventory
-site](http://www.wcc.nrcs.usda.gov/nwcc/inventory "wikilink"). The
+site](http://www.wcc.nrcs.usda.gov/nwcc/inventory). The
 original column headers are:
 
-` network,station id,start_date,end_date,lat,lon,elev,element,state,county,basin,site_name,site_info_link,cdbs_id,shef_id,gmt_offset,`
+` network,station id,start_date,end_date,lat,lon,elev,element,state,county,basin,site_name,site_info_link,cdbs_id,shef_id,gmt_offset,`
 
 Several inventory files, selected using the dropdowns, are useful:
 
-` - Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.`\
-` - Selecting **soil moisture and temperature** gives a file containing only sites with soil sensor profiles (SCAN and SNOTEL).`
+` - Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.`\
+` - Selecting **soil moisture and temperature** gives a file containing only sites with soil sensor profiles (SCAN and SNOTEL).`
 
 These inventory files have been put into a master spreadsheet that keeps
 track of sites and the data collected for them (see the inventory
@@ -131,14 +131,14 @@ contain instantaneous measurements for any sensors chosen (including
 all) at the time period chosen. They do not include summary data (TMIN,
 TMAX, TAVG) like the files above).
 
--   -   NOTE:\*\* At many snotel sites, true hourly measurements did not
+ **NOTE:\*\* At many snotel sites, true hourly measurements did not
         begin until well after the site was established (mid to late
         90's at many).
 
 ##### Sensors and calibrations
 
 Soil sensors at these sites are [Stevens
-Hydra-Probe](http://www.stevenswater.com/soil_moisture_sensors/index.aspx "wikilink")
+Hydra-Probe](http://www.stevenswater.com/soil_moisture_sensors/index.aspx)
 sensors. Some appear to be the analog version of the sensor which
 measures soil moisture, temperature, and electrical conductivity. Some
 may be the digital version (HydraProbe II), but I'm not sure about
@@ -153,7 +153,7 @@ sensor output to soil moisture in the winter of 2009/10. This will take
 effect for all data, including already collected data, beginning in
 February 2010. The change in the equation is documented in an article in
 the [Vadose Zone
-Journal](http://vzj.geoscienceworld.org/cgi/content/abstract/4/4/1070 "wikilink")((Seyfried,
+Journal](http://vzj.geoscienceworld.org/cgi/content/abstract/4/4/1070)((Seyfried,
 M.S., L.E. Grant, E.Du, and K Humes. 2005. Dielectric loss and
 calibration of the hydra probe soil water sensor. Vadose Zone J.
 4:1070-1079)) but it is unclear how this will affect the data already
@@ -165,22 +165,22 @@ should be updated with this change.
 See the sensor history page (linked on individual SNOTEL site pages) for
 detailed info on sensor maintenance, movement, or replacement.
 
-` - Louis Meadow site had sensors moved on 12/15/2003. Apparently sensors at -4 and -8 were moved to -8 and -20 respectively. Not sure if sensors were physically moved, or just renamed in the datalogger output.`
+` - Louis Meadow site had sensors moved on 12/15/2003. Apparently sensors at -4 and -8 were moved to -8 and -20 respectively. Not sure if sensors were physically moved, or just renamed in the datalogger output.`
 
 ### Other Notes:
 
-` * WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)`\
-` * At least some files start or end with a few lines of data collected at odd intervals (bad data).`
+` * WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)`\
+` * At least some files start or end with a few lines of data collected at odd intervals (bad data).`
 
 ##### Data processing and filtering
 
 For info on how the data were quality checked and filtered, see the
-[data quality control](data_qc "wikilink") page.
+[data quality control](data_qc) page.
 
 Programs that load and process the raw data, as well as the outputs they
-produce, are documented [here](programdocs "wikilink"). Some of the
+produce, are documented [here](programdocs). Some of the
 development of these programs and results are documented
-[here](analysislog_1 "wikilink").
+[here](analysislog_1).
 
 ##### Older data
 
@@ -189,7 +189,7 @@ Bardsley, Dana Kuiper, and Maggie Dunklee.
 
 Data from all SNOTEL sites with soil moisture and temperature profiles
 installed was obtained from the
-[NRCS](http://www.wcc.nrcs.usda.gov/snow/ "wikilink") in the spring of
+[NRCS](http://www.wcc.nrcs.usda.gov/snow/) in the spring of
 2009. This included data from 252 sites, including SCAN sites, for the
 period from install date to May 29, 2009. Data streams include soil
 moisture at up to 3 depths, soil temperature at up to 3 depths, avg air

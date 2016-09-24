@@ -24,16 +24,16 @@ without guarantee of quality, accuracy, or safety.
 * [Lab and field procedures](topicindex#Procedures )
 * [Instruments](topicindex#Instruments)
 * [Research sites](topicindex#Research_sites)
-* There is also a **[Complete topic index](topicindex)**
+* There is also a **[Complete topic index](topicindex)**
 
 ## Using this site
 
-This [wp&gt;wiki](wp>wiki "wikilink") records day to day research
+This [wp&gt;wiki](wp>wiki) records day to day research
 activities for various research projects, including field and lab notes,
 method development, preliminary results, data analysis code, figures,
 photos, and discussions. It is essentially an open version of the
-electronic [wp&gt;lab notebook](wp>lab_notebook "wikilink") for [Greg
-Maurer's](http://pronghorns.net/about.html "wikilink") research
+electronic [wp&gt;lab notebook](wp>lab_notebook) for [Greg
+Maurer's](http://pronghorns.net/about.html) research
 projects. Because it is a wiki, this site can also be used for
 scientific collaboration. Those who would like to add to, comment on, or
 edit content on this site should email <admin@pronghorns.net>.
@@ -41,10 +41,10 @@ edit content on this site should email <admin@pronghorns.net>.
 
 Before you begin take a look at:
 
-* [Rules and conventions](wiki:standards "wikilink")
-* The [FAQ](faq "wikilink")
-* If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax "wikilink") page to learn how.
-* You can test your editing in the [wiki playground](playground:playground "wikilink")
+* [Rules and conventions](wiki:standards)
+* The [FAQ](faq)
+* If you would like to contribute or edit see the [DokuWiki Syntax](wiki:syntax) page to learn how.
+* You can test your editing in the [wiki playground](playground:playground)
 
 ### Copyright information
 

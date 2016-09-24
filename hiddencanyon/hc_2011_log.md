@@ -1,258 +1,258 @@
 ##### 2011 Hidden Canyon Logbook
 
 2011 visits to [Hidden Canyon
-site](hiddencanyon:sitedescription "wikilink"):
+site](hiddencanyon:sitedescription):
 
-(also: [2010](hiddencanyon:hc2010_log "wikilink"),
-[2012](hiddencanyon:hc2012_log "wikilink"))
+(also: [2010](hiddencanyon:hc2010_log),
+[2012](hiddencanyon:hc2012_log))
 
 Oct 28
 ------
 
-` * 9:15am - Sent new program (v5) to Forest datalogger that includes profiles 6 and 8.`\
-` * EDIT (1-6-2012): apparently I forgot to average the new sensor readings and add them to the output table, so it will have to be resent.`
+` * 9:15am - Sent new program (v5) to Forest datalogger that includes profiles 6 and 8.`\
+` * EDIT (1-6-2012): apparently I forgot to average the new sensor readings and add them to the output table, so it will have to be resent.`
 
 Oct 26
 ------
 
-` * Wired up all new sensors to MUX3 - P6, 8, 9 & 10.`\
-` * Fixed IR radiometer on met tower`\
-` * Datalogger working - not sure what this intermittent problem is about - will look at data`
+` * Wired up all new sensors to MUX3 - P6, 8, 9 & 10.`\
+` * Fixed IR radiometer on met tower`\
+` * Datalogger working - not sure what this intermittent problem is about - will look at data`
 
 Oct 22
 ------
 
-` * Installed Sentek sensors in profiles 9 and 10 using slurry method`\
-` * Mid-day water potential measurements (skipped big trees)`\
-` * Wired sensors`\
-` * Datalogger not working?`
+` * Installed Sentek sensors in profiles 9 and 10 using slurry method`\
+` * Mid-day water potential measurements (skipped big trees)`\
+` * Wired sensors`\
+` * Datalogger not working?`
 
 Oct 16
 ------
 
-` * Predawn (6:30-7:30am) water potential measurements (skipped large trees).`\
-` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).`\
-` * Soil respiration measurements (10-1pm)`
+` * Predawn (6:30-7:30am) water potential measurements (skipped large trees).`\
+` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).`\
+` * Soil respiration measurements (10-1pm)`
 
 Oct 15
 ------
 
-` * Collected litterbags`\
-` * Installed 2 new soil moisture profiles (6 and 8) in plots 3 and 4`\
-` * There is a problem with the datalogger again - doesnt appear to be getting good data. Maybe the datalogger needs replacing?`
+` * Collected litterbags`\
+` * Installed 2 new soil moisture profiles (6 and 8) in plots 3 and 4`\
+` * There is a problem with the datalogger again - doesnt appear to be getting good data. Maybe the datalogger needs replacing?`
 
 Oct 11
 ------
 
-` * Had to resend datalogger program again`
+` * Had to resend datalogger program again`
 
 Sept 23
 -------
 
-` * Midday(1:30pm-2:30pm) and predawn (6:10-7:10am) water potential measurements (skipped large trees due to lack of pressure gas).`\
-` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).`\
-` * Soil respiration measurements (10-1)`
+` * Midday(1:30pm-2:30pm) and predawn (6:10-7:10am) water potential measurements (skipped large trees due to lack of pressure gas).`\
+` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).`\
+` * Soil respiration measurements (10-1)`
 
 Sept 9-10
 ---------
 
-` * Midday(3:30pm-5pm) and predawn (6-7:30am) water potential measurements (including large trees).`\
-` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 10th).`\
-` * Soil respiration measurements (9th - 1-3pm).`\
-` * Restarted Forest1 datalogger - there may be a gap present in the data around this time.`
+` * Midday(3:30pm-5pm) and predawn (6-7:30am) water potential measurements (including large trees).`\
+` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 10th).`\
+` * Soil respiration measurements (9th - 1-3pm).`\
+` * Restarted Forest1 datalogger - there may be a gap present in the data around this time.`
 
 Aug 26-27
 ---------
 
-` * Midday(3pm-5pm) and predawn (5-7am) water potential measurements (including large trees).`\
-` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 27th).`\
-` * Soil respiration measurements (26th - 12-2:30pm).`
+` * Midday(3pm-5pm) and predawn (5-7am) water potential measurements (including large trees).`\
+` * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 27th).`\
+` * Soil respiration measurements (26th - 12-2:30pm).`
 
 Aug 11-12
 ---------
 
-` * Midday(2:30pm-4pm) and predawn (5-7am) water potential measurements.`\
-` * Added large trees from Plots 1 & 2 to xylem wp measurements (5 trees in each plot - subset of last year's trees)`\
-` * Measured surface soil moisture w/ campbell handheld probe at all 6 plots, 6 locations each (morning of 12th).`\
-` * Soil respiration measurements (12th - 9-11:30am).`
+` * Midday(2:30pm-4pm) and predawn (5-7am) water potential measurements.`\
+` * Added large trees from Plots 1 & 2 to xylem wp measurements (5 trees in each plot - subset of last year's trees)`\
+` * Measured surface soil moisture w/ campbell handheld probe at all 6 plots, 6 locations each (morning of 12th).`\
+` * Soil respiration measurements (12th - 9-11:30am).`
 
 July 28 - Mike B.
 -----------------
 
-` * Midday(12pm-1:30pm) and predawn (6-7am) water potential measurements.`\
-` * Soil respiration measurements (9-11:30am).`
+` * Midday(12pm-1:30pm) and predawn (6-7am) water potential measurements.`\
+` * Soil respiration measurements (9-11:30am).`
 
 July 20 - Davis U.
 ------------------
 
-` * Fixed all guywires etc on weather stations with Davis.`
+` * Fixed all guywires etc on weather stations with Davis.`
 
 July 13-14
 ----------
 
-` * First midday xylem water potential measurements around 3-5pm`\
-` * Hammered in soil collars, 4 per plot, adjacent to litterbags (but randomized)`\
-` * First predawn xylem water potential around 5-7am (14th)`\
-` * First soil respiration at 9-12am (14th)`
+` * First midday xylem water potential measurements around 3-5pm`\
+` * Hammered in soil collars, 4 per plot, adjacent to litterbags (but randomized)`\
+` * First predawn xylem water potential around 5-7am (14th)`\
+` * First soil respiration at 9-12am (14th)`
 
 July 12 - Davis U.
 ------------------
 
-` * SWE at ALL locations (and all were melted)`\
-` * Took photos of the spatial extent of snowmelt.`\
-` * Logged melted grid points (only one still has snow)`\
-` * Collected litterbags (except for P3-2 which was still snowcovered)`
+` * SWE at ALL locations (and all were melted)`\
+` * Took photos of the spatial extent of snowmelt.`\
+` * Logged melted grid points (only one still has snow)`\
+` * Collected litterbags (except for P3-2 which was still snowcovered)`
 
 June 29
 -------
 
-` * Measured SWE at ALL locations`\
-` * Took photos of the spatial extent of snowmelt.`\
-` * Logged melted grid points`
+` * Measured SWE at ALL locations`\
+` * Took photos of the spatial extent of snowmelt.`\
+` * Logged melted grid points`
 
 June 23
 -------
 
-` * Measured SWE at 12 locations per treatment`\
-` * Took photos of the spatial extent of snowmelt.`\
-` * Collected snow columns for total dust loading measuremnts - 1 per plot`\
-` * Logged melted grid points`
+` * Measured SWE at 12 locations per treatment`\
+` * Took photos of the spatial extent of snowmelt.`\
+` * Collected snow columns for total dust loading measuremnts - 1 per plot`\
+` * Logged melted grid points`
 
 June 15
 -------
 
-` * 6th dust application`\
-` * Measured SWE at 12 locations in each plot`\
-` * Took photos`\
-` * Met tower IR thermometer has a loose wire (EX terminal)`\
-` * Plot 2 has melted out in the middle of the plot, and litterbag set 3 is exposed.`\
-` * 30N 30E stake is almost exposed melted out.`
+` * 6th dust application`\
+` * Measured SWE at 12 locations in each plot`\
+` * Took photos`\
+` * Met tower IR thermometer has a loose wire (EX terminal)`\
+` * Plot 2 has melted out in the middle of the plot, and litterbag set 3 is exposed.`\
+` * 30N 30E stake is almost exposed melted out.`
 
 June 7
 ------
 
-` * Measured SWE at 12 locations in each plot`\
-` * Took gas samples from all inlets`\
-` * Collected dust cores in the open from the last few dust events`\
-` * Reconnected Forest1 datalogger to its radio`
+` * Measured SWE at 12 locations in each plot`\
+` * Took gas samples from all inlets`\
+` * Collected dust cores in the open from the last few dust events`\
+` * Reconnected Forest1 datalogger to its radio`
 
 June 1
 ------
 
-` * Dust dep 5`\
-` * Fixed MUX1 problem - moving snowpack had pulled the COM terminals loose (at the MUX)`\
-` * Took a few photos`
+` * Dust dep 5`\
+` * Fixed MUX1 problem - moving snowpack had pulled the COM terminals loose (at the MUX)`\
+` * Took a few photos`
 
 May 27
 ------
 
-` * Collected exetainer samples from all inlets (Not measured yet - LiCor may be broken!)`\
-` * Federal sampler SWE measurements in 24 locations (12 per treatment)`\
-` * Stormboard sample`\
-` * Collected dust cores from the May 15-16 event`
+` * Collected exetainer samples from all inlets (Not measured yet - LiCor may be broken!)`\
+` * Federal sampler SWE measurements in 24 locations (12 per treatment)`\
+` * Stormboard sample`\
+` * Collected dust cores from the May 15-16 event`
 
 May 16
 ------
 
-` * Federal sampler samples in 12 locations (control and treatment)`\
-` * Surface "after" samples in forest (3x each in dust and control plots)`\
-` * Surface samples in the open (3x each in dust and control areas near towers)`\
-` * Took some photos`\
-` * Brought back stormboards from BCL, BCM. and BCH.`
+` * Federal sampler samples in 12 locations (control and treatment)`\
+` * Surface "after" samples in forest (3x each in dust and control plots)`\
+` * Surface samples in the open (3x each in dust and control areas near towers)`\
+` * Took some photos`\
+` * Brought back stormboards from BCL, BCM. and BCH.`
 
 May 12
 ------
 
-` * Storm board sample (PCAPS method)`\
-` * Surface samples in the open (3x near towers)`\
-` * Dust application in 3 locations in the open (adjacent to surface samples above)`\
-` * Took albedo photos of Ctl snow surface vs. dusted snow surface (in adjacent slope positions)`\
-`   * First set (6 photos) 11:45 to 12:15pm`\
-`   * Second set (6 photos) 1:45-2:15pm`\
-` * Surface "before" samples in forest (3x each in dust and control plots)`\
-` * Dust deposition 4`\
-` * Federal sampler samples in 7 locations (control and treatment)`\
-` * Collected exetainer samples from all inlets (Measured on the 13th - OK)`\
-` * Took a number of photos in the forest of dust/control areas - 2pm`
+` * Storm board sample (PCAPS method)`\
+` * Surface samples in the open (3x near towers)`\
+` * Dust application in 3 locations in the open (adjacent to surface samples above)`\
+` * Took albedo photos of Ctl snow surface vs. dusted snow surface (in adjacent slope positions)`\
+`   * First set (6 photos) 11:45 to 12:15pm`\
+`   * Second set (6 photos) 1:45-2:15pm`\
+` * Surface "before" samples in forest (3x each in dust and control plots)`\
+` * Dust deposition 4`\
+` * Federal sampler samples in 7 locations (control and treatment)`\
+` * Collected exetainer samples from all inlets (Measured on the 13th - OK)`\
+` * Took a number of photos in the forest of dust/control areas - 2pm`
 
 May 4
 -----
 
-` * Storm board sample (PCAPS method)`\
-` * Full column sample (PCAPS method)`\
-` * Kelly samples of the entire column (10cm increments)`\
-` * Surface samples in the open (3x near towers)`\
-` * Surface samples in forest (3x each in dust and control plots)`\
-` * This is at essentially peak SWE (according to the Brighton SNOTEL)`\
-` * Dust is still active at the top of the snowpack.`
+` * Storm board sample (PCAPS method)`\
+` * Full column sample (PCAPS method)`\
+` * Kelly samples of the entire column (10cm increments)`\
+` * Surface samples in the open (3x near towers)`\
+` * Surface samples in forest (3x each in dust and control plots)`\
+` * This is at essentially peak SWE (according to the Brighton SNOTEL)`\
+` * Dust is still active at the top of the snowpack.`
 
 May 1
 -----
 
-` * Collected exetainer samples from all inlets (Measured these on the 3rd - OK).`\
-` * Measured SWE in plots 1-6 (16 measurements)`\
-` * Dust deposition 3`
+` * Collected exetainer samples from all inlets (Measured these on the 3rd - OK).`\
+` * Measured SWE in plots 1-6 (16 measurements)`\
+` * Dust deposition 3`
 
 Apr 15
 ------
 
-` * RE-collected exetainer samples from all inlets (Measured these the following morning - OK).`\
-` * Measured SWE in plots 1-6 (20 measurements)`\
-` * Dust deposition 2`
+` * RE-collected exetainer samples from all inlets (Measured these the following morning - OK).`\
+` * Measured SWE in plots 1-6 (20 measurements)`\
+` * Dust deposition 2`
 
 Apr 12
 ------
 
-` * Collected exetainer samples from all inlets (Measured these the following morning - :!: all were atmospheric:!:).`\
-` * Measured SWE in plots 1-4`\
-` * Fixed ropes`\
-` * Dug out met tower`
+` * Collected exetainer samples from all inlets (Measured these the following morning - :!: all were atmospheric:!:).`\
+` * Measured SWE in plots 1-4`\
+` * Fixed ropes`\
+` * Dug out met tower`
 
 Apr 2
 -----
 
-` * Measured SWE in all plots, these are good numbers this time. Used lube on tubes.`\
-` * Collected "after" sublimation samples from N & S facing slopes in HC`
+` * Measured SWE in all plots, these are good numbers this time. Used lube on tubes.`\
+` * Collected "after" sublimation samples from N & S facing slopes in HC`
 
 Mar 31
 ------
 
-` * First dust deposition, on all 3 treatment plots`\
-` * Measured SWE in all plots, but sampling was difficult and I don't have too much faith in the numbers.`\
-` * Collected sublimation samples from N & S facing slopes in HC`
+` * First dust deposition, on all 3 treatment plots`\
+` * Measured SWE in all plots, but sampling was difficult and I don't have too much faith in the numbers.`\
+` * Collected sublimation samples from N & S facing slopes in HC`
 
 Mar 27
 ------
 
-` * Fixed/replaced ropes`\
-` * Wired charging station together and connected battery`\
-` * Dug out solar tower a bit.`
+` * Fixed/replaced ropes`\
+` * Wired charging station together and connected battery`\
+` * Dug out solar tower a bit.`
 
 Mar 23
 ------
 
-` * Collected exetainer samples from all inlets (Measured these the following morning).`\
-` * Measured SWE in corridor 1. Conditions made this difficult, and there are only 2-3 reliable measurements.`\
-` * Fixed ropes - one needs to be replaced`\
-` * Collected snow sample from storm board.`
+` * Collected exetainer samples from all inlets (Measured these the following morning).`\
+` * Measured SWE in corridor 1. Conditions made this difficult, and there are only 2-3 reliable measurements.`\
+` * Fixed ropes - one needs to be replaced`\
+` * Collected snow sample from storm board.`
 
 Feb 18
 ------
 
-` * Collected exetainer samples from all inlets, including t1-t3 series for 3 inlets. (Measured these the following morning)`\
-` * Measured SWE in six locations in corridor 1`\
-` * Fixed ropes`\
-` * Collected six snow cores from N of towers for dust sampling`\
-` * Dug out tower bases a bit`
+` * Collected exetainer samples from all inlets, including t1-t3 series for 3 inlets. (Measured these the following morning)`\
+` * Measured SWE in six locations in corridor 1`\
+` * Fixed ropes`\
+` * Collected six snow cores from N of towers for dust sampling`\
+` * Dug out tower bases a bit`
 
 January 2011
 ------------
 
 Find dates for these!!
 
-` * Dug out tower bases`\
-` * Installed caps for inlet tubing`\
-` * First sampling of below snow inlets`\
-` * Restarted measurements at Forest site Jan 11.`\
-` * Collected snow samples at board`\
-` * Maintained ropes and signs, but there has been some traffic.`
+` * Dug out tower bases`\
+` * Installed caps for inlet tubing`\
+` * First sampling of below snow inlets`\
+` * Restarted measurements at Forest site Jan 11.`\
+` * Collected snow samples at board`\
+` * Maintained ropes and signs, but there has been some traffic.`

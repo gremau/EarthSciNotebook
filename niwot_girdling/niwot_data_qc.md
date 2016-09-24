@@ -1,6 +1,6 @@
 ###### Niwot/Fraser girdling study data QC
 
--   -   See also:\*\* [Activity log](activitylog_1 "wikilink")
+ **See also:\*\* [Activity log](activitylog_1)
 
 ##### Soil CO2 data
 
@@ -72,13 +72,13 @@ using depth/concentration thresholds in the soilCO2\_tdist.m file.
 
 ##### Final QC'd data
 
--   -   Number of samples removed, 2011\*\*
+ **Number of samples removed, 2011\*\*
 
 \^ Problem \^ IRGA dates \^ GB dates \^ IRGA/IRMS CO2 \^ d13C/invCO2 \^
 Enr. deep d13CO2 \^ Total 2011 \^ | NWT | 70 | 10 | 9 | 1 | 5 | 95 | |
 FEF | 49 | 56 | 15 | 4 | 0 | 124 | 219 samples removed total
 
--   -   Number of samples removed, 2012\*\*
+ **Number of samples removed, 2012\*\*
 
 \^ Problem \^ IRGA dates \^ GB dates \^ IRGA/IRMS CO2 \^ d13C/invCO2 \^
 Enr. deep d13CO2 \^ Total 2012 \^ | NWT | 70 | 20 | 4 | 4 | 2 | 100 | |

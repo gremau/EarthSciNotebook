@@ -3,19 +3,19 @@
 This page helps track bad, incomplete, or otherwise excluded data from
 SNOTEL sites.
 
--   -   See also:\*\* [Project overview](overview "wikilink"),
+ **See also:\*\* [Project overview](overview),
         [Programming
-        documentation](west_stationdata:programdocs "wikilink"), [Data
-        collection/prep](west_stationdata:data "wikilink"), [Data
-        analysis log](west_stationdata:analysislog_1 "wikilink")
+        documentation](west_stationdata:programdocs), [Data
+        collection/prep](west_stationdata:data), [Data
+        analysis log](west_stationdata:analysislog_1)
 
 ##### Procedure for screening data files
 
-` - Run testfiles.m`\
-` - Run testsensors.m`\
-`   - Flag any sensors that look like the data being read is in error.`\
-`   - Flag any sensor that appear to have a large level shift in the middle of a water year`\
-`   - DO NOT flag missing data (gaps), or short timeseries, this will be taken care of by testfiles.m and nancheck.m`
+` - Run testfiles.m`\
+` - Run testsensors.m`\
+`   - Flag any sensors that look like the data being read is in error.`\
+`   - Flag any sensor that appear to have a large level shift in the middle of a water year`\
+`   - DO NOT flag missing data (gaps), or short timeseries, this will be taken care of by testfiles.m and nancheck.m`
 
 ##### Directories and files
 
@@ -25,8 +25,8 @@ Both the //NRCSdata/allsensors\_dailly/// and the
 When changes are made to these directories (files added or removed) this
 script should be re-run.
 
-` * **baddata.txt** is present in //allsensors_daily///. It lists all datafiles, by siteID and year, that should be excluded from analysis. The actual exclusion is performed by `*`loadsnotel.m`*` (for now).`\
-` * In both data directories (above) there are subdirectories that hold incomplete, empty, or otherwise problematic files.`
+` * **baddata.txt** is present in //allsensors_daily///. It lists all datafiles, by siteID and year, that should be excluded from analysis. The actual exclusion is performed by `*`loadsnotel.m`*` (for now).`\
+` * In both data directories (above) there are subdirectories that hold incomplete, empty, or otherwise problematic files.`
 
 ##### Bad data tracker
 

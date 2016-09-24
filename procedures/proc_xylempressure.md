@@ -5,18 +5,18 @@ season in an effort to understand the seasonal pattern of soil moisture
 and tree water status under natural or experimentally manipulated
 conditions.
 
--   -   Relevant links:\*\*
+ **Relevant links:\*\*
 
-` * `[`Hidden` `Canyon`
-`ecohydrology`](hc_ecohydrology:overview "wikilink")` (water balance and snowmelt) experiment page.`\
-` * The `[`Hidden` `Canyon` `carbon`
-`cycle`](hc_carboncycle:overview "wikilink")`, which may be influenced by soil or plant water potentials.`
+` * `[`Hidden` `Canyon`
+`ecohydrology`](hc_ecohydrology:overview)` (water balance and snowmelt) experiment page.`\
+` * The `[`Hidden` `Canyon` `carbon`
+`cycle`](hc_carboncycle:overview)`, which may be influenced by soil or plant water potentials.`
 
 ##### Objectives
 
-` * To measure the predawn and midday xylem water potential of trees during the growing season.`\
-` * To identify the timing and magnitude of any periods of water stress.`\
-` * To measure the differences in growing season plant and soil water status between trees growing under different conditions.`
+` * To measure the predawn and midday xylem water potential of trees during the growing season.`\
+` * To identify the timing and magnitude of any periods of water stress.`\
+` * To measure the differences in growing season plant and soil water status between trees growing under different conditions.`
 
 ##### Methods
 

@@ -3,27 +3,27 @@
 Assorted notes on using the ipython interactive shell. Official
 documentation is at <http://ipython.org>.
 
--   -   See also:\*\* [General programming](programming "wikilink"),
-        [Python tips](pythontips "wikilink") pages.
+ **See also:\*\* [General programming](programming),
+        [Python tips](pythontips) pages.
 
 ##### Basics
 
--   -   Pylab\*\* - Starting ipython with the *--pylab* option imports
+ **Pylab\*\* - Starting ipython with the *--pylab* option imports
         numpy and matplotlib libraries into the workspace.
 
 <!-- -->
 
--   -   Inline help\*\* - Following any object of function name with a
+ **Inline help\*\* - Following any object of function name with a
         "?" gives info or documentation about the item.
 
 <!-- -->
 
--   -   Shell access\*\* - to run a command in the system shell prefix
+ **Shell access\*\* - to run a command in the system shell prefix
         it with an exclamation point: *!ping www.bbc.co.uk*
 
 <!-- -->
 
--   -   ipdb\*\* - ipython has an enhanced debugger (not sure if this is
+ **ipdb\*\* - ipython has an enhanced debugger (not sure if this is
         enabled by default :!:)
 
 ##### Magic commands
@@ -32,11 +32,11 @@ IPython "magic" commands operate only within IPython, and are prefaced
 by %. If the flag %automagic is set, then magic commands can be called
 without the %. (%automagic is on by default.). These commands include:
 
-* Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
-* Functions which affect the shell: %colors, %xmode, %autoindent, etc.
-* Other functions such as %reset, %timeit or %paste.
-* To see all the available magic functions, call %lsmagic.
-* `[`This`](http://ipython.org/ipython-doc/stable/api/generated/IPython.core.magic.html#module-IPython.core.magic "wikilink")lists all the core magic functions.`
+* Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
+* Functions which affect the shell: %colors, %xmode, %autoindent, etc.
+* Other functions such as %reset, %timeit or %paste.
+* To see all the available magic functions, call %lsmagic.
+* `[`This`](http://ipython.org/ipython-doc/stable/api/generated/IPython.core.magic.html#module-IPython.core.magic)lists all the core magic functions.`
 
 %run
 ----
@@ -58,8 +58,8 @@ Print all interactive variables, with minimal (%who) or extensive
 (%whos) formatting. If any arguments are given, only variables whose
 type matches one of these are printed. For example:
 
-#This will list functions and strings, excluding all other types of variables
-%who function str`
+#This will list functions and strings, excluding all other types of variables
+%who function str`
 
 %edit
 -----
@@ -81,11 +81,11 @@ IPython will automatically start the debugger on any uncaught exception.
 IPython has a ligthweight, Qt enhanced terminal that allows some extra
 functionality.
 
-* The Debian package: ipython-qtconsole.
-* Start with: ipython qtconsole
-* arguments can be passed to this start statement (`*`--pylab`*`)
-* type `*`%guiref`*to see a quick introduction of its main features.
-* `[`Feature description`](http://ipython.org/ipython-doc/stable/interactive/qtconsole.html "wikilink")
+* The Debian package: ipython-qtconsole.
+* Start with: ipython qtconsole
+* arguments can be passed to this start statement (`*`--pylab`*`)
+* type `*`%guiref`*to see a quick introduction of its main features.
+* `[`Feature description`](http://ipython.org/ipython-doc/stable/interactive/qtconsole.html)
 
 ### Features
 
@@ -119,4 +119,4 @@ Qtconsole activity can be saved in HTML or XHTML, with inline figures in
 PNG or SVG format. To switch the inline figure format to use SVG during
 an active session, do:
 
-In [10]: %config InlineBackend.figure_format = 'svg'`
+In [10]: %config InlineBackend.figure_format = 'svg'`

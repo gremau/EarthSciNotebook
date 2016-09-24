@@ -3,12 +3,12 @@
 Many inferential statistical procedures require that data be normally
 distributed. Here are a few ways to check if this is the case.
 
--   -   Note\*\* that the conventional wisdom that these tests must be
+ **Note\*\* that the conventional wisdom that these tests must be
         applied before using normal theory statistical procedures is
         debated (see
-        [here](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/ "wikilink")
+        [here](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/)
         and
-        [here](http://stackoverflow.com/questions/7781798/seeing-if-data-is-normally-distributed-in-r/ "wikilink")).
+        [here](http://stackoverflow.com/questions/7781798/seeing-if-data-is-normally-distributed-in-r/)).
         Unless the sample size is very small, it is probably best to
         proceed with the statistical procedures when the data are
         //approximately// normal. Assessing //approximate// normality
@@ -37,5 +37,5 @@ data may (or may not) be normally distributed.
 
 ##### Resources
 
-` * `[ `Tutorial` `using`
-`R`](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0450.RandVars.AssesNorm.pdf "wikilink")
+` * `[ `Tutorial` `using`
+`R`](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0450.RandVars.AssesNorm.pdf)

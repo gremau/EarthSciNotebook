@@ -9,8 +9,8 @@ U.S. along with descriptive information about that forest.
 
 ### Related projects
 
-` * The `[`SNOTEL` `soil` `climate`
-`project`](west_stationdata:overview "wikilink")`.`
+` * The `[`SNOTEL` `soil` `climate`
+`project`](west_stationdata:overview)`.`
 
 ##### Hypotheses
 
@@ -20,13 +20,13 @@ U.S. along with descriptive information about that forest.
 
 ##### Methods
 
-` * `[`Growing` `season` `soil`
-`respiration`](procedures:manual_soilresp "wikilink")` with the `[`Li-Cor`
-`6400` `system`](instruments:li-6400 "wikilink")`.`\
-` * `[`Below-snow` `soil`
-`respiration`](procedures:belowsnow_soilresp "wikilink")` measurements made with the inlet/tubing system and exetainers.`\
-` * `[`Litterbag` `mass`
-`loss`](procedures:litterbags "wikilink")` measurement of winter and summer decomposition.`
+` * `[`Growing` `season` `soil`
+`respiration`](procedures:manual_soilresp)` with the `[`Li-Cor`
+`6400` `system`](instruments:li-6400)`.`\
+` * `[`Below-snow` `soil`
+`respiration`](procedures:belowsnow_soilresp)` measurements made with the inlet/tubing system and exetainers.`\
+` * `[`Litterbag` `mass`
+`loss`](procedures:litterbags)` measurement of winter and summer decomposition.`
 
 ##### Measurement details and logs
 
@@ -38,18 +38,18 @@ Aboveground data
 Soil and belowground measurements
 ---------------------------------
 
-` * Log`
+` * Log`
 
 #### Soil sample C, N, and stable isotope analysis
 
-` * Log`
+` * Log`
 
 #### Radiocarbon analysis of soils
 
-` * Log`
+` * Log`
 
 #### Intact soil core incubations
 
-` * Log`
+` * Log`
 
 #### Other logs

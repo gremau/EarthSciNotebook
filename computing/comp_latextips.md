@@ -54,7 +54,7 @@ zab & rab & oof\\
 ```
 
 A better way is to use the
-[Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/ "wikilink")
+[Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/)
 package, and use something like this:
 
 ```latex
