@@ -1,4 +1,4 @@
-###### Data quality control
+# Data quality control
 
 This page helps track bad, incomplete, or otherwise excluded data from
 SNOTEL sites.
@@ -9,15 +9,15 @@ SNOTEL sites.
         collection/prep](west_stationdata:data), [Data
         analysis log](west_stationdata:analysislog_1)
 
-##### Procedure for screening data files
+## Procedure for screening data files
 
-` - Run testfiles.m`\
-` - Run testsensors.m`\
-`   - Flag any sensors that look like the data being read is in error.`\
-`   - Flag any sensor that appear to have a large level shift in the middle of a water year`\
+` - Run testfiles.m
+` - Run testsensors.m
+`   - Flag any sensors that look like the data being read is in error.
+`   - Flag any sensor that appear to have a large level shift in the middle of a water year
 `   - DO NOT flag missing data (gaps), or short timeseries, this will be taken care of by testfiles.m and nancheck.m`
 
-##### Directories and files
+## Directories and files
 
 Both the //NRCSdata/allsensors\_dailly/// and the
 //NRCSdata/soilsensors\_hourly/// directories contain a ''sitelist.txt
@@ -25,10 +25,10 @@ Both the //NRCSdata/allsensors\_dailly/// and the
 When changes are made to these directories (files added or removed) this
 script should be re-run.
 
-` * **baddata.txt** is present in //allsensors_daily///. It lists all datafiles, by siteID and year, that should be excluded from analysis. The actual exclusion is performed by `*`loadsnotel.m`*` (for now).`\
+` * **baddata.txt** is present in //allsensors_daily///. It lists all datafiles, by siteID and year, that should be excluded from analysis. The actual exclusion is performed by `*`loadsnotel.m`*` (for now).
 ` * In both data directories (above) there are subdirectories that hold incomplete, empty, or otherwise problematic files.`
 
-##### Bad data tracker
+## Bad data tracker
 
 \^ SiteID \^ Years \^ Problem \^ in baddata.txt? \^ Other \^ | 306 |
 1998-2004 | Sensors at wrong depth, plus an I-2 header | Yes | Seems to

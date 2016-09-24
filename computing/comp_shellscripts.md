@@ -1,4 +1,4 @@
-###### Shell scripting tips
+# Shell scripting tips
 
 Notes on using the Unix shell (bash, ash, et. al) to manipulate files,
 text, etc.
@@ -8,7 +8,7 @@ text, etc.
         [Vim tips](vimtips), [Text file
         tips](textfiles).
 
-##### Basic stuff
+## Basic stuff
 
 Assign variables like this:
 
@@ -21,7 +21,7 @@ Expand variables with \$:
 If the location of the variable is unclear in the input string use curly
 braces:
 
-` echo $VARbar # prints nothing`\
+` echo $VARbar # prints nothing
 ` echo ${VAR}bar # prints "foobar"`
 
 Single quoted strings are interpreted literally:
@@ -36,8 +36,8 @@ Double quoted strings are interpreted literally except for \$, \`
 Double quotes also group space separated words or variable together and
 can be used to append/prepend:
 
-` VAR2="bar foobar"`\
-` VAR3="foo$VAR2"`\
+` VAR2="bar foobar"
+` VAR3="foo$VAR2"
 ` echo $VAR3 # prints "foobar foobar"`
 
 Backquoted strings are executed by your shell and are then replaced by
@@ -54,7 +54,7 @@ is interpreted as a string"
 
 ` echo \$VAR # prints "$VAR" to stdout`
 
-##### Redirection and piping
+## Redirection and piping
 
 The *&gt;* operator redirects the standard output (or stderr sometimes)
 of a command to a file.
@@ -68,7 +68,7 @@ bash.
 Redirecting in the opposite directions, *&lt;*, can be used to feed the
 contents of a file into a command.
 
-` cat < textfile1 > textfile2 # Same as "cp textfile1 textfile2"`\
+` cat < textfile1 > textfile2 # Same as "cp textfile1 textfile2"
 ` `
 
 The *|* operator "pipes" the standard output of a command to the
@@ -76,45 +76,45 @@ standard input of another command or process.
 
 ` ps axl | grep zombie # select and show zombie processes from the full list of processes`
 
-##### Command line scripts
+## Command line scripts
 
 Simple shell scripts can be run from the command line, separating
 commands with a semicolon.
 
  **Nice utilities to put in shell commands and scripts: \*\*
 
-` * The usual file commands `*`cp`*`, `*`mv`*`, `*`rm`*`, etc.`\
-` * `*`grep`*`: prints text (from a file or standard input) matching a sequence of characters.`\
-` * `*`cut`*`: cuts columns out of delimited files`\
-` * `*`tr`*`: (translate) deletes (-d) or replaces characters in a file`\
-` * `*`tail`*`: prints the last //n// lines in a given file (good for removing headers).`\
+` * The usual file commands `*`cp`*`, `*`mv`*`, `*`rm`*`, etc.
+` * `*`grep`*`: prints text (from a file or standard input) matching a sequence of characters.
+` * `*`cut`*`: cuts columns out of delimited files
+` * `*`tr`*`: (translate) deletes (-d) or replaces characters in a file
+` * `*`tail`*`: prints the last //n// lines in a given file (good for removing headers).
 ` * `*`sed`*` commands (see `[`this`
-`tutorial`](http://www.grymoire.com/Unix/Sed.html)`)`\
+`tutorial`](http://www.grymoire.com/Unix/Sed.html)`)
 ` * `[`awk` `one` `liners`](procedures:awk)
 
 For example in a particular directory, a list of files with the .csv
 extension can be generated with a simple loop:
 
-` greg@gm-thinkpad:~/Downloads/station_inventory$ for i in *.csv; do echo "$i"; done`\
-` AZ_soilstations.csv`\
-` CO_soilstations.csv`\
-` ID_soilstations.csv`\
-` MT_soilstations.csv`\
-` NM_soilstations.csv`\
-` NV_soilstations.csv`\
-` UT_soilstations.csv`\
+` greg@gm-thinkpad:~/Downloads/station_inventory$ for i in *.csv; do echo "$i"; done
+` AZ_soilstations.csv
+` CO_soilstations.csv
+` ID_soilstations.csv
+` MT_soilstations.csv
+` NM_soilstations.csv
+` NV_soilstations.csv
+` UT_soilstations.csv
 ` WY_soilstations.csv`
 
 Using the same loop format, copies and substitutions to the filename can
 be made:
 
-` greg@gm-thinkpad:~/Downloads/station_inventory$ for i in *.csv; do cp "$i" "${i/.csv}2.csv"; done`\
-` greg@gm-thinkpad:~/Downloads/station_inventory$ ls`\
-` AZ_soilstations2.csv  MT_soilstations2.csv  UT_soilstations2.csv`\
-` AZ_soilstations.csv   MT_soilstations.csv   UT_soilstations.csv`\
-` CO_soilstations2.csv  NM_soilstations2.csv  WY_soilstations2.csv`\
-` CO_soilstations.csv   NM_soilstations.csv   WY_soilstations.csv`\
-` ID_soilstations2.csv  NV_soilstations2.csv`\
+` greg@gm-thinkpad:~/Downloads/station_inventory$ for i in *.csv; do cp "$i" "${i/.csv}2.csv"; done
+` greg@gm-thinkpad:~/Downloads/station_inventory$ ls
+` AZ_soilstations2.csv  MT_soilstations2.csv  UT_soilstations2.csv
+` AZ_soilstations.csv   MT_soilstations.csv   UT_soilstations.csv
+` CO_soilstations2.csv  NM_soilstations2.csv  WY_soilstations2.csv
+` CO_soilstations.csv   NM_soilstations.csv   WY_soilstations.csv
+` ID_soilstations2.csv  NV_soilstations2.csv
 ` ID_soilstations.csv   NV_soilstations.csv`
 
 A similar effect to the substitution could be done with basename.
@@ -137,8 +137,8 @@ This command will take each .csv file, cut out columns 13-15, and
 redirect this output to a new file. `for` `FILE` `in` `*.csv;` `do`
 `cut` `-d","` `-f-12,16-` `"$FILE"` `>` `"${FILE/.csv}2.csv";` `done`
 
-##### Executing saved scripts
+## Executing saved scripts
 
-` - Start scripts with the path to bash (#!/bin/bash)`\
-` - Make sure they are executable`\
+` - Start scripts with the path to bash (#!/bin/bash)
+` - Make sure they are executable
 ` - From the current working directory they can be run with "bash scriptname" OR "./scriptname`

@@ -1,11 +1,11 @@
-###### Workflow for data analysis (Greg)
+# Workflow for data analysis (Greg)
 
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
 **See also:** [[General programming|comp_programming]] page.
 
-##### Filesystem
+## Filesystem
 
 * **`*`~/data/`*`** - on its own partition, regularly backed up
   *  **`*`current/`*`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a `*`**data_analysis**`*directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
@@ -37,7 +37,7 @@ through the data analysis process.
     * **project_2/**
       * ...`
 
-##### General Workflow
+## General Workflow
 
 This refers to current projects, each of which is stored in a
 *\*\*data/current/projectname/\*\** directory.
@@ -78,7 +78,7 @@ The generalized workflow looks like this:
         /projectname/data\_analysis/processed\_data (OR /projectname/,
         wiki, paper, etc for finished products)
 
-##### Coding and version control
+## Coding and version control
 
 ### Code pieces
 

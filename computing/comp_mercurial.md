@@ -1,10 +1,10 @@
-###### Version control with Mercurial
+# Version control with Mercurial
 
 Resources
 ---------
 
 ` * `[`Mercurial:` `The` `Definitive`
-`Guide`](http://hgbook.red-bean.com/read/)` - an online copy of Sullivan book published by O'Reilly.`\
+`Guide`](http://hgbook.red-bean.com/read/)` - an online copy of Sullivan book published by O'Reilly.
 ` * `[`Mercurial`
 `wiki`](http://mercurial.selenic.com/wiki/)\
 ` * `[`HgInit` `tutorial`](http://hginit.com/index.html)
@@ -15,16 +15,16 @@ Installing and configuring
 ` - Install in debian with `*`apt-get` `install` `mercurial`*\
 ` - Create ~/.hgrc and add the following lines:`
 
-` [ui]`\
+` [ui]
 ` username = Firstname Lastname `<username@somewhere.com>\
 ` verbose = True`
 
-##### Creating a repository
+## Creating a repository
 
 First enter the directory that needs version control and initialize the
 repository
 
-` cd ~/projectdirectory`\
+` cd ~/projectdirectory
 ` hg init`
 
 This will create the .hg directory containing the repository in
@@ -33,7 +33,7 @@ This will create the .hg directory containing the repository in
 Next, add the files in the \~/projectdirectory to the repository
 ~~~
 
-` hg add  #schedule all files in ~/projectdirectory to be added to the repository`\
+` hg add  #schedule all files in ~/projectdirectory to be added to the repository
 ` hg add file1, file2  #or add files to the repository individually`
 
 ~~~
@@ -43,7 +43,7 @@ status*.
 
 Then, commit the initial version of these files ~~~
 
-` hg commit  #this will pop up an editor for you to add a commit description`\
+` hg commit  #this will pop up an editor for you to add a commit description
 ` hg commit -m "This is the initial commit of these files"  #or add the message directly from the commandline`
 
 ~~~
@@ -51,7 +51,7 @@ Then, commit the initial version of these files ~~~
 Use *hg log* to view a history of commits to the repository (most recent
 commits are at the top).
 
-##### Make and commit changes
+## Make and commit changes
 
  **Commits should occur whenever substantial changes are made to a
         file.\*\* This would include new features, creation of new
@@ -81,7 +81,7 @@ m/file1.m m/file2.m otherdatadir description: Initial commit of files
 
 ~~~
 
-##### Tracking, removing, renaming, or ignoring files
+## Tracking, removing, renaming, or ignoring files
 
  **hg add //file1//\*\*
 
@@ -132,7 +132,7 @@ syntax: glob
 
 syntax: regexp \^\\.pc/ ~~~
 
-##### Viewing or changing between previous revisions
+## Viewing or changing between previous revisions
 
 #### Revert
 
@@ -191,8 +191,8 @@ version diff -r d0eea9c4d2d5 m/file1.m --- a/m/file1.m Wed Dec 28
 removed -% \# and this one + \# this and the next 2 lines added +I added
 this line +
 
-`clear;          % clear memory`\
-`close all;      % clear any figures`\
+`clear;          % clear memory
+`close all;      % clear any figures
 `fignum=0;       % used to increment figure number for plots`
 
 ~~~
@@ -216,24 +216,24 @@ listening at <http://gm-thinkpad.pronghorns.net:8000/> (bound to
 
 ~~~
 
-##### Working with multiple repositories
+## Working with multiple repositories
 
 There are several use-cases in which the following commands are useful:
 
-` - A team of developers working on the same project must share changes between their local repositories and a central repository.`\
+` - A team of developers working on the same project must share changes between their local repositories and a central repository.
 ` - In solo development it may be useful to make an experimental clone of the repository for testing changes. If successful, these changes can be pushed back to the main.`
 
 ### Commands
 
-` * **hg clone** makes a copy of an entire repository (including all files and directory structures).`\
-`   * Results in a testing branch for solo development, or local working copies of a team project.`\
-` * **hg outgoing** lists changes in current repository waiting to be pushed`\
-` * **hg incoming** lists changes in remote repository waiting to be pulled (new changesets in central repo since clone, or last pull)`\
-` * **hg paths** shows a list of all known remote repositories, including a default for pushing changesets.`\
-` * **hg push** will push new changes from one repository to another.`\
-`   * This could be a central or local repository used to clone the current working repository`\
-` * **hg pull** pulls in changesets from a central or local repository (the parent of the current one)`\
-` * **hg parent** shows which changeset(s) you are working off of in your current repository.`\
+` * **hg clone** makes a copy of an entire repository (including all files and directory structures).
+`   * Results in a testing branch for solo development, or local working copies of a team project.
+` * **hg outgoing** lists changes in current repository waiting to be pushed
+` * **hg incoming** lists changes in remote repository waiting to be pulled (new changesets in central repo since clone, or last pull)
+` * **hg paths** shows a list of all known remote repositories, including a default for pushing changesets.
+` * **hg push** will push new changes from one repository to another.
+`   * This could be a central or local repository used to clone the current working repository
+` * **hg pull** pulls in changesets from a central or local repository (the parent of the current one)
+` * **hg parent** shows which changeset(s) you are working off of in your current repository.
 ` * **hg merge** merges the changes in two heads (ie. when there are two competing changesets added to the repository)`
 
 ### Example 1
@@ -266,13 +266,13 @@ greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg diff diff
 06:46:04 2011 -0700 +++ b/m/plot\_SNOTELsurvey\_CN.m Fri Dec 30 07:02:05
 2011 -0700 @@ -3,6 +3,9 @@
 
-`% Plots of C, N, and isotope data for SNOTEL survey sites`\
-`%`\
+`% Plots of C, N, and isotope data for SNOTEL survey sites
+`%
 `% Uses isotope data in soildata/CNisotopedata15sites.csv`
 
 + +This is my new testing code +it does cool stuff
 
-`clear;          % clear memory`\
+`clear;          % clear memory
 `close all;      % clear any figures`
 
 greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg commit -m
@@ -301,18 +301,18 @@ various local repos and the central repository.
 
 [Covered here](http://hginit.com/02.html)
 
-##### Pushing to a Git repository (GitHub)
+## Pushing to a Git repository (GitHub)
 
 The [hg-git](http://hg-git.github.com) plugin is needed for
 this.
 
-` $ easy_install hg-git   #first install hg-git`\
+` $ easy_install hg-git   #first install hg-git
 ` `
 
 Create a repository on GitHub and save an SSH Key there using [these
 instructions](http://help.github.com/linux-set-up-git/)
 
-` $ cd repositoryname # (a Mercurial repository)`\
-` $ hg bookmark -r default master # make a bookmark of master for default, so a ref gets created`\
-` $ hg push git+ssh://git@github.com/gremau/repositoryname.git`\
+` $ cd repositoryname # (a Mercurial repository)
+` $ hg bookmark -r default master # make a bookmark of master for default, so a ref gets created
+` $ hg push git+ssh://git@github.com/gremau/repositoryname.git
 ` $ hg push`

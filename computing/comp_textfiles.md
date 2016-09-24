@@ -1,4 +1,4 @@
-###### Text files
+# Text files
 
 Text files are perhaps the simplest and most interoperable format for
 storing and exchanging data. Here are some tips and utilities for
@@ -10,7 +10,7 @@ environment.
         [Vim tips](vimtips), the [shell scripting
         page](shellscripts).
 
-##### Text operations
+## Text operations
 
 #### Find (grep) text in the contents of multiple files
 
@@ -34,9 +34,9 @@ where *-type f* means search only files, *-exec grep...* specifies the
 
 Using just sed:
 
-` # Replace "phrase1" with "phrase2" in all "file*.txt" files in the current directory, `\
-` # and append ".bak" to the original files.`\
-` sed -i.bak 's/phrase1/phrase2/g' file*.txt `\
+` # Replace "phrase1" with "phrase2" in all "file*.txt" files in the current directory, 
+` # and append ".bak" to the original files.
+` sed -i.bak 's/phrase1/phrase2/g' file*.txt 
 ` `
 
 Using find, and piping to sed - no backup copy made
@@ -49,7 +49,7 @@ There are plenty of diff-merge tools, including *vimdiff*. For diffing
 files with long lines (paragraphs in documents),
 [*wdiff*](http://www.gnu.org/software/wdiff/) should help.
 
-##### Markup languages
+## Markup languages
 
 When drafting text documents, markup languages can be used to add
 formatting or other information to plain text. This makes text more
@@ -57,12 +57,12 @@ readable, and the markup text can be parsed by an interpreter to render
 the content in other document formats (ie. HTML, LaTeX documents, .docx
 files, etc.).
 
-` * **Lightweight markup languages**`\
+` * **Lightweight markup languages**
 `   * `[`Markdown`](http://daringfireball.net/projects/markdown/)\
 `   * `[`reStructuredText`](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)\
 `   * `[`ASCIIdoc`](http://www.methods.co.nz/asciidoc/)\
-` * **Markdown extensions/supersets**`\
-`   * `[`Pandoc`](http://johnmacfarlane.net/pandoc/)` Markdown`\
+` * **Markdown extensions/supersets**
+`   * `[`Pandoc`](http://johnmacfarlane.net/pandoc/)` Markdown
 `   * `[`MultiMarkdown`](http://fletcherpenney.net/multimarkdown/)\
 `   * `[`kramdown`](http://kramdown.rubyforge.org)
 

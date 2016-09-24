@@ -39,12 +39,12 @@ Loop for a probe with 4 sensors
 
 3: Beginning of Loop (P87)
 
-`1: 0000     Delay`\
+`1: 0000     Delay
 `2: 4        Loop Count`
 
-`    4:  Z=F x 10^n (P30)`\
-`     1: -1000    F`\
-`     2: 0        n, Exponent of 10`\
+`    4:  Z=F x 10^n (P30)
+`     1: -1000    F
+`     2: 0        n, Exponent of 10
 `     3: 3     -- Z Loc [ Sen9_SF_1 ]`
 
 5: End (P95)
@@ -54,23 +54,23 @@ Loop through 5 retries
 
 6: Beginning of Loop (P87)
 
-`1: 0        Delay`\
+`1: 0        Delay
 `2: 5        Loop Count`
 
 There are other SDI-12 commands - see appendices in manuals
 
-`    7:  SDI-12 Recorder (P105)`\
-`     1: 0        SDI-12 Address`\
-`     2: 0        Start Measurement (aM!)`\
-`     3: 7        Port`\
-`     4: 3        Loc [ Sen9_SF_1 ]`\
-`     5: 1.0      Multiplier`\
+`    7:  SDI-12 Recorder (P105)
+`     1: 0        SDI-12 Address
+`     2: 0        Start Measurement (aM!)
+`     3: 7        Port
+`     4: 3        Loc [ Sen9_SF_1 ]
+`     5: 1.0      Multiplier
 `     6: 0.0      Offset`
 
-`    8:  If (X<=>F) (P89)`\
-`     1: 3        X Loc [ Sen9_SF_1 ]`\
-`     2: 2        <>`\
-`     3: 0        F`\
+`    8:  If (X<=>F) (P89)
+`     1: 3        X Loc [ Sen9_SF_1 ]
+`     2: 2        <>
+`     3: 0        F
 `     4: 31       Exit Loop if True`
 
 9: End (P95)
@@ -80,15 +80,15 @@ Measurement of 0 at first sensor indicates inactive probe
 
 10: If (X&lt;=&gt;F) (P89)
 
-`1: 3        X Loc [ Sen9_SF_1 ]`\
-`2: 1        =`\
-`3: 0        F`\
+`1: 3        X Loc [ Sen9_SF_1 ]
+`2: 1        =
+`3: 0        F
 `4: 30       Then Do`
 
-`    ; Set first sensor reading to -99999`\
-`    11:  Z=F x 10^n (P30)`\
-`     1: -99999   F`\
-`     2: 0        n, Exponent of 10`\
+`    ; Set first sensor reading to -99999
+`    11:  Z=F x 10^n (P30)
+`     1: -99999   F
+`     2: 0        n, Exponent of 10
 `     3: 3        Z Loc [ Sen9_SF_1 ]`
 
 12: End (P95)
@@ -97,61 +97,61 @@ Loop through SF values to to set error codes or calculate WC
 
 13: Beginning of Loop (P87)
 
-`1: 0        Delay`\
+`1: 0        Delay
 `2: 4        Loop Count`
 
-`    ; If 1st sensor is < -9999, eg -99999, set all sensor readings to -99999`\
-`    14:  If (X<=>F) (P89)`\
-`     1: 3        X Loc [ Sen9_SF_1 ]`\
-`     2: 4        <`\
-`     3: -9999    F`\
+`    ; If 1st sensor is < -9999, eg -99999, set all sensor readings to -99999
+`    14:  If (X<=>F) (P89)
+`     1: 3        X Loc [ Sen9_SF_1 ]
+`     2: 4        <
+`     3: -9999    F
 `     4: 30       Then Do`
 
-`         15:  Z=F x 10^n (P30)`\
-`          1: -99999   F`\
-`          2: 0        n, Exponent of 10`\
+`         15:  Z=F x 10^n (P30)
+`          1: -99999   F
+`          2: 0        n, Exponent of 10
 `          3: 3     -- Z Loc [ Sen9_SF_1 ]`
 
-`         16:  Z=F x 10^n (P30)`\
-`          1: -99999   F`\
-`          2: 0        n, Exponent of 10`\
+`         16:  Z=F x 10^n (P30)
+`          1: -99999   F
+`          2: 0        n, Exponent of 10
 `          3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
-`    ; Otherwise if a sensor scaled frequency < -999, eg -1000`\
+`    ; Otherwise if a sensor scaled frequency < -999, eg -1000
 `    17:  Else (P94)`
 
-`         18:  If (X<=>F) (P89)`\
-`          1: 3     -- X Loc [ Sen9_SF_1 ]`\
-`          2: 4        <`\
-`          3: -999     F`\
+`         18:  If (X<=>F) (P89)
+`          1: 3     -- X Loc [ Sen9_SF_1 ]
+`          2: 4        <
+`          3: -999     F
 `          4: 30       Then Do`
 
-`              ; Set water content data to -99999`\
-`              19:  Z=F x 10^n (P30)`\
-`               1: -99999   F`\
-`               2: 0        n, Exponent of 10`\
+`              ; Set water content data to -99999
+`              19:  Z=F x 10^n (P30)
+`               1: -99999   F
+`               2: 0        n, Exponent of 10
 `               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
-`         ; Otherwise calculate water content for the sensor`\
+`         ; Otherwise calculate water content for the sensor
 `         20:  Else (P94)`
 
-`              21:  Z=X-Y (P35)`\
-`               1: 3     -- X Loc [ Sen9_SF_1 ]`\
-`               2: 14       Y Loc [ C         ]`\
+`              21:  Z=X-Y (P35)
+`               1: 3     -- X Loc [ Sen9_SF_1 ]
+`               2: 14       Y Loc [ C         ]
 `               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
-`              22:  Z=X/Y (P38)`\
-`               1: 7     -- X Loc [ Sen9_WC_1 ]`\
-`               2: 12       Y Loc [ A         ]`\
+`              22:  Z=X/Y (P38)
+`               1: 7     -- X Loc [ Sen9_WC_1 ]
+`               2: 12       Y Loc [ A         ]
 `               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
-`              23:  Z=1/X (P42)`\
-`               1: 13       X Loc [ B         ]`\
+`              23:  Z=1/X (P42)
+`               1: 13       X Loc [ B         ]
 `               2: 11       Z Loc [ RecipB    ]`
 
-`              24:  Z=X^Y (P47)`\
-`               1: 7     -- X Loc [ Sen9_WC_1 ]`\
-`               2: 11       Y Loc [ RecipB    ]`\
+`              24:  Z=X^Y (P47)
+`               1: 7     -- X Loc [ Sen9_WC_1 ]
+`               2: 11       Y Loc [ RecipB    ]
 `               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
 `         25:  End (P95)`
@@ -175,7 +175,7 @@ Write Data to Final Storage
 
 29: Set Active Storage Area (P80)\^23223
 
-`1: 1        Final Storage Area 1`\
+`1: 1        Final Storage Area 1
 `2: 1        Array ID`
 
 30: Resolution (P78)
@@ -188,17 +188,17 @@ Write Data to Final Storage
 
 32: Average (P71)\^25120
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 1        Loc [ batt_volt ]`
 
 33: Average (P71)\^5738
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 2        Loc [ panelT    ]`
 
 34: Sample (P70)\^11047
 
-`1: 4        Reps`\
+`1: 4        Reps
 `2: 7        Loc [ Sen9_WC_1 ]`
 
 -   Table 2 Program

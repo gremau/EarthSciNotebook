@@ -1,31 +1,31 @@
-###### δ13C analysis of soil extracts
+# δ13C analysis of soil extracts
 
 A method to measure the δ^13^C value of dissolved organic carbon in soil
 extracts (fumigated or unfumigated).
 
-##### Materials
+## Materials
 
 Chemicals
 ---------
 
-` * H`~`2`~`O`~`2`~` solution (30% Hydrogen peroxide, diluted to 10%)`\
-` * FeSO`~`4`~`•7-H`~`2`~`O (Ferrous sulfate heptahydrate)`\
-` * 1N H`~`2`~`SO`~`4`~` (Sulfuric acid, stronger acid could be diluted)`\
+` * H`~`2`~`O`~`2`~` solution (30% Hydrogen peroxide, diluted to 10%)
+` * FeSO`~`4`~`•7-H`~`2`~`O (Ferrous sulfate heptahydrate)
+` * 1N H`~`2`~`SO`~`4`~` (Sulfuric acid, stronger acid could be diluted)
 ` * CaCl`~`2`~` or BaCl`~`2`~
 
 Laboratory equipment and consumables
 ------------------------------------
 
-` * Centrifuge suitable for 15ml tubes`\
-` * Balance for weighing chemicals.`\
-` * Volumetric flasks for mixing solutions (volume depends on how many samples you are processing).`\
-` * 1 5 ml eppendorf centrifuge tube per sample/standard (mixing and precipitation vessel).`\
-` * Micropipetter (10-100µl and 100-1000µl instruments both come in handy).`\
-` * Pipette tips `\
-` * 1 Exetainer for each sample (oxidation vessel).`\
+` * Centrifuge suitable for 15ml tubes
+` * Balance for weighing chemicals.
+` * Volumetric flasks for mixing solutions (volume depends on how many samples you are processing).
+` * 1 5 ml eppendorf centrifuge tube per sample/standard (mixing and precipitation vessel).
+` * Micropipetter (10-100µl and 100-1000µl instruments both come in handy).
+` * Pipette tips 
+` * 1 Exetainer for each sample (oxidation vessel).
 ` * 1ml syringe and needles`
 
-##### Liquid oxidation and IRMS analysis
+## Liquid oxidation and IRMS analysis
 
 Initial mixing of the extract and reactant solutions takes place in a
 5ml eppendorf centrifuge tube. Once reactants are mixed and sulfate is
@@ -37,16 +37,16 @@ steps, and the mass/volume of extract or reactant used in each step are
 explained below. I also made a spreadsheet that calculates the extract
 and reactant amounts for each sample.
 
-` - Add FeSO`~`4`~` solution to centrifuge tube in required amount. (Optional)`\
-` - Dilute with 1 ml distilled H`~`2`~`O (optional)`\
-` - Measure extract volume with desired amount of dissolved C (currently equivalent to 5µmol C) into centrifuge tube.`\
-` - Add enough acid to create a final pH of ~3 with extract and dilution factored in.`\
-` - Precipitate SO`~`4`~^`2-`^` using CaCl`~`2`~` or BaCl`~`2`~` (Optional)`\
-` - Centrifuge sample to separate extract/reactant solution from sulfate precipitate. (Optional)`\
-` - Measure extract/reactant solution (equivalent to 1µmol C) to reaction vial`\
-` - Close vial and purge with He gas (Job 14 on PAL)`\
-` - Add H`~`2`~`O`~`2`~` or Sodium persulfate reagent.`\
-` - Allow oxidation reaction to complete (~4 hours)`\
+` - Add FeSO`~`4`~` solution to centrifuge tube in required amount. (Optional)
+` - Dilute with 1 ml distilled H`~`2`~`O (optional)
+` - Measure extract volume with desired amount of dissolved C (currently equivalent to 5µmol C) into centrifuge tube.
+` - Add enough acid to create a final pH of ~3 with extract and dilution factored in.
+` - Precipitate SO`~`4`~^`2-`^` using CaCl`~`2`~` or BaCl`~`2`~` (Optional)
+` - Centrifuge sample to separate extract/reactant solution from sulfate precipitate. (Optional)
+` - Measure extract/reactant solution (equivalent to 1µmol C) to reaction vial
+` - Close vial and purge with He gas (Job 14 on PAL)
+` - Add H`~`2`~`O`~`2`~` or Sodium persulfate reagent.
+` - Allow oxidation reaction to complete (~4 hours)
 ` - Load into GasBench and analyze resulting CO`~`2`~` by IRMS`
 
 #### Calculate volume of extract
@@ -86,8 +86,8 @@ for the ratio of the Fenton's reagent components (\[H~2~O~2~\]:\[Fe++\]
 that additional H~2~O~2~ will increase the completion of the oxidation
 reaction. So, to be safe, we'll use these ratios to start
 
-` * [H`~`2`~`O`~`2`~`]:[Fe++] = 4.5:1`\
-` * [H`~`2`~`O`~`2`~`]:[COD] = 12:1, `\
+` * [H`~`2`~`O`~`2`~`]:[Fe++] = 4.5:1
+` * [H`~`2`~`O`~`2`~`]:[COD] = 12:1, 
 ` * pH = 4 (or less)`
 
 For each µmol of sample C, we need at least 12 µmol H~2~O~2~ and 2.6
@@ -106,7 +106,7 @@ there is 0.11g H~2~O~2~, or 0.00326 moles (3.3M solution). Adding 300μL
 of this will give 978 μmol H~2~O~2~. We hope to have at least 80umol C
 in each reaction vial, so this should be sufficient to oxidize that.
 
-` * To make 250ml, dilute 83.33ml of this to 250ml with distilled H`~`2`~`O.`\
+` * To make 250ml, dilute 83.33ml of this to 250ml with distilled H`~`2`~`O.
 ` * To make 100ml, dilute 33.33ml of this to 100ml with distilled H`~`2`~`O.`
 
 Persulfate reagent
@@ -124,7 +124,7 @@ will be in a 4.5:1 ratio with the H~2~O~2~ (815umol/4.5) that will be
 added. The molecular weight of hydrated ferrous sulfate (FeSO~4~·7H~2~O)
 is 382.95478g.
 
-` * To make 250 ml of a 1M solution, dissolve 95.739 g in 250ml of water. This will yield 1000μmol/mL.`\
+` * To make 250 ml of a 1M solution, dissolve 95.739 g in 250ml of water. This will yield 1000μmol/mL.
 ` * To make 100ml of a 1M solution, dissolve 38.295 g in 100ml water. Again, this yields 1000umol/ml.`
 
 Acid to lower the pH
@@ -157,23 +157,23 @@ Ca or Ba ions for each mole of sulfate in the solution.
 
 The molecular weight of calcium chloride (CaCl~2~·2H~2~O) is 147.014g.
 
-` * To make 250 ml of a 2M solution, dissolve 73.507 g in 250ml of water. This will yield 2umol/uL. `\
+` * To make 250 ml of a 2M solution, dissolve 73.507 g in 250ml of water. This will yield 2umol/uL. 
 ` * Could also do 3M solution: 44.1042g in 100ml`
 
 The molecular weight of barium chloride (BaCl~2~·2H~2~O) is 244.28g.
 
 ` * To make 250 ml of a 2M solution, dissolve 127.64 g in 250ml of water. This will yield 2umol/uL.`
 
-##### Notes about running these at SIRFER
+## Notes about running these at SIRFER
 
-` - Use the `*`CO2_injection.seq`*` sequence on Saltbush Bill instrument.`\
-` - Rename the job in the spreadsheet that pops up, select that line, click Save and then Start.`\
-` - In the dialoge that appears, rename the job (as above), copy this name to file export, and erase the "Acquisition" field from the export.`\
-` - Inject samples - 0.3ml for the 10% CO2 tank, 1ml for the samples. Seems like peaks above 800mV are best`\
-` - Turn on 30 seconds of CO2 wall gas after the last peak has been acquisitioned (top bar in Conflo interface).`\
+` - Use the `*`CO2_injection.seq`*` sequence on Saltbush Bill instrument.
+` - Rename the job in the spreadsheet that pops up, select that line, click Save and then Start.
+` - In the dialoge that appears, rename the job (as above), copy this name to file export, and erase the "Acquisition" field from the export.
+` - Inject samples - 0.3ml for the 10% CO2 tank, 1ml for the samples. Seems like peaks above 800mV are best
+` - Turn on 30 seconds of CO2 wall gas after the last peak has been acquisitioned (top bar in Conflo interface).
 ` - Stop the acquisition`
 
-##### Sugar Standards
+## Sugar Standards
 
 We are using C3 and C4 sucrose (C~12~H~22~O~11~, table sugar) as a
 standard to test IRMS analysis of the extracts. The molecular weight of
@@ -190,22 +190,22 @@ respectively.
 #### Materials needed
 
 ` * K`~`2`~`SO`~`4`~\
-` * Sugar from C3 plants (beet sugar)`\
-` * Sugar from C4 plants (cane sugar)`\
-` * 500 ml & 50 ml volumetric flasks`\
-` * Weigh paper`\
+` * Sugar from C3 plants (beet sugar)
+` * Sugar from C4 plants (cane sugar)
+` * 500 ml & 50 ml volumetric flasks
+` * Weigh paper
 ` * Labeling tape`
 
 #### Procedure
 
-` - Determine expected concentrations to create a test range. For the Niwot-FEF soils, see `[`here`](niwot_girdling:soilanalysis)`.`\
-`   - Using similar data gathered by Nicole Trahan we determined a rough range of concentrations of carbon that might be present in our soil samples, and that we would want to test with the sugar standards. Nicole had concentrations ranging from 200-2500 micrograms of carbon per gram of soil. Our extracts have 5 grams of soil per 25 milliliters, so the desired test range we calculated for our soil was 40 – 500 micrograms of carbon per milliliter of extract. We divided the range into five, and included a low value to come up with the test concentrations of 20, 40, 150, 270, 380, and 500 micrograms of carbon.`\
-` - Make 1 L of a 0.5 M K`~`2`~`SO`~`4`~` solution`\
-` - Add 500 ml of DI water to a 500 ml volumetric flask `\
-` - Weigh out ~ 43.564g of K2SO4 and add to flask`\
-` - Mix using a stir plate`\
-` - Repeat for a total of 1 Liter of solution`\
-`   - Exact values used: 43.5643g and 43.5646g`\
+` - Determine expected concentrations to create a test range. For the Niwot-FEF soils, see `[`here`](niwot_girdling:soilanalysis)`.
+`   - Using similar data gathered by Nicole Trahan we determined a rough range of concentrations of carbon that might be present in our soil samples, and that we would want to test with the sugar standards. Nicole had concentrations ranging from 200-2500 micrograms of carbon per gram of soil. Our extracts have 5 grams of soil per 25 milliliters, so the desired test range we calculated for our soil was 40 – 500 micrograms of carbon per milliliter of extract. We divided the range into five, and included a low value to come up with the test concentrations of 20, 40, 150, 270, 380, and 500 micrograms of carbon.
+` - Make 1 L of a 0.5 M K`~`2`~`SO`~`4`~` solution
+` - Add 500 ml of DI water to a 500 ml volumetric flask 
+` - Weigh out ~ 43.564g of K2SO4 and add to flask
+` - Mix using a stir plate
+` - Repeat for a total of 1 Liter of solution
+`   - Exact values used: 43.5643g and 43.5646g
 ` - Weigh out sugar`
 
 Micrograms of Carbon Per Milliliter
@@ -221,7 +221,7 @@ of 12, 50 ml potassium sulfate solutions each with a distinct
 concentration of either c3 or c4 sugar Evaporate solutions in drying
 oven
 
-##### References
+## References
 
-` * Benatti, C. T., C. R. G. Tavares, and T. A. Guedes (2006), Optimization of Fenton’s oxidation of chemical laboratory wastewaters using the response surface methodology, Journal of Environmental Management, 80(1), 66–74, `[`doi:10.1016/j.jenvman.2005.08.014`](doi:10.1016/j.jenvman.2005.08.014)`.`\
+` * Benatti, C. T., C. R. G. Tavares, and T. A. Guedes (2006), Optimization of Fenton’s oxidation of chemical laboratory wastewaters using the response surface methodology, Journal of Environmental Management, 80(1), 66–74, `[`doi:10.1016/j.jenvman.2005.08.014`](doi:10.1016/j.jenvman.2005.08.014)`.
 ` * Benatti, C. T., C. R. G. Tavares, and E. Lenzi (2009), Sulfate removal from waste chemicals by precipitation, Journal of Environmental Management, 90(1), 504–511, `[`doi:10.1016/j.jenvman.2007.12.006`](doi:10.1016/j.jenvman.2007.12.006)`.`

@@ -1,11 +1,11 @@
-###### AWK Notes
+# AWK Notes
 
 Awk is great for editing delimited text files, and can be easily used in
 [shell scripts](shellscripts).
 
 Back to [general programming page](procedures:programming)
 
-##### Basic stuff
+## Basic stuff
 
 Code blocks, which are executed for each line of the text file, are in
 curly braces: ~~~ awk '{ print }' AZ\_soilstations.csv
@@ -88,7 +88,7 @@ Built in functions
 * substr(s,p)     returns suffix s starting at position p 
 * substr(s,p,n)   returns substring of s length n starting at position p `
 
-##### Command line usage
+## Command line usage
 
  **Note that: \*\*
 
@@ -131,7 +131,7 @@ directory of files with awk: ~~~ ls junk\* | awk '{print "mv
 
 ~~~
 
-##### Executing saved scripts
+## Executing saved scripts
 
 BEGIN blocks allow initialization code (such as setting variables)
 before running the code block on each line of the input file: ~~~

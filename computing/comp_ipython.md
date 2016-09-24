@@ -1,4 +1,4 @@
-###### IPython
+# IPython
 
 Assorted notes on using the ipython interactive shell. Official
 documentation is at <http://ipython.org>.
@@ -6,7 +6,7 @@ documentation is at <http://ipython.org>.
  **See also:\*\* [General programming](programming),
         [Python tips](pythontips) pages.
 
-##### Basics
+## Basics
 
  **Pylab\*\* - Starting ipython with the *--pylab* option imports
         numpy and matplotlib libraries into the workspace.
@@ -26,7 +26,7 @@ documentation is at <http://ipython.org>.
  **ipdb\*\* - ipython has an enhanced debugger (not sure if this is
         enabled by default :!:)
 
-##### Magic commands
+## Magic commands
 
 IPython "magic" commands operate only within IPython, and are prefaced
 by %. If the flag %automagic is set, then magic commands can be called
@@ -76,7 +76,7 @@ debugger (pdb) and examine the problem. Alternatively, if you call %pdb,
 IPython will automatically start the debugger on any uncaught exception.
 %prun will run a statement through the python code profiler.
 
-##### The Qt console
+## The Qt console
 
 IPython has a ligthweight, Qt enhanced terminal that allows some extra
 functionality.

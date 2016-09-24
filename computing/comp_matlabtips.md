@@ -1,10 +1,10 @@
-###### Matlab tips
+# Matlab tips
 
 Notes for using Matlab effectively for data analysis. \*\*See also:\*\*
 [General programming](programming), [Sensor data
 tips](sensordata_tips) pages
 
-##### Put date ticklabels on an X-axis
+## Put date ticklabels on an X-axis
 
 When plotting a timeseries it is often hard to tell when the data is
 from because it is easier to plot against a sequential or decimal day,

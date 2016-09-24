@@ -1,4 +1,4 @@
-###### Measuring Xylem Water Potential
+# Measuring Xylem Water Potential
 
 Measurements of xylem water potentials can be made during the growing
 season in an effort to understand the seasonal pattern of soil moisture
@@ -8,17 +8,17 @@ conditions.
  **Relevant links:\*\*
 
 ` * `[`Hidden` `Canyon`
-`ecohydrology`](hc_ecohydrology:overview)` (water balance and snowmelt) experiment page.`\
+`ecohydrology`](hc_ecohydrology:overview)` (water balance and snowmelt) experiment page.
 ` * The `[`Hidden` `Canyon` `carbon`
 `cycle`](hc_carboncycle:overview)`, which may be influenced by soil or plant water potentials.`
 
-##### Objectives
+## Objectives
 
-` * To measure the predawn and midday xylem water potential of trees during the growing season.`\
-` * To identify the timing and magnitude of any periods of water stress.`\
+` * To measure the predawn and midday xylem water potential of trees during the growing season.
+` * To identify the timing and magnitude of any periods of water stress.
 ` * To measure the differences in growing season plant and soil water status between trees growing under different conditions.`
 
-##### Methods
+## Methods
 
 Xylem water potentials of are measured using a pressure the pressure
 bomb method using a PMS instrument. All measurements are made on //Abies

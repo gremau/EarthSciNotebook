@@ -1,4 +1,4 @@
-###### Python tips
+# Python tips
 
 Python is a very powerful, high-level programming language that, when
 combined with some numerical, scientific, and plotting packages, makes a
@@ -15,7 +15,7 @@ collects some general tips on developing Python code.
         section of [the general programming
         page](procedures:programming#python).
 
-##### Installing Python packages
+## Installing Python packages
 
 Installation of packages from [PyPI](http://pypi.python.org)
 (the Python Package Index) is generally done with easy\_install, which
@@ -31,7 +31,7 @@ Then:
         [pip](http://www.pip-installer.org/en/latest/index.html)
         will have to be used.
 
-##### The datetime module
+## The datetime module
 
 Python's *datetime* module suplies the core functionality for handling
 datetime objects. Descriptions of its core classes, and their attribute
@@ -40,24 +40,24 @@ and methods are briefly covered below, or see Python's more extensive
 reference](http://docs.python.org/library/datetime.html).
 
 ` * `*`dt.date(year,` `month,` `day)`*\
-`   * `*`dt.date.min`*` and `*`dt.date.max`*` give the minimum and maximum possible dates`\
-`   * `*`dt.date.year`*`, `*`dt.date.month`*` and `*`dt.date.day`*` return the attributes`\
-`   * `*`date.strftime(format)`*` - returns a string representing the date, controlled by an explicit format string`\
-`   * `*`date.toordinal()`*` - returns the proleptic Gregorian ordinal of the date, where January 1 of year 1 has ordinal 1.`\
+`   * `*`dt.date.min`*` and `*`dt.date.max`*` give the minimum and maximum possible dates
+`   * `*`dt.date.year`*`, `*`dt.date.month`*` and `*`dt.date.day`*` return the attributes
+`   * `*`date.strftime(format)`*` - returns a string representing the date, controlled by an explicit format string
+`   * `*`date.toordinal()`*` - returns the proleptic Gregorian ordinal of the date, where January 1 of year 1 has ordinal 1.
 ` * `*`dt.time(hour[,` `minute[,` `second[,` `microsecond[,`
 `tzinfo]]]])`*\
-`   * all the attributes are optional and the `*`tzinfo`*` attribute (which defines timezone, time offsets, etc) can be "None"`\
+`   * all the attributes are optional and the `*`tzinfo`*` attribute (which defines timezone, time offsets, etc) can be "None"
 `   * similar methods to those in `*`dt.date`*\
 ` * `*`dt.datetime(year,` `month,` `day[,` `hour[,` `minute[,`
 `second[,` `microsecond[,` `tzinfo]]]]])`*\
-`   * Contains all the info from a `*`date`*` and a `*`time`*` object.`\
-`   * year, month, day are required, tzinfo can be 'None'.`\
-`   * two class method contstructors are important: `\
+`   * Contains all the info from a `*`date`*` and a `*`time`*` object.
+`   * year, month, day are required, tzinfo can be 'None'.
+`   * two class method contstructors are important: 
 `     * `*`datetime.combine(date,`
-`time)`*` combines a date and a time object into a datetime.`\
+`time)`*` combines a date and a time object into a datetime.
 `     * `*`dt.datetime.strptime(date_string,`
-`format)`*` - returns a datetime corresponding to date_string, parsed according to format.`\
-`   * Similar instance methods to `*`date`*` and `*`time`*` objects (can call strftime, toordinal, etc.)`\
+`format)`*` - returns a datetime corresponding to date_string, parsed according to format.
+`   * Similar instance methods to `*`date`*` and `*`time`*` objects (can call strftime, toordinal, etc.)
 ` * `*`dt.timedelta([days[,` `seconds[,` `microseconds[,`
 `milliseconds[,` `minutes[,` `hours[,` `weeks]]]]]]])`*\
 `   *  Represents a duration, the difference between two dates or times.`
@@ -71,7 +71,7 @@ by an explicit format string. To format these inputs and outputs use the
 "%field" formatting codes. A list of the codes is
 [here](http://docs.python.org/library/datetime.html#strftime-strptime-behavior)
 
-##### Debugging code
+## Debugging code
 
 #### Python debugger (pdb)
 
@@ -163,7 +163,7 @@ code.interact() stops execution and gives you an interactive console to
 examine the current state of your program. To use this function, simply
 embed the following at the line were you want the console to start:
 
-` import code; code.interact(local=locals())`\
+` import code; code.interact(local=locals())
 ` `
 
 The resulting console inherits the local scope of the line on which
@@ -179,12 +179,12 @@ messages from within a running program. To start logging debug messages
 it must be imported and configured to log DEBUG level messages:
 ~~~
 
-` import logging`\
-` # Log everything, and send it to stderr.`\
-` logging.basicConfig(level=logging.DEBUG)`\
-` `\
-` # Now, in the body of the program, you can log events like this:`\
-` logging.exception("Something bad happened!")`\
+` import logging
+` # Log everything, and send it to stderr.
+` logging.basicConfig(level=logging.DEBUG)
+` 
+` # Now, in the body of the program, you can log events like this:
+` logging.exception("Something bad happened!")
 ` logging.debug("Finishing for loop")`
 
 ~~~

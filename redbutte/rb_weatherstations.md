@@ -1,4 +1,4 @@
-###### Red Butte Canyon Weather Stations
+# Red Butte Canyon Weather Stations
 
 This document describes the long-term weather stations located in Red
 Butte Canyon.
@@ -7,7 +7,7 @@ Butte Canyon.
 on the project Dropbox, last modified on 11/5/2007. It has been
 subsequently changed to reflect recent activity.//
 
-##### History
+## History
 
 For a history of these stations, begin by reading Ehleringer et al.
 1992. Red Butte Canyon Research Natural Area: History, Flora, Geology,
@@ -17,7 +17,7 @@ in the same locations as much older weather stations. At this time, the
 historical weather station data (prior to 1982) have not been
 aggregated, quality checked, and made available to the public.
 
-##### Weather Station Site Metadata
+## Weather Station Site Metadata
 
 \^ Station \^ Location description \^ Latitude \^ Longitude \^ Elevation
 \^ Historical data span \^ Current data span \^ | RB \#1 | Biology
@@ -33,7 +33,7 @@ to RB Creek | 40° 47' | 111° 48' | 1753 m | 1942 - 1956 | Retired | | RB
 and other aspects of the canyon can be found at the [Red Butte Canyon
 Research Natural Area website](http://redbuttecanyon.net/).
 
-##### Recent Status of the Stations
+## Recent Status of the Stations
 
 Weather stations 1,2,4, and 6 are currently running. All four collect
 daily data for temperature, relative humidity, wind speed, and rainfall.
@@ -64,26 +64,26 @@ Data could be present up to present, except for occasional gaps in the
 record. Some of this info comes from the README.TXT file in the
 CurrentData folder of the RBWS Dropbox.
 
-` * Weather station 1:`\
-`   * 02 Apr, 1992 - Begin air temp and precip sensors`\
-`   * 30 Jun, 1995 - Begin wind sensor`\
-`   * 08 Mar, 2000 - Begin RH and vapor pressure sensors`\
-`   * Jun 2004 - Order of column headings changes, begin hourly data output`\
-`   * 22 May, 2005 - Change hourly data output to 10 minute data output, add PAR sensor`\
-` * Weather station 2, 4, 6:`\
-`   * 11 Aug, 1982 - Begin air temp, wind speed, PAR(?), and vapor pressure ( :!: see note above about problems with vp) sensors`\
-`   * 01 Jun, 1991 - Light measurements seem to end around this time for all stations.`\
-`   * 07 Apr & 14 May, 1992 - Begin WS2 & 4 precip sensor`\
-`   * 26 Apr, 1993 - Begin WS6 precip sensor.`\
+` * Weather station 1:
+`   * 02 Apr, 1992 - Begin air temp and precip sensors
+`   * 30 Jun, 1995 - Begin wind sensor
+`   * 08 Mar, 2000 - Begin RH and vapor pressure sensors
+`   * Jun 2004 - Order of column headings changes, begin hourly data output
+`   * 22 May, 2005 - Change hourly data output to 10 minute data output, add PAR sensor
+` * Weather station 2, 4, 6:
+`   * 11 Aug, 1982 - Begin air temp, wind speed, PAR(?), and vapor pressure ( :!: see note above about problems with vp) sensors
+`   * 01 Jun, 1991 - Light measurements seem to end around this time for all stations.
+`   * 07 Apr & 14 May, 1992 - Begin WS2 & 4 precip sensor
+`   * 26 Apr, 1993 - Begin WS6 precip sensor.
 `   * June 2004 - Order of column headings change`
 
 Missing data
 ------------
 
-` * **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?`\
+` * **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
 ` * **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see `[`here`](instruments:cr10dataloggers#Preventing_data_loss)`).`
 
-##### Current Data
+## Current Data
 
 These data are made available to the general public at
 <http://ecophys.utah.edu/download/Red_Butte_Weather/>. Some summary data
@@ -103,7 +103,7 @@ and plotting all data, it was discovered that all relative humidity data
 Peruse the “Quality Control of Web Files” folder located in the project
 Dropbox for more on this issue.
 
-##### Equipment and maintenance procedures
+## Equipment and maintenance procedures
 
 Weather stations are visited twice yearly (spring and fall), or more
 often as necessary. As of 3/5/2012, a tool box containing all necessary
@@ -120,13 +120,13 @@ module, and a number of sensors (which vary slightly between sites).
 
  **Materials list\*\*
 
-` * A tested, empty storage module for each station. Make sure it has the appropriate datalogger program loaded into location 8.`\
-` * CR10KD keypad`\
-` * Voltage/Multimeter for testing solar and battery voltages.`\
-` * Labeling tape and sharpie for labeling modules as they are swapped out.`\
-` * Screwdrivers, including a small standard (Campbell issue ones are easy to find)`\
-` * Electrical tape`\
-` * Any sensor hardware that needs to be replaced`\
+` * A tested, empty storage module for each station. Make sure it has the appropriate datalogger program loaded into location 8.
+` * CR10KD keypad
+` * Voltage/Multimeter for testing solar and battery voltages.
+` * Labeling tape and sharpie for labeling modules as they are swapped out.
+` * Screwdrivers, including a small standard (Campbell issue ones are easy to find)
+` * Electrical tape
+` * Any sensor hardware that needs to be replaced
 ` * Extra serial cable (blue, three ended ones)`
 
 Upon visiting each site, one should write the date of visitation in the

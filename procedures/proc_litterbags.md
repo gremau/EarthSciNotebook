@@ -1,6 +1,6 @@
 FIXME
 
-##### Litterbag mass loss
+## Litterbag mass loss
 
 Litterbags were constructed of 10 x 15cm pieces of black nylon and gray
 fiberglass fabric. The nylon fabric is approximately 0.2mm (No-See-Um

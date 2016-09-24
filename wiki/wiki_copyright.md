@@ -1,9 +1,9 @@
-###### Copyright and licensing issues
+# Copyright and licensing issues
 
 There are a number of different copyrights and licenses that users of
 this website and its content should be aware of.
 
-##### Content created in this wiki
+## Content created in this wiki
 
 All content created in the wiki at <http://pronghorns.net/wiki>, by any
 user, is licensed under the \*\*Creative Commons Attribution Share-Alike
@@ -11,20 +11,20 @@ license\*\* (abbreviation: CC-BY-SA).
 
 This means you have these rights:
 
-` - You may read the content`\
-` - You may change the content`\
+` - You may read the content
+` - You may change the content
 ` - You may redistribute the content in its original or changed form`
 
 But you must agree to these terms:
 
-` - You may only redistribute it under the same terms`\
+` - You may only redistribute it under the same terms
 ` - If you redistribute the content you must credit the original author (usually as an originating url)`
 
 If you would like to post copyrighted content on this website, such as
 images or figures, please credit the copyright holder and include a link
 to the originating source and copyright/licensing information.
 
-##### Source code posted in the wiki
+## Source code posted in the wiki
 
 Unless it is otherwise noted, all software and source code, including
 Python®, R®, or MATLAB® scripts, are copyright 2007-2013 (c) //[Greg
@@ -41,20 +41,20 @@ for the specific language governing permissions and limitations under
 the License.
 
 ` * "Python" is a registered trademark of the `[`Python` `Software`
-`Foundation`](http://www.python.org)`.`\
+`Foundation`](http://www.python.org)`.
 ` * "R" is a registered trademark of the `[`R` `Software`
-`Foundation`](http://www.r-project.org/)`.`\
+`Foundation`](http://www.r-project.org/)`.
 ` * "MATLAB" is a registered trademark of `[`The`
 `MathWorks`](http://www.mathworks.com)`.`
 
-##### The wiki itself
+## The wiki itself
 
 This wiki is powered by [doku&gt;DokuWiki](doku>DokuWiki), a
 fantastic wiki engine by Andreas Gohr. The DokuWiki engine is licensed
 under [GNU General Public
 License](http://www.gnu.org/licenses/gpl.html) Version 2.
 
-##### Further reading on copyrights and licensing
+## Further reading on copyrights and licensing
 
 ` * `[`More` `on` `Apache` `Software` `Foundation`
 `licensing`](http://www.apache.org/licenses/)\

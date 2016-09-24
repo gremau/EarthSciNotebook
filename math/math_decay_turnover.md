@@ -1,4 +1,4 @@
-###### Decay, turnover, and residence time of pools of stuff
+# Decay, turnover, and residence time of pools of stuff
 
 Mathmatical models describing the decay or turnover of stuff. I use
 these to describe the docomposition of organic matter, the size of

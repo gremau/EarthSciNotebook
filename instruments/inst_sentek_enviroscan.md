@@ -1,4 +1,4 @@
-###### Sentek EnviroSCAN profiles
+# Sentek EnviroSCAN profiles
 
 These soil sensor profiles are inserted into a buried PVC tube to
 measure soil water content and salinity. The sensor profile assembly
@@ -8,7 +8,7 @@ assembly. Sensors are connected to the SDI interface with a ribbon cable
 running along the probe. Installation and communication with old
 dataloggers are both a bit tricky.
 
-##### Installation
+## Installation
 
 #### Standard auger method
 
@@ -39,7 +39,7 @@ measurements of absolute soil moisture unless extensive calibrations are
 done using the slurry and field soil (this sounds like it would be very
 difficult in practice).
 
-##### Datalogger communication
+## Datalogger communication
 
 #### Wiring
 
@@ -48,10 +48,10 @@ the top of the board are 5 input/output pins labeled from 1 to 5. Most
 pins have broken off and they are now soldered to wires. The terminals
 are (in order):
 
-` - +12Vin`\
-` - not used`\
-` - not used`\
-` - Ground`\
+` - +12Vin
+` - not used
+` - not used
+` - Ground
 ` - SDI-12 data`
 
 The +12V and Ground wires must be connected to an appropriate power

@@ -1,16 +1,16 @@
-###### Geospatial data
+# Geospatial data
 
 This page is a placeholder for procedures that involve geospatial data.
 There are a few links. That is all.
 
-##### Data products
+## Data products
 
 * [The PRISM group
 homepage](http://prism.oregonstate.edu/)with access to datasets (Oregon State Univ.).
 * [PRISM
 data](http://www.wcc.nrcs.usda.gov/climate/prism.html)- available at the NRCS website
 
-##### Software
+## Software
 
 * [Open Source Geospation Foundation
 (OSGeo)](http://www.osgeo.org/)- provides a portal to many open source geospatial software projects, like:

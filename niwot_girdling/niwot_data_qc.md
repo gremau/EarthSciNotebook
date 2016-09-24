@@ -1,8 +1,8 @@
-###### Niwot/Fraser girdling study data QC
+# Niwot/Fraser girdling study data QC
 
  **See also:\*\* [Activity log](activitylog_1)
 
-##### Soil CO2 data
+## Soil CO2 data
 
 We use two methods of finding and removing bad data in our soil CO~2~
 dataset. The first is event-based, where datapoints generated on bad
@@ -70,7 +70,7 @@ much more depleted CO~2~. These values are also removed (value &gt; -12
 permil AND measurement deeper than OA horizon). This was formerly done
 using depth/concentration thresholds in the soilCO2\_tdist.m file.
 
-##### Final QC'd data
+## Final QC'd data
 
  **Number of samples removed, 2011\*\*
 

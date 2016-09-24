@@ -1,6 +1,6 @@
-###### R tips
+# R tips
 
-##### Installing and using libraries
+## Installing and using libraries
 
 Packages are installed from a CRAN repository to a local library
 directory. The default users library must be created at
@@ -26,7 +26,7 @@ updated. Start R with *sudo* and run:
 For other, user-installed R packages, run
 *update.packages('{packagename}')*.
 
-##### knitr
+## knitr
 
 Knitr allows literate programming with R - i.e. R code is written into
 latex, markdown, or other text markup formats. Running *knitr* will then
@@ -37,23 +37,23 @@ functionality is accessible from Rstudio also.
 It's easiest (for me) to use knitr with markdown. This means creating
 *file.Rmd* and embedding code in "chunks" that look like:
 
-````    ```{r} ````\
-`   plot(y ~ x)`\
-````    ``` ````
+~~~`    ~~~{r} ~~~
+`   plot(y ~ x)
+~~~`    ~~~ ~~~`
 
 There are a number of options that can be put in the braces at the start
 of the chunk to influence how the code is run and incorporated into the
 output of the file. The resulting *.Rmd* file can be converted (from
 within R), by running *knit2html*:
 
-`   library(knitr)`\
+`   library(knitr)
 `   knit2html(file.Rmd)`
 
 #### Stitch
 
 Stitch is knitr's most basic way to output results from an R script:
 
-` library('knitr')`\
+` library('knitr')
 ` stitch_rhtml('scriptname.r')`
 
 This outputs an .html file that embeds all code and output (plots,

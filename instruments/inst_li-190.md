@@ -1,10 +1,10 @@
-###### Li-Cor LI-190 PPFD sensors
+# Li-Cor LI-190 PPFD sensors
 
 These sensors measure PAR, photosynthetically active radiation
 (wavelengths from 400-700 nm) as photosynthetic photon flux density
 (PPFD). PPFD is typically measured in μmol s^-1^ m^2^.
 
-##### Output, wiring, and multipliers
+## Output, wiring, and multipliers
 
 These sensors output μA across two leads and a multiplier is used to
 relate the μA signal to μmol s^-1^ m^2^. Multipliers are typically in
@@ -36,18 +36,18 @@ Current \* Resistance). Multipliers are given as -μmol s^-1^ m^2^ per
 μA. A resistor has a voltage in Ohms. The steps to convert to μmol s^-1^
 m^2^ per mV are:
 
-` - Convert multiplier (//mult//) to μA/1000μmol: //1000μmol/mult//`\
-` - Convert multiplier from μA to A: //mult * 1A/10`^`6`^`μA//`\
-` - Change amps to volts: //mult * R// (R = resistance of shunt resistor in Ohms)`\
-` - Multiplier is now in //V/1000μmol s`^`-1`^` m`^`2`^`//`\
-` - Change multiplier to mV: //mult * 1000//`\
-` - Reciprocal of this number(//1000/mult//) is the multiplier in //μmol s`^`-1`^` m`^`-2`^`/mV//`\
+` - Convert multiplier (//mult//) to μA/1000μmol: //1000μmol/mult//
+` - Convert multiplier from μA to A: //mult * 1A/10`^`6`^`μA//
+` - Change amps to volts: //mult * R// (R = resistance of shunt resistor in Ohms)
+` - Multiplier is now in //V/1000μmol s`^`-1`^` m`^`2`^`//
+` - Change multiplier to mV: //mult * 1000//
+` - Reciprocal of this number(//1000/mult//) is the multiplier in //μmol s`^`-1`^` m`^`-2`^`/mV//
 ` - In short: //mult/0.001A*R//`
 
  **Note:\*\* Li-Cor and Campbell recommend a 604 Ohm resistor.
         There may be problems especially with higher resistances.
 
-##### EDLOG instructions
+## EDLOG instructions
 
 These sensors are generally read using code like this:
 
@@ -58,25 +58,25 @@ Bridged with a 604ohm resistor to convert uA to mV
 
 39: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 41       10 mV, 60 Hz Reject, Fast Range`\
-`3: 5        DIFF Channel`\
-`4: 30       Loc [ PAR_Up    ]`\
-`5: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 41       10 mV, 60 Hz Reject, Fast Range
+`3: 5        DIFF Channel
+`4: 30       Loc [ PAR_Up    ]
+`5: 1.0      Multiplier
 `6: 0.0      Offset`
 
 Set negative values to zero
 
 40: If (X&lt;=&gt;F) (P89)
 
-`1: 30       X Loc [ PAR_Up    ]`\
-`2: 4        <`\
-`3: 0.0      F`\
+`1: 30       X Loc [ PAR_Up    ]
+`2: 4        <
+`3: 0.0      F
 `4: 30       Then Do`
 
-`    41:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
+`    41:  Z=F x 10^n (P30)
+`     1: 0        F
+`     2: 0        n, Exponent of 10
 `     3: 30       Z Loc [ PAR_Up    ]`
 
 42: End (P95)
@@ -85,13 +85,13 @@ Convert mV to umoles m\^-2 s\^-1 using converted multiplier
 
 43: Z=X\*F (P37)
 
-`1: 30       X Loc [ PAR_Up    ]`\
-`2: 243.112  F`\
+`1: 30       X Loc [ PAR_Up    ]
+`2: 243.112  F
 `3: 30       Z Loc [ PAR_Up    ]`
 
 ~~~
 
-##### Deployed sensors
+## Deployed sensors
 
 \^ Serial no. \^ Location \^ Measurement \^ μA Multiplier \^ Resistor \^
 mV Multiplier \^ | Q27246 | Hidden Canyon - Met tower | Upward looking

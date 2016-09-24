@@ -1,13 +1,13 @@
-##### SNOTEL network soil temperature and moisture
+## SNOTEL network soil temperature and moisture
 
 = [Project overview](west_stationdata:overview)
 
-##### Introduction
+## Introduction
 
-` * Overview of SNOTEL network and its suitability for understanding ST and SM across the landscape.`\
+` * Overview of SNOTEL network and its suitability for understanding ST and SM across the landscape.
 ` * Papers - Goodrich, Bartlett papers.`
 
-##### Methods
+## Methods
 
 We examined data from soil sensor profiles at 252 SNOTEL sites in
 Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, and
@@ -16,7 +16,7 @@ air temperature were also used in this analysis. Data were downloaded
 directly from the NRCS Snow Survey/SNOTEL website
 (http://http://www.wcc.nrcs.usda.gov/snow/)in delimited text format.
 
-##### Figures
+## Figures
 
 #### Figure A
 
@@ -52,7 +52,7 @@ near zero at all SNOTEL sites along an elevation transect during winter
 months. This is in contrast to the same transect of sites in July, where
 T~soil~ roughly follows the atmospheric temperature lapse rate.
 
-` * Combine with Fig D in 2 panel?`\
+` * Combine with Fig D in 2 panel?
 ` * These are actually a mean of all the wateryear means - might check the quality of this.`
 
 #### Figure D - Air-soil temperature offsets across the landscape
@@ -65,7 +65,7 @@ showing 1 StdDev. An example point showing the mean StdDev of T~air~ is
 also plotted (inset). Wintertime offsets between air and soil
 temperature increase with elevation.
 
-` * FIXME - maybe the offset/elevation plot should be calculated for all 12 months`\
+` * FIXME - maybe the offset/elevation plot should be calculated for all 12 months
 ` * These are actually a mean of all the wateryear means - might check the quality of this.`
 
 #### Figure E - Snowpack effect on mean annual soil temperature
@@ -78,7 +78,7 @@ sites (with soil sensor profiles. Each point is MAST (grey) or MAT
 this difference is related to snowpack duration. Lines are linear
 regression.
 
-` * FIXME - probably only need the duration plot, and may be more clear with boxplots or regressions lines.`\
+` * FIXME - probably only need the duration plot, and may be more clear with boxplots or regressions lines.
 ` * Needs error bars`
 
 #### Figure F - Inter-annual variability in snowpack/soil temp
@@ -109,7 +109,7 @@ for reference.
 :west\_stationdata:gsvwc\_snowrain.png?200|}} Melt timing has a greater
 effect on growing season soil moisture than snowpack size.
 
-` * Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.`\
+` * Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.
 ` * Panel B: Mean July, August, September soil moisture plotted versus the wateryear melt day of the prior spring snowpack.`
 
 ` * FIXME - still some fixing to do - perhaps all 3 depths can go on one plot, and then have SWE and meltday side by side.`
@@ -136,7 +136,7 @@ histograms per site, representing the 4 quarters of the wateryear. Mean
 T<sub>soil</soil> is for each quarter is plotted with a dashed vertical
 line.
 
-##### Optional/Redundant figures
+## Optional/Redundant figures
 
 #### Figure
 

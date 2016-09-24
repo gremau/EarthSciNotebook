@@ -3,7 +3,7 @@ system.
 
  **See also:\*\* [Mercurial DVCS](procedures:mercurial)
 
-##### Resources:
+## Resources:
 
 - [Git docs](http://git-scm.com/documentation)\
 - [Atlassian DVCS
@@ -14,13 +14,13 @@ ready](http://gitready.com/)- learn git one commit at a time
 - [Other
 documentation](http://git-scm.com/documentation)linked at the official git site.
 
-##### Setting up Git
+## Setting up Git
 
 After installation you will want to set up the user name, email,
 editor/diff preferences, etc. Directions can be found in the [git
 documentation](http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup).
 
-##### Basics of using Git
+## Basics of using Git
 
 Most of the basic commands for creating and managing a Git repository
 are very similar to [Mercurial](mercurial).

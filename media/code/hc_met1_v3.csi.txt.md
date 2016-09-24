@@ -42,31 +42,31 @@ Stabilize sensor
 
 4: Delay w/Opt Excitation (P22)
 
-`1: 1        Ex Channel`\
-`2: 0        Delay W/Ex (0.01 sec units)`\
-`3: 15       Delay After Ex (0.01 sec units)`\
+`1: 1        Ex Channel
+`2: 0        Delay W/Ex (0.01 sec units)
+`3: 15       Delay After Ex (0.01 sec units)
 `4: 0        mV Excitation`
 
 Measure temperature
 
 5: Volt (SE) (P1)
 
-`1: 1        Reps`\
-`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
-`3: 1        SE Channel`\
-`4: 3        Loc [ AirT_Met  ]`\
-`5: 0.1      Multiplier`\
+`1: 1        Reps
+`2: 24       1000 mV, 60 Hz Reject, Slow Range
+`3: 1        SE Channel
+`4: 3        Loc [ AirT_Met  ]
+`5: 0.1      Multiplier
 `6: -40      Offset`
 
 Measure relative humidity
 
 6: Volt (SE) (P1)
 
-`1: 1        Reps`\
-`2: 24       1000 mV, 60 Hz Reject, Slow Range`\
-`3: 2        SE Channel`\
-`4: 4        Loc [ RH_Met    ]`\
-`5: 0.1      Multiplier`\
+`1: 1        Reps
+`2: 24       1000 mV, 60 Hz Reject, Slow Range
+`3: 2        SE Channel
+`4: 4        Loc [ RH_Met    ]
+`5: 0.1      Multiplier
 `6: 0.0      Offset`
 
 turn off sensor
@@ -79,59 +79,59 @@ turn off sensor
 
 8: Pulse (P3)
 
-`1: 1        Reps`\
-`2: 2        Pulse Channel 2`\
-`3: 2        Switch Closure, All Counts`\
-`4: 5        Loc [ Prec_mm   ]`\
-`5: .254     Multiplier`\
+`1: 1        Reps
+`2: 2        Pulse Channel 2
+`3: 2        Switch Closure, All Counts
+`4: 5        Loc [ Prec_mm   ]
+`5: .254     Multiplier
 `6: 0.0      Offset`
 
 ----Met-One windset - wind speed and direction ----
 
 9: Pulse (P3)
 
-`1: 1        Reps`\
-`2: 1        Pulse Channel 1`\
-`3: 22       Switch Closure, Output Hz`\
-`4: 6        Loc [ WS_Met_ms ]`\
-`5: .799     Multiplier`\
+`1: 1        Reps
+`2: 1        Pulse Channel 1
+`3: 22       Switch Closure, Output Hz
+`4: 6        Loc [ WS_Met_ms ]
+`5: .799     Multiplier
 `6: .2811    Offset`
 
 10: If (X&lt;=&gt;F) (P89)
 
-`1: 6        X Loc [ WS_Met_ms ]`\
-`2: 1        =`\
-`3: .2811    F`\
+`1: 6        X Loc [ WS_Met_ms ]
+`2: 1        =
+`3: .2811    F
 `4: 30       Then Do`
 
-`    11:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
+`    11:  Z=F x 10^n (P30)
+`     1: 0        F
+`     2: 0        n, Exponent of 10
 `     3: 6        Z Loc [ WS_Met_ms ]`
 
 12: End (P95)
 
 13: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 3        SE Channel`\
-`4: 1        Excite all reps w/Exchan 1`\
-`5: 5000     mV Excitation`\
-`6: 7        Loc [ WDir_Met  ]`\
-`7: 712      Multiplier`\
+`1: 1        Reps
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)
+`3: 3        SE Channel
+`4: 1        Excite all reps w/Exchan 1
+`5: 5000     mV Excitation
+`6: 7        Loc [ WDir_Met  ]
+`7: 712      Multiplier
 `8: 0.0      Offset`
 
 14: If (X&lt;=&gt;F) (P89)
 
-`1: 7        X Loc [ WDir_Met  ]`\
-`2: 3        >=`\
-`3: 360      F`\
+`1: 7        X Loc [ WDir_Met  ]
+`2: 3        >=
+`3: 360      F
 `4: 30       Then Do`
 
-`    15:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
+`    15:  Z=F x 10^n (P30)
+`     1: 0        F
+`     2: 0        n, Exponent of 10
 `     3: 7        Z Loc [ WDir_Met  ]`
 
 16: End (P95)
@@ -144,75 +144,75 @@ temperature
 
 17: AC Half Bridge (P5)
 
-`1: 1        Reps`\
-`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`3: 15       SE Channel`\
-`4: 2        Excite all reps w/Exchan 2`\
-`5: 2500     mV Excitation`\
-`6: 8        Loc [ mV_thrm   ]`\
-`7: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)
+`3: 15       SE Channel
+`4: 2        Excite all reps w/Exchan 2
+`5: 2500     mV Excitation
+`6: 8        Loc [ mV_thrm   ]
+`7: 1.0      Multiplier
 `8: 0.0      Offset`
 
 18: Z=1/X (P42)
 
-`1: 8        X Loc [ mV_thrm   ]`\
+`1: 8        X Loc [ mV_thrm   ]
 `2: 9        Z Loc [ 1_mV_thrm ]`
 
 19: Z=X+F (P34)
 
-`1: 9        X Loc [ 1_mV_thrm ]`\
-`2: -1.0     F`\
+`1: 9        X Loc [ 1_mV_thrm ]
+`2: -1.0     F
 `3: 10       Z Loc [ 2_mV_thrm ]`
 
 20: Z=X\*F (P37)
 
-`1: 10       X Loc [ 2_mV_thrm ]`\
-`2: 24900    F`\
+`1: 10       X Loc [ 2_mV_thrm ]
+`2: 24900    F
 `3: 11       Z Loc [ R_thrm    ]`
 
 21: Z=LN(X) (P40)
 
-`1: 11       X Loc [ R_thrm    ]`\
+`1: 11       X Loc [ R_thrm    ]
 `2: 12       Z Loc [ InR_thrm  ]`
 
 22: Z=X\*F (P37)
 
-`1: 12       X Loc [ InR_thrm  ]`\
-`2: 0.001    F`\
+`1: 12       X Loc [ InR_thrm  ]
+`2: 0.001    F
 `3: 13       Z Loc [ Scaled_R  ]`
 
 23: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 13       X Loc [ Scaled_R  ]`\
-`3: 14       F(X) Loc [ SH_Coeffs ]`\
-`4: .001129  C0`\
-`5: .234108  C1`\
-`6: 0.0      C2`\
-`7: 87.7547  C3`\
-`8: 0.0      C4`\
+`1: 1        Reps
+`2: 13       X Loc [ Scaled_R  ]
+`3: 14       F(X) Loc [ SH_Coeffs ]
+`4: .001129  C0
+`5: .234108  C1
+`6: 0.0      C2
+`7: 87.7547  C3
+`8: 0.0      C4
 `9: 0.0      C5`
 
 24: Z=1/X (P42)
 
-`1: 14       X Loc [ SH_Coeffs ]`\
+`1: 14       X Loc [ SH_Coeffs ]
 `2: 15       Z Loc [ SB_Temp_K ]`
 
 25: Z=X+F (P34)
 
-`1: 15       X Loc [ SB_Temp_K ]`\
-`2: -273.15  F`\
+`1: 15       X Loc [ SB_Temp_K ]
+`2: -273.15  F
 `3: 16       Z Loc [ SB_Temp_C ]`
 
 Measure mV output of thermopile
 
 26: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 21       10 mV, 60 Hz Reject, Slow Range`\
-`3: 9        DIFF Channel`\
-`4: 17       Loc [ mV_tpile  ]`\
-`5: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 21       10 mV, 60 Hz Reject, Slow Range
+`3: 9        DIFF Channel
+`4: 17       Loc [ mV_tpile  ]
+`5: 1.0      Multiplier
 `6: 0.0      Offset`
 
 Calculation of m(slope) coefficient for target temperature calculation.\
@@ -220,20 +220,20 @@ Each sensor has unique C0, C1, and C2 values on their calibration sheet.
 
 27: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 16       X Loc [ SB_Temp_C ]`\
-`3: 18       F(X) Loc [ m_slope   ]`\
-`4: 13419.7  C0`\
-`5: 76.3561  C1`\
-`6: .53303   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
+`1: 1        Reps
+`2: 16       X Loc [ SB_Temp_C ]
+`3: 18       F(X) Loc [ m_slope   ]
+`4: 13419.7  C0
+`5: 76.3561  C1
+`6: .53303   C2
+`7: 0.0      C3
+`8: 0.0      C4
 `9: 0.0      C5`
 
 28: Z=X\*F (P37)
 
-`1: 18       X Loc [ m_slope   ]`\
-`2: 99999    F`\
+`1: 18       X Loc [ m_slope   ]
+`2: 99999    F
 `3: 18       Z Loc [ m_slope   ]`
 
 Calculation of b (intercept) coefficient for target calculation. Each\
@@ -241,70 +241,70 @@ sensor has unique C values (again - on calib sheet).
 
 29: Polynomial (P55)
 
-`1: 1        Reps`\
-`2: 16       X Loc [ SB_Temp_C ]`\
-`3: 19       F(X) Loc [ b_inter   ]`\
-`4: -72.6126 C0`\
-`5: -9.88480 C1`\
-`6: .39440   C2`\
-`7: 0.0      C3`\
-`8: 0.0      C4`\
+`1: 1        Reps
+`2: 16       X Loc [ SB_Temp_C ]
+`3: 19       F(X) Loc [ b_inter   ]
+`4: -72.6126 C0
+`5: -9.88480 C1
+`6: .39440   C2
+`7: 0.0      C3
+`8: 0.0      C4
 `9: 0.0      C5`
 
 30: Z=X\*F (P37)
 
-`1: 19       X Loc [ b_inter   ]`\
-`2: 99999    F`\
+`1: 19       X Loc [ b_inter   ]
+`2: 99999    F
 `3: 19       Z Loc [ b_inter   ]`
 
 Target temperature calculation based on m and b coefficients.
 
 31: Z=F x 10\^n (P30)
 
-`1: 0.4      F`\
-`2: 1        n, Exponent of 10`\
+`1: 0.4      F
+`2: 1        n, Exponent of 10
 `3: 20       Z Loc [ Exponent1 ]`
 
 32: Z=F x 10\^n (P30)
 
-`1: .025     F`\
-`2: 1        n, Exponent of 10`\
+`1: .025     F
+`2: 1        n, Exponent of 10
 `3: 21       Z Loc [ Exponent2 ]`
 
 33: Z=X\^Y (P47)
 
-`1: 15       X Loc [ SB_Temp_K ]`\
-`2: 20       Y Loc [ Exponent1 ]`\
+`1: 15       X Loc [ SB_Temp_K ]
+`2: 20       Y Loc [ Exponent1 ]
 `3: 22       Z Loc [ 1_SB_4Pow ]`
 
 34: Z=X\*Y (P36)
 
-`1: 17       X Loc [ mV_tpile  ]`\
-`2: 18       Y Loc [ m_slope   ]`\
+`1: 17       X Loc [ mV_tpile  ]
+`2: 18       Y Loc [ m_slope   ]
 `3: 23       Z Loc [ 2_mVxm    ]`
 
 35: Z=X+Y (P33)
 
-`1: 22       X Loc [ 1_SB_4Pow ]`\
-`2: 23       Y Loc [ 2_mVxm    ]`\
+`1: 22       X Loc [ 1_SB_4Pow ]
+`2: 23       Y Loc [ 2_mVxm    ]
 `3: 24       Z Loc [ 3_Sum1    ]`
 
 36: Z=X+Y (P33)
 
-`1: 19       X Loc [ b_inter   ]`\
-`2: 24       Y Loc [ 3_Sum1    ]`\
+`1: 19       X Loc [ b_inter   ]
+`2: 24       Y Loc [ 3_Sum1    ]
 `3: 25       Z Loc [ 4_Sum2    ]`
 
 37: Z=X\^Y (P47)
 
-`1: 25       X Loc [ 4_Sum2    ]`\
-`2: 21       Y Loc [ Exponent2 ]`\
+`1: 25       X Loc [ 4_Sum2    ]
+`2: 21       Y Loc [ Exponent2 ]
 `3: 26       Z Loc [ SurfT_M_K ]`
 
 38: Z=X+F (P34)
 
-`1: 26       X Loc [ SurfT_M_K ]`\
-`2: -273.15  F`\
+`1: 26       X Loc [ SurfT_M_K ]
+`2: -273.15  F
 `3: 27       Z Loc [ SurfT_M_C ]`
 
 \
@@ -318,25 +318,25 @@ Bridged with a 604ohm resistor to convert uA to mV
 
 39: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 41       10 mV, 60 Hz Reject, Fast Range`\
-`3: 5        DIFF Channel`\
-`4: 30       Loc [ PAR_Up    ]`\
-`5: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 41       10 mV, 60 Hz Reject, Fast Range
+`3: 5        DIFF Channel
+`4: 30       Loc [ PAR_Up    ]
+`5: 1.0      Multiplier
 `6: 0.0      Offset`
 
 Set negative values to zero
 
 40: If (X&lt;=&gt;F) (P89)
 
-`1: 30       X Loc [ PAR_Up    ]`\
-`2: 4        <`\
-`3: 0.0      F`\
+`1: 30       X Loc [ PAR_Up    ]
+`2: 4        <
+`3: 0.0      F
 `4: 30       Then Do`
 
-`    41:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
+`    41:  Z=F x 10^n (P30)
+`     1: 0        F
+`     2: 0        n, Exponent of 10
 `     3: 30       Z Loc [ PAR_Up    ]`
 
 42: End (P95)
@@ -345,8 +345,8 @@ Convert mV to umoles m\^-2 s\^-1
 
 43: Z=X\*F (P37)
 
-`1: 30       X Loc [ PAR_Up    ]`\
-`2: 243.112  F`\
+`1: 30       X Loc [ PAR_Up    ]
+`2: 243.112  F
 `3: 30       Z Loc [ PAR_Up    ]`
 
 \
@@ -356,25 +356,25 @@ Bridged with a 560 ohm resistor to convert uA to mV
 
 44: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 41       10 mV, 60 Hz Reject, Fast Range`\
-`3: 6        DIFF Channel`\
-`4: 31       Loc [ PAR_Dn    ]`\
-`5: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 41       10 mV, 60 Hz Reject, Fast Range
+`3: 6        DIFF Channel
+`4: 31       Loc [ PAR_Dn    ]
+`5: 1.0      Multiplier
 `6: 0.0      Offset`
 
 Set negative values to zero
 
 45: If (X&lt;=&gt;F) (P89)
 
-`1: 31       X Loc [ PAR_Dn    ]`\
-`2: 4        <`\
-`3: 0.0      F`\
+`1: 31       X Loc [ PAR_Dn    ]
+`2: 4        <
+`3: 0.0      F
 `4: 30       Then Do`
 
-`    46:  Z=F x 10^n (P30)`\
-`     1: 0        F`\
-`     2: 0        n, Exponent of 10`\
+`    46:  Z=F x 10^n (P30)
+`     1: 0        F
+`     2: 0        n, Exponent of 10
 `     3: 31       Z Loc [ PAR_Dn    ]`
 
 47: End (P95)
@@ -383,38 +383,38 @@ Convert mV to umoles m\^-2 s\^-1
 
 48: Z=X\*F (P37)
 
-`1: 31       X Loc [ PAR_Dn    ]`\
-`2: 282.55   F`\
+`1: 31       X Loc [ PAR_Dn    ]
+`2: 282.55   F
 `3: 31       Z Loc [ PAR_Dn    ]`
 
 ----Measure REBS net radiation sensor----
 
 49: Volt (Diff) (P2)
 
-`1: 1        Reps`\
-`2: 23       200 mV, 60 Hz Reject, Slow Range`\
-`3: 7        DIFF Channel`\
-`4: 28       Loc [ Rn_mV     ]`\
-`5: 1.0      Multiplier`\
+`1: 1        Reps
+`2: 23       200 mV, 60 Hz Reject, Slow Range
+`3: 7        DIFF Channel
+`4: 28       Loc [ Rn_mV     ]
+`5: 1.0      Multiplier
 `6: 0.0      Offset`
 
 50: If (X&lt;=&gt;F) (P89)
 
-`1: 28       X Loc [ Rn_mV     ]`\
-`2: 3        >=`\
-`3: 0.0      F`\
+`1: 28       X Loc [ Rn_mV     ]
+`2: 3        >=
+`3: 0.0      F
 `4: 30       Then Do`
 
 Apply positive calibration and windspeed correction
 
-`    51:  Do (P86)`\
+`    51:  Do (P86)
 `     1: 1        Call Subroutine 1`
 
 52: Else (P94)
 
 Apply negative calibration and windspeed correction
 
-`    53:  Do (P86)`\
+`    53:  Do (P86)
 `     1: 2        Call Subroutine 2`
 
 54: End (P95)
@@ -428,25 +428,25 @@ Turn on for one minute and measure every 30 min
 
 55: If time is (P92)
 
-`1: 29       Minutes (Seconds --) into a`\
-`2: 30       Interval (same units as above)`\
+`1: 29       Minutes (Seconds --) into a
+`2: 30       Interval (same units as above)
 `3: 41       Set Port 1 High`
 
 56: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 30       Interval (same units as above)`\
+`1: 0        Minutes (Seconds --) into a
+`2: 30       Interval (same units as above)
 `3: 30       Then Do`
 
-`    57:  Volt (SE) (P1)`\
-`     1: 1        Reps`\
-`     2: 15       5000 mV, Fast Range`\
-`     3: 5        SE Channel`\
-`     4: 32       Loc [ P_mb      ]`\
-`     5: .2       Multiplier`\
+`    57:  Volt (SE) (P1)
+`     1: 1        Reps
+`     2: 15       5000 mV, Fast Range
+`     3: 5        SE Channel
+`     4: 32       Loc [ P_mb      ]
+`     5: .2       Multiplier
 `     6: 600      Offset`
 
-`    58:  Do (P86)`\
+`    58:  Do (P86)
 `     1: 51       Set Port 1 Low`
 
 59: End (P95)
@@ -455,8 +455,8 @@ Turn on for one minute and measure every 30 min
 
 60: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 30       Interval (same units as above)`\
+`1: 0        Minutes (Seconds --) into a
+`2: 30       Interval (same units as above)
 `3: 3        Call Subroutine 3`
 
 -----------------------------------------------------------------------\
@@ -464,13 +464,13 @@ Write Data to Final Storage every 30 min
 
 61: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 30       Interval (same units as above)`\
+`1: 0        Minutes (Seconds --) into a
+`2: 30       Interval (same units as above)
 `3: 10       Set Output Flag High (Flag 0)`
 
 62: Set Active Storage Area (P80)\^28544
 
-`1: 1        Final Storage Area 1`\
+`1: 1        Final Storage Area 1
 `2: 100      Array ID`
 
 63: Resolution (P78)
@@ -483,55 +483,55 @@ Write Data to Final Storage every 30 min
 
 65: Average (P71)\^25120
 
-`1: 4        Reps`\
+`1: 4        Reps
 `2: 1        Loc [ batt_volt ]`
 
 66: Totalize (P72)\^17068
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 5        Loc [ Prec_mm   ]`
 
 67: Average (P71)\^6981
 
-`1: 2        Reps`\
+`1: 2        Reps
 `2: 6        Loc [ WS_Met_ms ]`
 
 68: Wind Vector (P69)\^22088
 
-`1: 1        Reps`\
-`2: 0        Samples per Sub-Interval`\
-`3: 0        S, theta(1), sigma(theta(1)) with polar sensor`\
-`4: 6        Wind Speed/East Loc [ WS_Met_ms ]`\
+`1: 1        Reps
+`2: 0        Samples per Sub-Interval
+`3: 0        S, theta(1), sigma(theta(1)) with polar sensor
+`4: 6        Wind Speed/East Loc [ WS_Met_ms ]
 `5: 7        Wind Direction/North Loc [ WDir_Met  ]`
 
 69: Average (P71)\^31860
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 27       Loc [ SurfT_M_C ]`
 
 70: Average (P71)\^10547
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 30       Loc [ PAR_Up    ]`
 
 71: Average (P71)\^12820
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 31       Loc [ PAR_Dn    ]`
 
 72: Average (P71)\^9683
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 29       Loc [ Rn_Wm2    ]`
 
 73: Average (P71)\^22473
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 33       Loc [ SnowD_T_C ]`
 
 74: Sample (P70)\^1811
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 34       Loc [ SnowD_cm  ]`
 
 Switch to high resolution for Pressure and total PAR measurement
@@ -542,7 +542,7 @@ Switch to high resolution for Pressure and total PAR measurement
 
 76: Sample (P70)\^18375
 
-`1: 1        Reps`\
+`1: 1        Reps
 `2: 32       Loc [ P_mb      ]`
 
 77: Resolution (P78)
@@ -560,16 +560,16 @@ set control port 5 high every 8 hours
 
 1: If time is (P92)
 
-`1: 0        Minutes (Seconds --) into a`\
-`2: 480      Interval (same units as above)`\
+`1: 0        Minutes (Seconds --) into a
+`2: 480      Interval (same units as above)
 `3: 45       Set Port 5 High`
 
 set control port 5 low 30 minutes later
 
 2: If time is (P92)
 
-`1: 30       Minutes (Seconds --) into a`\
-`2: 480      Interval (same units as above)`\
+`1: 30       Minutes (Seconds --) into a
+`2: 480      Interval (same units as above)
 `3: 55       Set Port 5 Low`
 
 -   Table 3 Subroutines
@@ -580,40 +580,40 @@ Positive Net R calibration and windspeed correction.
 
 `1: 1        Subroutine 1`
 
-`    2:  Z=X+F (P34)`\
-`     1: 6        X Loc [ WS_Met_ms ]`\
-`     2: .2       F`\
+`    2:  Z=X+F (P34)
+`     1: 6        X Loc [ WS_Met_ms ]
+`     2: .2       F
 `     3: 35       Z Loc [ C         ]`
 
-`    3:  Z=X*F (P37)`\
-`     1: 35       X Loc [ C         ]`\
-`     2: 0.066    F`\
+`    3:  Z=X*F (P37)
+`     1: 35       X Loc [ C         ]
+`     2: 0.066    F
 `     3: 36       Z Loc [ A         ]`
 
-`    4:  Z=X+F (P34)`\
-`     1: 35       X Loc [ C         ]`\
-`     2: 0.066    F`\
+`    4:  Z=X+F (P34)
+`     1: 35       X Loc [ C         ]
+`     2: 0.066    F
 `     3: 37       Z Loc [ B         ]`
 
-`    5:  Z=X/Y (P38)`\
-`     1: 36       X Loc [ A         ]`\
-`     2: 37       Y Loc [ B         ]`\
+`    5:  Z=X/Y (P38)
+`     1: 36       X Loc [ A         ]
+`     2: 37       Y Loc [ B         ]
 `     3: 38       Z Loc [ Corr_Fact ]`
 
-`    6:  Z=Z+1 (P32)`\
+`    6:  Z=Z+1 (P32)
 `     1: 38       Z Loc [ Corr_Fact ]`
 
 \
 Enter the positive multiplier (p.ppp - inscribed on sensor)\
 
-`    7:  Z=X*F (P37)`\
-`     1: 28       X Loc [ Rn_mV     ]`\
-`     2: 8.65     F`\
+`    7:  Z=X*F (P37)
+`     1: 28       X Loc [ Rn_mV     ]
+`     2: 8.65     F
 `     3: 29       Z Loc [ Rn_Wm2    ]`
 
-`    8:  Z=X*Y (P36)`\
-`     1: 29       X Loc [ Rn_Wm2    ]`\
-`     2: 38       Y Loc [ Corr_Fact ]`\
+`    8:  Z=X*Y (P36)
+`     1: 29       X Loc [ Rn_Wm2    ]
+`     2: 38       Y Loc [ Corr_Fact ]
 `     3: 29       Z Loc [ Rn_Wm2    ]`
 
 9: End (P95)
@@ -624,27 +624,27 @@ Negative Net R calibration and windspeed correction
 
 `1: 2        Subroutine 2`
 
-`    11:  Z=X*F (P37)`\
-`     1: 6        X Loc [ WS_Met_ms ]`\
-`     2: .00174   F`\
+`    11:  Z=X*F (P37)
+`     1: 6        X Loc [ WS_Met_ms ]
+`     2: .00174   F
 `     3: 36       Z Loc [ A         ]`
 
-`    12:  Z=X+F (P34)`\
-`     1: 36       X Loc [ A         ]`\
-`     2: .99755   F`\
+`    12:  Z=X+F (P34)
+`     1: 36       X Loc [ A         ]
+`     2: .99755   F
 `     3: 38       Z Loc [ Corr_Fact ]`
 
 \
 Enter negative multiplier (n.nnn - inscribed on sensor)\
 
-`    13:  Z=X*F (P37)`\
-`     1: 28       X Loc [ Rn_mV     ]`\
-`     2: -10.54   F`\
+`    13:  Z=X*F (P37)
+`     1: 28       X Loc [ Rn_mV     ]
+`     2: -10.54   F
 `     3: 29       Z Loc [ Rn_Wm2    ]`
 
-`    14:  Z=X*Y (P36)`\
-`     1: 29       X Loc [ Rn_Wm2    ]`\
-`     2: 38       Y Loc [ Corr_Fact ]`\
+`    14:  Z=X*Y (P36)
+`     1: 29       X Loc [ Rn_Wm2    ]
+`     2: 38       Y Loc [ Corr_Fact ]
 `     3: 29       Z Loc [ Rn_Wm2    ]`
 
 15: End (P95)
@@ -657,49 +657,49 @@ Judd T and snow Depth measurement subroutine
 
 Turn on sensor
 
-`    17:  Do (P86)`\
+`    17:  Do (P86)
 `     1: 42       Set Port 2 High`
 
 Delay for 0.8 sec before T measurement
 
-`    18:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 80       Delay W/Ex (0.01 sec units)`\
-`     3: 0        Delay After Ex (0.01 sec units)`\
+`    18:  Delay w/Opt Excitation (P22)
+`     1: 1        Ex Channel
+`     2: 80       Delay W/Ex (0.01 sec units)
+`     3: 0        Delay After Ex (0.01 sec units)
 `     4: 0        mV Excitation`
 
 Measure T in Celsius
 
-`    19:  Volt (Diff) (P2)`\
-`     1: 1        Reps`\
-`     2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)`\
-`     3: 4        DIFF Channel`\
-`     4: 33       Loc [ SnowD_T_C ]`\
-`     5: .2       Multiplier`\
+`    19:  Volt (Diff) (P2)
+`     1: 1        Reps
+`     2: 25       5000 mV, 60 Hz Reject, Fast Range (same as code 45)
+`     3: 4        DIFF Channel
+`     4: 33       Loc [ SnowD_T_C ]
+`     5: .2       Multiplier
 `     6: -273     Offset`
 
 Delay at least 1.8 sec for depth measurements
 
-`    20:  Delay w/Opt Excitation (P22)`\
-`     1: 1        Ex Channel`\
-`     2: 180      Delay W/Ex (0.01 sec units)`\
-`     3: 0        Delay After Ex (0.01 sec units)`\
+`    20:  Delay w/Opt Excitation (P22)
+`     1: 1        Ex Channel
+`     2: 180      Delay W/Ex (0.01 sec units)
+`     3: 0        Delay After Ex (0.01 sec units)
 `     4: 0        mV Excitation`
 
 Measure depth and convert to cm\
 \*\*\*OFFSET is distance from GROUND in CM\*\*\*
 
-`    21:  Volt (Diff) (P2)`\
-`     1: 1        Reps`\
-`     2: 20       Auto, 60 Hz Reject, Slow Range (OS>1.06)`\
-`     3: 4        DIFF Channel`\
-`     4: 34       Loc [ SnowD_cm  ]`\
-`     5: -.5      Multiplier`\
+`    21:  Volt (Diff) (P2)
+`     1: 1        Reps
+`     2: 20       Auto, 60 Hz Reject, Slow Range (OS>1.06)
+`     3: 4        DIFF Channel
+`     4: 34       Loc [ SnowD_cm  ]
+`     5: -.5      Multiplier
 `     6: 340      Offset`
 
 Turn off sensor
 
-`    22:  Do (P86)`\
+`    22:  Do (P86)
 `     1: 52       Set Port 2 Low`
 
 23: End (P95)

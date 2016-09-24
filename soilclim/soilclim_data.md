@@ -1,4 +1,4 @@
-###### Western U.S. NRCS data
+# Western U.S. NRCS data
 
 Collection of environmental data, including met and soils data, from
 NRCS, Ameriflux, and other research stations and its processing for
@@ -11,14 +11,14 @@ analysis is covered here.
 
 //Start date: 25 Jan, 2010//
 
-##### Objectives
+## Objectives
 
-` * Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.`\
-` * Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.`\
-` * Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.`\
+` * Gather continuous measurements of soil moisture, soil temperature, weather/climate, snowpack dynamics, and metrics of soil biological activity for western U.S. mountain sites.
+` * Quantify spatial variability (by elevation, topography, lat/lon) in climate, snowpack dynamics, SM/ST.
+` * Quantify inter-annual variability in climate, snowpack dynamics, SM/ST.
 ` * Assess the relationships between spatial or inter-annual variability in SM/ST, climate, and snowpack dynamics among sites.`
 
-##### Data Sources
+## Data Sources
 
 ### National Water and Climate Center - SNOTEL, SCAN, and Snow Course data
 
@@ -29,9 +29,9 @@ Snow Survey (Snow Courses), SNOTEL network, and SCAN network and
 provides a few online interfaces for accessing this data.
 
 ` * `[`The` `NWCC` `station`
-`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)` lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.`\
+`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)` lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.
 ` * `[`Individual` `station`
-`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)` like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.`\
+`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)` like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.
 ` * `[`The` `Snow` `Course` `data`
 `portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)` allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
 
@@ -43,7 +43,7 @@ network](http://public.ornl.gov/ameriflux/index.html),
 Forest](http://www.fs.fed.us/rm/fraser/), Tenderfoot? New
 Mexico flux gradient?
 
-##### SNOTEL and SCAN raw data files
+## SNOTEL and SCAN raw data files
 
 Files are downloaded as .csv (usually), and are often edited using
 various [text editing and data file handling
@@ -59,7 +59,7 @@ original column headers are:
 
 Several inventory files, selected using the dropdowns, are useful:
 
-` - Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.`\
+` - Selecting **precipitation accumulation** gives pretty much all SNOTEL and SCAN sites.
 ` - Selecting **soil moisture and temperature** gives a file containing only sites with soil sensor profiles (SCAN and SNOTEL).`
 
 These inventory files have been put into a master spreadsheet that keeps
@@ -135,7 +135,7 @@ TMAX, TAVG) like the files above).
         begin until well after the site was established (mid to late
         90's at many).
 
-##### Sensors and calibrations
+## Sensors and calibrations
 
 Soil sensors at these sites are [Stevens
 Hydra-Probe](http://www.stevenswater.com/soil_moisture_sensors/index.aspx)
@@ -169,10 +169,10 @@ detailed info on sensor maintenance, movement, or replacement.
 
 ### Other Notes:
 
-` * WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)`\
+` * WVF is volume fraction of water in field moist soil (comparable to percent of field capacity)
 ` * At least some files start or end with a few lines of data collected at odd intervals (bad data).`
 
-##### Data processing and filtering
+## Data processing and filtering
 
 For info on how the data were quality checked and filtered, see the
 [data quality control](data_qc) page.
@@ -182,7 +182,7 @@ produce, are documented [here](programdocs). Some of the
 development of these programs and results are documented
 [here](analysislog_1).
 
-##### Older data
+## Older data
 
 Some data was downloaded from the NRCS ftp site with help from Tim
 Bardsley, Dana Kuiper, and Maggie Dunklee.

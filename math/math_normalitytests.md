@@ -1,4 +1,4 @@
-###### Testing for Normality
+# Testing for Normality
 
 Many inferential statistical procedures require that data be normally
 distributed. Here are a few ways to check if this is the case.
@@ -14,7 +14,7 @@ distributed. Here are a few ways to check if this is the case.
         //approximately// normal. Assessing //approximate// normality
         might best be accomplished using the graphical methods below.
 
-##### Graphical methods
+## Graphical methods
 
 Q-Q plots
 
@@ -22,7 +22,7 @@ p-p plots
 
 Histograms or density plots
 
-##### Formal tests
+## Formal tests
 
 These test AGAINST the null hypothesis that the data tested are normal.
 Low p values reject the null hypothesis, meaning that the data cannot be
@@ -35,7 +35,7 @@ data may (or may not) be normally distributed.
 
 #### Kolmogorov-Smirnov
 
-##### Resources
+## Resources
 
 ` * `[ `Tutorial` `using`
 `R`](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0450.RandVars.AssesNorm.pdf)

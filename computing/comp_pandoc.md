@@ -58,7 +58,7 @@ file before creating the pdf.
 A custom template for the output document header can also be specified
 using `--template=FILE`, where FILE is the custom template. If this
 option is specified, pandoc first looks in the current directory, then
-the user template directory (`\$HOME/.pandoc/templates`), and then in
+the user template directory ($HOME/.pandoc/templates`), and then in
 the default template directory (`/usr/share/pandoc...`). Templates
 should end with an extension for the output format (.latex, .html, etc).
 To create a new template, copy the default for the given output format
@@ -84,7 +84,7 @@ using packages, etc. A couple I use for pdfs of journal articles are:
     --toc-depth            # Specify the header levels to be used in table of contents (implies --toc)
     --reference-odt=FILE   # Use the FILE stylesheets as a template for .odt output.
     Best if FILE was created with pandoc, then modified.
-    --reference-docx=FILE  # Use the FILE stylesheets as a template for .docx output.`\
+    --reference-docx=FILE  # Use the FILE stylesheets as a template for .docx output.
     --latex-engine=ENGINE  # Choose the pdflatex|lualatex|xelatex interpreters,
     needed for some formatting in pdf files.`
 

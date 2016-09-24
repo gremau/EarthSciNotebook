@@ -1,4 +1,4 @@
-###### NumPy tips
+# NumPy tips
 
 NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
@@ -6,7 +6,7 @@ Official documentation is [here](http://docs.scipy.org/doc/).
  **See also:\*\* [Python tips](procedures:pythontips),
         [General programming](procedures:programming) pages.
 
-##### Date/time objects and arrays
+## Date/time objects and arrays
 
 #### Python *datetime* module
 
@@ -54,7 +54,7 @@ called*datetime64*. It should implement similar functionality as above,
 but a little more automatically -
 see[here](http://docs.scipy.org/doc/numpy/reference/arrays.datetime.html).
 
-##### Masking invalid/missing values in arrays
+## Masking invalid/missing values in arrays
 
 One of the biggest tasks in getting data ready for analysis is
 identifying and "masking" data values that are missing or invalid for
@@ -148,7 +148,7 @@ In \[9\]: c = ma.array(b, mask=isnan(b))
 In \[10\]: c Out\[10\]: masked\_array(data = \[0.0 1.0 -- 3.0 4.0 5.0
 6.0 7.0 8.0 9.0\],
 
-`            mask = [False False  True False False False False False False False],`\
+`            mask = [False False  True False False False False False False False],
 `      fill_value = 1e+20)`
 
 ~~~ Once the masked array is created, the data and the mask are both
@@ -174,13 +174,13 @@ the masked or unmasked data can be accessed using the mask itself (or
 In \[17\]: d Out\[17\]: masked\_array(data = \[0.0 1.0 -- 3.0 4.0 -- --
 -- -- --\],
 
-`            mask = [False False  True False False  True  True  True  True  True],`\
+`            mask = [False False  True False False  True  True  True  True  True],
 `      fill_value = 1e+20)`
 
 In \[18\]: d\[\~d.mask\] Out\[18\]: masked\_array(data = \[0.0 1.0 3.0
 4.0\],
 
-`            mask = [False False False False],`\
+`            mask = [False False False False],
 `      fill_value = 1e+20)`
 
 ~~~

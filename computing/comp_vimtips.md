@@ -1,4 +1,4 @@
-###### Vim tips
+# Vim tips
 
 Notes on using Vim effectively.
 
@@ -24,8 +24,8 @@ and will require a password to open it again. An already open file can
 also be encrypted with *:X*. The default level of encryption is not so
 secure (zip), so there are options to change that.
 
-` :set cryptmethod?         # Display the current encryption algorithm`\
-` :set cryptmethod=blowfish # Set to the much more secure blowfish cipher.`\
+` :set cryptmethod?         # Display the current encryption algorithm
+` :set cryptmethod=blowfish # Set to the much more secure blowfish cipher.
 ` `
 
 #### Diffing files (Vimdiff)
@@ -42,10 +42,10 @@ edited. *viewdiff* or *gviewdiff* is used to open a read-only diff view.
 Diff view can also be started from within a vim session (see docs). Once
 started, these are the basic commands for merging changes:
 
-` * **do** - Get changes from other window into the current window.`\
-` * **dp** - Put the changes from current window into the other window.`\
-` * **]c** - Jump to the next change.`\
-` * **[c** - Jump to the previous change.`\
+` * **do** - Get changes from other window into the current window.
+` * **dp** - Put the changes from current window into the other window.
+` * **]c** - Jump to the next change.
+` * **[c** - Jump to the previous change.
 ` * **Ctrl W + Ctrl W** - Switch to the other split window.`
 
 #### Search/Replace strange unicode characters
@@ -56,12 +56,12 @@ signs, and dashes have a number of permutations and it is best to use
 them consistently. They frequently get mixed up in text files,
 especially when copying from strange formats (i.e. Word, Excel, etc.).
 
-` - Place cursor over the funky character and type `*`ga`*`. This gives ascii value in decimal, hexidecimal, and octal format.`\
-` - Form a search/replace command using the ascii value, prepended by some regexp syntax:.`\
-`   * `*`%dNN`*` is the symbol for a decimal ascii code, where `*`NN`*` is the first code given by `*`ga`*`.`\
-`   * `*`%xNN`*` is the symbol for a hexidecimal ascii code.`\
-`   * `*`%oNN`*` is the symbol for an octal ascii code.`\
-`   * Use `*`%uNN`*` for multibyte characters.`\
+` - Place cursor over the funky character and type `*`ga`*`. This gives ascii value in decimal, hexidecimal, and octal format.
+` - Form a search/replace command using the ascii value, prepended by some regexp syntax:.
+`   * `*`%dNN`*` is the symbol for a decimal ascii code, where `*`NN`*` is the first code given by `*`ga`*`.
+`   * `*`%xNN`*` is the symbol for a hexidecimal ascii code.
+`   * `*`%oNN`*` is the symbol for an octal ascii code.
+`   * Use `*`%uNN`*` for multibyte characters.
 `   * Don't forget to escape this (with a \)!`
 
 For example, say there is a funky minus sign in my file. I *ga* over it
@@ -76,9 +76,9 @@ I prefer 4 columns of whitespace for each indent in a file, and I prefer
 to use spaces for this, not tabs. This means pressing the <Tab> should
 give a defined number of spaces. This can be set in *\~.vimrc*.
 
-` set expandtab       "When `<tab>` key is pressed, insert spaces, not hard tabs.`\
-` set tabstop=4       "Number of columns per tab`\
-` set softtabstop=4   "Match to tabstop unless expandtab is unset, then it may set to use tabs + spaces`\
+` set expandtab       "When `<tab>` key is pressed, insert spaces, not hard tabs.
+` set tabstop=4       "Number of columns per tab
+` set softtabstop=4   "Match to tabstop unless expandtab is unset, then it may set to use tabs + spaces
 ` set shiftwidth=4    "Number of columns for indent and autoindent`
 
 When editing a file with different tab settings, *retab* will change all

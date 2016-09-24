@@ -2,7 +2,7 @@
 
 THIS EXPERIMENT IS CURRENTLY ON HOLD
 
-###### Decomposition of labeled litter
+# Decomposition of labeled litter
 
 The objective of this experiment is to measure the response of
 below-snow organisms and soil organic matter decomposition to
@@ -37,13 +37,13 @@ Williams, and S. K. Schmidt (2006), Winter forest soil respiration
 controlled by climate and microbial community composition, Nature, 439,
 711 – 714))
 
-##### Hypotheses
+## Hypotheses
 
-` - Winter decomposition and associated soil `^`13`^`CO`~`2`~` efflux are reduced in low snowpack years (simulated by snow removal), and this effect is correlated with lower soil temperatures and a shorter snow-covered period.`\
-` - Control snowpack plots will have longer periods of below-snow decomposition, and shorter periods of growing-season soil drought, leading to greater cumulative decomposition and soil `^`13`^`CO`~`2`~` during the experiment.`\
+` - Winter decomposition and associated soil `^`13`^`CO`~`2`~` efflux are reduced in low snowpack years (simulated by snow removal), and this effect is correlated with lower soil temperatures and a shorter snow-covered period.
+` - Control snowpack plots will have longer periods of below-snow decomposition, and shorter periods of growing-season soil drought, leading to greater cumulative decomposition and soil `^`13`^`CO`~`2`~` during the experiment.
 ` - Labeled carbon compounds will be more rapidly added to stable fractions of the soil organic matter in control snowpack treatments.`
 
-##### Experimental design
+## Experimental design
 
 To test these hypotheses we will make continuous measurements of
 respiration from ^13^C labeled organic matter added to soils, and
@@ -83,8 +83,8 @@ replication of inlets.
 Label and gas sampling inlets, plus any other measurement activities
 will be replicated (n = 3-5) under these treatments:
 
-` - Snow removal: Snow shoveled to a constant 20cm depth for the entire winter.`\
-` - Control: Undisturbed snowpack`\
+` - Snow removal: Snow shoveled to a constant 20cm depth for the entire winter.
+` - Control: Undisturbed snowpack
 ` - No-Label control: Undisturbed snowpack, no label addition`
 
 The experimental design without and with roots is summarized in these
@@ -169,12 +169,12 @@ employed with each set of microcosms that are returned to the lab.
 See the [measurements page](measurements:label_decomposition)
 for more detail.
 
-##### Issues to address
+## Issues to address
 
-` - What are the best ways to measure the addition of the labels (13C and 15N) to the soil organic matter, including the microbial community, over time?`\
-` - The activity of many organisms is being observed in this experiment. Can we separate them into phylogenetic groups and identify what communities are actively decomposing/respiring during different times of the year? What measurements would be useful to do this?`\
-` - If we are identifying actual organisms, enzymes, etc, what are they telling us about C cycling in terms of what is being decomposed, when, and how quickly?`\
-` - Using microcosms, would it be possible to have a true mass balance of the label? Will the mass of 13C respired, and added to SOM pools at the harvest of the microcosms all add up to what was originally added as labeled litter?`\
-` - There are problems with calculating flux rates from soil beneath a disturbed snowpack.`\
-` - What parts of the SOM are we going to measure for changes in enrichment? What do these SOM fractions represent?`\
+` - What are the best ways to measure the addition of the labels (13C and 15N) to the soil organic matter, including the microbial community, over time?
+` - The activity of many organisms is being observed in this experiment. Can we separate them into phylogenetic groups and identify what communities are actively decomposing/respiring during different times of the year? What measurements would be useful to do this?
+` - If we are identifying actual organisms, enzymes, etc, what are they telling us about C cycling in terms of what is being decomposed, when, and how quickly?
+` - Using microcosms, would it be possible to have a true mass balance of the label? Will the mass of 13C respired, and added to SOM pools at the harvest of the microcosms all add up to what was originally added as labeled litter?
+` - There are problems with calculating flux rates from soil beneath a disturbed snowpack.
+` - What parts of the SOM are we going to measure for changes in enrichment? What do these SOM fractions represent?
 ` - What is the overall significance? Climate variability (in the form of snow depth) leads to biologically mediated changes in C processing and storage? Snow removal may decrease respiration, but does this lead to increases in stored soil C, or could a reduced rate of processing litter into longer-lived C compounds lead to less soil C storage?`

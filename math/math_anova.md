@@ -1,4 +1,4 @@
-###### Analysis of Variance (ANOVA)
+# Analysis of Variance (ANOVA)
 
  **General resources \*\*
 
@@ -8,11 +8,11 @@
     tutorial](http://www.psych.upenn.edu/~baron/rpsych/rpsych.html#htoc50)
     geared towards psychology research.
 
-##### One Way
+## One Way
 
-##### Two Way
+## Two Way
 
-##### Repeated Measures
+## Repeated Measures
 
 In R, repeated measures ANOVA needs to be fit using *aov*, so that a
 multi-stratum error term can be a part of the model (*lm* does not
@@ -23,7 +23,7 @@ purpose, specifying the error terms in the *random=* argument.
 `resources`](http://www.r-statistics.com/2010/04/repeated-measures-anova-with-r-tutorials/)\
 ` * `[`http://statistics.ats.ucla.edu/stat/r/seminars/Repeated_Measures/repeated_measures.htm`](http://statistics.ats.ucla.edu/stat/r/seminars/Repeated_Measures/repeated_measures.htm)
 
-##### Post-hoc analysis
+## Post-hoc analysis
 
 If multiple treatments need to be compared after the experiment, a
 couple types of post-hoc analyses can be used to test whether the means
