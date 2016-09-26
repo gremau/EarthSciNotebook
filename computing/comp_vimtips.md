@@ -8,8 +8,8 @@ Notes on using Vim effectively.
 
 #### .vimrc
 
-The *\~/.vimrc* file is where vim looks first for settings when starting
-up. *\~/.gvimrc* can be used to set options in the GUI version of Vim.
+The *~/.vimrc* file is where vim looks first for settings when starting
+up. *~/.gvimrc* can be used to set options in the GUI version of Vim.
 *.vimrc* is read first.
 
 #### Encrypting files
@@ -56,12 +56,12 @@ signs, and dashes have a number of permutations and it is best to use
 them consistently. They frequently get mixed up in text files,
 especially when copying from strange formats (i.e. Word, Excel, etc.).
 
-- Place cursor over the funky character and type `*`ga`*`. This gives ascii value in decimal, hexidecimal, and octal format.
+- Place cursor over the funky character and type `ga`. This gives ascii value in decimal, hexidecimal, and octal format.
 - Form a search/replace command using the ascii value, prepended by some regexp syntax:.
-  * `*`%dNN`*is the symbol for a decimal ascii code, where `*`NN`*is the first code given by `*`ga`*`.
-  * `*`%xNN`*is the symbol for a hexidecimal ascii code.
-  * `*`%oNN`*is the symbol for an octal ascii code.
-  * Use `*`%uNN`*for multibyte characters.
+  * `%dNN` is the symbol for a decimal ascii code, where `NN` is the first code given by `ga`.
+  * `%xNN` is the symbol for a hexidecimal ascii code.
+  * `%oNN` is the symbol for an octal ascii code.
+  * Use `%uNN` for multibyte characters.
   * Don't forget to escape this (with a \)!`
 
 For example, say there is a funky minus sign in my file. I *ga* over it
@@ -74,7 +74,7 @@ regular hyphen-minus using:
 
 I prefer 4 columns of whitespace for each indent in a file, and I prefer
 to use spaces for this, not tabs. This means pressing the <Tab> should
-give a defined number of spaces. This can be set in *\~.vimrc*.
+give a defined number of spaces. This can be set in *~.vimrc*.
 
 set expandtab       "When `<tab>key is pressed, insert spaces, not hard tabs.
 set tabstop=4       "Number of columns per tab

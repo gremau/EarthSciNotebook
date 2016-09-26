@@ -12,7 +12,7 @@ In use at:
 
 PVC collars are inserted in the soil at field sites to make soil
 respiration measurements with the LI-6400. Collars should be made from
-\~4 inch (10cm) PVC tubing to accommodate the 9.55cm diameter
+~4 inch (10cm) PVC tubing to accommodate the 9.55cm diameter
 LiCor-6400-09 chamber. The tubing should be cut at roughly 5cm lengths
 and then beveled on one edge. These are inserted 1.5-3cm into the soil
 surface in the location where respiration is to be measured. Because
@@ -64,12 +64,12 @@ The general procedure for operating the LiCor 6400 is on the
 
 #### Notes for Hidden Canyon
 
-* Typical `*`Aux`OP`Parameters`*`:
+* Typical `Aux`OP`Parameters`:
   * Extra drawdown = 5ppm
   * Flow = 500
   * Dead time = 20 sec
   * Minimum measurement time = 30 seconds
-* `*`Delta`*of around 5-6 usually works best, more if there are lots of roots.
-* May need to modify things to stay within `*`Target`+/-`
-`Delta`*range.
+* `Delta` of around 5-6 usually works best, more if there are lots of roots.
+* May need to modify things to stay within `Target`+/-`
+`Delta` range.
 * Measure the soil temperature at 5cm and 15cm depths using the Omega probe (the Li-Cor one is busted)

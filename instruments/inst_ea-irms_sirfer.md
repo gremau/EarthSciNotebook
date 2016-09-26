@@ -33,7 +33,7 @@ machine is being used.
 - Close the sampler and replace and tighten the screws.
 - Open the vacuum to the autosampler using the green valve behind it.
 - Tighten the screws on the autosampler door again. //The autosampler chamber will continue to be evacuated as the next steps are completed//.
-- Fill out the `*`elog`*with the data for this EA-IRMS run (name, job #, etc). The `*`elog`*is an excel file found on the desktop of the unit.
+- Fill out the `elog` with the data for this EA-IRMS run (name, job #, etc). The `elog` is an excel file found on the desktop of the unit.
 - Open the EA loader spreadsheet and enter sample ID and weight information.
   - Open MS Excel > recently used documents > more, and open either the 50 or 100 sample EA_loader.xls file.
   - Enter sample ID's in column A, starting with row 16 (the first 15 are conditioners).
@@ -41,15 +41,15 @@ machine is being used.
 - Now open the IsoDat Acquisition software, located in the Windows XP quick launch bar (lower left of desktop).
 - In Acquisition, we must open a measurement instruction sequence.
   - These are located in the Sequences tab on the lower left window of the interface.
-  - For CN analysis we choose `*`N2_CO2+He_1.seq`*`:?:
+  - For CN analysis we choose `N2_CO2+He_1.seq`:?:
   - This should open a datasheet window and some other stuff.
 - **If the instrument has recently been used with another front end** it will need to be changed back to the EA Conflo interface.
   - This is done using a cluster of valves below the left side of the mass spec.
   - Close the pinvalve marked Otto (on Madeye :?:).
   - Open the EA pinvalve.
   - Make sure the green MS valve is open.
-- Now copy and paste the sample ID's and weights from the EA_loader.xls file to the Acquisition datasheet. Column A (IDs) should go in Acquisition's `*`Identifier`
-`1`*column, and Column D (weights) should be copied to the `*`Amount`*column.
+- Now copy and paste the sample ID's and weights from the EA_loader.xls file to the Acquisition datasheet. Column A (IDs) should go in Acquisition's `Identifier`
+`1` column, and Column D (weights) should be copied to the `Amount` column.
 - Make sure that the column to the right of Identifier 1 correctly shows which samples are samples, which are references (with an RM), and which are other types of samples.
 - Also make sure that the Methods column lists the correct method for all the samples (N2_CO2+He_1.seq).
 - Fill out the Comments column - this collects quality control and calibration data for every run.
@@ -80,7 +80,7 @@ machine is being used.
 - Pressurize the autosampler chamber with He gas, gradually letting the pressure rise to the mark on the chamber gauge.
 - Open the isolation valve.
 - In the IsoDat Acquisition interface, highlight the datasheet rows containing the samples to be run.
-- Open the `*`Acquisition`*menu and select `*`Start`*`.
+- Open the `Acquisition` menu and select `Start`.
 - In the dialogue that opens,
   - Add a folder name (usually the job number)
   - Delete acquisition from the filename field.
@@ -117,11 +117,11 @@ machine is being used.
   - Plot the background values
   - Look for peak areas less than 15 (N) - these are likely too small.
 - The chromatograms (peaks) can also be examined on the machine itself (the entire run is saved).
-  - Open the `*`Workspace`*program.
+  - Open the `Workspace` program.
   - Open the directory named with the job number.
   - All chromatograms are saved according to number, double click to open.
-  - There is a table under the chromatogram with a column for `*`Area`
-`All`*with volt-seconds units.
+  - There is a table under the chromatogram with a column for `Area`
+`All` with volt-seconds units.
   - For N peaks, peak areas less than 15 volt-seconds are too small.
   - For C peaks, large samples will result in squared-off peaks (sensor maxed out).
 - Check whether any corrections are justified.

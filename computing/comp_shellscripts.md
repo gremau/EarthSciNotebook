@@ -14,7 +14,7 @@ Assign variables like this:
 
 VAR="foo"  # don't use any spaces around the = sign`
 
-Expand variables with \$:
+Expand variables with $:
 
 echo $VAR # prints "foo" to stdout`
 
@@ -28,7 +28,7 @@ Single quoted strings are interpreted literally:
 
 echo '$VAR' # prints "$VAR" to stdout`
 
-Double quoted strings are interpreted literally except for \$, \`
+Double quoted strings are interpreted literally except for $, \`
 (backquote), and \\ (escape).
 
 echo "$VAR" # prints "foo" to stdout`
@@ -49,10 +49,10 @@ Outputs:
 
 The current date and time is: Thu Feb 24 23:19:17 MST 2011`
 
-The backslash escapes the metacharacter (\$,\`,',") just after it so it
+The backslash escapes the metacharacter ($,\`,',") just after it so it
 is interpreted as a string"
 
-echo \$VAR # prints "$VAR" to stdout`
+echo $VAR # prints "$VAR" to stdout`
 
 ## Redirection and piping
 
@@ -83,12 +83,12 @@ commands with a semicolon.
 
  **Nice utilities to put in shell commands and scripts: **
 
-* The usual file commands `*`cp`*`, `*`mv`*`, `*`rm`*`, etc.
-* `*`grep`*`: prints text (from a file or standard input) matching a sequence of characters.
-* `*`cut`*`: cuts columns out of delimited files
-* `*`tr`*`: (translate) deletes (-d) or replaces characters in a file
-* `*`tail`*`: prints the last //n// lines in a given file (good for removing headers).
-* `*`sed`*commands (see [this`
+* The usual file commands `cp`, `mv`, `rm`, etc.
+* `grep`: prints text (from a file or standard input) matching a sequence of characters.
+* `cut`: cuts columns out of delimited files
+* `tr`: (translate) deletes (-d) or replaces characters in a file
+* `tail`: prints the last //n// lines in a given file (good for removing headers).
+* `sed` commands (see [this`
 `tutorial](http://www.grymoire.com/Unix/Sed.html))
 * [awk`one`liners](procedures:awk)
 
@@ -123,18 +123,18 @@ A similar effect to the substitution could be done with basename.
         in textfiles. To remove all spaces from a directory of
         textfiles:
 
-`for`i`in`*.csv;`do`tr`-d`'`'`<`"$i"`>`
+`for`i`in` .csv;`do`tr`-d`'`'`<`"$i"`>`
 `"${i/.csv}2.csv";`doneTo replace each line's first occurrence of a
 given phrase with another pattern, either of these will work: `for`i`
-`in`*.csv;`do`sed`'s/station`id/station_id/'`<`"$i"`>`
-`"${i/.csv}2.csv";`doneOR `for`i`in`*.csv;`do`awk`-F","`
+`in` .csv;`do`sed`'s/station`id/station_id/'`<`"$i"`>`
+`"${i/.csv}2.csv";`doneOR `for`i`in` .csv;`do`awk`-F","`
 `'{`sub(/station`id/,`"station_id");`print`}'`"$i"`>`
 `"${i/.csv}2.csv";`doneTo replace all occurrences of the pattern use
 global replacement - add a g after the sed statement, or use gsub
 instead of sub in awk.
 
 This command will take each .csv file, cut out columns 13-15, and
-redirect this output to a new file. `for`FILE`in`*.csv;`do`
+redirect this output to a new file. `for`FILE`in` .csv;`do`
 `cut`-d","`-f-12,16-`"$FILE"`>`"${FILE/.csv}2.csv";`done`
 
 ## Executing saved scripts

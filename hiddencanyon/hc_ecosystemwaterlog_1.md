@@ -1,6 +1,6 @@
 ## 2010 xylem water potential
 
-{{ :hc\_ecohydrology:hc\_2010\_psi.png?300|2010 xylem pressure
+{{ :hc_ecohydrology:hc_2010_psi.png?300|2010 xylem pressure
 measurements}}
 
 * First complete set of measurements were made on Aug 2nd and 3rd from 9 large (40ft +) trees each in plot one and two.

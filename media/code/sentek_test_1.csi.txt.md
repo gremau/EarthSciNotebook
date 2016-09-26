@@ -1,5 +1,5 @@
 {CR23X}\
-Sentek\_test\_1.CSI\
+Sentek_test_1.CSI\
 \
 
 -   Table 1 Program
@@ -209,19 +209,19 @@ Write Data to Final Storage
 
 End Program
 
--Input Locations- 1 batt\_volt 1 1 1 2 panelT 1 1 2 3 Sen9\_SF\_1 1 5 5
-4 Sen9\_SF\_2 0 0 0 5 Sen9\_SF\_3 0 0 0 6 Sen9\_SF\_4 1 1 0 7
-Sen9\_WC\_1 1 3 5 8 Sen9\_WC\_2 1 1 0 9 Sen9\_WC\_3 1 1 0 10 Sen9\_WC\_4
-1 1 0 11 RecipB 1 2 1 12 A 1 1 0 13 B 1 1 0 14 C 1 1 0 15 CSI\_R 0 0 0
-16 \_\_\_\_\_\_\_\_\_ 1 0 0 17 \_\_\_\_\_\_\_\_\_ 1 0 0 18
-\_\_\_\_\_\_\_\_\_ 0 0 0 19 \_\_\_\_\_\_\_\_\_ 0 0 0 20
-\_\_\_\_\_\_\_\_\_ 0 0 0 21 \_\_\_\_\_\_\_\_\_ 0 0 0 22
-\_\_\_\_\_\_\_\_\_ 0 0 0 23 \_\_\_\_\_\_\_\_\_ 0 0 0 24
-\_\_\_\_\_\_\_\_\_ 0 0 0 25 \_\_\_\_\_\_\_\_\_ 1 0 0 26
-\_\_\_\_\_\_\_\_\_ 0 0 0 27 \_\_\_\_\_\_\_\_\_ 0 0 0 28
-\_\_\_\_\_\_\_\_\_ 0 0 0 -Program Security- 0000 0000 0000 -Mode 4-
+-Input Locations- 1 batt_volt 1 1 1 2 panelT 1 1 2 3 Sen9_SF_1 1 5 5
+4 Sen9_SF_2 0 0 0 5 Sen9_SF_3 0 0 0 6 Sen9_SF_4 1 1 0 7
+Sen9_WC_1 1 3 5 8 Sen9_WC_2 1 1 0 9 Sen9_WC_3 1 1 0 10 Sen9_WC_4
+1 1 0 11 RecipB 1 2 1 12 A 1 1 0 13 B 1 1 0 14 C 1 1 0 15 CSI_R 0 0 0
+16 _________ 1 0 0 17 _________ 1 0 0 18
+_________ 0 0 0 19 _________ 0 0 0 20
+_________ 0 0 0 21 _________ 0 0 0 22
+_________ 0 0 0 23 _________ 0 0 0 24
+_________ 0 0 0 25 _________ 1 0 0 26
+_________ 0 0 0 27 _________ 0 0 0 28
+_________ 0 0 0 -Program Security- 0000 0000 0000 -Mode 4-
 -Final Storage Area 2- 0 -CR10X ID- 0 -CR10X Power Up- 3 -CR10X Compile
 Setting- 3 -CR10X RS-232 Setting- -1 -DLD File Labels- 0 -Final Storage
-Labels- 0,1,23223 1,Year\_RTM,13262 1,Day\_RTM 1,Hour\_Minute\_RTM
-2,panelT\_AVG\~2,5738 3,batt\_volt\_AVG\~1,25120 4,Sen9\_WC\_1\~7,11047
-4,Sen9\_WC\_2\~8 4,Sen9\_WC\_3\~9 4,Sen9\_WC\_4\~10
+Labels- 0,1,23223 1,Year_RTM,13262 1,Day_RTM 1,Hour_Minute_RTM
+2,panelT_AVG~2,5738 3,batt_volt_AVG~1,25120 4,Sen9_WC_1~7,11047
+4,Sen9_WC_2~8 4,Sen9_WC_3~9 4,Sen9_WC_4~10

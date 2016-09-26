@@ -18,7 +18,7 @@ collects some general tips on developing Python code.
 ## Installing Python packages
 
 Installation of packages from [PyPI](http://pypi.python.org)
-(the Python Package Index) is generally done with easy\_install, which
+(the Python Package Index) is generally done with easy_install, which
 is part of **python-setuptools**. Also install **python-dev** so
 that new packages can be built locally.
 
@@ -26,7 +26,7 @@ Then:
 
 easy_install [packagename]`
 
- **NOTE** that easy\_install will no longer work with Python 3.0
+ **NOTE** that easy_install will no longer work with Python 3.0
         and
         [pip](http://www.pip-installer.org/en/latest/index.html)
         will have to be used.
@@ -39,26 +39,26 @@ and methods are briefly covered below, or see Python's more extensive
 [Datetime library
 reference](http://docs.python.org/library/datetime.html).
 
-* `*`dt.date(year,`month,`day)*\
-  * `*`dt.date.min`*and `*`dt.date.max`*give the minimum and maximum possible dates
-  * `*`dt.date.year`*`, `*`dt.date.month`*and `*`dt.date.day`*return the attributes
-  * `*`date.strftime(format)*- returns a string representing the date, controlled by an explicit format string
-  * `*`date.toordinal()*- returns the proleptic Gregorian ordinal of the date, where January 1 of year 1 has ordinal 1.
-* `*`dt.time(hour[,`minute[,`second[,`microsecond[,`
+* `dt.date(year,`month,`day)*\
+  * `dt.date.min` and `dt.date.max` give the minimum and maximum possible dates
+  * `dt.date.year`, `dt.date.month` and `dt.date.day` return the attributes
+  * `date.strftime(format)*- returns a string representing the date, controlled by an explicit format string
+  * `date.toordinal()*- returns the proleptic Gregorian ordinal of the date, where January 1 of year 1 has ordinal 1.
+* `dt.time(hour[,`minute[,`second[,`microsecond[,`
 `tzinfo]]]])*\
-  * all the attributes are optional and the `*`tzinfo`*attribute (which defines timezone, time offsets, etc) can be "None"
-  * similar methods to those in `*`dt.date`*\
-* `*`dt.datetime(year,`month,`day[,`hour[,`minute[,`
+  * all the attributes are optional and the `tzinfo` attribute (which defines timezone, time offsets, etc) can be "None"
+  * similar methods to those in `dt.date` \
+* `dt.datetime(year,`month,`day[,`hour[,`minute[,`
 `second[,`microsecond[,`tzinfo]]]]])*\
-  * Contains all the info from a `*`date`*and a `*`time`*object.
+  * Contains all the info from a `date` and a `time` object.
   * year, month, day are required, tzinfo can be 'None'.
   * two class method contstructors are important: 
-    * `*`datetime.combine(date,`
+    * `datetime.combine(date,`
 `time)*combines a date and a time object into a datetime.
-    * `*`dt.datetime.strptime(date_string,`
+    * `dt.datetime.strptime(date_string,`
 `format)*- returns a datetime corresponding to date_string, parsed according to format.
-  * Similar instance methods to `*`date`*and `*`time`*objects (can call strftime, toordinal, etc.)
-* `*`dt.timedelta([days[,`seconds[,`microseconds[,`
+  * Similar instance methods to `date` and `time` objects (can call strftime, toordinal, etc.)
+* `dt.timedelta([days[,`seconds[,`microseconds[,`
 `milliseconds[,`minutes[,`hours[,`weeks]]]]]]])*\
   *  Represents a duration, the difference between two dates or times.`
 
@@ -88,7 +88,7 @@ import pdb
 
 1.  insert this into code at line x to start debugger at line x
 
-pdb.set\_trace()
+pdb.set_trace()
 
 1.  as the code runs it will stop and enter the debugger at line x
 2.  leaving you at the pdb prompt
@@ -139,10 +139,10 @@ pdb.runcall(function[, argument, ...])
 
 1.  performs postmortem debugging of the specified traceback
 
-pdb.post\_mortem(traceback)
+pdb.post_mortem(traceback)
 
 1.  performs postmortem debugging of the traceback contained in
-    sys.last\_traceback:
+    sys.last_traceback:
 
 pdb.pm()
 

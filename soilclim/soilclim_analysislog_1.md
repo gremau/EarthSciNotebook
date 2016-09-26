@@ -51,27 +51,27 @@ filtering. A couple of current problems
 
  **Feb 16, 2012** - Have done lots in the last few days:
 
-* **New 30-year mean data** (SNOTEL SWE, SNOTEL Precip, and SnowCourse SWE) downloaded from NRCS website, error checked, and tabulated in a new spreadsheet. See `*`rawdata/longterm_averages/SnowSurvey_7100Avg_Master.gnumeric`*`.
+* **New 30-year mean data** (SNOTEL SWE, SNOTEL Precip, and SnowCourse SWE) downloaded from NRCS website, error checked, and tabulated in a new spreadsheet. See `rawdata/longterm_averages/SnowSurvey_7100Avg_Master.gnumeric`.
   * Makes some older spreadsheets obsolete, though there are some old copies.
   * SWE and precip data are exported as .csv files to the curated data folder for use in data-analysis scripts
-* **New station inventory spreadsheet** is located at `*`rawdata/station_inventory/NRCS_inventory_MASTER.gnumeric`*`.
+* **New station inventory spreadsheet** is located at `rawdata/station_inventory/NRCS_inventory_MASTER.gnumeric`.
   * Created by downloading and editing .csv files from the NRCS [data`
 `search](http://www.wcc.nrcs.usda.gov/nwcc/inventory)webpage.
   * This file is being used to keep track of what SNOTEL/Scan/SnowCourse data is available for snowpack and soil profiles, and what data has been downloaded already.
   * Might replace the other inventory .csv files in this directory (some scripts still rely on these though).
 * Both of these files have some documentation available in the first sheet.
 * Some general reorganizing and cleaning out of old data and scripts in the rawdata, and data_analysis folders that contain this project.
-  * `*`obsolete_scripts`*holds old SNOTEL network analysis scripts that may still be useful but are being replaced by new ones. There is a corresponding collection of data files in the rawdata directory.
-  * `*`curated_data`*holds textfiles that are output from spreadsheets or scripts that operate on raw data (as it might be useful to version these).
-* New script to calculate many metrics of climate and interannual variability (in snow, precip, temp) from the daily data. It outputs a large dataset to the `*`curated_data`*directory and is read by plotting scripts. **Will be documented [here](programdocs)**
-* Downloaded a large amount of new data from the NRCS website to `*`allsensors_daily`*`, and `*`soilsensors_hourly`*directories.
+  * `obsolete_scripts` holds old SNOTEL network analysis scripts that may still be useful but are being replaced by new ones. There is a corresponding collection of data files in the rawdata directory.
+  * `curated_data` holds textfiles that are output from spreadsheets or scripts that operate on raw data (as it might be useful to version these).
+* New script to calculate many metrics of climate and interannual variability (in snow, precip, temp) from the daily data. It outputs a large dataset to the `curated_data` directory and is read by plotting scripts. **Will be documented [here](programdocs)**
+* Downloaded a large amount of new data from the NRCS website to `allsensors_daily`, and `soilsensors_hourly` directories.
   * Now have daily data for all SNOTEL sites with soil profiles from install to 2010 (working on 2011)
   * AZ, NM, UT, and CO have complete sets of the SNOTEL soil profile data (NV, WY, ID, MT to go still).
 * Met with Dave today, and we agreed that **more daily data is needed** - preferably all of it for the last 10 years or so.`
 
  **Feb 3, 2012**
 
-{{ :west\_stationdata:plot\_4sites\_distrib.png?300|Sites in each column
+{{ :west_stationdata:plot_4sites_distrib.png?300|Sites in each column
 are Trial Lake, BL Trail, Chepeta, Little Grassy (Right to left)}}
 
 * plot_monthly_sm_distrib.m has been reworked and renamed to plot_soilsensor_distrib.m. It is a bit more generic and will plot soil temperature data in the same fashion.
@@ -97,7 +97,7 @@ are Trial Lake, BL Trail, Chepeta, Little Grassy (Right to left)}}
  **Jan 21-26, 2012**
 
 {{
-:west\_stationdata:plot\_monthly\_sm\_distrib-828wy2010.png?300|plot\_monthly\_sm\_distrib.m
+:west_stationdata:plot_monthly_sm_distrib-828wy2010.png?300|plot_monthly_sm_distrib.m
 output for Trial Lake, WY2010}}
 
 * Created plot_monthly_sm_distrib.m to print a site's monthly histograms of all soil moisture data for each year in the analysis.
@@ -151,7 +151,7 @@ Couple ideas:
 
  **2/03/2012**
 
-{{ :west\_stationdata:828\_distrib\_allyrs.png?300|Trial Lake,
+{{ :west_stationdata:828_distrib_allyrs.png?300|Trial Lake,
 histograms from all water years combined.}}
 
 * Plotting of soil temperature distributions is now done in plot_soilsensor_distrib.m, replacing the program that created ``. The new output (for Trial Lake) is at right. This program plots histograms for individual water years, and all years combined.
@@ -175,7 +175,7 @@ histograms from all water years combined.}}
 
  **11/17/2011**
 
-{{ :west\_stationdata:soiltvssnowpack\_wu.png?300|February soil temps vs
+{{ :west_stationdata:soiltvssnowpack_wu.png?300|February soil temps vs
 snowpack at 2 depths in the Wasatch and Uinta mountains}}
 
 * Might make sense to create a function that generates lists of sites based on certain criteria like: mountain range, state, elevation, latitude, etc.
@@ -201,7 +201,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 
  **9/13/2011**
 
-{{ :west\_stationdata:snotelsoiltvssnowpack.png?300|}}
+{{ :west_stationdata:snotelsoiltvssnowpack.png?300|}}
 
 * It appears that there is a relationship between soil T and snowpack that is present in February - sites with low snowpacks (in depth or SWE) have colder temperatures and temperatures increase as snowpack increases. The strength of this relationship seems to drop off as soils reach 1-2°C. The graph at right illustrates this. Note that these datapoints are aggregated data for all soil and snowpack data from the selected months for a site. Individual years may show a stronger pattern.`
 
@@ -226,7 +226,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 * New file: //filterseriestest_scr.m// should be able to test different filtering regimes and show the changes in data
 * New [file://tempswegradient_scr.m//](file://tempswegradient_scr.m//)plots February soil temps against a variety of things including SWE, Snow depth, and elevation.`
 
- **8/5/2011 - TO DO **list for west\_stationdata programs:
+ **8/5/2011 - TO DO **list for west_stationdata programs:
 
 * //loadsnotel.m//
   * Decide what to do with quality control arrays
@@ -242,7 +242,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 
  **8/4/2011**
 
-{{ :west\_stationdata:monthlysoiltempgradient2.png?350|}}
+{{ :west_stationdata:monthlysoiltempgradient2.png?350|}}
 
 * //sitesoiltempvariability_scr.m//:
   * Added routine to convert daily SWE data to hourly values matching the hourly soil data. This can then be used to create a logical snowcover test.
@@ -287,7 +287,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 * FIXME Shift difference filter doesn't seem to be working right (see histograms compare unfiltered and filtered data)
 
  **Apr 26, 2011 - Fixing runmean nan problem **{{
-        :west\_stationdata:ts\_interp.png?250|Interpolated points (red)
+        :west_stationdata:ts_interp.png?250|Interpolated points (red)
         in Ts data}}
 
 * Interpolate the data using interp1
@@ -312,8 +312,8 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 
  **Feb 23, 2011**
 
-{{ :west\_stationdata:828\_soildist.png?250|Trial Lake -2cm soil temp
-distributions at various time periods (\~2002-2010)}}
+{{ :west_stationdata:828_soildist.png?250|Trial Lake -2cm soil temp
+distributions at various time periods (~2002-2010)}}
 
 * Downloaded and edited [inventory`files`for`NWCC`
 `SCAN/SNOTEL`

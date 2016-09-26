@@ -54,11 +54,11 @@ and reactant amounts for each sample.
 We wish to analyze roughly 1 μmol CO~2~ in the mass spectrometer. TOC/TN
 analysis yielded TOC values in mgC/L. To convert:
 
-\$\$ V = \\frac{1}{(TOC \\times \\frac{0.001mg}{g}) \\times
-mwC\^{-1}}\$\$
+$$ V = \\frac{1}{(TOC \\times \\frac{0.001mg}{g}) \\times
+mwC\^{-1}}$$
 
-where \$V\$ is the volume in μL of extract to oxidize to yield 1 μmol
-CO~2~, \$TOC\$ is the extract C concentration in mg/L, and \$mwC\$ is
+where $V$ is the volume in μL of extract to oxidize to yield 1 μmol
+CO~2~, $TOC$ is the extract C concentration in mg/L, and $mwC$ is
 the molecular weight of carbon (12.0107). Note that the conversions from
 L to μL (/1e6) and mol to μmol(\*1e6) cancel out. This same conversion
 should be usable for the C3 and C4 standard solutions.
@@ -72,8 +72,8 @@ of pure sucrose, weighing 1mg into a tin should do. To calculate the
 amount to add to an exetainer for oxidation and IRMS analysis via the
 gasbench:
 
-\$\$ M = \\frac{342.296}{1 \\times 10\^6} \\times \\frac{1 mol \\
-\\mathrm{sucrose}}{12 mol \\ \\mathrm{C}} \* 1000mg/g = 0.0285mg \$\$
+$$ M = \\frac{342.296}{1 \\times 10\^6} \\times \\frac{1 mol \\
+\\mathrm{sucrose}}{12 mol \\ \\mathrm{C}} \* 1000mg/g = 0.0285mg $$
 
 #### Calculate amounts of Fenton's reagent and other reagents to use
 
@@ -95,7 +95,7 @@ For each µmol of sample C, we need at least 12 µmol H~2~O~2~ and 2.6
 
 Remember:
 
-\$\$M\_i V\_i = M\_f V\_f\$\$
+$$M_i V_i = M_f V_f$$
 
 Hydrogen peroxide solution
 --------------------------
@@ -133,20 +133,20 @@ Acid to lower the pH
 We want a low pH (2-4) before adding the H~2~O~2~. We can use this
 equation to calculate the amount of acid to use:
 
-\$\$M\_1V\_1 + M\_2V\_2 = M\_3(V\_1 + V\_2)\$\$
+$$M_1V_1 + M_2V_2 = M_3(V_1 + V_2)$$
 
-where \$M\_1\$ is the molarity of the acid, \$V\_1\$ is the volume of
-the acidic solution, \$M\_2\$ is the molarity of the water, \$V\_2\$ is
-the volume of the water, and \$M\_3\$ is the target molarity of the end
-solution. Converting this equation to solve for \$V\_1\$ yields the
+where $M_1$ is the molarity of the acid, $V_1$ is the volume of
+the acidic solution, $M_2$ is the molarity of the water, $V_2$ is
+the volume of the water, and $M_3$ is the target molarity of the end
+solution. Converting this equation to solve for $V_1$ yields the
 following equation:
 
-\$\$V\_1 = \\frac{(M\_3V\_2 - M\_2V\_2)}{(M\_1 - M\_3)}\$\$
+$$V_1 = \\frac{(M_3V_2 - M_2V_2)}{(M_1 - M_3)}$$
 
 Or if we know the volume to be added but want to calculate its
 molarity...
 
-\$\$M\_2 = -\\frac{M\_1V\_1 - M\_3(V\_1 + V\_2)}{V\_2}\$\$
+$$M_2 = -\\frac{M_1V_1 - M_3(V_1 + V_2)}{V_2}$$
 
 Ca/Ba precipitation solutions
 -----------------------------
@@ -166,7 +166,7 @@ The molecular weight of barium chloride (BaCl~2~·2H~2~O) is 244.28g.
 
 ## Notes about running these at SIRFER
 
-- Use the `*`CO2_injection.seq`*sequence on Saltbush Bill instrument.
+- Use the `CO2_injection.seq` sequence on Saltbush Bill instrument.
 - Rename the job in the spreadsheet that pops up, select that line, click Save and then Start.
 - In the dialoge that appears, rename the job (as above), copy this name to file export, and erase the "Acquisition" field from the export.
 - Inject samples - 0.3ml for the 10% CO2 tank, 1ml for the samples. Seems like peaks above 800mV are best

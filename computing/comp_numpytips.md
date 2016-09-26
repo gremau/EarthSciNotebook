@@ -139,7 +139,7 @@ In [5]: nansum(b) # this leaves out the nan
 
 Out[5]: 43.0
 
-In [6]: sum(b[\~isnan(b)]) # this also leaves out the nan
+In [6]: sum(b[~isnan(b)]) # this also leaves out the nan
 
 Out[6]: 43.0
 ~~~
@@ -203,10 +203,10 @@ Out[15]: nan
 ~~~
 
 There are other ways to
-construct masked arrays, notably *masked\_where* and its aliases
-(*masked\_greater, masked\_equal, masked\_inside*, etc). In addition,
+construct masked arrays, notably *masked_where* and its aliases
+(*masked_greater, masked_equal, masked_inside*, etc). In addition,
 the masked or unmasked data can be accessed using the mask itself (or
-\~mask). 
+~mask). 
 
 ~~~
 In [16]: d = ma.masked_where(a>=5, b)
@@ -218,7 +218,7 @@ Out[17]: masked_array(data = [0.0 1.0 -- 3.0 4.0 -- -- -- -- --],
            mask = [False False  True False False  True  True  True  True  True],
      fill_value = 1e+20)
 
-In [18]: d[\~d.mask]
+In [18]: d[~d.mask]
 
 Out[18]: masked_array(data = [0.0 1.0 3.0 4.0],
 
@@ -229,7 +229,7 @@ Out[18]: masked_array(data = [0.0 1.0 3.0 4.0],
  **Other things to note:**
 
 The mask argument in *ma.array* must be convertible to a boolean array
-of the same size as the input data array. Adding the *fill\_value=x*
+of the same size as the input data array. Adding the *fill_value=x*
 argument will fill in masked values with x. Other arguments for
 contstructing arrays can be found [ma.array function](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ma.array.html#numpy.ma.array)
 description. As a subclass of the numpy.ndarray class, the

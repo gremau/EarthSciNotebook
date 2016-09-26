@@ -1,6 +1,6 @@
 # LaTeX tips
 
-**See also:** [comp_textfiles](comp_textfiles.md, [comp_pandoc](comp_pandoc.md)
+**See also:** [comp_textfiles](comp_textfiles.md), [comp_pandoc](comp_pandoc.md)
 
 ## General Resources
 
@@ -13,11 +13,11 @@
 
 ## Citations
 
-Insert a citation with cite{citationID}`, where `citationIDis the
-identifier in a BibTeX (.bib) bibliography file. The `.bibis defined
-somewhere in the LaTeX file with
-bibliography{\~\user...\bibfile.bib}`. There are other, improved
-implementations for citations, such as
+Insert a citation with `cite{citationID}`, where `citationID` is the
+identifier in a BibTeX (.bib) bibliography file. The `.bib` is defined
+somewhere in the LaTeX file with `bibliography{~\user...\bibfile.bib}`.
+
+There are other, improved implementations for citations, such as
 [natbib](http://www.ctan.org/tex-archive/macros/latex/contrib/natbib).
 
 Currently there is an error in the Zotero export filter for .bib files
@@ -84,8 +84,7 @@ the original and the patch.
 
 ### A couple other ideas
 
-* The [todonotes package](http://ctan.org/pkg/todonotes) places callouts (Word style) 
-in the compiled document.
+* The [todonotes package](http://ctan.org/pkg/todonotes) places callouts (Word style) in the compiled document.
 
 ## Converting to Word/LO formats
 

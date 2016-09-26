@@ -108,7 +108,7 @@ Microcosms similar to those used in [Bird and Torn,
 2006](http://www.springerlink.com/content/x6848r8r43k20n87/)
 will be installed in each treatment plot (n=9) with inlets placed at the
 top of one microcosm per treatment. The advantage of this design is that
-smaller amounts of litter might be used (\~1.25 per microcosm in Bird
+smaller amounts of litter might be used (~1.25 per microcosm in Bird
 06), so the potential for replication is higher, and the addition of 13C
 to soil organic matter pools can be measured in a more quantitative way.
 These microcosms will be installed for equilibration in July or August
@@ -126,7 +126,7 @@ installation.
 Needle litter | 9(3) | 9(3) | 9(3) | \^ Root litter | 9(3) | 9(3) | 9(3)
 | //18 sample inlets total//
 
-Three microcosms to be collected during the first spring (\~ May 2011),
+Three microcosms to be collected during the first spring (~ May 2011),
 first fall (Oct 2011), and second spring (May 2012) after installation.
 
  **Efflux of ^13^CO~2~ from inlets will be measured for two full

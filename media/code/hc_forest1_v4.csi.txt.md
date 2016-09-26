@@ -2,7 +2,7 @@
 
 <!-- -->
 
-HC\_Forest1\_v4.csi\
+HC_Forest1_v4.csi\
 \
 Controls Hidden Canyon Forest1 datalogger (1)\
 Operates 2 multiplexers, each with 6 Decagon EC-TM and 6 Campbell CS-616/615 sensors,\
@@ -36,7 +36,7 @@ third MUX.\
 
 `1: 2        Loc [ panelT    ]`
 
-\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\
+_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*\
 MUX Notes\
 \
 MUX 1 and 2 are each wired to 6 Decagon and 6 Campbell VWC sensors\
@@ -86,7 +86,7 @@ White(excite) ---> Odd H (SW12vdc)\
 Red (signal) ---> Odd L (C5/C6)\
 Bare (sheath) ---> signal ground\
 \
-\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*
+_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*
 
 <!-- -->
 
@@ -528,7 +528,7 @@ POWER OFF SENSOR
 
 64: End (P95)
 
-\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*
+_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*
 
 <!-- -->
 
@@ -538,7 +538,7 @@ POWER OFF (RES low) all 3 muxes
 
 `1: 51       Set Port 1 Low`
 
-\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*
+_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*_\*
 
 <!-- -->
 
@@ -1239,67 +1239,67 @@ set control port 8 low 30 minutes later
 
 End Program
 
--Input Locations- 1 batt\_volt 1 1 1 2 panelT 1 1 1 3 Period1 1 2 1 4
+-Input Locations- 1 batt_volt 1 1 1 2 panelT 1 1 1 3 Period1 1 2 1 4
 Period2 1 2 1 5 Period3 1 1 0 6 Period4 1 1 0 7 Period5 5 2 1 8 Period6
 17 1 1 9 Period7 5 2 1 10 Period8 17 2 1 11 Period9 5 2 1 12 Period10 17
 2 1 13 Period11 1 1 0 14 Period12 1 1 0 15 Period13 5 2 2 16 Period14 17
 2 2 17 Period15 1 2 0 18 Period16 1 2 0 19 Period17 1 2 0 20 Period18 1
-2 0 21 P1\_5sm 1 1 1 22 P1\_20sm 1 0 1 23 P1\_60sm 1 0 1 24 P3\_60sm 1 0
-1 25 P3\_5sm 1 0 1 26 P3\_20sm 1 0 1 27 P2\_5sm 5 0 2 28 P2\_20sm 17 0 1
-29 P2\_60sm 5 0 1 30 P4\_5sm 9 0 1 31 P4\_20sm 9 0 1 32 P4\_60sm 17 0 1
-33 P5\_5sm 5 0 1 34 P5\_20sm 9 0 1 35 P5\_60sm 9 0 1 36 P7\_5sm 9 0 1 37
-P7\_20sm 9 0 1 38 P7\_60sm 17 0 1 39 P5\_5st 5 0 1 40 P5\_20st 17 0 1 41
-P5\_60st 0 0 0 42 P7\_5st 0 0 0 43 P7\_20st 0 0 0 44 P7\_60st 0 0 0 45
-P3d\_5\_1 1 1 1 46 P3d\_5\_2 1 0 0 47 P3d\_5\_3 1 0 0 48 P3d\_20\_1 1 0
-0 49 P3d\_20\_2 1 0 0 50 P3d\_20\_3 1 0 0 51 P3d\_60\_1 1 0 0 52
-P3d\_60\_2 1 0 0 53 P3d\_60\_3 1 0 0 54 P1d\_5\_1 1 0 0 55 P1d\_5\_2 1 0
-0 56 P1d\_5\_3 1 0 0 57 P1d\_20\_1 1 0 0 58 P1d\_20\_2 1 0 0 59
-P1d\_20\_3 1 0 0 60 P1d\_60\_1 1 0 0 61 P1d\_60\_2 1 0 0 62 P1d\_60\_3 1
-0 0 63 P4d\_5\_1 1 1 1 64 P4d\_5\_2 1 0 0 65 P4d\_5\_3 1 0 0 66
-P4d\_20\_1 1 0 0 67 P4d\_20\_2 1 0 0 68 P4d\_20\_3 1 0 0 69 P4d\_60\_1 1
-0 0 70 P4d\_60\_2 1 0 0 71 P4d\_60\_3 1 0 0 72 P2d\_5\_1 1 0 0 73
-P2d\_5\_2 1 0 0 74 P2d\_5\_3 1 0 0 75 P2d\_20\_1 1 0 0 76 P2d\_20\_2 1 0
-0 77 P2d\_20\_3 1 0 0 78 P2d\_60\_1 1 0 0 79 P2d\_60\_2 1 0 0 80
-Pd\_60\_3 1 0 0 81 mV\_thrm 1 3 3 82 1\_mV\_thrm 1 3 3 83 2\_mV\_thrm 1
-3 3 84 R\_thrm 1 3 3 85 InR\_thrm 1 3 3 86 Scaled\_R 1 3 3 87 SH\_Coeffs
-1 3 3 88 SB\_Temp\_K 1 6 3 89 SB\_Temp\_C 1 6 3 90 mV\_tpile 1 3 3 91
-m\_slope 1 6 6 92 b\_inter 1 6 6 93 Exponent1 1 3 3 94 Exponent2 1 3 3
-95 1\_SB\_4Pow 1 3 3 96 2\_mVxm 1 3 3 97 3\_Sum1 1 3 3 98 4\_Sum2 1 3 3
-99 SurfT\_T\_K 1 1 1 100 SurfT\_T\_C 1 1 1 101 SurfT\_C\_K 1 1 1 102
-SurfT\_C\_C 1 1 1 103 CanT\_K 1 1 1 104 CanT\_C 1 1 1 105 AirT\_For 5 0
-1 106 RH\_For 9 0 1 107 WS\_For\_ms 9 2 2 108 WDir\_For 17 2 2 -Program
+2 0 21 P1_5sm 1 1 1 22 P1_20sm 1 0 1 23 P1_60sm 1 0 1 24 P3_60sm 1 0
+1 25 P3_5sm 1 0 1 26 P3_20sm 1 0 1 27 P2_5sm 5 0 2 28 P2_20sm 17 0 1
+29 P2_60sm 5 0 1 30 P4_5sm 9 0 1 31 P4_20sm 9 0 1 32 P4_60sm 17 0 1
+33 P5_5sm 5 0 1 34 P5_20sm 9 0 1 35 P5_60sm 9 0 1 36 P7_5sm 9 0 1 37
+P7_20sm 9 0 1 38 P7_60sm 17 0 1 39 P5_5st 5 0 1 40 P5_20st 17 0 1 41
+P5_60st 0 0 0 42 P7_5st 0 0 0 43 P7_20st 0 0 0 44 P7_60st 0 0 0 45
+P3d_5_1 1 1 1 46 P3d_5_2 1 0 0 47 P3d_5_3 1 0 0 48 P3d_20_1 1 0
+0 49 P3d_20_2 1 0 0 50 P3d_20_3 1 0 0 51 P3d_60_1 1 0 0 52
+P3d_60_2 1 0 0 53 P3d_60_3 1 0 0 54 P1d_5_1 1 0 0 55 P1d_5_2 1 0
+0 56 P1d_5_3 1 0 0 57 P1d_20_1 1 0 0 58 P1d_20_2 1 0 0 59
+P1d_20_3 1 0 0 60 P1d_60_1 1 0 0 61 P1d_60_2 1 0 0 62 P1d_60_3 1
+0 0 63 P4d_5_1 1 1 1 64 P4d_5_2 1 0 0 65 P4d_5_3 1 0 0 66
+P4d_20_1 1 0 0 67 P4d_20_2 1 0 0 68 P4d_20_3 1 0 0 69 P4d_60_1 1
+0 0 70 P4d_60_2 1 0 0 71 P4d_60_3 1 0 0 72 P2d_5_1 1 0 0 73
+P2d_5_2 1 0 0 74 P2d_5_3 1 0 0 75 P2d_20_1 1 0 0 76 P2d_20_2 1 0
+0 77 P2d_20_3 1 0 0 78 P2d_60_1 1 0 0 79 P2d_60_2 1 0 0 80
+Pd_60_3 1 0 0 81 mV_thrm 1 3 3 82 1_mV_thrm 1 3 3 83 2_mV_thrm 1
+3 3 84 R_thrm 1 3 3 85 InR_thrm 1 3 3 86 Scaled_R 1 3 3 87 SH_Coeffs
+1 3 3 88 SB_Temp_K 1 6 3 89 SB_Temp_C 1 6 3 90 mV_tpile 1 3 3 91
+m_slope 1 6 6 92 b_inter 1 6 6 93 Exponent1 1 3 3 94 Exponent2 1 3 3
+95 1_SB_4Pow 1 3 3 96 2_mVxm 1 3 3 97 3_Sum1 1 3 3 98 4_Sum2 1 3 3
+99 SurfT_T_K 1 1 1 100 SurfT_T_C 1 1 1 101 SurfT_C_K 1 1 1 102
+SurfT_C_C 1 1 1 103 CanT_K 1 1 1 104 CanT_C 1 1 1 105 AirT_For 5 0
+1 106 RH_For 9 0 1 107 WS_For_ms 9 2 2 108 WDir_For 17 2 2 -Program
 Security- 0000 0000 0000 -Mode 4- -Final Storage Area 2- 0 -CR10X ID- 0
 -CR10X Power Up- 3 -CR10X Compile Setting- 3 -CR10X RS-232 Setting- -1
--DLD File Labels- 0 -Final Storage Labels- 0,1,12982 1,Year\_RTM,13262
-1,Day\_RTM 1,Hour\_Minute\_RTM 2,Period1\_AVG\~3,4500 2,Period2\_AVG\~4
-2,Period3\_AVG\~5 2,Period4\_AVG\~6 2,Period5\_AVG\~7 2,Period6\_AVG\~8
-2,Period7\_AVG\~9 2,Period8\_AVG\~10 2,Period9\_AVG\~11
-2,Period10\_AVG\~12 2,Period11\_AVG\~13 2,Period12\_AVG\~14
-2,Period13\_AVG\~15 2,Period14\_AVG\~16 2,Period15\_AVG\~17
-2,Period16\_AVG\~18 2,Period17\_AVG\~19 2,Period18\_AVG\~20
-3,panelT\_AVG\~2,5738 4,batt\_volt\_AVG\~1,25120
-5,SurfT\_T\_C\_AVG\~100,29314 6,SurfT\_C\_C\_AVG\~102,29457
-7,CanT\_C\_AVG\~104,1649 7,AirT\_For\_AVG\~105 7,RH\_For\_AVG\~106
-7,WS\_For\_ms\_AVG\~107 7,WDir\_For\_AVG\~108
-8,WS\_For\_ms\_S\_WVT\~107,30082 8,WDir\_For\_D1\_WVT\~108
-8,WDir\_For\_SD1\_WVT\~108 9,P1\_5sm\_AVG\~21,27730 9,P1\_20sm\_AVG\~22
-9,P1\_60sm\_AVG\~23 9,P3\_60sm\_AVG\~24 9,P3\_5sm\_AVG\~25
-9,P3\_20sm\_AVG\~26 9,P2\_5sm\_AVG\~27 9,P2\_20sm\_AVG\~28
-9,P2\_60sm\_AVG\~29 9,P4\_5sm\_AVG\~30 9,P4\_20sm\_AVG\~31
-9,P4\_60sm\_AVG\~32 9,P5\_5sm\_AVG\~33 9,P5\_20sm\_AVG\~34
-9,P5\_60sm\_AVG\~35 9,P7\_5sm\_AVG\~36 9,P7\_20sm\_AVG\~37
-9,P7\_60sm\_AVG\~38 9,P5\_5st\_AVG\~39 9,P5\_20st\_AVG\~40
-9,P5\_60st\_AVG\~41 9,P7\_5st\_AVG\~42 9,P7\_20st\_AVG\~43
-9,P7\_60st\_AVG\~44 9,P3d\_5\_1\_AVG\~45 9,P3d\_5\_2\_AVG\~46
-9,P3d\_5\_3\_AVG\~47 9,P3d\_20\_1\_AVG\~48 9,P3d\_20\_2\_AVG\~49
-9,P3d\_20\_3\_AVG\~50 9,P3d\_60\_1\_AVG\~51 9,P3d\_60\_2\_AVG\~52
-9,P3d\_60\_3\_AVG\~53 9,P1d\_5\_1\_AVG\~54 9,P1d\_5\_2\_AVG\~55
-9,P1d\_5\_3\_AVG\~56 9,P1d\_20\_1\_AVG\~57 9,P1d\_20\_2\_AVG\~58
-9,P1d\_20\_3\_AVG\~59 9,P1d\_60\_1\_AVG\~60 9,P1d\_60\_2\_AVG\~61
-9,P1d\_60\_3\_AVG\~62 9,P4d\_5\_1\_AVG\~63 9,P4d\_5\_2\_AVG\~64
-9,P4d\_5\_3\_AVG\~65 9,P4d\_20\_1\_AVG\~66 9,P4d\_20\_2\_AVG\~67
-9,P4d\_20\_3\_AVG\~68 9,P4d\_60\_1\_AVG\~69 9,P4d\_60\_2\_AVG\~70
-9,P4d\_60\_3\_AVG\~71 9,P2d\_5\_1\_AVG\~72 9,P2d\_5\_2\_AVG\~73
-9,P2d\_5\_3\_AVG\~74 9,P2d\_20\_1\_AVG\~75 9,P2d\_20\_2\_AVG\~76
-9,P2d\_20\_3\_AVG\~77 9,P2d\_60\_1\_AVG\~78 9,P2d\_60\_2\_AVG\~79
-9,Pd\_60\_3\_AVG\~80
+-DLD File Labels- 0 -Final Storage Labels- 0,1,12982 1,Year_RTM,13262
+1,Day_RTM 1,Hour_Minute_RTM 2,Period1_AVG~3,4500 2,Period2_AVG~4
+2,Period3_AVG~5 2,Period4_AVG~6 2,Period5_AVG~7 2,Period6_AVG~8
+2,Period7_AVG~9 2,Period8_AVG~10 2,Period9_AVG~11
+2,Period10_AVG~12 2,Period11_AVG~13 2,Period12_AVG~14
+2,Period13_AVG~15 2,Period14_AVG~16 2,Period15_AVG~17
+2,Period16_AVG~18 2,Period17_AVG~19 2,Period18_AVG~20
+3,panelT_AVG~2,5738 4,batt_volt_AVG~1,25120
+5,SurfT_T_C_AVG~100,29314 6,SurfT_C_C_AVG~102,29457
+7,CanT_C_AVG~104,1649 7,AirT_For_AVG~105 7,RH_For_AVG~106
+7,WS_For_ms_AVG~107 7,WDir_For_AVG~108
+8,WS_For_ms_S_WVT~107,30082 8,WDir_For_D1_WVT~108
+8,WDir_For_SD1_WVT~108 9,P1_5sm_AVG~21,27730 9,P1_20sm_AVG~22
+9,P1_60sm_AVG~23 9,P3_60sm_AVG~24 9,P3_5sm_AVG~25
+9,P3_20sm_AVG~26 9,P2_5sm_AVG~27 9,P2_20sm_AVG~28
+9,P2_60sm_AVG~29 9,P4_5sm_AVG~30 9,P4_20sm_AVG~31
+9,P4_60sm_AVG~32 9,P5_5sm_AVG~33 9,P5_20sm_AVG~34
+9,P5_60sm_AVG~35 9,P7_5sm_AVG~36 9,P7_20sm_AVG~37
+9,P7_60sm_AVG~38 9,P5_5st_AVG~39 9,P5_20st_AVG~40
+9,P5_60st_AVG~41 9,P7_5st_AVG~42 9,P7_20st_AVG~43
+9,P7_60st_AVG~44 9,P3d_5_1_AVG~45 9,P3d_5_2_AVG~46
+9,P3d_5_3_AVG~47 9,P3d_20_1_AVG~48 9,P3d_20_2_AVG~49
+9,P3d_20_3_AVG~50 9,P3d_60_1_AVG~51 9,P3d_60_2_AVG~52
+9,P3d_60_3_AVG~53 9,P1d_5_1_AVG~54 9,P1d_5_2_AVG~55
+9,P1d_5_3_AVG~56 9,P1d_20_1_AVG~57 9,P1d_20_2_AVG~58
+9,P1d_20_3_AVG~59 9,P1d_60_1_AVG~60 9,P1d_60_2_AVG~61
+9,P1d_60_3_AVG~62 9,P4d_5_1_AVG~63 9,P4d_5_2_AVG~64
+9,P4d_5_3_AVG~65 9,P4d_20_1_AVG~66 9,P4d_20_2_AVG~67
+9,P4d_20_3_AVG~68 9,P4d_60_1_AVG~69 9,P4d_60_2_AVG~70
+9,P4d_60_3_AVG~71 9,P2d_5_1_AVG~72 9,P2d_5_2_AVG~73
+9,P2d_5_3_AVG~74 9,P2d_20_1_AVG~75 9,P2d_20_2_AVG~76
+9,P2d_20_3_AVG~77 9,P2d_60_1_AVG~78 9,P2d_60_2_AVG~79
+9,Pd_60_3_AVG~80

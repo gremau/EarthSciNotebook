@@ -31,27 +31,27 @@ presence thresholds, and filtering thresholds.
 * **Output:** ??
 * **Other:** formerly plot_site_ts_variability.m`
 
-### summarize\_wateryear.m
+### summarize_wateryear.m
 
 Takes daily raw data files, and long term averages for all sites,
 calculates a variety of climatic metrics for each water year, and
 summarizes these data in a text output file.
 
-* **File input:** Reads `*`rawdata/allsensors_daily/sitelist.txt`*`, and `*`rawdata/soilsensors_hourly/sitelist.txt`*`, `*`7100Avg_SWEmm.csv`*`, `*`7100Avg_Precipmm`*`, and `*`SNOTELinventory.csv`*in processed_data directory.
+* **File input:** Reads `rawdata/allsensors_daily/sitelist.txt`, and `rawdata/soilsensors_hourly/sitelist.txt`, `7100Avg_SWEmm.csv`, `7100Avg_Precipmm`, and `SNOTELinventory.csv` in processed_data directory.
 * **User input:** The user selects whether to run with hourly/daily data, and normalized/non-normalized soil VWC data. 
-* **Output:** `*`wyear_climatesummary.txt`*`, `*`wyear_soiltempsummary_XXX.txt`*`, `*`wyear_soilwatersummary_XXX.txt`*`, and `*`wyear_soilwatersummary_XXX_smnorm.txt`*(XXX = `*`daily`*or `*`hourly`*`).
-* **Associated files:** I use the `*`headersXXX.txt`*files to keep track of what the headers for the output files should be.
+* **Output:** `wyear_climatesummary.txt`, `wyear_soiltempsummary_XXX.txt`, `wyear_soilwatersummary_XXX.txt`, and `wyear_soilwatersummary_XXX_smnorm.txt` (XXX = `daily` or `hourly`).
+* **Associated files:** I use the `headersXXX.txt` files to keep track of what the headers for the output files should be.
 
-### plot\_snotel\_summary.m
+### plot_snotel_summary.m
 
-Reads the outputs from summarize\_wateryear.m (see above)and makes a
+Reads the outputs from summarize_wateryear.m (see above)and makes a
 number of plots characterizing variability in soil moisture and soil
 temperature in the SNOTEL network.
 
-* **Input files:** `*`wyear_climatesummary.txt`*`, `*`wyear_soiltempsummary_XXX.txt`*`, etc.
+* **Input files:** `wyear_climatesummary.txt`, `wyear_soiltempsummary_XXX.txt`, etc.
 * **User input:** The user selects whether to run with normalized/non-normalized soil VWC data. `
 
-### plot\_soilsensor\_distrib.m
+### plot_soilsensor_distrib.m
 
 Plots distributions of soil sensor data for one site in individual
 months and years. Data for all years (available) is represented.
@@ -61,7 +61,7 @@ months and years. Data for all years (available) is represented.
 * **Output:** First produces a plot with timeseries of selected site sensor data at each available depth, then a 16 panel plot for each wateyear, and one using data for all years. Each 16 panel plot has 4 quarterly histograms and 12 monthly histograms of the soil sensor data selected.
 * **Other:** Can optionally be run in normalized soil moisture mode (make selection in code).`
 
-### plot\_examplesites.m
+### plot_examplesites.m
 
 This makes a number of figures that highlight snow-soil interactions at
 particular sites.
@@ -76,34 +76,34 @@ particular sites.
   * Fig 5 = Scatterplot/Regression of snowcovered Tsoil vs pre-onset T at 1 site (changeable)
   * Fig 6 = Scatterplot/Regression of summer (JAS) VWC vs meltday at 1 site (changeable)
 
-### plot\_t\_elevgradient.m
+### plot_t_elevgradient.m
 
 Plots elevational gradients in air and soil temperature, and the offset
 between the two, including comparisons of growing season vs winter
 months
 
-* **Input files:** Reads `*`filelist.txt`*from the daily and hourly rawdata directories, climate and Tsoil summary files, and SNOTELinventory.csv
+* **Input files:** Reads `filelist.txt` from the daily and hourly rawdata directories, climate and Tsoil summary files, and SNOTELinventory.csv
 * **Output:** Many plots are produced, some for publication.`
 
-### plot\_belowsnow\_ts.m
+### plot_belowsnow_ts.m
 
 Plots Tsoil and Tsoil-Tair vs SWE for SNOTEL sites (and subsets of
 SNOTELS), and fits some lines to the data.
 
-* **Input files:** Reads `*`filelist.txt`*from the daily and hourly rawdata directories, climate and Tsoil summary files, and SNOTELrangelists.
+* **Input files:** Reads `filelist.txt` from the daily and hourly rawdata directories, climate and Tsoil summary files, and SNOTELrangelists.
 * **User input:** None
 * **Output:** About 7 plots are produced, some ready for publication`
 
-### plot\_belowsnow\_sm.m
+### plot_belowsnow_sm.m
 
 Plots below-snow soil VWC vs pre-onset VWC, snowpack, etc for SNOTEL
 sites (and subsets of SNOTELS), and fits some lines to the data.
 
-* **Input files:** Reads `*`filelist.txt`*from the daily and hourly rawdata directories, climate and VWC summary files, and SNOTELrangelists.
+* **Input files:** Reads `filelist.txt` from the daily and hourly rawdata directories, climate and VWC summary files, and SNOTELrangelists.
 * **User input:** 
 * **Output:**`
 
-### plot\_growseas\_sm.m
+### plot_growseas_sm.m
 
 Reads SNOTEL data files and makes plots characterizing growing season
 variability in soil VWC (entire network or individual sites), and its
@@ -138,8 +138,8 @@ headers.
 Loads long-term average SWE or Precip data for all sites using a curated
 datafile and returns the array.
 
-* **Arguments:** `*`desiredAvg`*= 'swe' or 'precip'
-* **Input files:** Reads `*`curated_data/7100Avg_Precipmm.csv`*or `*`7100Avg_SWEmm.csv`*\
+* **Arguments:** `desiredAvg` = 'swe' or 'precip'
+* **Input files:** Reads `curated_data/7100Avg_Precipmm.csv` or `7100Avg_SWEmm.csv` \
 * **Output:** Outputs an array with site ID, elevation, monthly/bimonthly precip or SWE, and total precip/maxSWE (see input files).`
 
 ### filterseries(array, type, threshold)
@@ -148,9 +148,9 @@ Filters soil profile data series using a difference from the mean, or
 difference from neighbor
 
 * **Arguments**
-  * `*`array`*= input data series
-  * `*`type`*= 'mean', 'median', 'shift', 'sigma', or 'hampel' filter type
-  * `*`threshold`*= threshold difference above which datapoint is set to nan`
+  * `array` = input data series
+  * `type` = 'mean', 'median', 'shift', 'sigma', or 'hampel' filter type
+  * `threshold` = threshold difference above which datapoint is set to nan`
 
 ### interpseries(array)
 
@@ -163,15 +163,15 @@ trailing and leading NaN. Adapted from FIXGAPS routine on Matlab Central
 file exchange, by R. Pawlowicz 6/Nov/99
 
 * **Arguments**
-  * `*`array`*= input data series
+  * `array` = input data series
 * **WARNING:** If array contains only NaN's, interp1 throws an error.`
 
-### soiltemp\_snowcover.m
+### soiltemp_snowcover.m
 
 Takes soil temp array and returns a logical matrix indicating snowcover
 for the site (for all years with available data).
 
-### swe\_snowcover.m
+### swe_snowcover.m
 
 Takes SWE array and returns a logical matrix indicating snowcover for
 the site (for all years with available data).
@@ -186,7 +186,7 @@ datapoints are missing, the file is listed in an "exclude" file that is
 then read by other scripts.
 
 * **Input:** all SNOTEL .csv files in a directory
-* **Output:** Histograms of the data, and `*`excludefiles.txt`*file`
+* **Output:** Histograms of the data, and `excludefiles.txt` file`
 
 ### testsensors.m
 
@@ -196,24 +196,24 @@ appended to a file (*excludesensors.txt*) that can be used by other
 scripts to remove bad sensor data during data analysis.
 
 * **Input:** all SNOTEL .csv files in a directory
-* **Output:** Sensor timeseries plots, and an `*`excludesensors.txt`*file`
+* **Output:** Sensor timeseries plots, and an `excludesensors.txt` file`
 
-### test\_loadsnotel.m(interval, siteID, varargin)
+### test_loadsnotel.m(interval, siteID, varargin)
 
 Loads a snotel site data in the same fashion as *loadsnotel.m*, but does
 not remove any data. Also has some facilities to test missing columns
 and introducing dummy data.
 
 * **Arguments**
-  * `*`interval`*= 'hourly' or 'daily' string
-  * `*`siteID`*= integer site number
-  * `*`varargin`*= = cell array containing a test type ('delete' or 'dummyvalues') and a column number referring to the desired header/column number (1-20)
-* **Input:** Reads data files from `*`rawdata/allsensors_daily/`*`, or `*`rawdata/soilsensors_hourly`*`. No user input.
+  * `interval` = 'hourly' or 'daily' string
+  * `siteID` = integer site number
+  * `varargin` = = cell array containing a test type ('delete' or 'dummyvalues') and a column number referring to the desired header/column number (1-20)
+* **Input:** Reads data files from `rawdata/allsensors_daily/`, or `rawdata/soilsensors_hourly`. No user input.
 * **Output:** A data matrix, no data removed.`
 
-### plot\_snoteltests.m(interval, siteID)
+### plot_snoteltests.m(interval, siteID)
 
 Loads data for chosen site into two arrays, one with raw data (using
-test\_loadsnotel.m) and one with bad data removed (using loaddata.m).
+test_loadsnotel.m) and one with bad data removed (using loaddata.m).
 Then plots columns for these arrays with raw data in red and cleaned
 data in black to show what was removed by loaddata.m.

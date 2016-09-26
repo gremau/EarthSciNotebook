@@ -6,7 +6,7 @@
 
 ## Scripts
 
-### process\_injectiondata.m
+### process_injectiondata.m
 
 Takes datalogger output files from the CO~2~ injection system,
 calibrates data using the cal tank values, and then calculates ppm of

@@ -5,20 +5,14 @@ There are a few links. That is all.
 
 ## Data products
 
-* [The PRISM group
-homepage](http://prism.oregonstate.edu/)with access to datasets (Oregon State Univ.).
-* [PRISM
-data](http://www.wcc.nrcs.usda.gov/climate/prism.html)- available at the NRCS website
+* [The PRISM group homepage](http://prism.oregonstate.edu/)with access to datasets (Oregon State Univ.).
+* [PRISM data](http://www.wcc.nrcs.usda.gov/climate/prism.html)- available at the NRCS website
 
 ## Software
 
-* [Open Source Geospation Foundation
-(OSGeo)](http://www.osgeo.org/)- provides a portal to many open source geospatial software projects, like:
-  * [GRASS desktop
-GIS](http://grass.osgeo.org/)- geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization.
+* [Open Source Geospation Foundation (OSGeo)](http://www.osgeo.org/)- provides a portal to many open source geospatial software projects, like:
+  * [GRASS desktop GIS](http://grass.osgeo.org/)- geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization.
   * [Qgis](http://qgis.osgeo.org/)- a more user friendly desktop GIS that supports vector, raster, and database formats and offers integration with GRASS.
-* [GDAL
-libraries](http://www.gdal.org/)- translator library for many raster geospatial data formats (Geospatial Data Abstraction Library)
-* [OGR
-libraries](http://www.gdal.org/ogr/index.html)- translator library for simple features vector data (related to GDAL).
+  * [GDAL libraries](http://www.gdal.org/)- translator library for many raster geospatial data formats (Geospatial Data Abstraction Library)
+  * [OGR libraries](http://www.gdal.org/ogr/index.html)- translator library for simple features vector data (related to GDAL).
 * [NCO](http://nco.sourceforge.net/)- a collection of utilities that aid manipulation and analysis of gridded scientific data (like climate/circulation data).

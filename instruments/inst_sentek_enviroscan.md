@@ -25,7 +25,7 @@ such as those found in subalpine forests. A hole slightly larger than
 the diameter of the access tube is augered to depth with a standard
 bucket auger. Rocks must be broken up and removed with the auger, so if
 this is not possible with the larger rocks, the hole will have to be
-relocated. Once a suitable hole is augered, it is filled \~1/3 full with
+relocated. Once a suitable hole is augered, it is filled ~1/3 full with
 a slurry mixture of grey cement, kaolinite clay powder, and water. A
 sealed PVC access tube is then inserted into the slurry and pushed down
 to the desired depth, and the slurry is allowed to set around the tube.

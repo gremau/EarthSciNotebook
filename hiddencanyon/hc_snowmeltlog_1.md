@@ -1,6 +1,6 @@
 ## Spring 2010 snowmelt log
 
-{{ :hc\_ecohydrology:treatment2\_100424.jpg?250|Just after dust
+{{ :hc_ecohydrology:treatment2_100424.jpg?250|Just after dust
 application on April 24th, 2010}}
 
 * First dust application of spring. Used slightly over three mason jars. Also - forgot to bring the Federal sampler so will have to measure next week and add any losses seen from nearby SNOTEL sites. Photos to come.  --- //[Greg`
@@ -30,7 +30,7 @@ April 8th, 2010 and the last measurement was made on June 23rd.
 
 ## Spring 2011 snowmelt log
 
-{{ :hc\_ecohydrology:hcplot4\_110512.jpg?350|Plot 4 on May 12, 2011}}
+{{ :hc_ecohydrology:hcplot4_110512.jpg?350|Plot 4 on May 12, 2011}}
 
 * **31 March, 2011**: First dust application of spring on 31 March, 2011. Used slightly over three mason jars per plot. SWE measurements were made difficult by freezing inside of tube so will have to return and remeasure.  --- //[Greg`
 `Maurer](primaryproductivity@gmail.com)2011/04/04 12:09//
@@ -43,6 +43,6 @@ April 8th, 2010 and the last measurement was made on June 23rd.
 * ** July 12 ** Snowmelt was complete (except for a small area in plot 3 - near litterbag set 2).
 * **Aug 8**: Tuned up the //hc_melt.py// program to plot out the 2011 snowmelt season. Looks, in general like dust had no effect on the rate of melt at Hidden Canyon.`
 
-{{ :hc\_ecohydrology:hc\_snowmelt2011.png?350|Control and Treatment
+{{ :hc_ecohydrology:hc_snowmelt2011.png?350|Control and Treatment
 snowmelt in 2011. Red arrows = dust storms, Yellow arrows = dust
 addition}}

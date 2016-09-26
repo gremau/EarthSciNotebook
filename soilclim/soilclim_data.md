@@ -206,4 +206,4 @@ control flag \^ | **3-4 digit int** | **yyyy-mmm-dd hh:mm:ss** |
 Soil moisture and soil temperature files **do not have a QC control
 column**. The station ID's are indexed along with their name, state,
 elevations, lat/lon, install dates, and other info in the
-**soil\_stations.csv** file.
+**soil_stations.csv** file.

@@ -32,8 +32,8 @@ our hypotheses.
 
 For more on this see:
 
-* The four R scripts, two for vwc (`*`_simplelm.r`*and `*`_multiplelm.r`*`) and two for mast_ (`*`_simplelm.r`*`and `*`_multiplelm.r`*`).
-* A summary of these results in table form - `*`regstats.gnumeric`*`.`
+* The four R scripts, two for vwc (`_simplelm.r` and `_multiplelm.r`) and two for mast_ (`_simplelm.r`and `_multiplelm.r`).
+* A summary of these results in table form - `regstats.gnumeric`.`
 
 ## PCA
 

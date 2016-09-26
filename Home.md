@@ -29,8 +29,8 @@ Or - remove in all files with sed:
 6. Replace other stuff with sed:
 
     find . -type f -exec sed -i 's/ "wikilink"//g' {} +
-    find . -type f -exec sed -i 's/<\/code>/\~\~\~/g' {} +
-    find . -type f -exec sed -i 's/<code bash>/\~\~\~/g' {} + 
+    find . -type f -exec sed -i 's/<\/code>/~~~/g' {} +
+    find . -type f -exec sed -i 's/<code bash>/~~~/g' {} + 
     find . -type f -exec sed -i 's/-   -   / **/g' {} +
 
 

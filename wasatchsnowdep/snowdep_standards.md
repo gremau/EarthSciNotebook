@@ -62,7 +62,7 @@ volumetric flask.
         the ammonium ion itself**
 
 * 1.90948g NH`~`4`~`Cl and 500ml DI H`~`2`~`O.
-  * 1000mg NH`~`4`~^`+`^`**-N** = 1g/14.0067g•mol`^`-1`^N = 0.071394mol N.
+  * 1000mg NH`~`4`~^`+`^` *-N** = 1g/14.0067g•mol`^`-1`^N = 0.071394mol N.
   * 0.071394mol x 53.4915g•mol`^`-1`^NH`~`4`~`Cl = 3.81897g
   * Divide by 2.
 * **This solution will:**
@@ -182,7 +182,7 @@ Stock solution is 24.952μEq/ml
 ### Lab Blanks
 
 These are filtered DI water, serving as the zero point for our samples.
-Just filter \~100ml DI water from the tap in the same way that a sample
+Just filter ~100ml DI water from the tap in the same way that a sample
 would be treated and put it in a clean nalgene to be included in the
 sample run. Put three of these in for each sample run.
 

@@ -24,12 +24,12 @@ to remember when coding these:
 
 ### Mean
 
-* Use `*`filter`*in MATLAB if there is no missing data.
+* Use `filter` in MATLAB if there is no missing data.
 * [moving_average](http://www.mathworks.com/matlabcentral/fileexchange/12276-movingaverage-v3-1-mar-2008)MATLAB`
 
 ### Median
 
-* Use `*`medfilt1`*in MATLAB if there is not missing data.`
+* Use `medfilt1` in MATLAB if there is not missing data.`
 
 ### Variance
 
@@ -56,8 +56,8 @@ This is useful when similar timeseries need to be averaged, such as
 one-year timeseries data for multiple sites, or generating an average
 timeseries from multiple years.
 
-* In MATLAB, `*`accumarray()*seems to work for this.
-* In R, there are a few ways: `*`aggregate()*`, and maybe some functions in the `*`doBy`*package.`
+* In MATLAB, `accumarray()*seems to work for this.
+* In R, there are a few ways: `aggregate()*`, and maybe some functions in the `doBy` package.`
 
 ## Autocorrelation
 

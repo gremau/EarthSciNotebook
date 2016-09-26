@@ -3,74 +3,76 @@
 Resources
 ---------
 
-* [Mercurial:`The`Definitive`
-`Guide](http://hgbook.red-bean.com/read/)- an online copy of Sullivan book published by O'Reilly.
-* [Mercurial`
-`wiki](http://mercurial.selenic.com/wiki/)\
-* [HgInit`tutorial](http://hginit.com/index.html)
+* [Mercurial: The Definitive Guide](http://hgbook.red-bean.com/read/) - an online copy of Sullivan book published by O'Reilly.
+* [Mercurial wiki](http://mercurial.selenic.com/wiki/)
+* [HgInit tutorial](http://hginit.com/index.html)
 
-Installing and configuring
---------------------------
+## Installing and configuring
 
-- Install in debian with `*`apt-get`install`mercurial`*\
+- Install in debian with `apt-get install mercurial`
 - Create ~/.hgrc and add the following lines:`
 
+~~~
 [ui]
-username = Firstname Lastname `<username@somewhere.com>\
-verbose = True`
+username = Firstname Lastname <username@somewhere.com>
+verbose = True
+~~~
+
 
 ## Creating a repository
 
 First enter the directory that needs version control and initialize the
 repository
 
+~~~
 cd ~/projectdirectory
-hg init`
-
-This will create the .hg directory containing the repository in
-\~/projectdirectory
-
-Next, add the files in the \~/projectdirectory to the repository
+hg init
 ~~~
 
+This will create the .hg directory containing the repository in `~/projectdirectory`
+
+Next, add the files in the `~/projectdirectory` to the repository
+
+~~~
 hg add  #schedule all files in ~/projectdirectory to be added to the repository
 hg add file1, file2  #or add files to the repository individually`
-
 ~~~
 
-The queue of files added to the repository can be viewed with *hg
-status*.
+The queue of files added to the repository can be viewed with `hg status`.
 
-Then, commit the initial version of these files ~~~
+Then, commit the initial version of these files
 
+~~~
 hg commit  #this will pop up an editor for you to add a commit description
-hg commit -m "This is the initial commit of these files"  #or add the message directly from the commandline`
-
+hg commit -m "This is the initial commit of these files"  # or add the message directly from the commandline`
 ~~~
 
-Use *hg log* to view a history of commits to the repository (most recent
+Use `hg log` to view a history of commits to the repository (most recent
 commits are at the top).
+
 
 ## Make and commit changes
 
- **Commits should occur whenever substantial changes are made to a
-        file.** This would include new features, creation of new
-        scripts or functions, changes in data sources, or other
-        substantial changes in the function or output of data
-        analysis code.
+**Commits should occur whenever substantial changes are made to a file.** This would include new features, creation of new scripts or functions, changes in data sources, or other substantial changes in the function or output of data analysis code.
 
-Once changes are made to a file in the directory, *hg status* will show
+Once changes are made to a file in the directory, `hg status` will show
 which files are modified
-`greg@gm-thinkpad:~/data/data_analysis/project1$`vim`m/file1.m`
-`greg@gm-thinkpad:~/data/data_analysis/project1$`hg`status`M`
-`m/file1.mThe M at the left indicates that the file has been modified.
+
+~~~
+greg@gm-thinkpad:~/data/data_analysis/project1$`vim`m/file1.m`
+greg@gm-thinkpad:~/data/data_analysis/project1$`hg`status`M`
+m/file1.m
+~~~
+The M at the left indicates that the file has been modified.
 Other possible markers here are "!", meaning the file is missing, or
 "?", meaning the file is unknown (is newly created or not added).
 
-When these files are commited, *hg log* will display the changes
-~~~ greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg commit
+When these files are commited, `hg log` will display the changes
+
+~~~
+greg@gm-thinkpad:~/data/data_analysis/project1$ hg commit
 -m 'Added some new stuff to file1.m' m/file1.m committed changeset
-1:0048e1a6cd8b greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg log
+1:0048e1a6cd8b greg@gm-thinkpad:~/data/data_analysis/project1$ hg log
 changeset: 1:0048e1a6cd8b tag: tip user: Firstname Lastname
 <username@somewhere.com> date: Thu Dec 29 14:35:06 2011 -0700 files:
 m/file1.m description: Added some new stuff to file1.m
@@ -78,7 +80,6 @@ m/file1.m description: Added some new stuff to file1.m
 changeset: 0:d0eea9c4d2d5 user: Firstname Lastname
 <username@somewhere.com> date: Wed Dec 28 14:10:55 2011 -0700 files:
 m/file1.m m/file2.m otherdatadir description: Initial commit of files
-
 ~~~
 
 ## Tracking, removing, renaming, or ignoring files
@@ -89,27 +90,27 @@ m/file1.m m/file2.m otherdatadir description: Initial commit of files
 
  **hg remove //file1//**
 
-* Will delete the file and cause it to stop being tracked by mercurial. If a file has been deleted without using `*`hg`
-`remove`*the file will be considered missing (has a ! under `*`hg`
-`status`*`) by mercurial. Removing files does not remove their history, so they will reappear if you return to a changeset where they were still tracked. If you remove a file without `*`hg`
-`remove`*and `*`hg`
-`status`*reports it as missing, you can run `*`hg`remove`
-`--after`*to tell Mercurial about it after the fact.`
+* Will delete the file and cause it to stop being tracked by mercurial. If a file has been deleted without using `hg`
+`remove` the file will be considered missing (has a ! under `hg`
+`status`) by mercurial. Removing files does not remove their history, so they will reappear if you return to a changeset where they were still tracked. If you remove a file without `hg`
+`remove` and `hg`
+`status` reports it as missing, you can run `hg`remove`
+`--after` to tell Mercurial about it after the fact.`
 
  **hg addremove**
 
 * This is a combination command that adds untracked files and marks missing files as removed.`
 
- **hg copy //file1 new\_file1//**
+ **hg copy //file1 new_file1//**
 
 * Makes a new copy of a file. When you copy a file using this command, Mercurial makes a record of the fact that the new file is a copy of the original file. It treats these copied files specially when you merge your work with someone else’s.`
 
  **hg rename //file1 file2//**
 
-* Mercurial makes a copy of each source file, then deletes the original and and marks it as removed. Using `*`hg`
+* Mercurial makes a copy of each source file, then deletes the original and and marks it as removed. Using `hg`
 `status`
-`-C`*will show the origin of the renamed file (since deleted). You can also tell Mercurial about a rename after the fact with `*`hg`
-`rename`--after`*`.`
+`-C` will show the origin of the renamed file (since deleted). You can also tell Mercurial about a rename after the fact with `hg`
+`rename`--after`.`
 
 ### The .hgignore file
 
@@ -126,7 +127,7 @@ syntax: glob
 
 -   .elc
 -   .pyc
--   \~
+-   *~
 
 1.  switch to regexp syntax (Regular expression as in Perl/Python).
 
@@ -155,7 +156,7 @@ filename).
 The ***hg update*** command allows movement between the various
 revisions of the directory. Revisions are easily viewed in the log as
 the first number of the changeset. ~~~
-greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg update -r 0
+greg@gm-thinkpad:~/data/data_analysis/project1$ hg update -r 0
 resolving manifests getting m/file1.m 1 files updated, 0 files merged, 0
 files removed, 0 files unresolved
 
@@ -179,7 +180,7 @@ webserver.
 
 ### Using diff
 
-~~~ greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg diff
+~~~ greg@gm-thinkpad:~/data/data_analysis/project1$ hg diff
 -r 0 m/file1.m # -r 0 means compare current version to original commit
 version diff -r d0eea9c4d2d5 m/file1.m --- a/m/file1.m Wed Dec 28
 14:10:55 2011 -0700 +++ b/m/file1.m Thu Dec 29 16:14:30 2011 -0700 @@
@@ -199,13 +200,13 @@ this line +
 
 ### Use an external diff program
 
-Make sure *extdiff* extension is enabled in *\~/.hgrc*, then:
+Make sure *extdiff* extension is enabled in *~/.hgrc*, then:
 
 hg extdiff -p vimdiff -r 63 processed_data/wyear_climatesummary.txt`
 
 ### The webserver
 
-~~~ greg@gm-thinkpad:\~/data/data\_analysis/project1\$ hg serve
+~~~ greg@gm-thinkpad:~/data/data_analysis/project1$ hg serve
 listening at <http://gm-thinkpad.pronghorns.net:8000/> (bound to
 \*:8000)
 
@@ -258,12 +259,12 @@ some kind of different functionality.
 `is`identical`to`the`original`m`datadir`otherdatadirNow,
 changes can be freely made in the testing branch, and those that work
 can be pushed back to the original. ~~~
-greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ vim
-m/file1.m greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg
+greg@gm-thinkpad:~/data/data_analysis/project1_testing$ vim
+m/file1.m greg@gm-thinkpad:~/data/data_analysis/project1_testing$ hg
 st M m/file1.m
-greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg diff diff
--r ed43a5a8e664 m/file1.m --- a/m/plot\_SNOTELsurvey\_CN.m Fri Dec 30
-06:46:04 2011 -0700 +++ b/m/plot\_SNOTELsurvey\_CN.m Fri Dec 30 07:02:05
+greg@gm-thinkpad:~/data/data_analysis/project1_testing$ hg diff diff
+-r ed43a5a8e664 m/file1.m --- a/m/plot_SNOTELsurvey_CN.m Fri Dec 30
+06:46:04 2011 -0700 +++ b/m/plot_SNOTELsurvey_CN.m Fri Dec 30 07:02:05
 2011 -0700 @@ -3,6 +3,9 @@
 
 `% Plots of C, N, and isotope data for SNOTEL survey sites
@@ -275,16 +276,16 @@ greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg diff diff
 `clear;          % clear memory
 `close all;      % clear any figures`
 
-greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg commit -m
+greg@gm-thinkpad:~/data/data_analysis/project1_testing$ hg commit -m
 "added a cool new feature" m/file1.m committed changeset 5:569e890e2f49
-greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg outgoing
-comparing with /home/greg/data/data\_analysis/project1 searching for
+greg@gm-thinkpad:~/data/data_analysis/project1_testing$ hg outgoing
+comparing with /home/greg/data/data_analysis/project1 searching for
 changes changeset: 5:569e890e2f49 tag: tip user: Greg Maurer
 <greg@pronghorns.net> date: Fri Dec 30 07:02:25 2011 -0700 files:
 m/file1.m description: added a cool new feature
 
-greg@gm-thinkpad:\~/data/data\_analysis/project1\_testing\$ hg push
-pushing to /home/greg/data/data\_analysis/project1 searching for changes
+greg@gm-thinkpad:~/data/data_analysis/project1_testing$ hg push
+pushing to /home/greg/data/data_analysis/project1 searching for changes
 1 changesets found adding changesets adding manifests adding file
 changes added 1 changesets with 1 changes to 1 files ~~~
 
@@ -306,13 +307,14 @@ various local repos and the central repository.
 The [hg-git](http://hg-git.github.com) plugin is needed for
 this.
 
-$ easy_install hg-git   #first install hg-git
-`
+    $ easy_install hg-git   #first install hg-git
 
 Create a repository on GitHub and save an SSH Key there using [these
 instructions](http://help.github.com/linux-set-up-git/)
 
+~~~
 $ cd repositoryname # (a Mercurial repository)
 $ hg bookmark -r default master # make a bookmark of master for default, so a ref gets created
 $ hg push git+ssh://git@github.com/gremau/repositoryname.git
-$ hg push`
+$ hg push
+~~~

@@ -54,7 +54,7 @@ CR10KD (downloading data at least) in the field but... no idea how.
 - Open LoggerNet on the computer and then choose the Storage Module (SMS) application from the menubar.
 - There are tabs here for each type of storage module - choose the one that is appropriate (RBC stations will use SM192/716 or SM4M/16M).
 - Select the COM port (COM1 probably) and select Via Datalogger, then select the datalogger model (if asked).
-- Click `*`Connect`*`, and some information should appear in the StatusBox at the right.
+- Click `Connect`, and some information should appear in the StatusBox at the right.
 - Download the module's stored data using the "Data" tab, putting the data in a new file.
 - Erase and test the module using the "Erase" tab (should be pretty self explanatory).
 - Be sure to mark the last time the module was erased/tested on a piece of tape attached to the module.`

@@ -1,7 +1,7 @@
 ## 2010 Pilot project - Experimental design
 
-{{ :hiddencanyon:hc\_fieldsite.jpg?600|A schematic of the treatment and
-control plots and installed profiles in 2010}} There are two 10 by \~60
+{{ :hiddencanyon:hc_fieldsite.jpg?600|A schematic of the treatment and
+control plots and installed profiles in 2010}} There are two 10 by ~60
 meter plots in the Hidden Canyon forest that are parallel to each other
 and separated by a 5m corridor. One swath serves as the treatment plot
 and receives regular [dust additions](procedures:dustonsnow)

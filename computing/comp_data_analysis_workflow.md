@@ -7,8 +7,8 @@ through the data analysis process.
 
 ## Filesystem
 
-* **`~/data/`** - on its own partition, regularly backed up
-  *  **`current/`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a **`data_analysis`** directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
+* **`~/data/` * - on its own partition, regularly backed up
+  *  **`current/` *  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a **`data_analysis` * directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
     *  **project_1/**
       * Lab and field spreadsheets...
       * Maps of plot locations, etc
@@ -28,9 +28,9 @@ through the data analysis process.
         * **symlink to ../rawdata/project_2/**
         * **m/**
         * ...
-  * **`archive/`** - same as above but for projects that are completed/not maintained
+  * **`archive/` * - same as above but for projects that are completed/not maintained
     *  **oldproject_1/**
-  * **`rawdata`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
+  * **`rawdata` *  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
     * **project_1/**
       * textfile1 (long-term climate measurments from a nearby weather station)
       * textfile2 (datalogger .dat file)
@@ -56,9 +56,9 @@ The generalized workflow looks like this:
 
  **Field/Lab measurements** => projectname/ => **Process
         to text** => (**QC/data munging** =>)
-        projectname/processed\_data/ => **Analysis with
+        projectname/processed_data/ => **Analysis with
         matlab/python/r (calculation, summary data, plots)** =>
-        projectname/processed\_data/ (OR projectname/, papers, wiki,
+        projectname/processed_data/ (OR projectname/, papers, wiki,
         reports, etc for finished products)
 
 ### Data from elsewhere
@@ -74,7 +74,7 @@ The generalized workflow looks like this:
  **Download data** => (**QC/Data munging** =>)
         rawdata/projectname/ => **Analysis with matlab/python/r
         (calculation, summary data, plots)** =>
-        /projectname/data\_analysis/processed\_data (OR /projectname/,
+        /projectname/data_analysis/processed_data (OR /projectname/,
         wiki, paper, etc for finished products)
 
 ## Coding and version control
@@ -101,7 +101,7 @@ discussion of about these types of issues
 
 ### Versioning
 
-Within each project folder in **data/data\_analysis** there is a
+Within each project folder in **data/data_analysis** there is a
 versioning repository (.hg or .git). These repositories are initialized
 early in the development of the project and commits are made to the
 repository when substantial changes are made to the codebase. For

@@ -93,10 +93,10 @@ stations](redbutte:weatherstations):
 
 * Changed the date for all WS6 data files (that I have collected)
   * I did this based on storage module dates - so I know the start/stop dates for each file
-  * As usual - there are `*`_orig`*files in the directory that haven't been changed
+  * As usual - there are `_orig` files in the directory that haven't been changed
 * Plotted the data collected on 5-3 and 5-23
   * **WS1** (in the garden)
-    * There was a power outage that reset the date over the winter - I fixed this in the datafile (and there is a `*`_orig`*version saved).
+    * There was a power outage that reset the date over the winter - I fixed this in the datafile (and there is a `_orig` version saved).
     * T/RH = Seems to have broken on 1-5-2013. It is reading a negative number all the time
       * This affects the vapor pressure measurements also
     * Wind sensor 1 = still not working
@@ -116,7 +116,7 @@ stations](redbutte:weatherstations):
     * There was a power outage that reset the date over the winter.
     * Only a few days of data were collected, and data look ok in this short time.
     * The date is wrong for this WS, and the last few datafiles - this was adjusted using dates of collection.
-    * :!: NOTE that there is a `*`_orig`*file with unchanged data (datalogger dates say 2004).
+    * :!: NOTE that there is a `_orig` file with unchanged data (datalogger dates say 2004).
 * **TO DO:**
   * Swap storage modules for WS2-6 with modules that have programs loaded in location 8.
     * Load these on to 4 & 6 after they are swapped
@@ -231,7 +231,7 @@ stations](redbutte:weatherstations):
   * Wind sensor 1 = not working
   * Wind sensor 2 = ok, and this has windspeed and wind direction
   * Rain gauge = ok
-  * PAR = ok, though there is a weird seasonal jump in PAR (by about 300μmol*m`^`-2`^`*s`^`-1`^in the middle of summer)
+  * PAR = ok, though there is a weird seasonal jump in PAR (by about 300μmol*m`^`-2`^` s`^`-1`^in the middle of summer)
   * Battery = ok (no charging problems)
 * **WS2** (by the reservoir)
   * T/RH = ok

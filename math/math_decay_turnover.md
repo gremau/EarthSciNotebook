@@ -8,13 +8,13 @@ radionuclides, hydrologic turnover, and other phenomena.
 
 #### Decay functions (no inputs)
 
-The general function for decay of leaf litter (for example) is: \$\$
-L\_t = L\_0e\^{-kt} \$\$ or, \$\$ ln \\frac{L\_t}{L\_0} = -kt \$\$
+The general function for decay of leaf litter (for example) is: $$
+L_t = L_0e\^{-kt} $$ or, $$ ln \\frac{L_t}{L_0} = -kt $$
 
-where \$L\_0\$ is the mass at time 0, \$L\_t\$ is the mass at time
-\$t\$, and \$k\$ is the decomposition constant. The mean residence time,
-or time required for \$L\_0\$ to decompose under steady state conditions
-equals \$\\frac{1}{k}\$.
+where $L_0$ is the mass at time 0, $L_t$ is the mass at time
+$t$, and $k$ is the decomposition constant. The mean residence time,
+or time required for $L_0$ to decompose under steady state conditions
+equals $\\frac{1}{k}$.
 
 ### Dual pool decay
 
@@ -23,10 +23,10 @@ equals \$\\frac{1}{k}\$.
 When a pool of stuff has both inputs and outputs, the change in the pool
 with time is defined as
 
-\$\$ \\frac{\\partial S}{\\partial t} = I - kS\$\$
+$$ \\frac{\\partial S}{\\partial t} = I - kS$$
 
-where \$I\$ is the input to the pool, \$k\$ is the decomposition rate,
-and \$S\$ is the size of the pool.
+where $I$ is the input to the pool, $k$ is the decomposition rate,
+and $S$ is the size of the pool.
 
  **Resources **
 

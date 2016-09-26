@@ -29,7 +29,7 @@ Installation began in the fall of 2009.
 
 ## Methods
 
-{{ :hiddencanyon:hc\_profiles1\_scaled.jpg?250|Installation of Campbell
+{{ :hiddencanyon:hc_profiles1_scaled.jpg?250|Installation of Campbell
 616 sensors}} Soil moisture and temperature sensor profiles were
 installed at [Hidden Canyon](hiddencanyon:sitedescription) in
 October of 2009 and 2010. One square meter soil pits were excavated to a

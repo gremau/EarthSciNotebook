@@ -90,12 +90,12 @@ These data are made available to the general public at
 is viewable on the [RBC website](http://redbuttecanyon.net/)
 
 Currently, the daily data for all weather stations for all years are
-stored in a single file called “RBWSall\_yymmdd.txt” where the yymmdd is
+stored in a single file called “RBWSall_yymmdd.txt” where the yymmdd is
 the most recent data collected. This daily file is also saved as an
 excel file that can be found online. Historically, the data were saved
 by year. These data can be found in an archived folder online as excel
 files in their original state
-(http://ecophys.utah.edu/download/Red\_Butte\_Weather/YearlyDataFiles/).
+(http://ecophys.utah.edu/download/Red_Butte_Weather/YearlyDataFiles/).
 After compiling the data for all years and all stations into one file
 and plotting all data, it was discovered that all relative humidity data
 (or vapor pressure as it were) were logged incorrectly between 1992 and
@@ -151,7 +151,7 @@ can be found [here](instruments:cr10dataloggers).
 #### Datalogger Programs
 
 The current programs running on each weather station can be found on the
-project Dropbox at: RedButte/CR10\_Programs/Current Programs. One can
+project Dropbox at: RedButte/CR10_Programs/Current Programs. One can
 also obtain the program straight from the datalogger by dumping it to
 the storage module using the appropriate keystrokes…see datalogger
 manual.
@@ -161,4 +161,4 @@ manual.
 After all storage modules have been collected, they should be downloaded
 using some version of Campbell Scientific software (currently
 LoggerNet). All data should be plotted to check for integrity before
-pasting into the “RBWSall\_yymmdd” file and uploading to the web.
+pasting into the “RBWSall_yymmdd” file and uploading to the web.

@@ -1,5 +1,5 @@
 {CR23X}\
-HC\_Met1\_v3.csi\
+HC_Met1_v3.csi\
 \
 Controls Hidden Canyon Met1 datalogger\
 \
@@ -706,24 +706,24 @@ Turn off sensor
 
 End Program
 
--Input Locations- 1 batt\_volt 1 1 1 2 panelT 1 1 1 3 AirT\_Met 1 1 1 4
-RH\_Met 1 1 1 5 Prec\_mm 1 1 1 6 WS\_Met\_ms 1 5 2 7 WDir\_Met 1 3 2 8
-mV\_thrm 1 1 1 9 1\_mV\_thrm 1 1 1 10 2\_mV\_thrm 1 1 1 11 R\_thrm 1 1 1
-12 InR\_thrm 1 1 1 13 Scaled\_R 1 1 1 14 SH\_Coeffs 1 1 1 15 SB\_Temp\_K
-1 2 1 16 SB\_Temp\_C 1 2 1 17 mV\_tpile 1 1 1 18 m\_slope 1 2 2 19
-b\_inter 1 2 2 20 Exponent1 1 1 1 21 Exponent2 1 1 1 22 1\_SB\_4Pow 1 1
-1 23 2\_mVxm 1 1 1 24 3\_Sum1 1 1 1 25 4\_Sum2 1 1 1 26 SurfT\_M\_K 1 1
-1 27 SurfT\_M\_C 1 1 1 28 Rn\_mV 1 3 1 29 Rn\_Wm2 1 3 4 30 PAR\_Up 1 3 3
-31 PAR\_Dn 1 3 3 32 P\_mb 1 1 1 33 SnowD\_T\_C 1 1 1 34 SnowD\_cm 1 1 1
-35 C 1 2 1 36 A 1 2 2 37 B 1 1 1 38 Corr\_Fact 1 2 3 -Program Security-
+-Input Locations- 1 batt_volt 1 1 1 2 panelT 1 1 1 3 AirT_Met 1 1 1 4
+RH_Met 1 1 1 5 Prec_mm 1 1 1 6 WS_Met_ms 1 5 2 7 WDir_Met 1 3 2 8
+mV_thrm 1 1 1 9 1_mV_thrm 1 1 1 10 2_mV_thrm 1 1 1 11 R_thrm 1 1 1
+12 InR_thrm 1 1 1 13 Scaled_R 1 1 1 14 SH_Coeffs 1 1 1 15 SB_Temp_K
+1 2 1 16 SB_Temp_C 1 2 1 17 mV_tpile 1 1 1 18 m_slope 1 2 2 19
+b_inter 1 2 2 20 Exponent1 1 1 1 21 Exponent2 1 1 1 22 1_SB_4Pow 1 1
+1 23 2_mVxm 1 1 1 24 3_Sum1 1 1 1 25 4_Sum2 1 1 1 26 SurfT_M_K 1 1
+1 27 SurfT_M_C 1 1 1 28 Rn_mV 1 3 1 29 Rn_Wm2 1 3 4 30 PAR_Up 1 3 3
+31 PAR_Dn 1 3 3 32 P_mb 1 1 1 33 SnowD_T_C 1 1 1 34 SnowD_cm 1 1 1
+35 C 1 2 1 36 A 1 2 2 37 B 1 1 1 38 Corr_Fact 1 2 3 -Program Security-
 0000 0000 0000 -Mode 4- -Final Storage Area 2- 0 -CR10X ID- 0 -CR10X
 Power Up- 3 -CR10X Compile Setting- 3 -CR10X RS-232 Setting- -1 -DLD
-File Labels- 0 -Final Storage Labels- 0,100,28544 1,Year\_RTM,13262
-1,Day\_RTM 1,Hour\_Minute\_RTM 2,Prec\_mm\_TOT\~5,17068
-3,WS\_Met\_ms\_S\_WVT\~6,22088 3,WDir\_Met\_D1\_WVT\~7
-3,WDir\_Met\_SD1\_WVT\~7 4,batt\_volt\_AVG\~1,25120 4,panelT\_AVG\~2
-4,AirT\_Met\_AVG\~3 4,RH\_Met\_AVG\~4 5,P\_mb\~32,18375
-6,PAR\_Up\_AVG\~30,10547 7,SurfT\_M\_C\_AVG\~27,31860
-8,PAR\_Dn\_AVG\~31,12820 9,Rn\_Wm2\_AVG\~29,9683
-10,SnowD\_T\_C\_AVG\~33,22473 11,SnowD\_cm\~34,1811
-12,WS\_Met\_ms\_AVG\~6,6981 12,WDir\_Met\_AVG\~7
+File Labels- 0 -Final Storage Labels- 0,100,28544 1,Year_RTM,13262
+1,Day_RTM 1,Hour_Minute_RTM 2,Prec_mm_TOT~5,17068
+3,WS_Met_ms_S_WVT~6,22088 3,WDir_Met_D1_WVT~7
+3,WDir_Met_SD1_WVT~7 4,batt_volt_AVG~1,25120 4,panelT_AVG~2
+4,AirT_Met_AVG~3 4,RH_Met_AVG~4 5,P_mb~32,18375
+6,PAR_Up_AVG~30,10547 7,SurfT_M_C_AVG~27,31860
+8,PAR_Dn_AVG~31,12820 9,Rn_Wm2_AVG~29,9683
+10,SnowD_T_C_AVG~33,22473 11,SnowD_cm~34,1811
+12,WS_Met_ms_AVG~6,6981 12,WDir_Met_AVG~7
