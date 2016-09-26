@@ -80,15 +80,13 @@ using packages, etc. A couple I use for pdfs of journal articles are:
 
 ### Other formatting
 
- Option                 Result
--------                 -------
-`--toc`                  # Automatically create a table of contents
-`--toc-depth`            # Specify the header levels to be used in table of contents (implies --toc)
-`--reference-odt=FILE`   # Use the FILE stylesheets as a template for .odt output.
-    Best if FILE was created with pandoc, then modified.
-`--reference-docx=FILE`  # Use the FILE stylesheets as a template for .docx output.
-`--latex-engine=ENGINE`  # Choose the pdflatex|lualatex|xelatex interpreters,
-    needed for some formatting in pdf files.`
+                 Option   Result
+------------------------  -------------------------------------------------------------------------------------------------------------
+`--toc`                   # Automatically create a table of contents
+`--toc-depth`             # Specify the header levels to be used in table of contents (implies --toc)
+`--reference-odt=FILE`    # Use the FILE stylesheets as a template for .odt output. Best if FILE was created with pandoc, then modified.
+`--reference-docx=FILE`   # Use the FILE stylesheets as a template for .docx output.
+`--latex-engine=ENGINE`   # Choose the pdflatex|lualatex|xelatex interpreters, needed for some formatting in pdf files.
 
 ## Citations and bibliographies
 
