@@ -96,7 +96,7 @@ turn off sensor
 `5: .799     Multiplier
 `6: .2811    Offset`
 
-10: If (X&lt;=&gt;F) (P89)
+10: If (X&lt;=>F) (P89)
 
 `1: 6        X Loc [ WS_Met_ms ]
 `2: 1        =
@@ -121,7 +121,7 @@ turn off sensor
 `7: 712      Multiplier
 `8: 0.0      Offset`
 
-14: If (X&lt;=&gt;F) (P89)
+14: If (X&lt;=>F) (P89)
 
 `1: 7        X Loc [ WDir_Met  ]
 `2: 3        >=
@@ -326,7 +326,7 @@ Bridged with a 604ohm resistor to convert uA to mV
 
 Set negative values to zero
 
-40: If (X&lt;=&gt;F) (P89)
+40: If (X&lt;=>F) (P89)
 
 `1: 30       X Loc [ PAR_Up    ]
 `2: 4        <
@@ -364,7 +364,7 @@ Bridged with a 560 ohm resistor to convert uA to mV
 
 Set negative values to zero
 
-45: If (X&lt;=&gt;F) (P89)
+45: If (X&lt;=>F) (P89)
 
 `1: 31       X Loc [ PAR_Dn    ]
 `2: 4        <
@@ -397,7 +397,7 @@ Convert mV to umoles m\^-2 s\^-1
 `5: 1.0      Multiplier
 `6: 0.0      Offset`
 
-50: If (X&lt;=&gt;F) (P89)
+50: If (X&lt;=>F) (P89)
 
 `1: 28       X Loc [ Rn_mV     ]
 `2: 3        >=

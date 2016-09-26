@@ -79,7 +79,7 @@ In [3]: x[array([0, 1, 2, 3, 4, 5])] Out[3]: array([10, 9, 8,
 7, 6, 5]) ~~~ Boolean arrays can also be used to index data arrays.
 A boolean array of the same dimension as the data array is created by
 applying a logical statement. This boolean array can then be used as an
-index. ~~~ In [4]: test = x&gt;=5
+index. ~~~ In [4]: test = x>=5
 
 In [5]: test Out[5]: array([ True, True, True, True, True, True,
 False, False, False], dtype=bool)
@@ -169,7 +169,7 @@ In [15]: sum(c.data) Out[15]: nan ~~~ There are other ways to
 construct masked arrays, notably *masked\_where* and its aliases
 (*masked\_greater, masked\_equal, masked\_inside*, etc). In addition,
 the masked or unmasked data can be accessed using the mask itself (or
-\~mask). ~~~ In [16]: d = ma.masked\_where(a&gt;=5, b)
+\~mask). ~~~ In [16]: d = ma.masked\_where(a>=5, b)
 
 In [17]: d Out[17]: masked\_array(data = [0.0 1.0 -- 3.0 4.0 -- --
 -- -- --],

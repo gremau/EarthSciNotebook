@@ -56,12 +56,12 @@ echo \$VAR # prints "$VAR" to stdout`
 
 ## Redirection and piping
 
-The *&gt;* operator redirects the standard output (or stderr sometimes)
+The *>* operator redirects the standard output (or stderr sometimes)
 of a command to a file.
 
 ls -l > ls-l.txt # Writes the output of the ls command to ls-l.txt`
 
-*&gt;&gt;* will append to a file, rather than clobber the existing file
+*>>* will append to a file, rather than clobber the existing file
 with a new one. You can also set a "noclobber" option as the default in
 bash.
 

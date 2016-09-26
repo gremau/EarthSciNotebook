@@ -62,11 +62,11 @@ for CO~2~ (leaky vials, bad injections, IRMS area problems) and δ13C
 (diffusional wierdness and IRMS issues) data.
 
 {{ :niwot\_girdling:nwt\_forestd13co2.png?180|Niwot aboveground forest
-air d13C vs CO2 concentration}} There are also deep (&gt;10cm depth)
-measurements that have near-atmospheric δ13C values (&gt; -12permil).
+air d13C vs CO2 concentration}} There are also deep (>10cm depth)
+measurements that have near-atmospheric δ13C values (> -12permil).
 This is most likely a mistake because any atmospheric air (-8 to
 -12permil - see fig at right) that is advected into the soil mixes with
-much more depleted CO~2~. These values are also removed (value &gt; -12
+much more depleted CO~2~. These values are also removed (value > -12
 permil AND measurement deeper than OA horizon). This was formerly done
 using depth/concentration thresholds in the soilCO2\_tdist.m file.
 

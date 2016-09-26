@@ -49,7 +49,7 @@ the License.
 
 ## The wiki itself
 
-This wiki is powered by [doku&gt;DokuWiki](doku>DokuWiki), a
+This wiki is powered by [doku>DokuWiki](doku>DokuWiki), a
 fantastic wiki engine by Andreas Gohr. The DokuWiki engine is licensed
 under [GNU General Public
 License](http://www.gnu.org/licenses/gpl.html) Version 2.

@@ -7,8 +7,8 @@ through the data analysis process.
 
 ## Filesystem
 
-* **`*`~/data/`*`** - on its own partition, regularly backed up
-  *  **`*`current/`*`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a `*`**data_analysis**`*directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
+* **`~/data/`** - on its own partition, regularly backed up
+  *  **`current/`**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a **`data_analysis`** directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
     *  **project_1/**
       * Lab and field spreadsheets...
       * Maps of plot locations, etc
@@ -30,12 +30,12 @@ through the data analysis process.
         * ...
   * **`*`archive/`*`** - same as above but for projects that are completed/not maintained
     *  **oldproject_1/**
-  * **`*`rawdata/`*`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
+  * **`rawdata`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
     * **project_1/**
       * textfile1 (long-term climate measurments from a nearby weather station)
       * textfile2 (datalogger .dat file)
     * **project_2/**
-      * ...`
+      * ...
 
 ## General Workflow
 
@@ -54,10 +54,10 @@ This refers to current projects, each of which is stored in a
 The generalized workflow looks like this:
 -----------------------------------------
 
- **Field/Lab measurements** =&gt; projectname/ =&gt; **Process
-        to text** =&gt; (**QC/data munging** =&gt;)
-        projectname/processed\_data/ =&gt; **Analysis with
-        matlab/python/r (calculation, summary data, plots)** =&gt;
+ **Field/Lab measurements** => projectname/ => **Process
+        to text** => (**QC/data munging** =>)
+        projectname/processed\_data/ => **Analysis with
+        matlab/python/r (calculation, summary data, plots)** =>
         projectname/processed\_data/ (OR projectname/, papers, wiki,
         reports, etc for finished products)
 
@@ -72,9 +72,9 @@ The generalized workflow looks like this:
 The generalized workflow looks like this:
 -----------------------------------------
 
- **Download data** =&gt; (**QC/Data munging** =&gt;)
-        rawdata/projectname/ =&gt; **Analysis with matlab/python/r
-        (calculation, summary data, plots)** =&gt;
+ **Download data** => (**QC/Data munging** =>)
+        rawdata/projectname/ => **Analysis with matlab/python/r
+        (calculation, summary data, plots)** =>
         /projectname/data\_analysis/processed\_data (OR /projectname/,
         wiki, paper, etc for finished products)
 

@@ -35,30 +35,30 @@ MUX1 and MUX2 soil sensor loops----\
 Each is wired to 6 Decagon and 6 Campbell sensors\
 4x16 mode, each sensor gets its own channel\
 MUX1 and MUX2 are wired to Forest1-CR23x as follows\
-Res ---&gt; C1 and C3\
-Clk ---&gt; C2 and C4\
-12V and G---&gt; 12V and G\
-COM OddH ---&gt; SW12vdc\
-COM OddL ---&gt; C5 and 6\
-COM EvenH---&gt; 12vdc\
-COM EvenL---&gt; SE 1 & 2\
-COM Grnd ---&gt; CR23x Grnd\
+Res ---> C1 and C3\
+Clk ---> C2 and C4\
+12V and G---> 12V and G\
+COM OddH ---> SW12vdc\
+COM OddL ---> C5 and 6\
+COM EvenH---> 12vdc\
+COM EvenL---> SE 1 & 2\
+COM Grnd ---> CR23x Grnd\
 \
 \
 ----Campbell CS-616/15 sensor---\
 \
-Orange(enable)---&gt; Odd H (SW12vdc)\
-Green(signal) ---&gt; Even L (SE 1/2)\
-Red(12V) ---&gt; Even H (12vdc)\
-Black(ground) ---&gt; common ground\
-Clear(shield) ---&gt; common ground\
+Orange(enable)---> Odd H (SW12vdc)\
+Green(signal) ---> Even L (SE 1/2)\
+Red(12V) ---> Even H (12vdc)\
+Black(ground) ---> common ground\
+Clear(shield) ---> common ground\
 \
 ----Decagon EC-TM sensor----\
 \
 Wiring to AM16/32 panel is:\
-White(excite) ---&gt; Odd H (SW12vdc)\
-Red (signal) ---&gt; Odd L (C5)\
-Bare (sheath) ---&gt; common ground\
+White(excite) ---> Odd H (SW12vdc)\
+Red (signal) ---> Odd L (C5)\
+Bare (sheath) ---> common ground\
 
 <!-- -->
 
@@ -1045,7 +1045,7 @@ turn off sensor
 `5: .799     Multiplier
 `6: .2811    Offset`
 
-137: If (X&lt;=&gt;F) (P89)
+137: If (X&lt;=>F) (P89)
 
 `1: 89       X Loc [ WS_For_ms ]
 `2: 1        =
@@ -1070,7 +1070,7 @@ turn off sensor
 `7: 712      Multiplier
 `8: 0.0      Offset`
 
-141: If (X&lt;=&gt;F) (P89)
+141: If (X&lt;=>F) (P89)
 
 `1: 90       X Loc [ WDir_For  ]
 `2: 3        >=

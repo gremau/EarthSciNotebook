@@ -23,7 +23,7 @@ Wiring to Campbell dataloggers
 conductor (Neg), resistor, ground jumper | \^ gnd | ground jumper |
 
  **Note:** Li-Cor recommends connecting the wires in the reverse
-        way (Pos--&gt;Diff L, Neg--&gt;Diff H) to reduce interference,
+        way (Pos-->Diff L, Neg-->Diff H) to reduce interference,
         but this gives only negative values on a Campbell CR23x, even if
         the multiplier is entered as a negative value in the
         datalogger program.
@@ -67,7 +67,7 @@ Bridged with a 604ohm resistor to convert uA to mV
 
 Set negative values to zero
 
-40: If (X&lt;=&gt;F) (P89)
+40: If (X&lt;=>F) (P89)
 
 `1: 30       X Loc [ PAR_Up    ]
 `2: 4        <

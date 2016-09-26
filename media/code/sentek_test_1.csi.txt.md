@@ -78,7 +78,7 @@ There are other SDI-12 commands - see appendices in manuals
 Load measurement failure errors\
 Measurement of 0 at first sensor indicates inactive probe
 
-10: If (X&lt;=&gt;F) (P89)
+10: If (X&lt;=>F) (P89)
 
 `1: 3        X Loc [ Sen9_SF_1 ]
 `2: 1        =

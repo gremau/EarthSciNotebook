@@ -38,7 +38,7 @@ print \$1 " " \$2 " " \$9 " " \$12 }' AZ\_soilstations.csv
 1.  search expressions should be surrounded with forward slashes.
 2.  outputs: scan 2026 AZ WALNUT GULCH #1
 
-~~~ Comparison expressions (==, &lt;, &gt;, &lt;=, &gt;=, !=, plus
+~~~ Comparison expressions (==, &lt;, >, &lt;=, >=, !=, plus
 \~ (matches) and !\~) can also be used: `awk`-F","`'$1=="snotel"`
 `{`print`$1`"`"`$2`"`"`$9`"`"`$12`}'`
 `AZ_soilstations.csvOutputs:
@@ -50,7 +50,7 @@ snotel 1125 AZ MORMON MTN SUMMIT
 snotel 861 AZ WHITE HORSE LAKE`
 
 As can logical expressions such as AND (&&) and OR (||): ~~~ awk
--F"," '( \$1 == "snotel" ) && ( \$7 &gt; 7000 ) { print }'
+-F"," '( \$1 == "snotel" ) && ( \$7 > 7000 ) { print }'
 AZ\_soilstations.csv
 
 1.  prints only the lines of AZ snotel sites above 7000 ft elevation

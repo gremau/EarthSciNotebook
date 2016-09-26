@@ -17,7 +17,7 @@ track them as they are processed and analyzed.
 
 ## Inital processing and SIRFER analysis table
 
-\^SiteID\^No.Plots\^Leaves\^Roots\^TreeCores\^Litter\^Org\^=&gt;Acid\^Min1\^=&gt;Acid\^Tin1\^=&gt;Acid\^Tin2\^=&gt;Acid\^SoilCores\^=&gt;Acid\^Notes\^
+\^SiteID\^No.Plots\^Leaves\^Roots\^TreeCores\^Litter\^Org\^=>Acid\^Min1\^=>Acid\^Tin1\^=>Acid\^Tin2\^=>Acid\^SoilCores\^=>Acid\^Notes\^
 \^ CHP | 3 | 3 | | 9 | 3 | 3 | | 3 | | | | | | 3 | | | \^sirfer? | | | |
 | | | | | | | | | | | | | \^ MM | 3 | 3 | | 9 | 3 | 3 | | 3 | | | | | |
 3 | | | \^sirfer? | | | | | | | | | | | | | | | | | \^ TD | 3 | 3 | | 9

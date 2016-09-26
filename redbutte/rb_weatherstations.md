@@ -56,7 +56,7 @@ Online maintenance log
 There is an up-to-date [maintenance log
 here](redbutte:rbweather_log).
 
-Recent sensor history (&gt;1982)
+Recent sensor history (>1982)
 --------------------------------
 
 The begin date of sensors on the current weather stations is shown here.

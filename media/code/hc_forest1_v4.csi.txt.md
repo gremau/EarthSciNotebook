@@ -46,45 +46,45 @@ MUX 3 is wired to 6 Campbell 616's and 6 107 thermistors\
 \
 MUX 1, 2, & 3 wired to Forest1-CR23x as follows:\
 \
-Res ---&gt; C1\
-Clk ---&gt; C2, C3, C4 (for Mux 1, 2, and 3 respectively)\
-12V and G---&gt; 12V and G\
+Res ---> C1\
+Clk ---> C2, C3, C4 (for Mux 1, 2, and 3 respectively)\
+12V and G---> 12V and G\
 \
 MUX 1 and 2 only:\
-COM OddH ---&gt; SW12vdc\
-COM OddL ---&gt; C5 & C6\
-COM EvenH---&gt; SE 1 & 3\
-COM EvenL---&gt; SE 2 & 4\
-COM gnd ---&gt; CR23x signal gnd\
+COM OddH ---> SW12vdc\
+COM OddL ---> C5 & C6\
+COM EvenH---> SE 1 & 3\
+COM EvenL---> SE 2 & 4\
+COM gnd ---> CR23x signal gnd\
 \
 MUX 3:\
-COM OddH ---&gt; EX 3\
-COM OddL ---&gt; C7\
-COM EvenH---&gt; SE 5\
-COM EvenL---&gt; SE 6\
-COM gnd ---&gt; CR23x signal gnd\
+COM OddH ---> EX 3\
+COM OddL ---> C7\
+COM EvenH---> SE 5\
+COM EvenL---> SE 6\
+COM gnd ---> CR23x signal gnd\
 \
 ----Campbell CS-616/15 sensor----\
 \
-Orange(enable)---&gt; Odd H (SW12V)\
-Green(signal) ---&gt; Even H/L (SE)\
-Red(12V) ---&gt; Terminal strip (12vdc)\
-Black(ground) ---&gt; signal ground\
-Clear(shield) ---&gt; Terminal strip (power ground)\
+Orange(enable)---> Odd H (SW12V)\
+Green(signal) ---> Even H/L (SE)\
+Red(12V) ---> Terminal strip (12vdc)\
+Black(ground) ---> signal ground\
+Clear(shield) ---> Terminal strip (power ground)\
 \
 ----Campbell 107 thermistors----\
 \
-Black(excitation) ---&gt; Odd H (EX 3)\
-Red(T signal) ---&gt; Even H & L (SE 5&6)\
-Purple(signal gnd)---&gt; signal ground\
+Black(excitation) ---> Odd H (EX 3)\
+Red(T signal) ---> Even H & L (SE 5&6)\
+Purple(signal gnd)---> signal ground\
 Clear(shield) ---) signal ground\
 \
 ----Decagon EC-TM sensor----\
 \
 Wiring to AM16/32 panel is:\
-White(excite) ---&gt; Odd H (SW12vdc)\
-Red (signal) ---&gt; Odd L (C5/C6)\
-Bare (sheath) ---&gt; signal ground\
+White(excite) ---> Odd H (SW12vdc)\
+Red (signal) ---> Odd L (C5/C6)\
+Bare (sheath) ---> signal ground\
 \
 \_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*\_\*
 
@@ -1109,7 +1109,7 @@ turn off sensor
 `5: .799     Multiplier
 `6: .2811    Offset`
 
-138: If (X&lt;=&gt;F) (P89)
+138: If (X&lt;=>F) (P89)
 
 `1: 107      X Loc [ WS_For_ms ]
 `2: 1        =
@@ -1134,7 +1134,7 @@ turn off sensor
 `7: 712      Multiplier
 `8: 0.0      Offset`
 
-142: If (X&lt;=&gt;F) (P89)
+142: If (X&lt;=>F) (P89)
 
 `1: 108      X Loc [ WDir_For  ]
 `2: 3        >=
