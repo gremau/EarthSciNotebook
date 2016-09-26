@@ -10,7 +10,7 @@ from because it is easier to plot against a sequential or decimal day,
 rather than month, day, year, etc. This puts useful tickmarks and labels
 on a timeseries plot:
 
-~~~
+~~~matlab
 % datenum_h is a vector of sequential datenum days - divide up this series into 20 tickmarks
 ticklocations = linspace(min(datenum_h), max(datenum_h), 20);
 % plot against the datevec_h sequence 
