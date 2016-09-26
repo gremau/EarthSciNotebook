@@ -32,7 +32,7 @@ Oct 16
 
 * Predawn (6:30-7:30am) water potential measurements (skipped large trees).
 * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).
-* Soil respiration measurements (10-1pm)`
+* Soil respiration measurements (10-1pm)
 
 Oct 15
 ------
@@ -51,7 +51,7 @@ Sept 23
 
 * Midday(1:30pm-2:30pm) and predawn (6:10-7:10am) water potential measurements (skipped large trees due to lack of pressure gas).
 * Measured surface soil moisture w/ campbell handheld probe at all locations (morning).
-* Soil respiration measurements (10-1)`
+* Soil respiration measurements (10-1)
 
 Sept 9-10
 ---------
@@ -93,7 +93,7 @@ July 13-14
 * First midday xylem water potential measurements around 3-5pm
 * Hammered in soil collars, 4 per plot, adjacent to litterbags (but randomized)
 * First predawn xylem water potential around 5-7am (14th)
-* First soil respiration at 9-12am (14th)`
+* First soil respiration at 9-12am (14th)
 
 July 12 - Davis U.
 ------------------
@@ -101,7 +101,7 @@ July 12 - Davis U.
 * SWE at ALL locations (and all were melted)
 * Took photos of the spatial extent of snowmelt.
 * Logged melted grid points (only one still has snow)
-* Collected litterbags (except for P3-2 which was still snowcovered)`
+* Collected litterbags (except for P3-2 which was still snowcovered)
 
 June 29
 -------

@@ -21,7 +21,7 @@ should give the same significance (p-value) as a simple linear
 regression on the same data.
 
 * Use `*`cor.test`*in R.
-* Use `*`scipy.stats.pearsonr`*or `*`pandas.DataFrame.corr(method='pearson')`*in python`
+* Use `*`scipy.stats.pearsonr`*or `*`pandas.DataFrame.corr(method='pearson')*in python`
 
 #### Simple linear regression
 
@@ -34,7 +34,7 @@ x).
 * Use `*`lm`*in R
 * Use `*`regress`*in MATLAB.
 * Numpy has `*`polyfit`*and Scipy has `*`linregress`*\
-* See other notes [here](linear_regression)`.`
+* See other notes [here](linear_regression).`
 
 ## Non-parametric
 

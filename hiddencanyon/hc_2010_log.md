@@ -17,7 +17,7 @@ Early December
 ---------------
 
 * Wired MUX 3 to Forest datalogger
-* Installed new datalogger program and made sure it was working (see [here](hiddencanyon:dataloggers)`)
+* Installed new datalogger program and made sure it was working (see [here](hiddencanyon:dataloggers))
 * Forest1 measurements became functional at ~2:30pm Oct 16th
 * Deployed all litterbags on the 15th (180 in 36 reps)
 * Final xylem pressure and soil respiration measurements for the season (all on the 16th) but forgot soil temp probe.
@@ -43,7 +43,7 @@ Several visits during this time:
 * Installed undersnow CO`~`2`~inlets and tubing for plots 1, 2, and the bottom half of 3.
 * Collected some litter, but more will be necessary.
 * Flagged plots 1-6 with pink flagging tape
-* Dug holes for profiles 5 & 7 (new plot and profile scheme detailed [here](hiddencanyon:snowmeltdesign)`)
+* Dug holes for profiles 5 & 7 (new plot and profile scheme detailed [here](hiddencanyon:snowmeltdesign))
 * Measured respiration and xylem psi in plots 1 and 2.`
 
 8-10 Sept, 2010
@@ -275,7 +275,7 @@ Several visits during this time:
   * Tightened all MUX terminals (this may have fixed one sensor)
   * Checked juction box 1 and it looks OK
   * Found which Campbell sensors are 615's
-  * Problem with remaining decagons is likely a wiring problem from junction box to multiplexer (or bad sensors)`
+  * Problem with remaining decagons is likely a wiring problem from junction box to multiplexer (or bad sensors)
 
 20 Dec, 2009
 ------------

@@ -23,15 +23,15 @@
 * Eight [soil`
 `profiles](hiddencanyon:soilprofiles)that measure soil temperature and water content.
 * Some [snow`
-`measurements](hc_ecohydrology:snowmeltlog_1)`, part of the [ecohydrology`
-`experiments](hc_ecohydrology:overview)`.
+`measurements](hc_ecohydrology:snowmeltlog_1), part of the [ecohydrology`
+`experiments](hc_ecohydrology:overview).
 * [Soil`
 `respiration](hc_ecohydrology:soilresplog_1)measurements
 * [Decomposition`
 `measurements](hc_ecohydrology:litterbaglog_1)using litterbags
 * [Xylem`water`
 `potential](hc_ecohydrology:ecosystemwaterlog_1)measurements
-* All trees have location, species, and status data [here](trees)`.`
+* All trees have location, species, and status data [here](trees).`
 
 ## Communication
 

@@ -70,7 +70,7 @@ Other features:
   * NF (number of columns) 
   * NR (the current line that awk is working on)
   * END (true if awk reaches the EOF)
-  * BEGIN (true before awk reads anything)`
+  * BEGIN (true before awk reads anything)
 
 Built in functions
 ------------------
@@ -96,7 +96,7 @@ Built in functions
 * Output can be redirected into files or piped to bash, etc.
 * Lots of these are from [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)or [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)\
 * Also see examples in the [shell`scripting`
-`page](procedures:shellscripts)`.`
+`page](procedures:shellscripts).`
 
 Convert Windows/DOS newlines (CRLF) to Unix newlines (LF) from Unix.
 Removes the carriage return (\\r) **at the end** of the line (\$ at

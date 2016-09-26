@@ -87,7 +87,7 @@ EA-IRMS](procedures:ea-irms_soilprep)), or for immediate
 - Sift to 2mm - wet sifting may be necessary for this.
 - Measure volume of rocks remaining in screen (>2mm sample) by volume displacement.
 - Archive any roots, wood, or charcoal remaining in the screen (>2mm sample).
-- Weigh sifted sample (<2mm)`
+- Weigh sifted sample (<2mm)
 
 ## Intact cores
 

@@ -9,19 +9,19 @@ be installed to */usr/local/lib/R/site-library* if permissions allow.
 
 Install packages using:
 
-  install.packages(c('nlme', 'lattice', 'knitr', 'ggplot2'))`
+  install.packages(c('nlme', 'lattice', 'knitr', 'ggplot2'))
 
 This will prompt the user to select a CRAN mirror (and make a user
 library if it is not already there).
 
 Packages can then be loaded from a library with:
 
-  library('ggplot2')`
+  library('ggplot2')
 
 Sometimes the core R packages on Debian go out of date and need to be
 updated. Start R with *sudo* and run:
 
-  update.packages()`
+  update.packages()
 
 For other, user-installed R packages, run
 *update.packages('{packagename}')*.
@@ -49,14 +49,14 @@ output of the file. The resulting *.Rmd* file can be converted (from
 within R), by running *knit2html*:
 
   library(knitr)
-  knit2html(file.Rmd)`
+  knit2html(file.Rmd)
 
 #### Stitch
 
 Stitch is knitr's most basic way to output results from an R script:
 
 library('knitr')
-stitch_rhtml('scriptname.r')`
+stitch_rhtml('scriptname.r')
 
 This outputs an .html file that embeds all code and output (plots,
 tables, objects, etc) in the document. Nicely viewable in a browser.
@@ -64,7 +64,6 @@ tables, objects, etc) in the document. Nicely viewable in a browser.
 
  **Resources**
 
-* [knitr`github`
-`page](https://github.com/yihui/knitr#readme)\
+* [knitr github page](https://github.com/yihui/knitr#readme)\
 * A nice [tutorial](http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHowto)\
 * Another nice, but basic, [tutorial](http://gforge.se/2012/08/getting-started-with-knitr-and-sweave/) on Sweave and Knitr.`

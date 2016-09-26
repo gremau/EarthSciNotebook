@@ -15,7 +15,7 @@ distribute it on a snowpack.
 #### Dust collection and preparation
 
 - Dust is dug from the ground at an appropriate [source`
-`site](:westerndust)`. Care is taken not to dig large amounts of organic matter, seeds, roots, etc. 
+`site](:westerndust). Care is taken not to dig large amounts of organic matter, seeds, roots, etc. 
 - Dust dried in drying ovens for at least 24 hours
 - Sift to 500µm or less.`
 

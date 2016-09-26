@@ -234,7 +234,7 @@ There are several use-cases in which the following commands are useful:
   * This could be a central or local repository used to clone the current working repository
 * **hg pull** pulls in changesets from a central or local repository (the parent of the current one)
 * **hg parent** shows which changeset(s) you are working off of in your current repository.
-* **hg merge** merges the changes in two heads (ie. when there are two competing changesets added to the repository)`
+* **hg merge** merges the changes in two heads (ie. when there are two competing changesets added to the repository)
 
 ### Example 1
 
@@ -251,7 +251,7 @@ some kind of different functionality.
 `0`files`merged,`0`files`removed,`0`files`unresolved`
 `greg@gm-thinkpad:~/data/data_analysis/project1$`ls`../`
 `hiddencanyon`SNOTELdata`project1`project1_testing`#`there`
-`is`now`another`repository`(project1_testing)`alongside`the`
+`is`now`another`repository`(project1_testing)alongside`the`
 `original`greg@gm-thinkpad:~/data/data_analysis$`cd`
 `../project1_testing/`
 `greg@gm-thinkpad:~/data/data_analysis/project1_testing$`ls`#`it`

@@ -12,7 +12,7 @@ version 3 01/13/10): Added CS 615 loops to the Campbell processing instructions 
 
 -   Table 1 Program
 
-01: 60        Execution Interval (seconds)`
+01: 60        Execution Interval (seconds)
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -1090,7 +1090,7 @@ turn off sensor
 
 `1: 0        Minutes (Seconds --) into a
 `2: 30       Interval (same units as above)
-`3: 10       Set Output Flag High (Flag 0)`
+`3: 10       Set Output Flag High (Flag 0)
 
 145: Set Active Storage Area (P80)\^4889
 
@@ -1103,7 +1103,7 @@ turn off sensor
 
 147: Real Time (P77)\^13262
 
-`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
+`1: 1110     Year,Day,Hour/Minute (midnight = 0000)
 
 148: Average (P71)\^25120
 
@@ -1165,7 +1165,7 @@ turn off sensor
 
 -   Table 2 Program
 
-02: 0.0000    Execution Interval (seconds)`
+02: 0.0000    Execution Interval (seconds)
 
 -   Table 3 Subroutines
 

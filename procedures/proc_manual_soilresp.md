@@ -34,14 +34,14 @@ they should be installed at least 12 hours prior to measurement.
 - Notebook
 - Pen
 - Span gas tank - optional, see the notes in the [measurement`
-`procedure](instruments:li-6400)`.`
+`procedure](instruments:li-6400).`
 
 #### Making measurements with the LI-6400
 
 The general procedure for operating the LiCor 6400 is on the
 **[instrument page.](instruments:li-6400)**
 
-* This procedure will need to be adapted for each site (see below and notes on the instrument page)`
+* This procedure will need to be adapted for each site (see below and notes on the instrument page)
 
 #### General site considerations
 
@@ -72,4 +72,4 @@ The general procedure for operating the LiCor 6400 is on the
 * `*`Delta`*of around 5-6 usually works best, more if there are lots of roots.
 * May need to modify things to stay within `*`Target`+/-`
 `Delta`*range.
-* Measure the soil temperature at 5cm and 15cm depths using the Omega probe (the Li-Cor one is busted)`
+* Measure the soil temperature at 5cm and 15cm depths using the Omega probe (the Li-Cor one is busted)

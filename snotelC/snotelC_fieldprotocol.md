@@ -39,7 +39,7 @@ selection can be found ...:?:.
 - 3 soil gas cans & sampling tubes
 - 2x4 block?
 - Soil corer?
-- 15 4" core liners and caps (2 each)`
+- 15 4" core liners and caps (2 each)
 
 ## Samples to be collected
 

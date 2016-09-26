@@ -10,7 +10,7 @@ U.S. along with descriptive information about that forest.
 ### Related projects
 
 * The [SNOTEL`soil`climate`
-`project](west_stationdata:overview)`.`
+`project](west_stationdata:overview).`
 
 ## Hypotheses
 
@@ -22,7 +22,7 @@ U.S. along with descriptive information about that forest.
 
 * [Growing`season`soil`
 `respiration](procedures:manual_soilresp)with the [Li-Cor`
-`6400`system](instruments:li-6400)`.
+`6400`system](instruments:li-6400).
 * [Below-snow`soil`
 `respiration](procedures:belowsnow_soilresp)measurements made with the inlet/tubing system and exetainers.
 * [Litterbag`mass`

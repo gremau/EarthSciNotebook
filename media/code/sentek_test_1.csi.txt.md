@@ -4,7 +4,7 @@ Sentek\_test\_1.CSI\
 
 -   Table 1 Program
 
-01: 60        Execution Interval (seconds)`
+01: 60        Execution Interval (seconds)
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -118,7 +118,7 @@ Loop through SF values to to set error codes or calculate WC
          3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
    ; Otherwise if a sensor scaled frequency < -999, eg -1000
-   17:  Else (P94)`
+   17:  Else (P94)
 
         18:  If (X<=>F) (P89)
          1: 3     -- X Loc [ Sen9_SF_1 ]
@@ -133,7 +133,7 @@ Loop through SF values to to set error codes or calculate WC
               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
         ; Otherwise calculate water content for the sensor
-        20:  Else (P94)`
+        20:  Else (P94)
 
              21:  Z=X-Y (P35)
               1: 3     -- X Loc [ Sen9_SF_1 ]
@@ -154,9 +154,9 @@ Loop through SF values to to set error codes or calculate WC
               2: 11       Y Loc [ RecipB    ]
               3: 7     -- Z Loc [ Sen9_WC_1 ]`
 
-        25:  End (P95)`
+        25:  End (P95)
 
-   26:  End (P95)`
+   26:  End (P95)
 
 27: End (P95)
 
@@ -171,7 +171,7 @@ Write Data to Final Storage
 
 28: Do (P86)
 
-`1: 10       Set Output Flag High (Flag 0)`
+`1: 10       Set Output Flag High (Flag 0)
 
 29: Set Active Storage Area (P80)\^23223
 
@@ -184,7 +184,7 @@ Write Data to Final Storage
 
 31: Real Time (P77)\^13262
 
-`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
+`1: 1110     Year,Day,Hour/Minute (midnight = 0000)
 
 32: Average (P71)\^25120
 
@@ -203,7 +203,7 @@ Write Data to Final Storage
 
 -   Table 2 Program
 
-02: 0.0000    Execution Interval (seconds)`
+02: 0.0000    Execution Interval (seconds)
 
 -   Table 3 Subroutines
 

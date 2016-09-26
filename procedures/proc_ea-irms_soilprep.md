@@ -55,7 +55,7 @@ Materials needed
 * Inventory sheet (Greg's)
 * Sample loading sheet from SIRFER
 * Tin capsules
-* Sample tray (96 well "Nunc" type)`
+* Sample tray (96 well "Nunc" type)
 
 Procedure
 ---------

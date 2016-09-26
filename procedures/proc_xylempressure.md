@@ -10,7 +10,7 @@ conditions.
 * [Hidden`Canyon`
 `ecohydrology](hc_ecohydrology:overview)(water balance and snowmelt) experiment page.
 * The [Hidden`Canyon`carbon`
-`cycle](hc_carboncycle:overview)`, which may be influenced by soil or plant water potentials.`
+`cycle](hc_carboncycle:overview), which may be influenced by soil or plant water potentials.`
 
 ## Objectives
 

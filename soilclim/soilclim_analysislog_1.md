@@ -19,7 +19,7 @@ Looking for sites to use as example sites in multiple regression.
 
 * I made a change to the sigma filter which it fixes the ends of the running mean. This fixes some erroneous data rejection at the beginnings and ends of the timeseries. Re-running summarize_wateryear.m, and this may have an effect on some of the analysis, so plots should be rerun.
 * Have mostly finished up the pca work, just need to figure out how to summarize and present it.
-* Added may precipitation to the climatesummary data file (made a change in summarize_wateryear.m to do this)`
+* Added may precipitation to the climatesummary data file (made a change in summarize_wateryear.m to do this)
 
  **1/20/2013**
 
@@ -63,7 +63,7 @@ filtering. A couple of current problems
 * Some general reorganizing and cleaning out of old data and scripts in the rawdata, and data_analysis folders that contain this project.
   * `*`obsolete_scripts`*holds old SNOTEL network analysis scripts that may still be useful but are being replaced by new ones. There is a corresponding collection of data files in the rawdata directory.
   * `*`curated_data`*holds textfiles that are output from spreadsheets or scripts that operate on raw data (as it might be useful to version these).
-* New script to calculate many metrics of climate and interannual variability (in snow, precip, temp) from the daily data. It outputs a large dataset to the `*`curated_data`*directory and is read by plotting scripts. **Will be documented [here](programdocs)`**
+* New script to calculate many metrics of climate and interannual variability (in snow, precip, temp) from the daily data. It outputs a large dataset to the `*`curated_data`*directory and is read by plotting scripts. **Will be documented [here](programdocs)**
 * Downloaded a large amount of new data from the NRCS website to `*`allsensors_daily`*`, and `*`soilsensors_hourly`*directories.
   * Now have daily data for all SNOTEL sites with soil profiles from install to 2010 (working on 2011)
   * AZ, NM, UT, and CO have complete sets of the SNOTEL soil profile data (NV, WY, ID, MT to go still).
@@ -192,7 +192,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 * For Moisture:
   * Does damping depth vary seasonally and interannually and is this controlled by moisture content?
   * How far out of phase are precip and soil moisture recharge? - maybe for this investigate that elbow between winter and summer in accumulated precip you can see in SNOTEL data.
-  * Where does summer rain come in (again, those accumulated precip graphs, especially their slope, might be useful)`
+  * Where does summer rain come in (again, those accumulated precip graphs, especially their slope, might be useful)
 
  **10/7/2011**
 
@@ -219,7 +219,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
 
  **8/10/2011**
 
-* Figures from my commitee meeting (that have to do with SNOTEL data analysis)`
+* Figures from my commitee meeting (that have to do with SNOTEL data analysis)
 
  **8/9/2011**
 
@@ -284,7 +284,7 @@ snowpack at 2 depths in the Wasatch and Uinta mountains}}
   * This can lead to errors in separating snowcover from snowfree periods
 * Perhaps a logical matrix that accumulates interpolated datapoints should follow the Tsoil array around.
 * FIXME Also, there are still periods in winter that read as snow-free, so maybe a test that adds pillow SWE readings to determine snowcover.
-* FIXME Shift difference filter doesn't seem to be working right (see histograms compare unfiltered and filtered data)`
+* FIXME Shift difference filter doesn't seem to be working right (see histograms compare unfiltered and filtered data)
 
  **Apr 26, 2011 - Fixing runmean nan problem **{{
         :west\_stationdata:ts\_interp.png?250|Interpolated points (red)
@@ -325,7 +325,7 @@ distributions at various time periods (\~2002-2010)}}
   * Choosing thresholds for shift filtering
 * **PROBLEMS**{{  :west_stationdata:ts-snowtestfailinwinter.png?300|}}
   * The program doesn't appear to separate snowcovered from snowfree periods very well. This might be because of NANs in the running standard deviation array used to create a logical test.
-  * There are also imaginary numbers in runstd. These result from taking the square root of a variance array that includes negative numbers. Variance should always be positive (it is the sum of squared values), but apparently there can be problems when calculating variances over large arrays of near-zero numbers, or numbers that are similar (see [here](http://www.johndcook.com/standard_deviation.html)or [here](wp>Algorithms_for_calculating_variance)`). So, I need a better algorithm for calculating variance of winter Ts and then its StdDev.
+  * There are also imaginary numbers in runstd. These result from taking the square root of a variance array that includes negative numbers. Variance should always be positive (it is the sum of squared values), but apparently there can be problems when calculating variances over large arrays of near-zero numbers, or numbers that are similar (see [here](http://www.johndcook.com/standard_deviation.html)or [here](wp>Algorithms_for_calculating_variance)). So, I need a better algorithm for calculating variance of winter Ts and then its StdDev.
   * Maybe... RUN A TEST AGAINST THE IMAGINARY NUMBERS AND SET TO NAN... didn't seem to do much. Looks like imaginary numbers test as less than the threshold (0+0.342i < 0.1 = true), so they should be flagged as snowcovered anyways.
 * Setting nans to be snowcovered periods helped, but now there is "snowcovered" data where there are NaNs in summertime.
 * NaN's always test as not snowcovered (NaN < 0.1 = false), so this would explain why there are "snow-free" periods in winter - its the NaN's that are flagged as snow-free no matter what.

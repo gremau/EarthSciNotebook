@@ -89,7 +89,7 @@ commands with a semicolon.
 * `*`tr`*`: (translate) deletes (-d) or replaces characters in a file
 * `*`tail`*`: prints the last //n// lines in a given file (good for removing headers).
 * `*`sed`*commands (see [this`
-`tutorial](http://www.grymoire.com/Unix/Sed.html)`)
+`tutorial](http://www.grymoire.com/Unix/Sed.html))
 * [awk`one`liners](procedures:awk)
 
 For example in a particular directory, a list of files with the .csv

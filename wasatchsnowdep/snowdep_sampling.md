@@ -9,14 +9,14 @@ Acid wash snow sampling tools
 
 - Soak in 10% HCl (in fume hood) overnight
 - Rinse with DI water 5 times.
-- Air dry and place in previously rinsed Ziploc Bag (below)`
+- Air dry and place in previously rinsed Ziploc Bag (below)
 
 Serially rinse with DI water (5 times) then air dry:
 ----------------------------------------------------
 
 * Nalgene sample bottles
 * Coring bag (big Ziplocs)
-* Gallon Ziploc bags (for large samples)`
+* Gallon Ziploc bags (for large samples)
 
 To make 10% HCl acid wash:
 --------------------------
@@ -48,7 +48,7 @@ Leave this in a labelled basin in the fume hood :!:
 - Clean 60ml stream sampling bottle (2 per site) 
 - Clean gallon ziplocs
 - 1 liter of DI water (in a nalgene bottle)
-- Altimeter (for mountain sites)`
+- Altimeter (for mountain sites)
 
 ## Field snow sampling procedure
 

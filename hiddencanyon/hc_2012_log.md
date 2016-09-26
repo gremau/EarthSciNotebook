@@ -70,7 +70,7 @@ Aug 9-10
 * Measured LiCor respiration at all collars.
 * Sapling pre-dawn and mid-day xylem water potential
 * Surface VWC measurements at all locations.
-* 2nd DOSE measurement/sample collection (peak drought)`
+* 2nd DOSE measurement/sample collection (peak drought)
 
 July 26-27
 ----------
@@ -110,7 +110,7 @@ June 4
 * Measured LiCor respiration at all collars - Note that the IRGA was spanned in the lab last week.
 * Mature/sapling pre-dawn and mid-day xylem water potential
 * Surface VWC measurements at all locations.
-* Collected the last litterbag (P3-2)`
+* Collected the last litterbag (P3-2)
 
 May 31
 ------
@@ -124,7 +124,7 @@ May 21
 
 * Measured SWE at all plots and reps.
 * Logged snowcover at all grid points
-* Snow cover is effectively gone, except from 2 measurement locations (bags/collars)`
+* Snow cover is effectively gone, except from 2 measurement locations (bags/collars)
 
 May 14
 ------
@@ -258,4 +258,4 @@ Jan 4
 
 * Sampled all inlets
 * SWE measurements in plot 1, 2, 3, 4 (4 measurements each)
-* Rewired Sentek sensors (12V power and Gnd are now on the terminal strips with the 616's)`
+* Rewired Sentek sensors (12V power and Gnd are now on the terminal strips with the 616's)

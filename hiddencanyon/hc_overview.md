@@ -49,16 +49,16 @@ as a result. The experiment's plot and sensor designs are desribed in:
 `page](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
 * [Xylem`water`
 `potential](hc_ecohydrology:ecosystemwaterlog_1)(and [soil`
-`respiration](hc_ecohydrology:soilresplog_1)`) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
+`respiration](hc_ecohydrology:soilresplog_1)) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
 * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
 * Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
 
 ## Methods
 
 * [Dust-on-snow`procedures`
-`page](procedures:dustonsnow)`: info on dust and how it is applied.
+`page](procedures:dustonsnow): info on dust and how it is applied.
 * [SWE`
-`measurements](procedures:measuringswe)`: Measuring snowmelt (SWE disappearance) with a Federal Sampler is described here.
+`measurements](procedures:measuringswe): Measuring snowmelt (SWE disappearance) with a Federal Sampler is described here.
 * [Measuring`xylem`water`
 `potential](procedures:xylempressure)with a pressure bomb. 
 * [Measuring`sublimation`at`the`snow`
@@ -78,7 +78,7 @@ are measured in Control and dust addition plots, and these measurement
 locations are roughly the same (within 2m) at each measurement date.
 
 * [Hidden`Canyon`snowmelt`
-`log](hc_ecohydrology:snowmeltlog_1)`: dust deposition dates, SWE data, photos, etc.`
+`log](hc_ecohydrology:snowmeltlog_1): dust deposition dates, SWE data, photos, etc.`
 
 ### Melt timing
 
@@ -116,7 +116,7 @@ made between 1 and 5pm, and predawn measurements are made between 4 and
 avoided.
 
 * [Ecosystem`water`
-`log](hc_ecohydrology:ecosystemwaterlog_1)`: Xylem water potential, soil moisture, and related measurement data.`
+`log](hc_ecohydrology:ecosystemwaterlog_1): Xylem water potential, soil moisture, and related measurement data.`
 
 ### Snow surface measurements
 
@@ -133,9 +133,9 @@ methods is important.
 ### Other logs
 
 * [Met`
-`measurements](hiddencanyon:mettowers)`: meteorological measurements at Hidden Canyon towers.
+`measurements](hiddencanyon:mettowers): meteorological measurements at Hidden Canyon towers.
 * [Soil`
-`profiles](hiddencanyon:soilprofiles)`: soil temperature and soil moisture data from the control and treatment plots.`
+`profiles](hiddencanyon:soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`
 
 FIXME
 
@@ -196,7 +196,7 @@ as a result. The experiment's plot and sensor designs are desribed in:
 
 * [Growing`season`soil`
 `respiration](procedures:manual_soilresp)with the [Li-Cor`
-`6400`system](instruments:li-6400)`.
+`6400`system](instruments:li-6400).
 * [Below-snow`soil`
 `respiration](procedures:belowsnow_soilresp)measurements made with the inlet/tubing system and exetainers.
 * [Litterbag`mass`
@@ -215,7 +215,7 @@ control and treatment collars so that soil temperature increases during
 the measurement period occur evenly between treatments.
 
 * [Hidden`Canyon`soil`respiration`
-`log](hc_ecohydrology:soilresplog_1)`: measurement locations, dates, and preliminary data.`
+`log](hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
 
 #### Below-snow soil respiration
 
@@ -231,7 +231,7 @@ transfered into an evacuated Labco Exetainer with a syrnge, needle, and
 septa. Three samples of ambient air (above snow) are also collected.
 
 * [Hidden`Canyon`soil`respiration`
-`log](hc_ecohydrology:soilresplog_1)`: measurement locations, dates, and preliminary data.`
+`log](hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
 
 #### Litterbag decomposition
 
@@ -246,11 +246,11 @@ Measurements are made in both the Treatment (dust addition) and Control
 each set of bags every spring.
 
 * [Hidden`Canyon`litterbag`
-`log](hc_ecohydrology:litterbaglog_1)`: bag assembly, placement, recovery, and measurement.`
+`log](hc_ecohydrology:litterbaglog_1): bag assembly, placement, recovery, and measurement.`
 
 ### Other logs
 
 * [Met`
-`measurements](hiddencanyon:mettowers)`: meteorological measurements at Hidden Canyon towers.
+`measurements](hiddencanyon:mettowers): meteorological measurements at Hidden Canyon towers.
 * [Soil`
-`profiles](hiddencanyon:soilprofiles)`: soil temperature and soil moisture data from the control and treatment plots.`
+`profiles](hiddencanyon:soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`

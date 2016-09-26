@@ -12,7 +12,7 @@ judd sensor offset to 340\
 
 -   Table 1 Program
 
-01: 5         Execution Interval (seconds)`
+01: 5         Execution Interval (seconds)
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -466,7 +466,7 @@ Write Data to Final Storage every 30 min
 
 `1: 0        Minutes (Seconds --) into a
 `2: 30       Interval (same units as above)
-`3: 10       Set Output Flag High (Flag 0)`
+`3: 10       Set Output Flag High (Flag 0)
 
 62: Set Active Storage Area (P80)\^28544
 
@@ -479,7 +479,7 @@ Write Data to Final Storage every 30 min
 
 64: Real Time (P77)\^13262
 
-`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
+`1: 1110     Year,Day,Hour/Minute (midnight = 0000)
 
 65: Average (P71)\^25120
 
@@ -554,7 +554,7 @@ Run table every half hour
 
 -   Table 2 Program
 
-02: 1800      Execution Interval (seconds)`
+02: 1800      Execution Interval (seconds)
 
 set control port 5 high every 8 hours
 

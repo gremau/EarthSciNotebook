@@ -12,7 +12,7 @@ environment.
 
 ## Text operations
 
-#### Find (grep) text in the contents of multiple files
+### Find (grep) text in the contents of multiple files
 
 grep -Hrn 'search term' path/to/files`
 
@@ -30,14 +30,15 @@ find /path -type f -exec grep -l "string" {} +`
 where *-type f* means search only files, *-exec grep...* specifies the
 *grep* search to run for *{}* (each file found).
 
-#### Search/replace text in multiple files
+### Search/replace text in multiple files
 
 Using just sed:
 
+~~~
 # Replace "phrase1" with "phrase2" in all "file*.txt" files in the current directory, 
 # and append ".bak" to the original files.
 sed -i.bak 's/phrase1/phrase2/g' file*.txt 
-`
+~~~
 
 Using find, and piping to sed - no backup copy made
 
@@ -66,4 +67,4 @@ files, etc.).
   * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)\
   * [kramdown](http://kramdown.rubyforge.org)
 
-I tend to use <procedures:pandoc> to create documents.
+I tend to use [Pandoc](comp_pandoc.md) to create documents.

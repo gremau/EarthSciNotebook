@@ -107,4 +107,4 @@ landscape. For example:
 * StdDev and CV of mean snow-covered Tsoil with elevation`
 
 cv <- soilTData$snowcovTs20sd/soilTData$snowcovTs20mean
-plot(cv ~ climData.sub$elev)`
+plot(cv ~ climData.sub$elev)

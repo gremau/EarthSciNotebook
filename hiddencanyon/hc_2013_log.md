@@ -18,7 +18,7 @@ site](hiddencanyon:sitedescription):
 ---------
 
 * DOSE revisit - couldn't complete coring
-* Cleaned up pinflags and soil resp collars (should do another sweep tho)`
+* Cleaned up pinflags and soil resp collars (should do another sweep tho)
 
 6-11-2013
 ---------

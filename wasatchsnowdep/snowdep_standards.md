@@ -13,7 +13,7 @@ An example for NaCl:
   * has 43.495 milliequivalents each of Na`^`+`^and Cl`^`-`^`.
   * is 0.043495 Normal for each of Na`^`+`^and Cl`^`-`^`.
   * contains 1000mg Na`^`+`^per liter (0.043495 mol x 22.9898g•mol`^`-1`^`).
-  * contains 1542.03mg Cl`^`-`^per liter (0.043495 mol x 35.453g•mol`^`-1`^`)`
+  * contains 1542.03mg Cl`^`-`^per liter (0.043495 mol x 35.453g•mol`^`-1`^`)
 
 ## Stock solutions
 

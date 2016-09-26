@@ -43,7 +43,7 @@ stations](redbutte:weatherstations):
     * Battery = losing capacity, low and erratic voltages - needs to be replaced.
 * **TO DO:**
   * Check WS1 and replace battery (probably)
-  * Fix WS6 program (missing fourth column in data output should be WS #)`
+  * Fix WS6 program (missing fourth column in data output should be WS #)
 
  **1-20-2014**
 
@@ -133,7 +133,7 @@ stations](redbutte:weatherstations):
 * Checked the WS4 battery and solar panel voltages and downloaded the running program from the CR10.
   * Battery and solar panels seem fine.
   * The running program looked invalid - was probably erased in a power outage.
-* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see [here](instruments:cr10dataloggers#Preventing_data_loss)`).`
+* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see [here](instruments:cr10dataloggers#Preventing_data_loss)).`
 
  **5-3-2013**
 
@@ -208,7 +208,7 @@ stations](redbutte:weatherstations):
  **4-4-2012**
 
 * Visited weather stations 1-6 and swapped out storage modules.
-* Did some taping of wiring at weather stations 2 and 4 (insulation on wires is cracking)`
+* Did some taping of wiring at weather stations 2 and 4 (insulation on wires is cracking)
 
  **11-28-2011** - Greg and Susan visited WS6
 

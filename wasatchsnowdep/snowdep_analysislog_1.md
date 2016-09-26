@@ -9,7 +9,7 @@
 
 * Created a sample log file for matlab (sampletracking_110505.txt).
 * Downloaded hourly pm2.5 data provided by DAQ from [PCAPS`
-`page](http://pcaps.utah.edu)`.
+`page](http://pcaps.utah.edu).
   * This data is in separate files for each day, so I concatenated them into one file with a bash script (see below)
 * Created a matlab script that reads sample log file and pm2.5 data and outputs a timeline of samples taken, and which have been run.`
 

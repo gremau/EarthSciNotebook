@@ -123,12 +123,12 @@ More to come on this later.
 ### Multiplexers
 
 * Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the [forest`
-`tower](hiddencanyon:mettowers)`.
+`tower](hiddencanyon:mettowers).
 * Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the [forest`
-`tower](hiddencanyon:mettowers)`.
+`tower](hiddencanyon:mettowers).
 * Profiles 5 and 7 are multiplexed at Mux 3, a Campbell AM 16/32 at about 48E and 25N.
 * More on wiring and programming for these instruments is in `and on the [Hidden`
-`Canyon`datalogger`page](hiddencanyon:dataloggers)`.`
+`Canyon`datalogger`page](hiddencanyon:dataloggers).`
 
 ## 2010 Soil profile log
 

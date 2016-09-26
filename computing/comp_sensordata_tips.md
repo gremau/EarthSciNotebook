@@ -17,7 +17,9 @@ sensors:
 * datetime minimum normalization`
 
 An example MATLAB function to normalize the data several ways:
-<code matlab normalize.m> % 0-1 normalization (0=min and 1=max for
+
+~~~
+ % 0-1 normalization (0=min and 1=max for
 series) if normtype == 1
 
   in_max = max(in);
@@ -44,18 +46,22 @@ arg3) elseif normtype == 3
 Campbell dataloggers typically give several date/time columns in a
 datlogger file (depending of output commands), a year, a sequential day
 (doy), and a 4 digit timestamp. Here is a way to convert that into a
-decimal day array: <code python decday.py>
+decimal day array:
 
-1.  create decimal day
+~~~
+# create decimal day
 
-year = m[:,1] day = m[:,2] # a sequential day of 1-365 (or 366 in
-leapyear) hhmm = m[:,3] # timestamp formatted as hhmm hh = floor(hhmm
-/ 100) mm = hhmm - hh \* 100 dd = day + (hh + (mm / 60)) / 24
+year = m[:,1] day = m[:,2]
 
-1.  create a cumulative decimal day
+# a sequential day of 1-365 (or 366 in leapyear)
+hhmm = m[:,3] # timestamp formatted as hhmm
+hh = floor(hhmm / 100) mm = hhmm - hh * 100 dd = day + (hh + (mm / 60)) / 24
 
-year\_cum = year - 2009 # the starting year is arbitrary dd\_cum =
-(year\_cum \* 365) + dd ~~~
+# create a cumulative decimal day
+
+year_cum = year - 2009 # the starting year is arbitrary
+dd_cum =(year_cum * 365) + dd
+~~~
 
 ## Data filtering, interpolation, and moving window statistics
 

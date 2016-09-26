@@ -17,7 +17,7 @@ sites.
 
  **6-22-2012**
 
-* Litter mass samples are missing from Farmington Lower (though there were some samples sent to SIRFER)`
+* Litter mass samples are missing from Farmington Lower (though there were some samples sent to SIRFER)
 
  **6-13-2012**
 

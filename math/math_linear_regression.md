@@ -40,4 +40,4 @@ detecting and dealing with this situation:
 ## Variations
 
 * **Time-series multiple regression** (see [this`
-`page](timeseries)`): Values of the dependent and/or independent variables at a previous timestep are incorporated into the model.`
+`page](timeseries)): Values of the dependent and/or independent variables at a previous timestep are incorporated into the model.`

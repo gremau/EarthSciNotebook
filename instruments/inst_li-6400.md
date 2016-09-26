@@ -29,11 +29,11 @@ notes at the end of the protocol.//
 - Select menu level 3 (press 3 on keyboard) and press `*`Aux`OP`
 `Param`*(F2) and set prompts to the following:
   - `*`Extra`Draw`Down`
-`(ppm)`*= 0 (//or more at higher fluxes//)
+`(ppm)*= 0 (//or more at higher fluxes//)
   - `*`Flow`During`Draw`
 `Down`*= 350 (//or more at higher fluxes//)
-  - `*`Dead`Time`(secs)`*= 15 (//or more at higher fluxes//)
-  - `*`Min`Measurement`Time`(secs)`*= 30
+  - `*`Dead`Time`(secs)*= 15 (//or more at higher fluxes//)
+  - `*`Min`Measurement`Time`(secs)*= 30
 - Select menu level 7, press `*`Log`Only`
 `Final`*(F4) and select `*`Everything`*\
 - Press `*`Esc`*to return to main menu
@@ -45,7 +45,7 @@ notes at the end of the protocol.//
   - Turn scrub/bypass knobs (upper, larger knobs) on both chemicals to full scrub
   - From the main menu on the 6400 press `*`Calib`Menu`*(F3)
   - Choose `*`IRGA`Zero`(CO2S,`
-`H20S)`*and say `*`Y`*to the questions that follow
+`H20S)*and say `*`Y`*to the questions that follow
   - Wait for CO2S and H2OS to become stable close to zero (or just below). If they do not drop to zero check the scrub chemicals and knobs, and all plumbing. 
   - When numbers are stable choose `*`Zero`CO2&H20`*(F3)
   - Press `*`Quit`*(F5) to return to calibration menu
@@ -99,7 +99,7 @@ Measurement notes
 - Steps 5-8 must be performed every time the 6400 is turned off and back on!
 - Battery voltage is displayed on the main menu and also under display `*`g`*in `*`New`
 `Measurements`*mode. It is a good idea to check this once in a while, but a good pair of batteries generally lasts 3-4 hours. Think about changing them when voltage drops below 12v.
-- Keep the console out of direct sunlight, especially if it is hot. It must be shaded with something or else the screen will eventually go blank (LCD problem)`
+- Keep the console out of direct sunlight, especially if it is hot. It must be shaded with something or else the screen will eventually go blank (LCD problem)
 
 Site variability notes
 ----------------------

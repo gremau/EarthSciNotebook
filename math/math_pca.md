@@ -14,7 +14,7 @@
   * In descriptive studies it is often best to include all numerical variables measured.
   * Probably best to leave out the dependent variables you are interested in.
   * Check each variable for normality ([see`
-`here](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/)`)?
+`here](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/))?
   * Log transform each variable?
   * Sometimes rare observations can be excluded.`
 

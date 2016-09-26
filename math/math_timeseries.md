@@ -56,8 +56,8 @@ This is useful when similar timeseries need to be averaged, such as
 one-year timeseries data for multiple sites, or generating an average
 timeseries from multiple years.
 
-* In MATLAB, `*`accumarray()`*seems to work for this.
-* In R, there are a few ways: `*`aggregate()`*`, and maybe some functions in the `*`doBy`*package.`
+* In MATLAB, `*`accumarray()*seems to work for this.
+* In R, there are a few ways: `*`aggregate()*`, and maybe some functions in the `*`doBy`*package.`
 
 ## Autocorrelation
 

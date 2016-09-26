@@ -47,8 +47,8 @@ tower. Slope angle is 21-22° at the base of the tower. Aspect is 197°
 - Vaisala temp/RH sensor, //Dec 20, 2009//
 - Met One windspeed and direction sensor, //Jan 7, 2010//
 - Texas Electronics rain gauge, //Dec 20, 2009//
-- Upward looking PAR ([LI-190](:instruments:li-190)`), //Nov 11, 2009//
-- Downward looking PAR ([LI-190](:instruments:li-190)`), //Jan 25, 2010//
+- Upward looking PAR ([LI-190](:instruments:li-190)), //Nov 11, 2009//
+- Downward looking PAR ([LI-190](:instruments:li-190)), //Jan 25, 2010//
 - REBS Net Radiation sensor, //Jan 7, 2010// (day windset started working), //Jan 25, 2010// Negative correction factor changed
 - Judd Snow Depth sensor, //Jan 14, 2010//, offset changed to 340cm //Aug 26, 2010//.
 - Apogee IR radiometer (snow surface below tower), //Dec 20, 2009//

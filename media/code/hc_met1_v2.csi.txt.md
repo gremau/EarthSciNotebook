@@ -11,7 +11,7 @@ crossbars by 1 m, judd sensor offset changed to 370cm\
 
 -   Table 1 Program
 
-01: 5         Execution Interval (seconds)`
+01: 5         Execution Interval (seconds)
 
 --------------------------------------------------------------------------------\
 Datalogger measurements\
@@ -465,7 +465,7 @@ Write Data to Final Storage every 30 min
 
 `1: 0        Minutes (Seconds --) into a
 `2: 30       Interval (same units as above)
-`3: 10       Set Output Flag High (Flag 0)`
+`3: 10       Set Output Flag High (Flag 0)
 
 62: Set Active Storage Area (P80)\^12026
 
@@ -478,7 +478,7 @@ Write Data to Final Storage every 30 min
 
 64: Real Time (P77)\^13262
 
-`1: 1110     Year,Day,Hour/Minute (midnight = 0000)`
+`1: 1110     Year,Day,Hour/Minute (midnight = 0000)
 
 65: Average (P71)\^25120
 
@@ -552,7 +552,7 @@ NOT USED
 
 -   Table 2 Program
 
-02: 0.0000    Execution Interval (seconds)`
+02: 0.0000    Execution Interval (seconds)
 
 -   Table 3 Subroutines
 

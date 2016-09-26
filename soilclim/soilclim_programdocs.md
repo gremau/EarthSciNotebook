@@ -74,7 +74,7 @@ particular sites.
   * Fig 3 = Full VWC timeseries of 4 sites - the data for Fig 4 
   * Fig 4 = VWC Frequency histograms for 4 contrasting sites (changeable)
   * Fig 5 = Scatterplot/Regression of snowcovered Tsoil vs pre-onset T at 1 site (changeable)
-  * Fig 6 = Scatterplot/Regression of summer (JAS) VWC vs meltday at 1 site (changeable)`
+  * Fig 6 = Scatterplot/Regression of summer (JAS) VWC vs meltday at 1 site (changeable)
 
 ### plot\_t\_elevgradient.m
 

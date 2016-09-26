@@ -18,7 +18,7 @@ This means you have these rights:
 But you must agree to these terms:
 
 - You may only redistribute it under the same terms
-- If you redistribute the content you must credit the original author (usually as an originating url)`
+- If you redistribute the content you must credit the original author (usually as an originating url)
 
 If you would like to post copyrighted content on this website, such as
 images or figures, please credit the copyright holder and include a link
@@ -41,11 +41,11 @@ for the specific language governing permissions and limitations under
 the License.
 
 * "Python" is a registered trademark of the [Python`Software`
-`Foundation](http://www.python.org)`.
+`Foundation](http://www.python.org).
 * "R" is a registered trademark of the [R`Software`
-`Foundation](http://www.r-project.org/)`.
+`Foundation](http://www.r-project.org/).
 * "MATLAB" is a registered trademark of [The`
-`MathWorks](http://www.mathworks.com)`.`
+`MathWorks](http://www.mathworks.com).`
 
 ## The wiki itself
 
