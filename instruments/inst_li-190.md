@@ -67,7 +67,7 @@ Bridged with a 604ohm resistor to convert uA to mV
 
 Set negative values to zero
 
-40: If (X&lt;=>F) (P89)
+40: If (X<=>F) (P89)
 
 `1: 30       X Loc [ PAR_Up    ]
 `2: 4        <

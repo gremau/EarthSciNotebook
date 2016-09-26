@@ -8,8 +8,8 @@ linear one) between random variables, or two sets of data.
 
  **Resources**
 
-* `[`John`Cook's`
-`take`](http://www.johndcook.com/blog/2008/11/05/how-to-calculate-pearson-correlation-accurately/)
+* [John`Cook's`
+`take](http://www.johndcook.com/blog/2008/11/05/how-to-calculate-pearson-correlation-accurately/)
 
 ## Parametric
 
@@ -34,7 +34,7 @@ x).
 * Use `*`lm`*in R
 * Use `*`regress`*in MATLAB.
 * Numpy has `*`polyfit`*and Scipy has `*`linregress`*\
-* See other notes `[`here`](linear_regression)`.`
+* See other notes [here](linear_regression)`.`
 
 ## Non-parametric
 
@@ -69,5 +69,5 @@ instead (does it include 0?).
  **Further reading on this**
 
 * Gotelli and Ellison, Chapter 10
-* `[`SE`
-`question`](http://stats.stackexchange.com/questions/5750/look-and-you-shall-find-a-correlation)
+* [SE`
+`question](http://stats.stackexchange.com/questions/5750/look-and-you-shall-find-a-correlation)

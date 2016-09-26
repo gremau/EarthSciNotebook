@@ -38,7 +38,7 @@ print \$1 " " \$2 " " \$9 " " \$12 }' AZ\_soilstations.csv
 1.  search expressions should be surrounded with forward slashes.
 2.  outputs: scan 2026 AZ WALNUT GULCH #1
 
-~~~ Comparison expressions (==, &lt;, >, &lt;=, >=, !=, plus
+~~~ Comparison expressions (==, <, >, <=, >=, !=, plus
 \~ (matches) and !\~) can also be used: `awk`-F","`'$1=="snotel"`
 `{`print`$1`"`"`$2`"`"`$9`"`"`$12`}'`
 `AZ_soilstations.csvOutputs:
@@ -94,9 +94,9 @@ Built in functions
 
 * Input can come from files or be piped in from shell commands.
 * Output can be redirected into files or piped to bash, etc.
-* Lots of these are from `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)or `[`here`](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)\
-* Also see examples in the `[`shell`scripting`
-`page`](procedures:shellscripts)`.`
+* Lots of these are from [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)or [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)\
+* Also see examples in the [shell`scripting`
+`page](procedures:shellscripts)`.`
 
 Convert Windows/DOS newlines (CRLF) to Unix newlines (LF) from Unix.
 Removes the carriage return (\\r) **at the end** of the line (\$ at

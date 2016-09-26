@@ -58,12 +58,12 @@ the content in other document formats (ie. HTML, LaTeX documents, .docx
 files, etc.).
 
 * **Lightweight markup languages**
-  * `[`Markdown`](http://daringfireball.net/projects/markdown/)\
-  * `[`reStructuredText`](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)\
-  * `[`ASCIIdoc`](http://www.methods.co.nz/asciidoc/)\
+  * [Markdown](http://daringfireball.net/projects/markdown/)\
+  * [reStructuredText](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)\
+  * [ASCIIdoc](http://www.methods.co.nz/asciidoc/)\
 * **Markdown extensions/supersets**
-  * `[`Pandoc`](http://johnmacfarlane.net/pandoc/)Markdown
-  * `[`MultiMarkdown`](http://fletcherpenney.net/multimarkdown/)\
-  * `[`kramdown`](http://kramdown.rubyforge.org)
+  * [Pandoc](http://johnmacfarlane.net/pandoc/)Markdown
+  * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)\
+  * [kramdown](http://kramdown.rubyforge.org)
 
 I tend to use <procedures:pandoc> to create documents.

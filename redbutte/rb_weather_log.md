@@ -133,7 +133,7 @@ stations](redbutte:weatherstations):
 * Checked the WS4 battery and solar panel voltages and downloaded the running program from the CR10.
   * Battery and solar panels seem fine.
   * The running program looked invalid - was probably erased in a power outage.
-* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see `[`here`](instruments:cr10dataloggers#Preventing_data_loss)`).`
+* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see [here](instruments:cr10dataloggers#Preventing_data_loss)`).`
 
  **5-3-2013**
 
@@ -247,7 +247,7 @@ stations](redbutte:weatherstations):
  **10-7-2011**
 
 * Was able to download data from all 3 returned storage modules (WS1, 2, & 4)
-* See procedure `[`here`](instruments:cr10dataloggers)\
+* See procedure [here](instruments:cr10dataloggers)\
 * Uplodaded data files to project Dropbox`
 
  **10-5-2011** - Susan and Greg visited WS6

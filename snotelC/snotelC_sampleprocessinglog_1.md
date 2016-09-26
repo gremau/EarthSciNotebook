@@ -6,12 +6,12 @@ sites.
  **See also:**
 
 * The sampling spreadsheet in the project directory logs EVERY sample returned from the field.
-* The `[`Sample`
-`tables`](sampletables)page summarizes the samples for each site and their processing/analysis history.
-* The `[`SNOTEL`visit`
-`log`](snotellog_1)for notes on site visits.
-* The `[`initial`processing`
-`procedures`](snotelsampleprocessing)for returned samples. This links to other procedures.`
+* The [Sample`
+`tables](sampletables)page summarizes the samples for each site and their processing/analysis history.
+* The [SNOTEL`visit`
+`log](snotellog_1)for notes on site visits.
+* The [initial`processing`
+`procedures](snotelsampleprocessing)for returned samples. This links to other procedures.`
 
 ------------------------------------------------------------------------
 
@@ -25,21 +25,21 @@ sites.
 * 2008 O and M1 samples were treated a little differently than subsequent years. The 5 plot samples were processed individually rather than bulked, and then only a bulk acidified sample, which have different sample numbers, was run at SIRFER. See TO DO below.
 * TO DO:
   * 2008 O and M1 samples - bulk the 5 plot samples into a single sample cup (1 per plot).
-    * **Done** --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2012/06/15 21:57//
+    * **Done** --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2012/06/15 21:57//
   * Run the 2008 O and M1 samples (now bulked) at SIRFER (without acidifying).
   * Run 2009 //acidified// O and M1 samples (mostly loaded into tray 1105) at SIRFER.
   * Compare results for acidified and native O and M1 samples (2008/9) to see if this continues to be necessary.
   * Find Rock Creek M2 samples (6-12cm) if they exist.
-    * **They don't exist**, and my guess is the mineral samples were to 12cm, but not sure. --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2012/06/15 21:31//
+    * **They don't exist**, and my guess is the mineral samples were to 12cm, but not sure. --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2012/06/15 21:31//
   * Process remaining 2011 site samples (CHP, MM, RC).
   * Subsample and acidify all intact core samples?
   * Sand/silt/clay from 2008 mineral sample bags, 2009 tins, 2011 intact cores.
   * Should I weigh the roots/wood samples from the tins and cores and add them to the bulk density spreadsheet?
   * Need to enter the data into the processing sheet (to include all rock weights, etc.) 
-    * **Done** --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2012/06/22 05:31//`
+    * **Done** --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2012/06/22 05:31//`
 
  **10-14-2011**
 

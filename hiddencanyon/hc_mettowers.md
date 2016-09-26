@@ -10,15 +10,15 @@ site](hiddencanyon:sitedescription).
 
 * A solar tower with solar panels, a battery box, and charge controllers. Located in the clearing.
 * A met tower with meteorological instrumentation, a datalogger, and a modem and antenna for communication with the lab. Located just east of the solar tower.
-* A forest tower with some met instruments, and a datalogger that is connected to the `[`forest`
+* A forest tower with some met instruments, and a datalogger that is connected to the [forest`
 `soil`
-`profiles`](hiddencanyon:soilprofiles)via 2 multiplexers.`
+`profiles](hiddencanyon:soilprofiles)via 2 multiplexers.`
 
 ===== Objectives ====
 
 - Continuous measurement of air temperature, relative humidity, windspeed and direction, soil and snow surface temperatures, snow depth, net radiation, and incoming and reflected PAR.
-- Provide environmental data to support the `[`ecohydrology`
-`experiments`](hc_ecohydrology:overview)at Hidden Canyon.
+- Provide environmental data to support the [ecohydrology`
+`experiments](hc_ecohydrology:overview)at Hidden Canyon.
 - Measurement of weather patterns and longer term climatic trends at Hidden Canyon site. 
 - Comparison of Hidden Canyon research results to results from similar studies at other sites with varying environmental conditions.
 - Measure the influence of forest cover on a subset of these measured environmental conditions (Temp/RH, surface temps, wind).`
@@ -47,8 +47,8 @@ tower. Slope angle is 21-22° at the base of the tower. Aspect is 197°
 - Vaisala temp/RH sensor, //Dec 20, 2009//
 - Met One windspeed and direction sensor, //Jan 7, 2010//
 - Texas Electronics rain gauge, //Dec 20, 2009//
-- Upward looking PAR (`[`LI-190`](:instruments:li-190)`), //Nov 11, 2009//
-- Downward looking PAR (`[`LI-190`](:instruments:li-190)`), //Jan 25, 2010//
+- Upward looking PAR ([LI-190](:instruments:li-190)`), //Nov 11, 2009//
+- Downward looking PAR ([LI-190](:instruments:li-190)`), //Jan 25, 2010//
 - REBS Net Radiation sensor, //Jan 7, 2010// (day windset started working), //Jan 25, 2010// Negative correction factor changed
 - Judd Snow Depth sensor, //Jan 14, 2010//, offset changed to 340cm //Aug 26, 2010//.
 - Apogee IR radiometer (snow surface below tower), //Dec 20, 2009//

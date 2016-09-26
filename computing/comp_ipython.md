@@ -36,7 +36,7 @@ without the %. (%automagic is on by default.). These commands include:
 * Functions which affect the shell: %colors, %xmode, %autoindent, etc.
 * Other functions such as %reset, %timeit or %paste.
 * To see all the available magic functions, call %lsmagic.
-* `[`This`](http://ipython.org/ipython-doc/stable/api/generated/IPython.core.magic.html#module-IPython.core.magic)lists all the core magic functions.`
+* [This](http://ipython.org/ipython-doc/stable/api/generated/IPython.core.magic.html#module-IPython.core.magic)lists all the core magic functions.`
 
 %run
 ----
@@ -85,7 +85,7 @@ functionality.
 * Start with: ipython qtconsole
 * arguments can be passed to this start statement (`*`--pylab`*`)
 * type `*`%guiref`*to see a quick introduction of its main features.
-* `[`Feature description`](http://ipython.org/ipython-doc/stable/interactive/qtconsole.html)
+* [Feature description](http://ipython.org/ipython-doc/stable/interactive/qtconsole.html)
 
 ### Features
 

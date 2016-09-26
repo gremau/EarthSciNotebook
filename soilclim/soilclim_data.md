@@ -28,12 +28,12 @@ division of the USDA's Natural Resources Conservation Service runs the
 Snow Survey (Snow Courses), SNOTEL network, and SCAN network and
 provides a few online interfaces for accessing this data.
 
-* `[`The`NWCC`station`
-`inventory`](http://www.wcc.nrcs.usda.gov/nwcc/inventory)lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.
-* `[`Individual`station`
-`sites`](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.
-* `[`The`Snow`Course`data`
-`portal`](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
+* [The`NWCC`station`
+`inventory](http://www.wcc.nrcs.usda.gov/nwcc/inventory)lists SCAN/SNOTEL sites by state and element (sensor or data type). This provides good inventory and indexing data.
+* [Individual`station`
+`sites](http://www.wcc.nrcs.usda.gov/nwcc/site?sitenum=1140&state=az)like this one allow generation of element (sensor or data) reports for particular time periods, including historical periods.
+* [The`Snow`Course`data`
+`portal](http://www.wcc.nrcs.usda.gov/snowcourse/sc-data.html)allows access to historical snow measurements. Many of these measurements extend back to the 1950's or earlier, and many snow courses are still measured today. They provide calibration data for adjacent SNOTEL stations.`
 
 ### Other (potentially useful) sites
 

@@ -3,13 +3,13 @@
 There are two Campbell CR23x dataloggers at [Hidden
 Canyon](hiddencanyon:sitedescription):
 
-* **Met1** is located on the `[`met`
-`tower`](hiddencanyon:mettowers)and it logs meteorological data and powers the `[`modem,`
+* **Met1** is located on the [met`
+`tower](hiddencanyon:mettowers)and it logs meteorological data and powers the [modem,`
 `and`the`Base`and`Met1`
-`radios`](hiddencanyon:communicationsystem)`.
-* **Forest1** is located on the `[`forest`
-`tower`](hiddencanyon:mettowers)and it logs meteorological data and `[`soil`
-`profile`](hiddencanyon:soilprofiles)data (via 3 multiplexers).`
+`radios](hiddencanyon:communicationsystem)`.
+* **Forest1** is located on the [forest`
+`tower](hiddencanyon:mettowers)and it logs meteorological data and [soil`
+`profile](hiddencanyon:soilprofiles)data (via 3 multiplexers).`
 
 Both of these dataloggers are connected via radio to the [communications
 system](hiddencanyon:communicationsystem).
@@ -24,8 +24,8 @@ system](hiddencanyon:communicationsystem).
 - Vaisala temp/RH sensor, //Dec 20, 2009//
 - Met One windspeed and direction sensor, //Jan 7, 2010//
 - Texas Electronics rain gauge, //Dec 20, 2009//
-- Upward looking PAR (`[`LI-190`](:instruments:li-190)`), //Nov 11, 2009//
-- Downward looking PAR (`[`LI-190`](:instruments:li-190)`), //Jan 25, 2010//
+- Upward looking PAR ([LI-190](:instruments:li-190)`), //Nov 11, 2009//
+- Downward looking PAR ([LI-190](:instruments:li-190)`), //Jan 25, 2010//
 - REBS Net Radiation sensor, //Jan 7, 2010// (day windset started working), //Jan 25, 2010// Negative correction factor changed
 - Judd Snow Depth sensor, //Jan 14, 2010//, offest changed to 340cm //Aug 26, 2010//.
 - Apogee IR radiometer (snow surface below tower), //Dec 20, 2009//

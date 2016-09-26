@@ -148,7 +148,7 @@ Use SW12V to enable sensors
 11: End (P95)
 
 CONVERT Periods 1-4 to soil VWC\
-These coefficients are for a low EC ( &lt;1.0 dS per meter)
+These coefficients are for a low EC ( <1.0 dS per meter)
 
 12: Polynomial (P55)
 
@@ -259,7 +259,7 @@ Use SW12V to enable sensors
 `1: 59       Turn Off Switched 12V`
 
 CONVERT Periods 7 & 8 to soil VWC\
-These coefficients are for a low EC ( &lt;1.0 dS per meter)
+These coefficients are for a low EC ( <1.0 dS per meter)
 
 25: Polynomial (P55)
 
@@ -1109,7 +1109,7 @@ turn off sensor
 `5: .799     Multiplier
 `6: .2811    Offset`
 
-138: If (X&lt;=>F) (P89)
+138: If (X<=>F) (P89)
 
 `1: 107      X Loc [ WS_For_ms ]
 `2: 1        =
@@ -1134,7 +1134,7 @@ turn off sensor
 `7: 712      Multiplier
 `8: 0.0      Offset`
 
-142: If (X&lt;=>F) (P89)
+142: If (X<=>F) (P89)
 
 `1: 108      X Loc [ WDir_For  ]
 `2: 3        >=

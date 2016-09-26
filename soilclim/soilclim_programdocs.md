@@ -129,8 +129,8 @@ Parses headers and loads desired fields from NWCC (SNOTEL/SCAN) yearly
 datafiles into one standardized array, removes bad data, returns array +
 headers.
 
-  * Needs a column order/number check routine...DONE --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2011/03/24 21:18//
+  * Needs a column order/number check routine...DONE --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2011/03/24 21:18//
   * FIXME - Needs a method to verify incoming data files for sample interval, and whether the file is complete (0ct1-Sept30).`
 
 ### load7100Avg(desiredAvg)

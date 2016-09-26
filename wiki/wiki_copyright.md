@@ -40,12 +40,12 @@ OR CONDITIONS OF ANY KIND, either express or implied. See the License
 for the specific language governing permissions and limitations under
 the License.
 
-* "Python" is a registered trademark of the `[`Python`Software`
-`Foundation`](http://www.python.org)`.
-* "R" is a registered trademark of the `[`R`Software`
-`Foundation`](http://www.r-project.org/)`.
-* "MATLAB" is a registered trademark of `[`The`
-`MathWorks`](http://www.mathworks.com)`.`
+* "Python" is a registered trademark of the [Python`Software`
+`Foundation](http://www.python.org)`.
+* "R" is a registered trademark of the [R`Software`
+`Foundation](http://www.r-project.org/)`.
+* "MATLAB" is a registered trademark of [The`
+`MathWorks](http://www.mathworks.com)`.`
 
 ## The wiki itself
 
@@ -56,11 +56,11 @@ License](http://www.gnu.org/licenses/gpl.html) Version 2.
 
 ## Further reading on copyrights and licensing
 
-* `[`More`on`Apache`Software`Foundation`
-`licensing`](http://www.apache.org/licenses/)\
-* `[`Creative`Commons`-`learn`
-`more`](http://creativecommons.org/learn/)\
-* `[`The`Open`Source`
-`Initiative`](http://opensource.org)\
-* `[`Frequently`Asked`Questions`about`the`GNU`
-`GPL`](http://www.fsf.org/licenses/gpl-faq.html)
+* [More`on`Apache`Software`Foundation`
+`licensing](http://www.apache.org/licenses/)\
+* [Creative`Commons`-`learn`
+`more](http://creativecommons.org/learn/)\
+* [The`Open`Source`
+`Initiative](http://opensource.org)\
+* [Frequently`Asked`Questions`about`the`GNU`
+`GPL](http://www.fsf.org/licenses/gpl-faq.html)

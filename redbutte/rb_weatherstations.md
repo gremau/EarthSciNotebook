@@ -81,7 +81,7 @@ Missing data
 ------------
 
 * **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
-* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see `[`here`](instruments:cr10dataloggers#Preventing_data_loss)`).`
+* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see [here](instruments:cr10dataloggers#Preventing_data_loss)`).`
 
 ## Current Data
 

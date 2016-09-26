@@ -10,8 +10,8 @@ polyfit and regress. See
 
 ## Multiple regression
 
-* `[`This`
-`paper`](http://journals.ametsoc.org/doi/abs/10.1175/2009JCLI2951.1)has an interesting approach (and references) for using multiple regression in climate trend analysis.`
+* [This`
+`paper](http://journals.ametsoc.org/doi/abs/10.1175/2009JCLI2951.1)has an interesting approach (and references) for using multiple regression in climate trend analysis.`
 
 #### Collinearity
 
@@ -26,18 +26,18 @@ becomes difficult or impossible in this situation. Some resources on
 detecting and dealing with this situation:
 
 * **Detecting collinearity**
-  * Relationships between independent variables can be assessed with `[`correlation`
-`tests`](correlation)or simple linear regression.
+  * Relationships between independent variables can be assessed with [correlation`
+`tests](correlation)or simple linear regression.
 * **Dealing with collinearity**
   * Remove predictor variables
-  * Use `[`principal`
-`components`](pca)as indpendent variables in the model (they are orthogonal).
-    * `[`Principal`components`
-`regression`](math:pcr)can estimate coefficients for the original independent variables.
+  * Use [principal`
+`components](pca)as indpendent variables in the model (they are orthogonal).
+    * [Principal`components`
+`regression](math:pcr)can estimate coefficients for the original independent variables.
   * Partial least squares regression
   * Ridge regression.`
 
 ## Variations
 
-* **Time-series multiple regression** (see `[`this`
-`page`](timeseries)`): Values of the dependent and/or independent variables at a previous timestep are incorporated into the model.`
+* **Time-series multiple regression** (see [this`
+`page](timeseries)`): Values of the dependent and/or independent variables at a previous timestep are incorporated into the model.`

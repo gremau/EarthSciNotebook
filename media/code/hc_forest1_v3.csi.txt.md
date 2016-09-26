@@ -227,7 +227,7 @@ USE SW12V to enable CS616, C5 & C6 are in serial mode
 28: End (P95)
 
 CONVERT Pit 4 (5&20cm) periods to soil VWC\
-These coefficients are for a low EC ( &lt;1.0 dS per meter)
+These coefficients are for a low EC ( <1.0 dS per meter)
 
 29: Polynomial (P55)
 
@@ -458,7 +458,7 @@ USE SW12V to enable CS615s, C5 & C6 are in serial mode
 62: End (P95)
 
 CONVERT Pit 6 (60cm) and Pit 8 (all 3 depths) period to soil VWC\
-These coefficients are for a low EC ( &lt;1.0 dS per meter)
+These coefficients are for a low EC ( <1.0 dS per meter)
 
 63: Polynomial (P55)
 
@@ -1045,7 +1045,7 @@ turn off sensor
 `5: .799     Multiplier
 `6: .2811    Offset`
 
-137: If (X&lt;=>F) (P89)
+137: If (X<=>F) (P89)
 
 `1: 89       X Loc [ WS_For_ms ]
 `2: 1        =
@@ -1070,7 +1070,7 @@ turn off sensor
 `7: 712      Multiplier
 `8: 0.0      Offset`
 
-141: If (X&lt;=>F) (P89)
+141: If (X<=>F) (P89)
 
 `1: 90       X Loc [ WDir_For  ]
 `2: 3        >=

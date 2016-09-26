@@ -37,9 +37,11 @@ functionality is accessible from Rstudio also.
 It's easiest (for me) to use knitr with markdown. This means creating
 *file.Rmd* and embedding code in "chunks" that look like:
 
-~~~   ~~~{r} ~~~
+~~~
+```{r}
   plot(y ~ x)
-~~~   ~~~ ~~~`
+```
+~~~
 
 There are a number of options that can be put in the braces at the start
 of the chunk to influence how the code is run and incorporated into the
@@ -62,7 +64,7 @@ tables, objects, etc) in the document. Nicely viewable in a browser.
 
  **Resources**
 
-* `[`knitr`github`
-`page`](https://github.com/yihui/knitr#readme)\
-* A nice `[`tutorial`](http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHowto)\
-* Another nice, but basic, `[`tutorial`](http://gforge.se/2012/08/getting-started-with-knitr-and-sweave/)on Sweave and Knitr.`
+* [knitr`github`
+`page](https://github.com/yihui/knitr#readme)\
+* A nice [tutorial](http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHowto)\
+* Another nice, but basic, [tutorial](http://gforge.se/2012/08/getting-started-with-knitr-and-sweave/) on Sweave and Knitr.`

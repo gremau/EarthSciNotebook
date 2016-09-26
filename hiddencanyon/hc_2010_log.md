@@ -17,7 +17,7 @@ Early December
 ---------------
 
 * Wired MUX 3 to Forest datalogger
-* Installed new datalogger program and made sure it was working (see `[`here`](hiddencanyon:dataloggers)`)
+* Installed new datalogger program and made sure it was working (see [here](hiddencanyon:dataloggers)`)
 * Forest1 measurements became functional at ~2:30pm Oct 16th
 * Deployed all litterbags on the 15th (180 in 36 reps)
 * Final xylem pressure and soil respiration measurements for the season (all on the 16th) but forgot soil temp probe.
@@ -43,7 +43,7 @@ Several visits during this time:
 * Installed undersnow CO`~`2`~inlets and tubing for plots 1, 2, and the bottom half of 3.
 * Collected some litter, but more will be necessary.
 * Flagged plots 1-6 with pink flagging tape
-* Dug holes for profiles 5 & 7 (new plot and profile scheme detailed `[`here`](hiddencanyon:snowmeltdesign)`)
+* Dug holes for profiles 5 & 7 (new plot and profile scheme detailed [here](hiddencanyon:snowmeltdesign)`)
 * Measured respiration and xylem psi in plots 1 and 2.`
 
 8-10 Sept, 2010
@@ -72,8 +72,8 @@ Several visits during this time:
 * New datalogger program to Met1 datalogger (added table 2, changed Judd depth sensor offset)
 * Dowloaded data from both dataloggers (after 5pm average)
 * Partial install of Forest1 radio
-* Can connect to Met1 datalogger as of 8am Friday morning --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/08/27 11:30//`
+* Can connect to Met1 datalogger as of 8am Friday morning --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/08/27 11:30//`
 
 13-14 August, 2010
 ------------------

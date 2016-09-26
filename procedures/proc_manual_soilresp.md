@@ -6,7 +6,7 @@ soil respiration chamber (LiCor 6400-09).
 
 In use at:
 
-* `[`Hidden`Canyon`](hc_ecohydrology:soilresplog_1)
+* [Hidden Canyon](hc_ecohydrology:soilresplog_1)
 
 ## Collar installation
 
@@ -33,8 +33,8 @@ they should be installed at least 12 hours prior to measurement.
   - Bring the probe AND its console
 - Notebook
 - Pen
-- Span gas tank - optional, see the notes in the `[`measurement`
-`procedure`](instruments:li-6400)`.`
+- Span gas tank - optional, see the notes in the [measurement`
+`procedure](instruments:li-6400)`.`
 
 #### Making measurements with the LI-6400
 

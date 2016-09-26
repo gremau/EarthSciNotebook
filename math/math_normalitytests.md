@@ -38,4 +38,4 @@ data may (or may not) be normally distributed.
 ## Resources
 
 * `[ `Tutorial`using`
-`R`](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0450.RandVars.AssesNorm.pdf)
+`R](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0450.RandVars.AssesNorm.pdf)

@@ -6,16 +6,16 @@ accelerate the spring snowmelt cycle. This is a procedure to generate
 dust similar to naturally deposited dust in the western U.S. and
 distribute it on a snowpack.
 
-* Prodedure in use at `[`Hidden`
-`Canyon`](hiddencanyon:sitedescription)(and expected to influence `[`ecohydrology`](hc_ecohydrology:overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
-* `[`Regional`dust`sources`](:westerndust)\
-* The `[`snowmelt`
-`measurements`](hc_ecohydrology:snowmeltlog_1)page for Hidden Canyon.`
+* Prodedure in use at [Hidden`
+`Canyon](hiddencanyon:sitedescription)(and expected to influence [ecohydrology](hc_ecohydrology:overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
+* [Regional`dust`sources](:westerndust)\
+* The [snowmelt`
+`measurements](hc_ecohydrology:snowmeltlog_1)page for Hidden Canyon.`
 
 #### Dust collection and preparation
 
-- Dust is dug from the ground at an appropriate `[`source`
-`site`](:westerndust)`. Care is taken not to dig large amounts of organic matter, seeds, roots, etc. 
+- Dust is dug from the ground at an appropriate [source`
+`site](:westerndust)`. Care is taken not to dig large amounts of organic matter, seeds, roots, etc. 
 - Dust dried in drying ovens for at least 24 hours
 - Sift to 500µm or less.`
 
@@ -43,11 +43,11 @@ Application equipment
 
 #### Useful measurements
 
-* Measuring snowmelt (SWE disappearance) is best done by sampling the snowpack with a Federal Sampler as described on the `[`SWE`
-`measurement`](procedures:measuringswe)page.
-* `[`Measuring`sublimation`at`the`snow`
-`surface`](procedures:snowsurfacesublimation)(multiple methods).
-* `[`Snowpack`albedo`
-`measurements`](procedures:snowpackalbedo)\
-* `[`Measuring`snowpack`dust`
-`loading`](procedures:snowpackdustloading)(natural or artificial). `
+* Measuring snowmelt (SWE disappearance) is best done by sampling the snowpack with a Federal Sampler as described on the [SWE`
+`measurement](procedures:measuringswe)page.
+* [Measuring`sublimation`at`the`snow`
+`surface](procedures:snowsurfacesublimation)(multiple methods).
+* [Snowpack`albedo`
+`measurements](procedures:snowpackalbedo)\
+* [Measuring`snowpack`dust`
+`loading](procedures:snowpackdustloading)(natural or artificial). `

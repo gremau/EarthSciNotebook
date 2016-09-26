@@ -38,9 +38,9 @@ taken, and parameters used to model incoming radiation, are stored in a
 file called a //.scn// file. These can be loaded for multiple photos.
 The settings used for Hidden Canyon are shown below as an example.
 
-- The top of the photos that I take are referenced to magnetic North and need to be adjusted with the appropriate declination. Calculate this at `[`this`
+- The top of the photos that I take are referenced to magnetic North and need to be adjusted with the appropriate declination. Calculate this at [this`
 `NGDC`
-`site`](http://www.ngdc.noaa.gov/geomag-web/#declination)`.
+`site](http://www.ngdc.noaa.gov/geomag-web/#declination)`.
 - Lens projection is Polar (azimuthal equidistant) for Sigma lenses.
 - Topographic mask: This is a vector of azimuth and zenith angles that masks the horizon line if there are ridglines, mountains, etc that block the sun at the photographic location for part of the day. These can be generated with a GIS, or with the provided software. They can be saved in a //.msk// file for use with multiple photos. Currently I just pick a photo and fuss with the array values until it looks right.`
 

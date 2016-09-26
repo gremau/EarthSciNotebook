@@ -23,7 +23,7 @@ This log mainly covers ...
  **4/25/2013**
 
 * Have begun grinding flask soils from July 1, 2011
-* Working on method for %C and 13C of soil extractions (fumigated and non-fumigated). See `[`here`](soilanalysis)
+* Working on method for %C and 13C of soil extractions (fumigated and non-fumigated). See [here](soilanalysis)
 
  **4/11/2013**
 
@@ -46,8 +46,8 @@ system. I will place them under version control with
  **2/7/2013**
 
 * We now have all the soil CO2 data back from Brad and it all plots fine in MATLAB.
-* I'm making a `[`data`QC`
-`page`](niwot_girdling:data_qc)to keep track of how we clean this dataset.`
+* I'm making a [data`QC`
+`page](niwot_girdling:data_qc)to keep track of how we clean this dataset.`
 
  **1/31/2013**
 

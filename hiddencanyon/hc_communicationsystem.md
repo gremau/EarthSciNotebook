@@ -9,8 +9,8 @@ a wireless modem and three spread-spectrum radios.
 
 ### Sierra Wireless Raven XTG Modem (1)
 
-* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the `[`Met`
-`tower`](hiddencanyon:mettowers)`.
+* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the [Met`
+`tower](hiddencanyon:mettowers)`.
 * Connected to the internet via the AT&T wireless network
 * Fixed IP address
 * Modem can be configured with Sierra's AceManager program on a Windows machine.`

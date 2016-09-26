@@ -3,11 +3,11 @@
 Resources
 ---------
 
-* `[`Mercurial:`The`Definitive`
-`Guide`](http://hgbook.red-bean.com/read/)- an online copy of Sullivan book published by O'Reilly.
-* `[`Mercurial`
-`wiki`](http://mercurial.selenic.com/wiki/)\
-* `[`HgInit`tutorial`](http://hginit.com/index.html)
+* [Mercurial:`The`Definitive`
+`Guide](http://hgbook.red-bean.com/read/)- an online copy of Sullivan book published by O'Reilly.
+* [Mercurial`
+`wiki](http://mercurial.selenic.com/wiki/)\
+* [HgInit`tutorial](http://hginit.com/index.html)
 
 Installing and configuring
 --------------------------

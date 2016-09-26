@@ -5,7 +5,7 @@
 These were run for %C and δ^13^C at
 [SIRFER](http://sirfer.utah.edu/).
 
-* `[`Soil`prep`](procedures:ea-irms_soilprep)methods.`
+* [Soil`prep](procedures:ea-irms_soilprep)methods.`
 
 ## Soil extracts
 
@@ -47,7 +47,7 @@ run the CO~2~ to the mass spec from the Gasbench. Here is a proposed
 outline:
 
 - Prepare sugar standard extracts (for testing and as reference material during analysis)
-  - See `[`here`](procedures:soilextract_13c#Sugar_Standards)\
+  - See [here](procedures:soilextract_13c#Sugar_Standards)\
 - Place a small amount of extract in an Exetainer.
 - Scrub out all CO`~`2`~in the headspace of the vial (vacuum?).
 - Add an oxidant to convert C in extracts to CO`~`2`~`. There are multiple possible oxidants.
@@ -58,11 +58,11 @@ outline:
 
 ## References
 
-- `[`Vance`et`
-`al,`](http://dx.doi.org/10.1016/0038-0717(87)90052-6)//An extraction method for measuring soil microbial biomass C//. SBB, 1987
-- `[`Murrage`et`
-`al,`](http://dx.doi.org/10.1016/j.soilbio.2007.01.026)//Modification of the original chloroform fumigation extraction technique to allow measurement of δ13C of soil microbial biomass carbon//. SBB, 2007
-- `[`Potthoff`et`
-`al,`](http://dx.doi.org/10.1016/S0038-0717(03)00151-2)//The determination of d13C in soil microbial biomass using fumigation-extraction//
-- `[`Werth`and`
-`Kuzyakov,`](http://dx.doi.org/10.1016/j.soilbio.2010.04.009)//13C fractionation at the root-microorganisms-soil interface: A review and outlook for partitioning studies// SBB, 2010`
+- [Vance`et`
+`al,](http://dx.doi.org/10.1016/0038-0717(87)90052-6)//An extraction method for measuring soil microbial biomass C//. SBB, 1987
+- [Murrage`et`
+`al,](http://dx.doi.org/10.1016/j.soilbio.2007.01.026)//Modification of the original chloroform fumigation extraction technique to allow measurement of δ13C of soil microbial biomass carbon//. SBB, 2007
+- [Potthoff`et`
+`al,](http://dx.doi.org/10.1016/S0038-0717(03)00151-2)//The determination of d13C in soil microbial biomass using fumigation-extraction//
+- [Werth`and`
+`Kuzyakov,](http://dx.doi.org/10.1016/j.soilbio.2010.04.009)//13C fractionation at the root-microorganisms-soil interface: A review and outlook for partitioning studies// SBB, 2010`

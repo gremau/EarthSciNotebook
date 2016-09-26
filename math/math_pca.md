@@ -13,8 +13,8 @@
 
   * In descriptive studies it is often best to include all numerical variables measured.
   * Probably best to leave out the dependent variables you are interested in.
-  * Check each variable for normality (`[`see`
-`here`](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/)`)?
+  * Check each variable for normality ([see`
+`here](http://www.r-bloggers.com/normality-tests-don%E2%80%99t-do-what-you-think-they-do/)`)?
   * Log transform each variable?
   * Sometimes rare observations can be excluded.`
 
@@ -90,12 +90,12 @@ ordination axes.
 
 ## Some resources
 
-* `[`Short`
-`tutorial`](http://www.iiap.res.in/astrostat/tuts/pca.html)\
-* An `[`in-depth`
-`tutorial`](http://strata.uga.edu/software/pdf/pcaTutorial.pdf)using R.
-* An `[`in-depth`
-`tutorial`](http://www.snl.salk.edu/~shlens/pca.pdf)with MATLAB code.
-* Another `[`in-depth`
-`tutorial`](http://scholar.google.com/scholar_url?hl=en&q=http://www.sccg.sk/~haladova/principal_components.pdf&sa=X&scisig=AAGBfm3brQ976aczTJEORvef-6Eq4UZEFg&oi=scholarr)with MATLAB code.
+* [Short`
+`tutorial](http://www.iiap.res.in/astrostat/tuts/pca.html)\
+* An [in-depth`
+`tutorial](http://strata.uga.edu/software/pdf/pcaTutorial.pdf)using R.
+* An [in-depth`
+`tutorial](http://www.snl.salk.edu/~shlens/pca.pdf)with MATLAB code.
+* Another [in-depth`
+`tutorial](http://scholar.google.com/scholar_url?hl=en&q=http://www.sccg.sk/~haladova/principal_components.pdf&sa=X&scisig=AAGBfm3brQ976aczTJEORvef-6Eq4UZEFg&oi=scholarr)with MATLAB code.
 * Much of this page is summarized from //Multivariate Statistics for the Environmental Sciences// by Peter J. A. Shaw.`

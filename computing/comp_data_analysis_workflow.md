@@ -3,7 +3,7 @@
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
-**See also:** [[General programming|comp_programming]] page.
+**See also:** [General programming](comp_programming) page.
 
 ## Filesystem
 
@@ -28,7 +28,7 @@ through the data analysis process.
         * **symlink to ../rawdata/project_2/**
         * **m/**
         * ...
-  * **`*`archive/`*`** - same as above but for projects that are completed/not maintained
+  * **`archive/`** - same as above but for projects that are completed/not maintained
     *  **oldproject_1/**
   * **`rawdata`**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
     * **project_1/**
@@ -45,8 +45,8 @@ This refers to current projects, each of which is stored in a
 ### Data collected in the field or lab
 
 - In general, this data must be transcribed from field sheets, downloaded from instruments, formatted, etc, and this is most often done using spreadsheets or text files. 
-  - Some formatting, editing, or summary creation of textfiles can be done with `[`shell`
-`scripts`](procedures:shellscripts)`, `[`procedures:awk`](procedures:awk)`, etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
+  - Some formatting, editing, or summary creation of textfiles can be done with [shell`
+`scripts](procedures:shellscripts)`, [procedures:awk](procedures:awk)`, etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
 - Processed data can be exported as a textfile to the **projectname/data_analysis/processed_data/** directory, or put in the rawdata/ directory (if it fits criteria above).
 - Data is then processed and analyzed with python, matlab, or other scripts located in the **projectname/data_analysis/** directory
 - This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.`
@@ -64,8 +64,7 @@ The generalized workflow looks like this:
 ### Data from elsewhere
 
 - Often this is downloaded as text data (ie, from SNOTEL, etc) in (hopefully) quality-checked form. However some munging may be necessary to trim, format, or otherwise make the data easier to use 
-  - Probably use `[`shell`
-`scripts`](procedures:shellscripts)`, `[`procedures:awk`](procedures:awk)`, etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
+  - Probably use [shell scripts](procedures:shellscripts)`, [procedures:awk](procedures:awk)`, etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
 - Data can then be directly placed in the **~/data/rawdata/projectname/** directory
 - Follow steps 3 & 4, as above.`
 

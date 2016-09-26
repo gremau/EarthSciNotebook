@@ -25,7 +25,7 @@ to remember when coding these:
 ### Mean
 
 * Use `*`filter`*in MATLAB if there is no missing data.
-* `[`moving_average`](http://www.mathworks.com/matlabcentral/fileexchange/12276-movingaverage-v3-1-mar-2008)MATLAB`
+* [moving_average](http://www.mathworks.com/matlabcentral/fileexchange/12276-movingaverage-v3-1-mar-2008)MATLAB`
 
 ### Median
 
@@ -35,20 +35,20 @@ to remember when coding these:
 
 ### Standard Deviation
 
-* A `[`MATLAB`
-`implementation`](http://www.mathworks.com/matlabcentral/fileexchange/9428-moving-window-standard-deviation)
+* A [MATLAB`
+`implementation](http://www.mathworks.com/matlabcentral/fileexchange/9428-moving-window-standard-deviation)
 
 ## Filtering/smoothing
 
 Links:
 ------
 
-  * Hampel filter `[`implementation`in`
-`Matlab`](http://www.mathworks.com/matlabcentral/fileexchange/34795-outlier-detection-and-removal-hampel)(on Matlab Central).
-  * `[`Robert`Pearson's`
-`blog`](http://exploringdatablog.blogspot.com/search/label/data%20cleaning)posts on data cleaning, particularly the Hampel filter.
-  * Another `[`article`by`Ron`
-`Pearson`](http://www.edn.com/design/systems-design/4340430/Scrub-data-with-scale-invariant-nonlinear-digital-filters)on different non-linear filtering methods.`
+  * Hampel filter [implementation`in`
+`Matlab](http://www.mathworks.com/matlabcentral/fileexchange/34795-outlier-detection-and-removal-hampel)(on Matlab Central).
+  * [Robert`Pearson's`
+`blog](http://exploringdatablog.blogspot.com/search/label/data%20cleaning)posts on data cleaning, particularly the Hampel filter.
+  * Another [article`by`Ron`
+`Pearson](http://www.edn.com/design/systems-design/4340430/Scrub-data-with-scale-invariant-nonlinear-digital-filters)on different non-linear filtering methods.`
 
 ## Mean of multiple timeseries (aggregate)
 
@@ -83,9 +83,9 @@ Method for deconstructing a time series into notional components:
 
 ## Multivariate models
 
-*`[`TSA`package`for`
-`R`](http://cran.r-project.org/web/packages/TSA/)\
-*A bunch of resources in `[`this`](http://stackoverflow.com/questions/1714280/multivariate-time-series-modelling-in-r)and `[`this`](http://stats.stackexchange.com/questions/18375/how-to-fit-an-arimax-model-with-r)SE question]]`
+*[TSA`package`for`
+`R](http://cran.r-project.org/web/packages/TSA/)\
+*A bunch of resources in [this](http://stackoverflow.com/questions/1714280/multivariate-time-series-modelling-in-r)and [this](http://stats.stackexchange.com/questions/18375/how-to-fit-an-arimax-model-with-r)SE question]]`
 
 ## Time series regression
 
@@ -93,10 +93,10 @@ This is a way of construction a multiple regression model in which
 values of the dependent and/or independent variables at a previous
 timestep become independent variables in the model.
 
-* `[`http://www.sciencedirect.com/science/article/pii/S0038071712002970`](http://www.sciencedirect.com/science/article/pii/S0038071712002970)
+* [http://www.sciencedirect.com/science/article/pii/S0038071712002970](http://www.sciencedirect.com/science/article/pii/S0038071712002970)
 
 ## R packages
 
-* `[`forecast`](http://cran.r-project.org/web/packages/forecast/index.html)\
-* `[`TSA`
-`package`](http://cran.r-project.org/web/packages/TSA/)
+* [forecast](http://cran.r-project.org/web/packages/forecast/index.html)\
+* [TSA`
+`package](http://cran.r-project.org/web/packages/TSA/)

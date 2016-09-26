@@ -65,7 +65,7 @@ ls -l > ls-l.txt # Writes the output of the ls command to ls-l.txt`
 with a new one. You can also set a "noclobber" option as the default in
 bash.
 
-Redirecting in the opposite directions, *&lt;*, can be used to feed the
+Redirecting in the opposite directions, *<*, can be used to feed the
 contents of a file into a command.
 
 cat < textfile1 > textfile2 # Same as "cp textfile1 textfile2"
@@ -88,9 +88,9 @@ commands with a semicolon.
 * `*`cut`*`: cuts columns out of delimited files
 * `*`tr`*`: (translate) deletes (-d) or replaces characters in a file
 * `*`tail`*`: prints the last //n// lines in a given file (good for removing headers).
-* `*`sed`*commands (see `[`this`
-`tutorial`](http://www.grymoire.com/Unix/Sed.html)`)
-* `[`awk`one`liners`](procedures:awk)
+* `*`sed`*commands (see [this`
+`tutorial](http://www.grymoire.com/Unix/Sed.html)`)
+* [awk`one`liners](procedures:awk)
 
 For example in a particular directory, a list of files with the .csv
 extension can be generated with a simple loop:

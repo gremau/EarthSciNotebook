@@ -12,18 +12,18 @@ Installation began in the fall of 2009.
 
  **Relevant links:**
 
-* These sensor profiles are tied in to the `[`Hidden`Canyon`
-`towers`](hiddencanyon:mettowers)\
-* Plot layouts, snowpack treatments, and profile locations are `[`detailed`
-`here`](hc_ecohydrology:overview)\
-* Profile data is analysed using procedures `[`described`
-`here`](procedures:sensordata_tips)
+* These sensor profiles are tied in to the [Hidden`Canyon`
+`towers](hiddencanyon:mettowers)\
+* Plot layouts, snowpack treatments, and profile locations are [detailed`
+`here](hc_ecohydrology:overview)\
+* Profile data is analysed using procedures [described`
+`here](procedures:sensordata_tips)
 
 ## Objectives
 
 - Record seasonal and interannual changes in soil moisture and temperature at three depths.
-- Provide soil moisture/temperature data to support the `[`ecohydrology`
-`experiments`](hc_ecohydrology:overview)at Hidden Canyon.
+- Provide soil moisture/temperature data to support the [ecohydrology`
+`experiments](hc_ecohydrology:overview)at Hidden Canyon.
 - Measure differences in SM/ST in high and low stand density areas and high and low slope position
 - Measure differences in SM/ST in snowmelt treatment and control plots`
 
@@ -71,8 +71,8 @@ Not working:
 
 * Profile 4d-60cm, Profile 3d-20cm, and Profile 1d-60cm were down from install (roughly) until being replaced on Sept 8th.`
 
-* Profile 2d-60cm is reading too low (all readings are negative) but the shape of the response seems good. The consensus among the Decagon people is that this sensor is either in an airgap or near a rock and it needs to be excavated and reinstalled. --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/08/11 12:10//
+* Profile 2d-60cm is reading too low (all readings are negative) but the shape of the response seems good. The consensus among the Decagon people is that this sensor is either in an airgap or near a rock and it needs to be excavated and reinstalled. --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/08/11 12:10//
 `
 
 ### Campbell CS-616's
@@ -109,11 +109,11 @@ Parameters for reading 615 sensors at the dataloggers
 
 ### Unsolved Campbell sensor problems
 
-* All Campbell sensors in profiles 1 and 3 gave an intermittent error reading (6999) intermittently for several months after install. Wiring has been thoroughly checked, and the MUX seems to work OK with the Decagons. Mysteriously, around April 30th (day 120), this intermittent problem got MUCH less frequent and the sensors gave mostly good data. We're not sure what changed. Data recorded between the intermittent errors (which was very sparse up until the end of April) is in the expected range for the sensors.  --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/08/11 12:04//`
+* All Campbell sensors in profiles 1 and 3 gave an intermittent error reading (6999) intermittently for several months after install. Wiring has been thoroughly checked, and the MUX seems to work OK with the Decagons. Mysteriously, around April 30th (day 120), this intermittent problem got MUCH less frequent and the sensors gave mostly good data. We're not sure what changed. Data recorded between the intermittent errors (which was very sparse up until the end of April) is in the expected range for the sensors.  --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/08/11 12:04//`
 
-* There is one sensor, Profile 3 - 20cm, that is reading too high, though the shape of the response seems to be normal, but reversed. Check this one's wiring. --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/08/11 12:10//`
+* There is one sensor, Profile 3 - 20cm, that is reading too high, though the shape of the response seems to be normal, but reversed. Check this one's wiring. --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/08/11 12:10//`
 
 ### Sentek Envirosmart Probes
 
@@ -122,24 +122,24 @@ More to come on this later.
 
 ### Multiplexers
 
-* Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the `[`forest`
-`tower`](hiddencanyon:mettowers)`.
-* Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the `[`forest`
-`tower`](hiddencanyon:mettowers)`.
+* Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the [forest`
+`tower](hiddencanyon:mettowers)`.
+* Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the [forest`
+`tower](hiddencanyon:mettowers)`.
 * Profiles 5 and 7 are multiplexed at Mux 3, a Campbell AM 16/32 at about 48E and 25N.
-* More on wiring and programming for these instruments is in `and on the `[`Hidden`
-`Canyon`datalogger`page`](hiddencanyon:dataloggers)`.`
+* More on wiring and programming for these instruments is in `and on the [Hidden`
+`Canyon`datalogger`page](hiddencanyon:dataloggers)`.`
 
 ## 2010 Soil profile log
 
-* CS-615 sensors in Profile 2 began working as of 14 Jan, 2010 (New EDLOG program)--- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/01/15 11:03//
-* Decagon sensors in Profile 4d-60cm, Profile 3d-20cm, Profile 1d-60cm are not working. Tested these three sensors with a direct connection to a datalogger at the sensor leads and they all appear to be dead (-INF signal in Loggernet). --- //`[`Greg`
-`Maurer`](primaryproductivity@gmail.com)2010/02/19 08:15//
+* CS-615 sensors in Profile 2 began working as of 14 Jan, 2010 (New EDLOG program)--- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/01/15 11:03//
+* Decagon sensors in Profile 4d-60cm, Profile 3d-20cm, Profile 1d-60cm are not working. Tested these three sensors with a direct connection to a datalogger at the sensor leads and they all appear to be dead (-INF signal in Loggernet). --- //[Greg`
+`Maurer](primaryproductivity@gmail.com)2010/02/19 08:15//
 * Three malfunctioning sensors (4d-60, 3d-20, 1d-60) were replaced Sept 8, 2010. They appear to work.
-* Renumbered site plots and profiles. Plots are 1-6 in order from east to west, profiles are sequential starting downslope in plot 1 (Profile 1), upslope plot 1 (Profile 2), downslope plot 2 (Profile 3), etc... See the `[`experimental`
+* Renumbered site plots and profiles. Plots are 1-6 in order from east to west, profiles are sequential starting downslope in plot 1 (Profile 1), upslope plot 1 (Profile 2), downslope plot 2 (Profile 3), etc... See the [experimental`
 `design`
-`page`](hc_ecohydrology:overview)for more details on this.
+`page](hc_ecohydrology:overview)for more details on this.
 * Installed new profiles, numbers 5 and 7, in early October. These have Campbell CS-616s and 107 thermistors at each depth.
 * Rewired and reordered sensors at Mux 1 and 2, installed Mux 3 and wired profiles 5 and 7 to it. Forest 1 datalogger was down from Oct 8th to the 15th. 
 * Installed new Forest1 datalogger program (v4) and the new Forest1 measurement scheme became operational at ~2:30pm Oct 16th.

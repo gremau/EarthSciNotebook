@@ -6,14 +6,14 @@ track them as they are processed and analyzed.
  **See also:**
 
 * The sampling spreadsheet in the project directory logs EVERY sample returned from the field.
-* The `[`Sample`processing`
-`log`](sampleprocessinglog_1)provides day-to-day accounts of work on these samples.
-* The `[`SNOTEL`visit`
-`log`](snotellog_1)for notes on site visits.
-* The `[`field`
-`protocol`](snotelfieldprotocol)describes field methods and samples collected during SNOTEL site visits.
-* The `[`initial`processing`
-`procedures`](snotelsampleprocessing)for samples. This links to other procedures.`
+* The [Sample`processing`
+`log](sampleprocessinglog_1)provides day-to-day accounts of work on these samples.
+* The [SNOTEL`visit`
+`log](snotellog_1)for notes on site visits.
+* The [field`
+`protocol](snotelfieldprotocol)describes field methods and samples collected during SNOTEL site visits.
+* The [initial`processing`
+`procedures](snotelsampleprocessing)for samples. This links to other procedures.`
 
 ## Inital processing and SIRFER analysis table
 

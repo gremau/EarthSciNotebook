@@ -86,8 +86,8 @@ for the ratio of the Fenton's reagent components ([H~2~O~2~]:[Fe++]
 that additional H~2~O~2~ will increase the completion of the oxidation
 reaction. So, to be safe, we'll use these ratios to start
 
-* [H`~`2`~`O`~`2`~`]:[Fe++] = 4.5:1
-* [H`~`2`~`O`~`2`~`]:[COD] = 12:1, 
+* [H`~`2`~`O`~`2`~]:[Fe++] = 4.5:1
+* [H`~`2`~`O`~`2`~]:[COD] = 12:1, 
 * pH = 4 (or less)`
 
 For each µmol of sample C, we need at least 12 µmol H~2~O~2~ and 2.6
@@ -198,7 +198,7 @@ respectively.
 
 #### Procedure
 
-- Determine expected concentrations to create a test range. For the Niwot-FEF soils, see `[`here`](niwot_girdling:soilanalysis)`.
+- Determine expected concentrations to create a test range. For the Niwot-FEF soils, see [here](niwot_girdling:soilanalysis)`.
   - Using similar data gathered by Nicole Trahan we determined a rough range of concentrations of carbon that might be present in our soil samples, and that we would want to test with the sugar standards. Nicole had concentrations ranging from 200-2500 micrograms of carbon per gram of soil. Our extracts have 5 grams of soil per 25 milliliters, so the desired test range we calculated for our soil was 40 – 500 micrograms of carbon per milliliter of extract. We divided the range into five, and included a low value to come up with the test concentrations of 20, 40, 150, 270, 380, and 500 micrograms of carbon.
 - Make 1 L of a 0.5 M K`~`2`~`SO`~`4`~solution
 - Add 500 ml of DI water to a 500 ml volumetric flask 
@@ -223,5 +223,5 @@ oven
 
 ## References
 
-* Benatti, C. T., C. R. G. Tavares, and T. A. Guedes (2006), Optimization of Fenton’s oxidation of chemical laboratory wastewaters using the response surface methodology, Journal of Environmental Management, 80(1), 66–74, `[`doi:10.1016/j.jenvman.2005.08.014`](doi:10.1016/j.jenvman.2005.08.014)`.
-* Benatti, C. T., C. R. G. Tavares, and E. Lenzi (2009), Sulfate removal from waste chemicals by precipitation, Journal of Environmental Management, 90(1), 504–511, `[`doi:10.1016/j.jenvman.2007.12.006`](doi:10.1016/j.jenvman.2007.12.006)`.`
+* Benatti, C. T., C. R. G. Tavares, and T. A. Guedes (2006), Optimization of Fenton’s oxidation of chemical laboratory wastewaters using the response surface methodology, Journal of Environmental Management, 80(1), 66–74, [doi:10.1016/j.jenvman.2005.08.014](doi:10.1016/j.jenvman.2005.08.014)`.
+* Benatti, C. T., C. R. G. Tavares, and E. Lenzi (2009), Sulfate removal from waste chemicals by precipitation, Journal of Environmental Management, 90(1), 504–511, [doi:10.1016/j.jenvman.2007.12.006](doi:10.1016/j.jenvman.2007.12.006)`.`

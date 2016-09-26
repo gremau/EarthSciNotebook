@@ -42,8 +42,8 @@ to remove carbonate carbon, as this does not come directly from organic
 matter in the soil. Such soils include alkaline soils or dry soils, but
 could also include soils that derived from carbonate rocks.
 
-* `[`Procedure`for`acid`treatment`of`
-`soil`](procedures:soilacidtreatment)
+* [Procedure`for`acid`treatment`of`
+`soil](procedures:soilacidtreatment)
 
 ## Weighing samples into tin capsules
 

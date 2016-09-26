@@ -28,27 +28,27 @@ Possible influences include:
 
 ## Methods
 
-* `[`Data`
-`sources/collection`](west_stationdata:data)for western U.S. climate and soils data.
-* `[`Data`quality`
-`control`](west_stationdata:data_qc)- Bad data removal procedures
-* `[`Data`analysis`
-`log`](west_stationdata:analysislog_1)
-* `[`Programming`
-`documentation`](west_stationdata:programdocs)\
-* `[`Statistics`](statistics)- Multiple regression and PCA.
+* [Data`
+`sources/collection](west_stationdata:data)for western U.S. climate and soils data.
+* [Data`quality`
+`control](west_stationdata:data_qc)- Bad data removal procedures
+* [Data`analysis`
+`log](west_stationdata:analysislog_1)
+* [Programming`
+`documentation](west_stationdata:programdocs)\
+* [Statistics](statistics)- Multiple regression and PCA.
 * Data will be analyzed for mountain and lowland sites in the interior western U.S., including the stats of AZ, CO, ID, MT, NM, NV, UT, and WY.`
 
 ## Results
 
-* `[`Preliminary`data`and`activity`
-`log`](west_stationdata:analysislog_1)\
-* `[`Publication`
-`outline`](west_stationdata:publicationoutline)- Journal article outline, including figures and discussion.`
+* [Preliminary`data`and`activity`
+`log](west_stationdata:analysislog_1)\
+* [Publication`
+`outline](west_stationdata:publicationoutline)- Journal article outline, including figures and discussion.`
 
 ## Related projects
 
-* `[`Western`U.S.`montane`forest`
-`soils`](west_soils:framework)\
-* `[`Radiocarbon`in`western`U.S.`montane`forest`
-`soils`](west_radiocarbon:framework)
+* [Western`U.S.`montane`forest`
+`soils](west_soils:framework)\
+* [Radiocarbon`in`western`U.S.`montane`forest`
+`soils](west_radiocarbon:framework)
