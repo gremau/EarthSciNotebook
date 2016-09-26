@@ -9,8 +9,8 @@ editors, or testing tools, and notes/tips for using them effectively.
 Notes about data analysis techniques/conventions, independent of
 language/interface.
 
-  * [Sensor data tips](sensordata_tips) - collected notes on working with continuous sensor timeseries (from dataloggers, SNOTEL sites, etc.
-  * [Data analysis workflow](data_analysis_workflow) - Greg's notes on collecting, storing, and moving data through the analysis process.
+  * [Sensor data tips](comp_sensordata_tips.md) - collected notes on working with continuous sensor timeseries (from dataloggers, SNOTEL sites, etc.
+  * [Data analysis workflow](comp_data_analysis_workflow) - Greg's notes on collecting, storing, and moving data through the analysis process.
 
 ## Text editing and data file handling
 
