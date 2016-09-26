@@ -52,7 +52,7 @@ type matches one of these are printed. For example:
 
 ~~~
 #This will list functions and strings, excluding all other types of variables
-%who function str`
+%who function str
 ~~~
 
 ### %edit

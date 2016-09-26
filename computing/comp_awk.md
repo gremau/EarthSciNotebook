@@ -10,7 +10,7 @@ Back to [general programming page](comp_programming)
 Code blocks, which are executed for each line of the text file, are in
 curly braces:
 
-~~~ 
+~~~{.awk} 
 awk '{ print }' AZ_soilstations.csv
 # this will print the AZ_soilstations.csv file to the shell (assuming it is in the current working directory).
 ~~~
@@ -18,7 +18,7 @@ awk '{ print }' AZ_soilstations.csv
 Awk can operate each line of the file as a whole, or in fields
 separated by a special character:
 
-~~~
+~~~{.awk}
 awk '{ print $0 }' AZ_soilstations.csv
 # this prints the whole line
 
@@ -29,7 +29,7 @@ awk '{ print $1 }' AZ_soilstations.csv
 The field separator (FS) can be set prior to running the code
 block:
 
-~~~
+~~~{.awk}
 $ awk -F"," '{ print $1 " " $3 }' AZ_soilstations.csv
 # prints the first and third column of this comma delimited field
 ~~~ 
@@ -38,7 +38,7 @@ Expressions, such as pattern matching, can be added before the
 code block. The following will output the network, station id, state,
 and name of all scan sites in the file:
 
-~~~ 
+~~~{.awk}
 awk -F"," '/scan/ { print $1 " " $2 " " $9 " " $12 }' AZ_soilstations.csv
 # search expressions should be surrounded with forward slashes.
 # outputs: scan 2026 AZ WALNUT GULCH #1
@@ -46,7 +46,7 @@ awk -F"," '/scan/ { print $1 " " $2 " " $9 " " $12 }' AZ_soilstations.csv
 
 Comparison expressions (==, <, >, <=, >=, !=, plus ~ (matches) and !~) can also be used:
 
-~~~
+~~~{.awk}
 awk -F"," '$1=="snotel" { print $1 " " $2 " " $9 " " $12 }' AZ_soilstations.csv
 
 # Outputs:
@@ -59,7 +59,7 @@ snotel 861 AZ WHITE HORSE LAKE
 
 As can logical expressions such as AND (&&) and OR (||):
 
-~~~
+~~~{.awk}
 awk -F "," '( $1 == "snotel" ) && ( $7 > 7000 ) { print }' AZ_soilstations.csv
 # prints only the lines of AZ snotel sites above 7000 ft elevation
 ~~~
@@ -117,7 +117,7 @@ This would remove **one or more** (+ in pattern) **leading** (\^ in pattern) spa
 This would remove one or more leading spaces **or tabs** (brackets join multiple
 search terms) in the fifth column only (the $5 marks column 5):
 
-~~~ 
+~~~{.awk}
 awk -F"," ' BEGIN{OFS=","} { gsub(/\^ +/,"", $5); print }' AZ_soilstations.csv
 
 # Prints the entire .csv file, spaces are removed from column 5.
@@ -128,18 +128,19 @@ awk -F"," ' BEGIN{OFS=","} { gsub(/\^ +/,"", $5); print }' AZ_soilstations.csv
 To do the same operation on several fields just add another
 statement to the code block:
 
-~~~
+~~~{.awk}
 awk -F"," ' BEGIN{OFS=","} { gsub(/^ +/,"", $5); gsub(/^ +/,"", $7); print }' AZ_soilstations.csv
 ~~~
 
 This command will print a textfile containing sitenumbers for each of a sites SNOTEL files in a data directory with filenames like 828_ALL_WATERYEAR=2002.csv (all files begin with an integer site code and there are files for multiple years in the directory).:
 
-~~~
+~~~{.bash}
  ls *.csv | awk -F"_" '{print $1}' >  sitelist.txt
 ~~~
 
 This nifty bash command moves and renames an entire directory of files with awk:
-~~~ 
+
+~~~{.bash}
 ls junk\* | awk '{print "mv"$0" ../trashdir/"$0".dat"}' | bash
 
 # No pattern to match, so for each line of input piped in by ls, prints mv junk1 ../trashdir/junk1.dat ....etc to bash
@@ -150,7 +151,7 @@ ls junk\* | awk '{print "mv"$0" ../trashdir/"$0".dat"}' | bash
 BEGIN blocks allow initialization code (such as setting variables)
 before running the code block on each line of the input file:
 
-~~~
+~~~{.awk}
 BEGIN { 
         FS=":" 
 } 
@@ -160,7 +161,7 @@ BEGIN {
 
 End blocks do end of script reporting or calculations:
 
-~~~
+~~~{.awk}
 BEGIN { x=0 } 
 /^$/  { x=x+1 } 
 END   { print "I found " x " blank lines. :)" }

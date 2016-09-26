@@ -41,7 +41,7 @@ job, but there will still be formatting to make it look nice. Once you
 have some data to format into a LaTeX table, this is the traditional way
 to do it:
 
-~~~
+~~~{.latex}
 \begin{tabular}{|c|c|c|}
 \hline
 A & B & C\\
@@ -57,7 +57,7 @@ A better way is to use the
 [Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/)
 package, and use something like this:
 
-~~~
+~~~{.latex}
 \begin{tabular}{ccc}
 \toprule
 A & B & C\\
