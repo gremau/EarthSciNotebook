@@ -5,7 +5,8 @@ combined with some numerical, scientific, and plotting packages, makes a
 very powerful tool for scientific computing and data analysis (similar
 to Matlab). Useful python extensions for this application are
 [NumPy](http://numpy.scipy.org/),
-[SciPy](http://www.scipy.org/),[Matplotlib](http://matplotlib.sourceforge.net/),
+[SciPy](http://www.scipy.org/),
+[Matplotlib](http://matplotlib.sourceforge.net/),
 [IPython](http://ipython.org/), and
 [SciKits](http://scikits.appspot.com/scikits). This page
 collects some general tips on developing Python code.

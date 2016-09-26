@@ -14,7 +14,7 @@ Be sure to install:
 
 ## Basic use
 
-`pandoc -owrites output to the file following the `-o`, with
+`pandoc -o` writes output to the file following the `-o`, with
 formatting based on the file extension. For example, the following
 command creates a pdf file from a text file (via pdflatex):
 
@@ -31,18 +31,18 @@ conversion.
 
 ### Passing variables
 
-The `-V(or `--variable`) option changes formatting, fonts, or other
+The `-V` (or `--variable`) option changes formatting, fonts, or other
 settings during a pandoc conversion.
 
     pandoc cover_master.txt -V geometry:margin=1.5in -o  cover_master.pdf
     # create pdf with 1.5in margins
 
-Other variables that can be passed with `-Vare
+Other variables that can be passed with `-V` are
 [here](http://johnmacfarlane.net/pandoc/README.html#templates)
 
 ### Include in header
 
-When `-s(or `--standalone`) is used, pandoc adds the header and footers
+When `-s` (or `--standalone`) is used, pandoc adds the header and footers
 needed for a standalone document in the output format. To see the
 default template used, type `pandoc -D FORMAT`. There are a couple of
 ways to change what is in this header. The `-H=FILE`
@@ -58,7 +58,7 @@ file before creating the pdf.
 A custom template for the output document header can also be specified
 using `--template=FILE`, where FILE is the custom template. If this
 option is specified, pandoc first looks in the current directory, then
-the user template directory ($HOME/.pandoc/templates`), and then in
+the user template directory (`$HOME/.pandoc/templates`), and then in
 the default template directory (`/usr/share/pandoc...`). Templates
 should end with an extension for the output format (.latex, .html, etc).
 To create a new template, copy the default for the given output format
@@ -80,19 +80,21 @@ using packages, etc. A couple I use for pdfs of journal articles are:
 
 ### Other formatting
 
-    --toc                  # Automatically create a table of contents
-    --toc-depth            # Specify the header levels to be used in table of contents (implies --toc)
-    --reference-odt=FILE   # Use the FILE stylesheets as a template for .odt output.
+ Option                 Result
+-------                 -------
+`--toc`                  # Automatically create a table of contents
+`--toc-depth`            # Specify the header levels to be used in table of contents (implies --toc)
+`--reference-odt=FILE`   # Use the FILE stylesheets as a template for .odt output.
     Best if FILE was created with pandoc, then modified.
-    --reference-docx=FILE  # Use the FILE stylesheets as a template for .docx output.
-    --latex-engine=ENGINE  # Choose the pdflatex|lualatex|xelatex interpreters,
+`--reference-docx=FILE`  # Use the FILE stylesheets as a template for .docx output.
+`--latex-engine=ENGINE`  # Choose the pdflatex|lualatex|xelatex interpreters,
     needed for some formatting in pdf files.`
 
 ## Citations and bibliographies
 
 Pandoc is capable of including citations from an associated
 bibliographic database (usually a BibTex file). Citations in a pandoc
-markdown file look like this: *[@citationid]* , where *citationid* is
+markdown file look like this: `[@citationid]` , where `citationid` is
 defined in the associated .bib file. To convert a pandoc file with
 citations, run:
 
@@ -100,15 +102,15 @@ citations, run:
 
 A bibliography will be automatically written after the *References*
 heading, if it is included. Citation and bibliography formatting can be
-specified with *--csl=FILE*, where FILE is a .csl file (found at
+specified with `--csl=FILE`, where `FILE` is a .csl file (found at
 <http://citationstyles.org>). Natbib and biblatex can be used in LaTeX
 output (pdf) by including them as commandline options.
 
 ## Working with LaTeX
 
 Pandoc markdown is a nice way to draft LaTeX documents. Pandoc can be
-rendered to TeX (*-o document.tex*), or rendered as a PDF via *pdflatex*
-(*-o document.pdf*). Raw TeX and LaTeX can be included in a markdown
+rendered to TeX (`-o document.tex`), or rendered as a PDF via `pdflatex`
+(`-o document.pdf`). Raw TeX and LaTeX can be included in a markdown
 document and it will be passed to the pdflatex writer. For more info on
 LaTeX/Tex systems see [this page](procedures:latextips).
 
