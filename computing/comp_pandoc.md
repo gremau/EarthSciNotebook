@@ -80,7 +80,7 @@ using packages, etc. A couple I use for pdfs of journal articles are:
 
 ### Other formatting
 
-                 Option   Result
+                 Option | Result
 ----------------------- | -----------------------------------------------------------------------------------------------------------
 `--toc`                 | Automatically create a table of contents
 `--toc-depth`           | Specify the header levels to be used in table of contents (implies --toc)
