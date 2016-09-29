@@ -34,6 +34,4 @@ Or - remove in all files with sed:
     find . -type f -exec sed -i 's/-   -   / **/g' {} +
 
 
-The first page to be complete is [[start]]
-
-[[pandoc]]
+The first page to be complete is [Start](start.md)
