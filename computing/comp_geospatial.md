@@ -14,5 +14,7 @@ There are a few links. That is all.
   * [GRASS desktop GIS](http://grass.osgeo.org/)- geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization.
   * [Qgis](http://qgis.osgeo.org/)- a more user friendly desktop GIS that supports vector, raster, and database formats and offers integration with GRASS.
   * [GDAL libraries](http://www.gdal.org/)- translator library for many raster geospatial data formats (Geospatial Data Abstraction Library)
-  * [OGR libraries](http://www.gdal.org/ogr/index.html)- translator library for simple features vector data (related to GDAL).
-* [NCO](http://nco.sourceforge.net/)- a collection of utilities that aid manipulation and analysis of gridded scientific data (like climate/circulation data).
+  * [OGR libraries](http://www.gdal.org/ogr/index.html)- translator library for simple features vector data (nowadays a subset of GDAL).
+* [NCO](http://nco.sourceforge.net/)- a collection of utilities that aid manipulation and analysis of gridded scientific data (like climate/circulation data)
+* [GDAL/OGR bindings for Python](https://pypi.python.org/pypi/GDAL/) - the bindings to allow Python to call GDAL and OGR (syntax mostly follows the C++ class definitions)
+    - [This site](https://pcjericks.github.io/py-gdalogr-cookbook/index.html) provides some examples of how to use the bindings)
