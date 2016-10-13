@@ -3,19 +3,14 @@
 NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
 
- **See also:** [Python tips](procedures:pythontips),
+ **See also:** [Python tips](computing/comp_pythontips.md),
         [General programming](procedures:programming) pages.
 
 ## Date/time objects and arrays
 
 ### Python *datetime* module
 
-Python's *datetime* module suplies the core functionality for handling
-datetime objects. Descriptions of its core classes, and their attribute
-and methods are briefly covered
-[here](procedures:pythontips#The_datetime_module), or see
-Python's more extensive [Datetime library
-reference](http://docs.python.org/library/datetime.html).
+Python's *datetime* module suplies the core functionality for handling datetime objects. Descriptions of its core classes, and their attribute and methods are briefly covered [here](computing/comp_pythontips.md), or see Python's more extensive [Datetime library reference](http://docs.python.org/library/datetime.html).
 
 #### Input/output datetime arrays with NumPy
 
@@ -43,10 +38,7 @@ datetxt = genfromtxt(datapath + 'swe.txt', skiprows=2, delimiter=',',
 
 #### Datetimes in NumPy itself
 
-New in NumPy 1.7 is a core datatype for datetime objects
-called*datetime64*. It should implement similar functionality as above,
-but a little more automatically -
-see[here](http://docs.scipy.org/doc/numpy/reference/arrays.datetime.html).
+New in NumPy 1.7 is a core datatype for datetime objects called `datetime64`. It should implement similar functionality as above, but a little more automatically - see[here](http://docs.scipy.org/doc/numpy/reference/arrays.datetime.html).
 
 ## Masking invalid/missing values in arrays
 
@@ -95,13 +87,13 @@ In [6]: x[test]
 Out[6]: array([10, 9, 8, 7, 6, 5])
 ~~~
 
-More on using boolean index arrays
-[here](http://docs.scipy.org/doc/numpy/user/basics.indexing.html#boolean-or-mask-index-arrays)
+More on using boolean index arrays [here](http://docs.scipy.org/doc/numpy/user/basics.indexing.html#boolean-or-mask-index-arrays)
 
 #### Nan values
 
 Adding Nan to an array can mask or mark invalid values, and these values
 can then be left out of calculations in various ways.
+
 ~~~{.python}
 #change bad decagon sm sensor data (-6999) to nan
 test = (m == -6999) m[test] = nan
@@ -203,11 +195,8 @@ In [15]: sum(c.data)
 Out[15]: nan
 ~~~
 
-There are other ways to
-construct masked arrays, notably *masked_where* and its aliases
-(*masked_greater, masked_equal, masked_inside*, etc). In addition,
-the masked or unmasked data can be accessed using the mask itself (or
-~mask). 
+There are other ways to construct masked arrays, notably `masked_where` and its aliases (`masked_greater`, `masked_equal`, `masked_inside`, etc). In addition,
+the masked or unmasked data can be accessed using the mask itself (or `!mask`). 
 
 ~~~{.python}
 In [16]: d = ma.masked_where(a>=5, b)
@@ -229,13 +218,7 @@ Out[18]: masked_array(data = [0.0 1.0 3.0 4.0],
 
  **Other things to note:**
 
-The mask argument in *ma.array* must be convertible to a boolean array
-of the same size as the input data array. Adding the *fill_value=x*
-argument will fill in masked values with x. Other arguments for
-contstructing arrays can be found [ma.array function](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ma.array.html#numpy.ma.array)
-description. As a subclass of the numpy.ndarray class, the
-ma.MaskedArray class inherits all its attributes and methods, plus adds
-a few others ([shown here](http://docs.scipy.org/doc/numpy/reference/maskedarray.baseclass.html#numpy.ma.MaskedArray)).
+The mask argument in *ma.array* must be convertible to a boolean array of the same size as the input data array. Adding the `fill_value=x` argument will fill in masked values with x. Other arguments for constructing arrays can be found [ma.array function](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ma.array.html#numpy.ma.array) description. As a subclass of the numpy.ndarray class, the ma.MaskedArray class inherits all its attributes and methods, plus adds a few others ([shown here](http://docs.scipy.org/doc/numpy/reference/maskedarray.baseclass.html#numpy.ma.MaskedArray)).
 
 Lots more info on working with masked arrays: [Masked arrays in the NumPy Reference](http://docs.scipy.org/doc/numpy/reference/maskedarray.html)
 
@@ -244,5 +227,4 @@ Lots more info on working with masked arrays: [Masked arrays in the NumPy Refere
 There is a new NA-masked array introduced in Numpy 1.7 that puts
 NA-masking directly in the core (instead of a separate module).
 
-Details
-[here](http://docs.scipy.org/doc/numpy/reference/arrays.maskna.html).
+Details [here](http://docs.scipy.org/doc/numpy/reference/arrays.maskna.html).

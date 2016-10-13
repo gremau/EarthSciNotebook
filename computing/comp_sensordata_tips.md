@@ -3,9 +3,9 @@
 Collected tips for analyzing data in datalogger output files, SNOTEL
 site datasets, or other continuous timeseries data.
 
- **See also:** [General programming](programming),
-        [Matlab tips](matlabtips), and [Python
-        tips](pythontips) pages.
+ **See also:** [General programming](computing/comp_programming.md),
+        [Matlab tips](computing/comp_matlabtips.md), and [Python
+        tips](computing/comp_pythontips.md) pages.
 
 ## Normalizing sensor timeseries
 
@@ -65,5 +65,5 @@ Many techniques for filtering and smoothing timeseries data are
 explicitly mathematical using moving means, variances, standard
 deviations or other statistics.
 
-See the [timeseries analysis page](/math/timeseries.md) for more,
+See the [timeseries analysis page](/math/math_timeseries.md) for more,
 and for examples.

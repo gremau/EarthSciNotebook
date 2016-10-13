@@ -1,12 +1,8 @@
 # Analysis of Variance (ANOVA)
 
- **General resources **
+ **General resources**
 
-<!-- -->
-
--   [ A
-    tutorial](http://www.psych.upenn.edu/~baron/rpsych/rpsych.html#htoc50)
-    geared towards psychology research.
+[A tutorial](http://www.psych.upenn.edu/~baron/rpsych/rpsych.html#htoc50) geared towards psychology research.
 
 ## One Way
 
@@ -19,8 +15,7 @@ multi-stratum error term can be a part of the model (*lm* does not
 support this). *lme* (from the nlme library'') can also be used for this
 purpose, specifying the error terms in the *random=* argument.
 
-* [A`compendium`of`
-`resources](http://www.r-statistics.com/2010/04/repeated-measures-anova-with-r-tutorials/)\
+* [A compendium of resources](http://www.r-statistics.com/2010/04/repeated-measures-anova-with-r-tutorials/)
 * [http://statistics.ats.ucla.edu/stat/r/seminars/Repeated_Measures/repeated_measures.htm](http://statistics.ats.ucla.edu/stat/r/seminars/Repeated_Measures/repeated_measures.htm)
 
 ## Post-hoc analysis

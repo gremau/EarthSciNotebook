@@ -14,7 +14,7 @@ up. `~/.gvimrc` can be used to set options in the GUI version of Vim.
 
 Files can be encrypted using the `-x` flag. Typing:
 
-    vim -x `<filename>
+    vim -x <filename>
 
 will prompt for a password and then open a new or existing file in
 encrypted mode. This file will subsequently be saved in encrypted form
@@ -70,7 +70,7 @@ regular hyphen-minus using:
 
 I prefer 4 columns of whitespace for each indent in a file, and I prefer
 to use spaces for this, not tabs. This means pressing the <Tab> should
-give a defined number of spaces. This can be set in *~.vimrc*.
+give a defined number of spaces. This can be set in `~.vimrc`.
 
     set expandtab       When <tab>key is pressed, insert spaces, not hard tabs.
     set tabstop=4       Number of columns per tab

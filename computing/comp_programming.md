@@ -122,13 +122,12 @@ and graphics.
 * [R manuals](http://cran.r-project.org/manuals.html)
 * [R wiki](http://rwiki.sciviews.org/doku.php)
 * [knitr](https://github.com/yihui/knitr#readme) - a nice report generating engine for R
-* [My R notes](/computing/rtips.md)
+* [My R notes](computing/rtips.md)
 
 
 ## Math and Stats tools
 
-Many toolboxes are available, either standalone or in Python, R, and
-Matlab, for math and statistical applications. See the [math toolbox page](math/math_toolboxes.md) page.
+Many toolboxes are available, either standalone or in Python, R, and Matlab, for math and statistical applications. See the [math toolbox page](math/math_toolboxes.md) page.
 
 
 ## Testing data analysis functions

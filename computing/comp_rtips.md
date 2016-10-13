@@ -48,15 +48,19 @@ of the chunk to influence how the code is run and incorporated into the
 output of the file. The resulting *.Rmd* file can be converted (from
 within R), by running *knit2html*:
 
-  library(knitr)
-  knit2html(file.Rmd)
+~~~{.r}
+library(knitr)
+knit2html(file.Rmd)
+~~~
 
 #### Stitch
 
 Stitch is knitr's most basic way to output results from an R script:
 
+~~~{.r}
 library('knitr')
 stitch_rhtml('scriptname.r')
+~~~
 
 This outputs an .html file that embeds all code and output (plots,
 tables, objects, etc) in the document. Nicely viewable in a browser.

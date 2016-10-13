@@ -3,12 +3,13 @@
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
-**See also:** [General programming](computing/comp_programming) page.
+**See also:** [General programming](computing/comp_programming.md) page.
 
 ## Filesystem
 
-* **`~/data/` * - on its own partition, regularly backed up
-  *  **`current/` *  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a **`data_analysis` * directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
+* **~/data/** - on its own partition, regularly backed up
+  *  **current/**  - contains directories, organized by project, storing metadata, initial field/lab measurements (usually in spreadsheet form), reports, papers in progress, etc. Each project directory may also contain a **data_analysis** directory storing data analysis functions and scripts, symlinks to the project's **rawdata** directory, and any other processed data needed for data analysis. **THIS DIRECTORY MUST HAVE VERSIONING**
+
     *  **project_1/**
       * Lab and field spreadsheets...
       * Maps of plot locations, etc
@@ -28,9 +29,9 @@ through the data analysis process.
         * **symlink to ../rawdata/project_2/**
         * **m/**
         * ...
-  * **`archive/` * - same as above but for projects that are completed/not maintained
+  * **archive/** - same as above but for projects that are completed/not maintained
     *  **oldproject_1/**
-  * **`rawdata` *  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
+  * **rawdata**  - contains directories for each project, typically storing raw data downloads, datalogger files, or data that has been minimally processed from the initial measurements. This data is usually large in size, is suitable for sharing among many projects, or comprises some contextual information not directly measured in the current project (environmental monitoring data for example).
     * **project_1/**
       * textfile1 (long-term climate measurments from a nearby weather station)
       * textfile2 (datalogger .dat file)
@@ -45,11 +46,10 @@ This refers to current projects, each of which is stored in a
 ### Data collected in the field or lab
 
 - In general, this data must be transcribed from field sheets, downloaded from instruments, formatted, etc, and this is most often done using spreadsheets or text files. 
-  - Some formatting, editing, or summary creation of textfiles can be done with [shell`
-`scripts](procedures:shellscripts), [procedures:awk](procedures:awk), etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
+  - Some formatting, editing, or summary creation of textfiles can be done with [shell scripts](computing/comp_shellscripts.md), [awk](computing/comp_awk.md), etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
 - Processed data can be exported as a textfile to the **projectname/data_analysis/processed_data/** directory, or put in the rawdata/ directory (if it fits criteria above).
 - Data is then processed and analyzed with python, matlab, or other scripts located in the **projectname/data_analysis/** directory
-- This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.`
+- This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.
 
 The generalized workflow looks like this:
 -----------------------------------------
@@ -64,7 +64,7 @@ The generalized workflow looks like this:
 ### Data from elsewhere
 
 - Often this is downloaded as text data (ie, from SNOTEL, etc) in (hopefully) quality-checked form. However some munging may be necessary to trim, format, or otherwise make the data easier to use 
-  - Probably use [shell scripts](procedures:shellscripts), [procedures:awk](procedures:awk), etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
+  - Probably use [shell scripts](computing/comp_shellscripts.md), [awk](computing/comp_awk.md), etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
 - Data can then be directly placed in the **~/data/rawdata/projectname/** directory
 - Follow steps 3 & 4, as above.`
 
@@ -87,7 +87,7 @@ that recur in each project.
 - a loading function
 - a data cleaning function
 - the function(s) that actually do the analysis (calculating, transforming, selecting data)
-- the script(s) that produce reports or plots using the analysis functions above`
+- the script(s) that produce reports or plots using the analysis functions above
 
 In practice, this means that in each data analysis project folder, there
 will be (at least) one version of each of these types of functions.
@@ -115,5 +115,4 @@ versioned, it is stored in the rawdata directory and changes to that
 directory are logged in a README file.
 
 Versioning is currently done with
-[mercurial](procedures:mercurial), but
-[git](procedures:git) has a page here too.
+[mercurial](computing/comp_mercurial.md), but [git](computing/comp_git.md) has a page here too.
