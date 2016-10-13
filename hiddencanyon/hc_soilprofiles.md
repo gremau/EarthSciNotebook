@@ -15,15 +15,15 @@ Installation began in the fall of 2009.
 * These sensor profiles are tied in to the [Hidden`Canyon`
 `towers](hiddencanyon/hc_mettowers)\
 * Plot layouts, snowpack treatments, and profile locations are [detailed`
-`here](hiddencanyon/hc_ecohydrology:overview)\
+`here](hiddencanyon/hc_overview)\
 * Profile data is analysed using procedures [described`
-`here](procedures:sensordata_tips)
+`here](procedures/proc_sensordata_tips)
 
 ## Objectives
 
 - Record seasonal and interannual changes in soil moisture and temperature at three depths.
 - Provide soil moisture/temperature data to support the [ecohydrology`
-`experiments](hiddencanyon/hc_ecohydrology:overview)at Hidden Canyon.
+`experiments](hiddencanyon/hc_overview)at Hidden Canyon.
 - Measure differences in SM/ST in high and low stand density areas and high and low slope position
 - Measure differences in SM/ST in snowmelt treatment and control plots`
 
@@ -139,7 +139,7 @@ More to come on this later.
 * Three malfunctioning sensors (4d-60, 3d-20, 1d-60) were replaced Sept 8, 2010. They appear to work.
 * Renumbered site plots and profiles. Plots are 1-6 in order from east to west, profiles are sequential starting downslope in plot 1 (Profile 1), upslope plot 1 (Profile 2), downslope plot 2 (Profile 3), etc... See the [experimental`
 `design`
-`page](hiddencanyon/hc_ecohydrology:overview)for more details on this.
+`page](hiddencanyon/hc_overview)for more details on this.
 * Installed new profiles, numbers 5 and 7, in early October. These have Campbell CS-616s and 107 thermistors at each depth.
 * Rewired and reordered sensors at Mux 1 and 2, installed Mux 3 and wired profiles 5 and 7 to it. Forest 1 datalogger was down from Oct 8th to the 15th. 
 * Installed new Forest1 datalogger program (v4) and the new Forest1 measurement scheme became operational at ~2:30pm Oct 16th.

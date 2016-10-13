@@ -5,7 +5,7 @@ consists of the Li-Cor 6400 Portable Photosynthesis system, coupled to
 the Li-Cor 6400-09 Soil CO~2~ Flux Chamber.
 
 This system is currently in use measuring [soil respiration at Hidden
-Canyon](hiddencanyon/hc_ecohydrology:soilresplog_1) and site-specific
+Canyon](hiddencanyon/hc_soilresplog_1) and site-specific
 additions to this protocol will be posted on the linked page.
 
 ## Measurement protocol

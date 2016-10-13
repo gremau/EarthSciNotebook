@@ -110,7 +110,7 @@ Pandoc markdown is a nice way to draft LaTeX documents. Pandoc can be
 rendered to TeX (`-o document.tex`), or rendered as a PDF via `pdflatex`
 (`-o document.pdf`). Raw TeX and LaTeX can be included in a markdown
 document and it will be passed to the pdflatex writer. For more info on
-LaTeX/Tex systems see [this page](procedures:latextips).
+LaTeX/Tex systems see [this page](procedures/proc_latextips).
 
 ### Citations
 

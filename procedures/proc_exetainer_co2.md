@@ -17,7 +17,7 @@ Used for:
 ---------
 
 * [Hidden`Canyon`soil`
-`respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)measurements (in winter)
+`respiration](hiddencanyon/hc_soilresplog_1)measurements (in winter)
 
 (last revised on 120112 by Allison Chan)
 

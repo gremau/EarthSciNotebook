@@ -4,7 +4,7 @@ NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
 
  **See also:** [Python tips](computing/comp_pythontips.md),
-        [General programming](procedures:programming) pages.
+        [General programming](procedures/proc_programming) pages.
 
 ## Date/time objects and arrays
 

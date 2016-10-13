@@ -8,7 +8,7 @@ conditions.
  **Relevant links:**
 
 * [Hidden`Canyon`
-`ecohydrology](hiddencanyon/hc_ecohydrology:overview)(water balance and snowmelt) experiment page.
+`ecohydrology](hiddencanyon/hc_overview)(water balance and snowmelt) experiment page.
 * The [Hidden`Canyon`carbon`
 `cycle](hiddencanyon/hc_carboncycle:overview), which may be influenced by soil or plant water potentials.`
 

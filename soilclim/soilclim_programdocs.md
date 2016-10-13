@@ -3,7 +3,7 @@
 These are program file descriptions for programs used to analyze data
 supplied by the NRCS. Analysis of soil profiles at these data stations
 relies heavily on techniques [described
-here](procedures:sensordata_tips).
+here](procedures/proc_sensordata_tips).
 
  **See also:** [Project overview](overview), [Data
         collection/prep](west_stationdata:data), [Data

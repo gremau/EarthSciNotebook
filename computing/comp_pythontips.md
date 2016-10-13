@@ -130,7 +130,7 @@ pdb.pm()
 #### IPdb
 
 The IPython shell has its on debugging module, similar to Python's. See
-the [IPython page](procedures:ipython) for more.
+the [IPython page](procedures/proc_ipython) for more.
 
 #### Code.interact()
 

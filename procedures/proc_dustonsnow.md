@@ -7,10 +7,10 @@ dust similar to naturally deposited dust in the western U.S. and
 distribute it on a snowpack.
 
 * Prodedure in use at [Hidden`
-`Canyon](hiddencanyon/hc_sitedescription)(and expected to influence [ecohydrology](hiddencanyon/hc_ecohydrology:overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
+`Canyon](hiddencanyon/hc_sitedescription)(and expected to influence [ecohydrology](hiddencanyon/hc_overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
 * [Regional`dust`sources](:westerndust)\
 * The [snowmelt`
-`measurements](hiddencanyon/hc_ecohydrology:snowmeltlog_1)page for Hidden Canyon.`
+`measurements](hiddencanyon/hc_snowmeltlog_1)page for Hidden Canyon.`
 
 #### Dust collection and preparation
 
@@ -44,10 +44,10 @@ Application equipment
 #### Useful measurements
 
 * Measuring snowmelt (SWE disappearance) is best done by sampling the snowpack with a Federal Sampler as described on the [SWE`
-`measurement](procedures:measuringswe)page.
+`measurement](procedures/proc_measuringswe)page.
 * [Measuring`sublimation`at`the`snow`
-`surface](procedures:snowsurfacesublimation)(multiple methods).
+`surface](procedures/proc_snowsurfacesublimation)(multiple methods).
 * [Snowpack`albedo`
-`measurements](procedures:snowpackalbedo)\
+`measurements](procedures/proc_snowpackalbedo)\
 * [Measuring`snowpack`dust`
-`loading](procedures:snowpackdustloading)(natural or artificial). `
+`loading](procedures/proc_snowpackdustloading)(natural or artificial). `

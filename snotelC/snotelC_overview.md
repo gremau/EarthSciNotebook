@@ -21,12 +21,12 @@ U.S. along with descriptive information about that forest.
 ## Methods
 
 * [Growing`season`soil`
-`respiration](procedures:manual_soilresp)with the [Li-Cor`
+`respiration](procedures/proc_manual_soilresp)with the [Li-Cor`
 `6400`system](instruments:li-6400).
 * [Below-snow`soil`
-`respiration](procedures:belowsnow_soilresp)measurements made with the inlet/tubing system and exetainers.
+`respiration](procedures/proc_belowsnow_soilresp)measurements made with the inlet/tubing system and exetainers.
 * [Litterbag`mass`
-`loss](procedures:litterbags)measurement of winter and summer decomposition.`
+`loss](procedures/proc_litterbags)measurement of winter and summer decomposition.`
 
 ## Measurement details and logs
 

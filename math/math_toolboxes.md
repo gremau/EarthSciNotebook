@@ -3,12 +3,12 @@
 A variety of computation tools for doing math and statistics in data
 analysis.
 
-See also: [General programming info](procedures:programming)
+See also: [General programming info](procedures/proc_programming)
 on some of the tools mentioned below
 
 ## General numerical tools
 
-* [NumPy](procedures:numpytips)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.`
+* [NumPy](procedures/proc_numpytips)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.`
 
 ## Statistics
 

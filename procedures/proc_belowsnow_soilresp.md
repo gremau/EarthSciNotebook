@@ -10,7 +10,7 @@ characteristics (density, depth, tortuosity).
 
 In use at:
 
-* [Hidden`Canyon](hiddencanyon/hc_ecohydrology:soilresplog_1)
+* [Hidden`Canyon](hiddencanyon/hc_soilresplog_1)
 
 ## Gas sampling inlets and installation
 
@@ -99,7 +99,7 @@ FIXME - add photo of this device
 ## Measuring the Exetainers
 
 * Exetainers are returned to the lab and measured for CO`~`2`~concentration and δ`^`13`^`CO`~`2`~using a LI-7000 (CO`~`2`~`) open path system, and a tunable diode laser spectrometer (C isotopes).
-* See the **protocol** for this [here](procedures:exetainer_CO2).`
+* See the **protocol** for this [here](procedures/proc_exetainer_CO2).`
 
 ## Calculating respiration rates and isotope ratios
 

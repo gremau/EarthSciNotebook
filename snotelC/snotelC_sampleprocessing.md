@@ -50,11 +50,11 @@ more on sampling methods
   - A larger bulk sample ground in coffee grinder and archived in a sample cup for further SOM analysis.`
 
 The first sample will be separated with [density
-fractionation](procedures:soildensityfractionation) and
+fractionation](procedures/proc_soildensityfractionation) and
 fractions then undergo [prep for
-EA-IRMS](procedures:ea-irms_soilprep) analysis. The second
+EA-IRMS](procedures/proc_ea-irms_soilprep) analysis. The second
 sample can be subsampled for immediate [prep for
-EA-IRMS](procedures:ea-irms_soilprep) analysis.
+EA-IRMS](procedures/proc_ea-irms_soilprep) analysis.
 
 ## Mineral 0-10
 
@@ -70,10 +70,10 @@ Note that for 2008 samples half of the oven-dried bulk samples were
 immediately archived for rock, sand, silt, clay fraction analysis.
 
 The archived soil sample can be further subsampled for [density
-fractionation](procedures:soildensityfractionation) (with
+fractionation](procedures/proc_soildensityfractionation) (with
 fractions then undergoing [prep for
-EA-IRMS](procedures:ea-irms_soilprep)), or for immediate
-[prep](procedures:ea-irms_soilprep) and EA-IRMS analysis.
+EA-IRMS](procedures/proc_ea-irms_soilprep)), or for immediate
+[prep](procedures/proc_ea-irms_soilprep) and EA-IRMS analysis.
 
 ## Fine roots
 

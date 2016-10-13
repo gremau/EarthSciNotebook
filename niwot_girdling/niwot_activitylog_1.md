@@ -41,7 +41,7 @@ See the [data QC page](niwot_girdling/niwot_girdling:data_qc).
 
 I am making local copies of my scripts, and giving them my own naming
 system. I will place them under version control with
-[Mercurial](procedures:mercurial).
+[Mercurial](procedures/proc_mercurial).
 
  **2/7/2013**
 

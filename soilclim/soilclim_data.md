@@ -47,7 +47,7 @@ Mexico flux gradient?
 
 Files are downloaded as .csv (usually), and are often edited using
 various [text editing and data file handling
-tools](procedures:programming#Text_editing_and_data_file_handling).
+tools](procedures/proc_programming#Text_editing_and_data_file_handling).
 
 #### Soil station inventory files
 

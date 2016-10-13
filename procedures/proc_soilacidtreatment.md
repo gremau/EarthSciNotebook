@@ -24,4 +24,4 @@
 - **Label a clean petri dish** with the correct soil sample id number (this label can be pulled from the Erlenmeyer flask above) and place the filter paper with the rinsed soil in it.
 - Dry all the soil samples in a drying oven at 70°C overnight, then transfer to a new labelled storage vial.
 - Samples may need to be ground again before [loading`for`
-`EA-IRMS`analysis](procedures:ea-irms_soilprep).`
+`EA-IRMS`analysis](procedures/proc_ea-irms_soilprep).`
