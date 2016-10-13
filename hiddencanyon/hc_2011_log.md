@@ -1,23 +1,23 @@
 ## 2011 Hidden Canyon Logbook
 
 2011 visits to [Hidden Canyon
-site](hiddencanyon:sitedescription):
+site](hiddencanyon/hc_sitedescription.md):
 
-(also: [2010](hiddencanyon:hc2010_log),
-[2012](hiddencanyon:hc2012_log))
+(also: [2010](hiddencanyon/hc_2010_log.md),
+[2012](hiddencanyon/hc_2012_log.md))
 
 Oct 28
 ------
 
 * 9:15am - Sent new program (v5) to Forest datalogger that includes profiles 6 and 8.
-* EDIT (1-6-2012): apparently I forgot to average the new sensor readings and add them to the output table, so it will have to be resent.`
+* EDIT (1-6-2012): apparently I forgot to average the new sensor readings and add them to the output table, so it will have to be resent.
 
 Oct 26
 ------
 
 * Wired up all new sensors to MUX3 - P6, 8, 9 & 10.
 * Fixed IR radiometer on met tower
-* Datalogger working - not sure what this intermittent problem is about - will look at data`
+* Datalogger working - not sure what this intermittent problem is about - will look at data
 
 Oct 22
 ------
@@ -25,7 +25,7 @@ Oct 22
 * Installed Sentek sensors in profiles 9 and 10 using slurry method
 * Mid-day water potential measurements (skipped big trees)
 * Wired sensors
-* Datalogger not working?`
+* Datalogger not working?
 
 Oct 16
 ------
@@ -39,12 +39,12 @@ Oct 15
 
 * Collected litterbags
 * Installed 2 new soil moisture profiles (6 and 8) in plots 3 and 4
-* There is a problem with the datalogger again - doesnt appear to be getting good data. Maybe the datalogger needs replacing?`
+* There is a problem with the datalogger again - doesnt appear to be getting good data. Maybe the datalogger needs replacing?
 
 Oct 11
 ------
 
-* Had to resend datalogger program again`
+* Had to resend datalogger program again
 
 Sept 23
 -------
@@ -59,14 +59,14 @@ Sept 9-10
 * Midday(3:30pm-5pm) and predawn (6-7:30am) water potential measurements (including large trees).
 * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 10th).
 * Soil respiration measurements (9th - 1-3pm).
-* Restarted Forest1 datalogger - there may be a gap present in the data around this time.`
+* Restarted Forest1 datalogger - there may be a gap present in the data around this time.
 
 Aug 26-27
 ---------
 
 * Midday(3pm-5pm) and predawn (5-7am) water potential measurements (including large trees).
 * Measured surface soil moisture w/ campbell handheld probe at all locations (morning of 27th).
-* Soil respiration measurements (26th - 12-2:30pm).`
+* Soil respiration measurements (26th - 12-2:30pm).
 
 Aug 11-12
 ---------
@@ -74,18 +74,18 @@ Aug 11-12
 * Midday(2:30pm-4pm) and predawn (5-7am) water potential measurements.
 * Added large trees from Plots 1 & 2 to xylem wp measurements (5 trees in each plot - subset of last year's trees)
 * Measured surface soil moisture w/ campbell handheld probe at all 6 plots, 6 locations each (morning of 12th).
-* Soil respiration measurements (12th - 9-11:30am).`
+* Soil respiration measurements (12th - 9-11:30am).
 
 July 28 - Mike B.
 -----------------
 
 * Midday(12pm-1:30pm) and predawn (6-7am) water potential measurements.
-* Soil respiration measurements (9-11:30am).`
+* Soil respiration measurements (9-11:30am).
 
 July 20 - Davis U.
 ------------------
 
-* Fixed all guywires etc on weather stations with Davis.`
+* Fixed all guywires etc on weather stations with Davis.
 
 July 13-14
 ----------
@@ -108,7 +108,7 @@ June 29
 
 * Measured SWE at ALL locations
 * Took photos of the spatial extent of snowmelt.
-* Logged melted grid points`
+* Logged melted grid points
 
 June 23
 -------
@@ -116,7 +116,7 @@ June 23
 * Measured SWE at 12 locations per treatment
 * Took photos of the spatial extent of snowmelt.
 * Collected snow columns for total dust loading measuremnts - 1 per plot
-* Logged melted grid points`
+* Logged melted grid points
 
 June 15
 -------
@@ -126,7 +126,7 @@ June 15
 * Took photos
 * Met tower IR thermometer has a loose wire (EX terminal)
 * Plot 2 has melted out in the middle of the plot, and litterbag set 3 is exposed.
-* 30N 30E stake is almost exposed melted out.`
+* 30N 30E stake is almost exposed melted out.
 
 June 7
 ------
@@ -134,14 +134,14 @@ June 7
 * Measured SWE at 12 locations in each plot
 * Took gas samples from all inlets
 * Collected dust cores in the open from the last few dust events
-* Reconnected Forest1 datalogger to its radio`
+* Reconnected Forest1 datalogger to its radio
 
 June 1
 ------
 
 * Dust dep 5
 * Fixed MUX1 problem - moving snowpack had pulled the COM terminals loose (at the MUX)
-* Took a few photos`
+* Took a few photos
 
 May 27
 ------
@@ -149,7 +149,7 @@ May 27
 * Collected exetainer samples from all inlets (Not measured yet - LiCor may be broken!)
 * Federal sampler SWE measurements in 24 locations (12 per treatment)
 * Stormboard sample
-* Collected dust cores from the May 15-16 event`
+* Collected dust cores from the May 15-16 event
 
 May 16
 ------
@@ -158,7 +158,7 @@ May 16
 * Surface "after" samples in forest (3x each in dust and control plots)
 * Surface samples in the open (3x each in dust and control areas near towers)
 * Took some photos
-* Brought back stormboards from BCL, BCM. and BCH.`
+* Brought back stormboards from BCL, BCM. and BCH.
 
 May 12
 ------
@@ -173,7 +173,7 @@ May 12
 * Dust deposition 4
 * Federal sampler samples in 7 locations (control and treatment)
 * Collected exetainer samples from all inlets (Measured on the 13th - OK)
-* Took a number of photos in the forest of dust/control areas - 2pm`
+* Took a number of photos in the forest of dust/control areas - 2pm
 
 May 4
 -----
@@ -184,21 +184,21 @@ May 4
 * Surface samples in the open (3x near towers)
 * Surface samples in forest (3x each in dust and control plots)
 * This is at essentially peak SWE (according to the Brighton SNOTEL)
-* Dust is still active at the top of the snowpack.`
+* Dust is still active at the top of the snowpack.
 
 May 1
 -----
 
 * Collected exetainer samples from all inlets (Measured these on the 3rd - OK).
 * Measured SWE in plots 1-6 (16 measurements)
-* Dust deposition 3`
+* Dust deposition 3
 
 Apr 15
 ------
 
 * RE-collected exetainer samples from all inlets (Measured these the following morning - OK).
 * Measured SWE in plots 1-6 (20 measurements)
-* Dust deposition 2`
+* Dust deposition 2
 
 Apr 12
 ------
@@ -206,27 +206,27 @@ Apr 12
 * Collected exetainer samples from all inlets (Measured these the following morning - :!: all were atmospheric:!:).
 * Measured SWE in plots 1-4
 * Fixed ropes
-* Dug out met tower`
+* Dug out met tower
 
 Apr 2
 -----
 
 * Measured SWE in all plots, these are good numbers this time. Used lube on tubes.
-* Collected "after" sublimation samples from N & S facing slopes in HC`
+* Collected "after" sublimation samples from N & S facing slopes in HC
 
 Mar 31
 ------
 
 * First dust deposition, on all 3 treatment plots
 * Measured SWE in all plots, but sampling was difficult and I don't have too much faith in the numbers.
-* Collected sublimation samples from N & S facing slopes in HC`
+* Collected sublimation samples from N & S facing slopes in HC
 
 Mar 27
 ------
 
 * Fixed/replaced ropes
 * Wired charging station together and connected battery
-* Dug out solar tower a bit.`
+* Dug out solar tower a bit.
 
 Mar 23
 ------
@@ -234,7 +234,7 @@ Mar 23
 * Collected exetainer samples from all inlets (Measured these the following morning).
 * Measured SWE in corridor 1. Conditions made this difficult, and there are only 2-3 reliable measurements.
 * Fixed ropes - one needs to be replaced
-* Collected snow sample from storm board.`
+* Collected snow sample from storm board.
 
 Feb 18
 ------
@@ -243,7 +243,7 @@ Feb 18
 * Measured SWE in six locations in corridor 1
 * Fixed ropes
 * Collected six snow cores from N of towers for dust sampling
-* Dug out tower bases a bit`
+* Dug out tower bases a bit
 
 January 2011
 ------------
@@ -255,4 +255,4 @@ Find dates for these!!
 * First sampling of below snow inlets
 * Restarted measurements at Forest site Jan 11.
 * Collected snow samples at board
-* Maintained ropes and signs, but there has been some traffic.`
+* Maintained ropes and signs, but there has been some traffic.

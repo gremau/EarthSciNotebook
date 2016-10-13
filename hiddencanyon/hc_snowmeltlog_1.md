@@ -37,7 +37,7 @@ April 8th, 2010 and the last measurement was made on June 23rd.
 * **April 2**: Remeasured SWE using lubricant in the sampling tubes - it worked this time and it looks like measurements on the 31st were off by at least 200mm of SWE.  --- //[Greg`
 `Maurer](primaryproductivity@gmail.com)2011/04/04 12:09//
 * See [Hidden`Canyon`
-`log](hiddencanyon:hc2011_log)for other SWE measurement and dust deposition dates.
+`log](hiddencanyon/hc_hc2011_log)for other SWE measurement and dust deposition dates.
 * **June 15** First bare ground occurred  at the middle of plot 2 (near 30E, 30N stake) - continued grid measurements at several time periods this year
 * ** June 23 **Collected snow columns for total dust loading measurements - 1 per plot
 * ** July 12 ** Snowmelt was complete (except for a small area in plot 3 - near litterbag set 2).

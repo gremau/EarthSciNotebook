@@ -24,10 +24,10 @@ fitted with a Swagelok stainless coupling and plug. THe coupling can be
 connected to a complementary fitting on the pump/sampling assembly.
 Inlets are located in what are intended to be spatially representative
 replications in each plot. Each [soil temperature/moisture
-profile](hiddencanyon:soilprofiles) currently is associated
+profile](hiddencanyon/hc_soilprofiles) currently is associated
 with 3 inlets. There are thus 9 inlets each in the control and treatment
 plots in the [Hidden Canyon snowpack
-manipulation](hiddencanyon:snowmeltdesign).
+manipulation](hiddencanyon/hc_snowmeltdesign).
 
 #### Pump time calculation
 

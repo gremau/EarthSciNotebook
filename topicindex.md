@@ -13,7 +13,7 @@ should link to all other pages in the project namespace.
 * [Overview](hiddencanyon/hc_overview.md)
 * Experimental design: [Snowmelt manipulation](hiddencanyon/hc_snowmeltdesign.md), [Soil profiles](hiddencanyon/hc_soilprofiles.md)
 * Methods: [Dust](westerndust.md), [Dust on snow](procedures/proc_dustonsnow.md), [Snowpack sublimation](procedures/proc_snowpacksublimation.md), [Xylem pressure](procedures/proc_xylempressure.md), [Below-snow soil resp](procedures/proc_belowsnow_soilresp.md), [Warm season resp](procedures/proc_manual_soilresp.md), [Litter bags](procedures/proc_litterbags.md)
-* Measurement logs (preliminary results.md): [Snowmelt](hiddencanyon/hc_snowmeltlog_1.md), [Ecosystem water](hiddencanyon/hc_ecosystemwaterlog_1.md) (soil moisture and xylem water potential), [Soil respiration](hiddencanyon/hc_soilresplog_1.md), [Litter bags](hiddencanyon/hc_litterbaglog_1.md)
+* Measurement logs (preliminary results.md): [Snowmelt](hiddencanyon/hc_snowmeltlog_1.md), [Soil respiration](hiddencanyon/hc_soilresplog_1.md), [Litter bags](hiddencanyon/hc_litterbaglog_1.md)
 * [Hidden Canyon activity logs](hiddencanyon/hc_sitedescription.md), [data
 analysis log](hiddencanyon/hc_analysislog_1.md)
 
@@ -118,7 +118,7 @@ activity/maintenance logs, etc.
 ## Hidden Canyon
 
 * [Site description](hiddencanyon/hc_sitedescription.md), [Tree location data](hiddencanyon/hc_trees.md)
-* Instrumentation: [hc_communicationsystem](hiddencanyon/hc_communicationsystem.md), [hc_dataloggers](hiddencanyon/hc_dataloggers.md), [hc_mettowers](hiddencanyon/hc_mettowers.md), [hc_soilprofiles](hiddencanyon/hc_soilprofiles.md), [hc_georeferencing](hiddencanyon/hc_georeferencing.md)
+* Instrumentation: [hc_communicationsystem](hiddencanyon/hc_communicationsystem.md), [hc_dataloggers](hiddencanyon/hc_dataloggers.md), [hc_mettowers](hiddencanyon/hc_mettowers.md), [hc_soilprofiles](hiddencanyon/hc_soilprofiles.md) 
 * [2010 activity log](hiddencanyon/hc_2010_log.md), [2011 activity log](hiddencanyon/hc_2011_log.md), [2012 activity log](hiddencanyon/hc_2012_log.md), [data analysis log](hiddencanyon/hc_analysislog_1.md)
 
 ## Red Butte Canyon

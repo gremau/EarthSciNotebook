@@ -4,7 +4,7 @@ FIXME
 
 A number of soil moisture and soil moisture/temperature profiles are
 replicated throughout the [Hidden Canyon
-site](hiddencanyon:sitedescription). They provide continuous
+site](hiddencanyon/hc_sitedescription). They provide continuous
 measurement of soil moisture and soil temperature at three depths.
 Installation began in the fall of 2009.
 
@@ -13,7 +13,7 @@ Installation began in the fall of 2009.
  **Relevant links:**
 
 * These sensor profiles are tied in to the [Hidden`Canyon`
-`towers](hiddencanyon:mettowers)\
+`towers](hiddencanyon/hc_mettowers)\
 * Plot layouts, snowpack treatments, and profile locations are [detailed`
 `here](hiddencanyon/hc_ecohydrology:overview)\
 * Profile data is analysed using procedures [described`
@@ -31,7 +31,7 @@ Installation began in the fall of 2009.
 
 {{ :hiddencanyon:hc_profiles1_scaled.jpg?250|Installation of Campbell
 616 sensors}} Soil moisture and temperature sensor profiles were
-installed at [Hidden Canyon](hiddencanyon:sitedescription) in
+installed at [Hidden Canyon](hiddencanyon/hc_sitedescription) in
 October of 2009 and 2010. One square meter soil pits were excavated to a
 depth of 70-80 cm. Soil was excavated in layers, placed on tarps, and
 three sensors were inserted into the vertical face of the excavated pit
@@ -41,7 +41,7 @@ soil were replaced in order, and compacted using foot pressure. Several
 types of sensors are in use, in separate profiles. Four sensor profiles
 (1d, 2d, 3d, 4d) measure both soil temperature and soil volumetric water
 content using [hiddencanyon:soilprofiles#Decagon
-EC-TM's](hiddencanyon:soilprofiles#Decagon_EC-TM's)
+EC-TM's](hiddencanyon/hc_soilprofiles#Decagon_EC-TM's)
 (combination sensors. Four profiles (1,2,3,4) measure soil volumetric
 water content only using [[hiddencanyon:soilprofiles#Campbell
 CS-616's]([hiddencanyon:soilprofiles#Campbell_CS-616's) or
@@ -51,7 +51,7 @@ sensors. Two sensor profiles (5 & 7) have both water content
 reflectometers (CS-616s) and thermistors (Campbell 107s) installed in
 the same pit. Sensors are multiplexed at three separate Campbell
 AM-16/32 multiplexers and are controlled and read by a [Campbell CR23x
-datalogger](hiddencanyon:dataloggers) (Forest1).
+datalogger](hiddencanyon/hc_dataloggers) (Forest1).
 
 Multiplexer, datalogger, and sensor connections are documented in .
 
@@ -123,12 +123,12 @@ More to come on this later.
 ### Multiplexers
 
 * Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the [forest`
-`tower](hiddencanyon:mettowers).
+`tower](hiddencanyon/hc_mettowers).
 * Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the [forest`
-`tower](hiddencanyon:mettowers).
+`tower](hiddencanyon/hc_mettowers).
 * Profiles 5 and 7 are multiplexed at Mux 3, a Campbell AM 16/32 at about 48E and 25N.
 * More on wiring and programming for these instruments is in `and on the [Hidden`
-`Canyon`datalogger`page](hiddencanyon:dataloggers).`
+`Canyon`datalogger`page](hiddencanyon/hc_dataloggers).`
 
 ## 2010 Soil profile log
 

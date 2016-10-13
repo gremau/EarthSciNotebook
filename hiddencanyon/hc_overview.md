@@ -36,17 +36,17 @@ snowmelt cycle. We expect the responses in the hypotheses above to occur
 as a result. The experiment's plot and sensor designs are desribed in:
 
 * [Snowmelt`experiment`
-`design](hiddencanyon:snowmeltdesign)- Control and dust-addition plot layout, dust loading.
+`design](hiddencanyon/hc_snowmeltdesign)- Control and dust-addition plot layout, dust loading.
 * [Hidden`Canyon`soil`
-`profiles](hiddencanyon:soilprofiles)- locations, sensors, depths, etc.
+`profiles](hiddencanyon/hc_soilprofiles)- locations, sensors, depths, etc.
 * [Hidden`Canyon`met`
-`towers](hiddencanyon:mettowers)- locations and sensors`
+`towers](hiddencanyon/hc_mettowers)- locations and sensors`
 
 ### Design changelog
 
 * Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the [snowmelt`
 `design`
-`page](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
+`page](hiddencanyon/hc_snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
 * [Xylem`water`
 `potential](hiddencanyon/hc_ecohydrology:ecosystemwaterlog_1)(and [soil`
 `respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
@@ -133,16 +133,16 @@ methods is important.
 ### Other logs
 
 * [Met`
-`measurements](hiddencanyon:mettowers): meteorological measurements at Hidden Canyon towers.
+`measurements](hiddencanyon/hc_mettowers): meteorological measurements at Hidden Canyon towers.
 * [Soil`
-`profiles](hiddencanyon:soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`
+`profiles](hiddencanyon/hc_soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`
 
 FIXME
 
 # Hidden Canyon carbon cycling
 
 Experimental manipulations of the below-canopy snowpack are taking place
-at the [Hidden Canyon site](hiddencanyon:sitedescription) and
+at the [Hidden Canyon site](hiddencanyon/hc_sitedescription) and
 this is expected to influence soil water availability and temperature in
 the forest in both winter and the growing season. These changes in the
 biophysical drivers of carbon cycling are expected to influence rates of
@@ -175,17 +175,17 @@ snowmelt cycle. We expect the responses in the hypotheses above to occur
 as a result. The experiment's plot and sensor designs are desribed in:
 
 * [Snowmelt`experiment`
-`design](hiddencanyon:snowmeltdesign)- Control and dust-addition plot layout, dust loading.
+`design](hiddencanyon/hc_snowmeltdesign)- Control and dust-addition plot layout, dust loading.
 * [Hidden`Canyon`soil`
-`profiles](hiddencanyon:soilprofiles)- locations, sensors, depths, etc.
+`profiles](hiddencanyon/hc_soilprofiles)- locations, sensors, depths, etc.
 * [Hidden`Canyon`met`
-`towers](hiddencanyon:mettowers)- locations and sensors`
+`towers](hiddencanyon/hc_mettowers)- locations and sensors`
 
 ### Design changelog
 
 * Only plots 1 and 2 were operational from Nov 2009, to Oct 15, 2010. Plot 1 was a control and plot 2 a treatment plot. See the [snowmelt`
 `design`
-`page](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time.
+`page](hiddencanyon/hc_snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time.
 * [Soil`
 `respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)was measured during the 2010 growing season at 10 collars in each plot (1 & 2). We found little difference between control and treatment and are considering adding more collars for 2011.
 * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
@@ -237,7 +237,7 @@ septa. Three samples of ambient air (above snow) are also collected.
 
 Measurements of litter decomposition are measured, as litter mass loss,
 twice a year at [Hidden
-Canyon](hiddencanyon:sitedescription). Mass loss measurements
+Canyon](hiddencanyon/hc_sitedescription). Mass loss measurements
 are made using litter bags recovered in spring (to measure winter
 decomposition) and in fall (to measure growing season decomposition).
 This allows a comparison of winter versus summer decomposition.
@@ -251,6 +251,6 @@ each set of bags every spring.
 ### Other logs
 
 * [Met`
-`measurements](hiddencanyon:mettowers): meteorological measurements at Hidden Canyon towers.
+`measurements](hiddencanyon/hc_mettowers): meteorological measurements at Hidden Canyon towers.
 * [Soil`
-`profiles](hiddencanyon:soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`
+`profiles](hiddencanyon/hc_soilprofiles): soil temperature and soil moisture data from the control and treatment plots.`

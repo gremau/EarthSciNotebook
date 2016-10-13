@@ -1,19 +1,16 @@
 # Communications system at Hidden Canyon
 
-Communication with the [two
-dataloggers](hiddencanyon:dataloggers) at [Hidden
-Canyon](hiddencanyon:sitedescription) is made possible using
+Communication with the [two dataloggers](hiddencanyon/hc_dataloggers.md) at [Hidden Canyon](hiddencanyon/hc_sitedescription.md) is made possible using
 a wireless modem and three spread-spectrum radios.
 
 ## Devices and connectivity
 
 ### Sierra Wireless Raven XTG Modem (1)
 
-* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the [Met`
-`tower](hiddencanyon:mettowers).
+* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the [Met tower](hiddencanyon/hc_mettowers.md).
 * Connected to the internet via the AT&T wireless network
 * Fixed IP address
-* Modem can be configured with Sierra's AceManager program on a Windows machine.`
+* Modem can be configured with Sierra's AceManager program on a Windows machine.
 
 ### Digi XBee-PRO PKG RF Modems (3)
 
@@ -23,10 +20,9 @@ a wireless modem and three spread-spectrum radios.
 * All 3 use standard antennas
 * Command Sequence Character (CC) for all is 2D ("-")
 * PAN ID (ID) for all is 3171
-* Sleep mode (SM) for all radios is 1 (hibernation mode) - this means that when idle they should enter low-power hibernate mode. This doesn't seem to work on the 2 radios connected to dataloggers due to constraints in how the dataloggers' RS-232 ports operate.`
+* Sleep mode (SM) for all radios is 1 (hibernation mode) - this means that when idle they should enter low-power hibernate mode. This doesn't seem to work on the 2 radios connected to dataloggers due to constraints in how the dataloggers' RS-232 ports operate.
 
-Connections and configuration settings
---------------------------------------
+### Connections and configuration settings
 
 - **Base radio**
   - Connected to Raven XTG modem with RS-232 cable and null modem adapter
@@ -44,7 +40,7 @@ Connections and configuration settings
   - Channel (CH) = C
   - Source Address (MY) = 2
   - Destination High (DH) = 0
-  - Destination Low (DL) = 1`
+  - Destination Low (DL) = 1
 
 - **Forest1 radio**
   - Connected to Forest1 datalogger with RS-232 cable and null modem adapter
@@ -53,9 +49,9 @@ Connections and configuration settings
   - Channel (CH) = C
   - Source Address (MY) = 3
   - Destination High (DH) = 0
-  - Destination Low (DL) = 1`
+  - Destination Low (DL) = 1
 
-## LoggerNet software configuration
+### LoggerNet software configuration
 
 Communication and data transfer with the Hidden Canyon network over the
 internet is initiated from a workstation in the Bowling lab using
@@ -67,25 +63,25 @@ to work is as follows:
 * One of the CR-23x is connected to each Generic device
 * When connecting to each datalogger, LoggerNet runs a unique dial script to change the channel of the base radio (using the ATDL command) to the address of the appropriate endpoint radio.
 * An end script changes the base radio back to an idle channel.
-* Communication system is available for three half-hour periods per day (see below).`
+* Communication system is available for three half-hour periods per day (see below).
 
-Dial script
------------
-
+#### Dial script
+~~~
 D3000                    # wait 3000 ms
 T"---" R"OK"4000         # enter command mode
 T"ATDL2^m" R"OK"4000     # change destination to 2 (or 3 for Forest logger)
-T"ATCN^m" R"OK"4000      # exit command mode`
+T"ATCN^m" R"OK"4000      # exit command mode
+~~~
 
-End script
-----------
-
+#### End script
+~~~
 D3000
 T"---" R"OK"4000
 T"ATDL0^m" R"OK"4000    # change destination to 0 for idle
-T"ATCN^m" R"OK"4000`
+T"ATCN^m" R"OK"4000
+~~~
 
-## Power relays and program control
+### Power relays and program control
 
 Running all three radios and the modem at all times would drain too much
 power, so in addition to running in low-power mode when they are on, the
@@ -97,9 +93,9 @@ Essentially all devices are switched on for thirty minutes every eight
 hours, so the dataloggers should be available from 00:00 to 00:30am,
 8:00 to 8:30am, and 16:00 to 16:30pm.
 
-Table 2 EDLOG code
-------------------
+#### Table 2 EDLOG code
 
+~~~{.basic}
 ; run table every half hour
 *Table 2 Program
 02: 1800    Execution Interval (seconds)
@@ -114,4 +110,5 @@ Table 2 EDLOG code
 2:  If time is (P92)
  1: 30        Minutes (Seconds --) into a
  2: 480       Interval (same units as above)
- 3: 51       Set Port 1 Low`
+ 3: 51       Set Port 1 Low
+~~~

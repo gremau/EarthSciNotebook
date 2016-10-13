@@ -4,7 +4,7 @@ FIXME
 
 These towers are responsible for power, aboveground sensor measurements
 (meteorological), and communication at the [Hidden Canyon
-site](hiddencanyon:sitedescription).
+site](hiddencanyon/hc_sitedescription).
 
  **There are three total towers at Hidden Canyon:**
 
@@ -12,7 +12,7 @@ site](hiddencanyon:sitedescription).
 * A met tower with meteorological instrumentation, a datalogger, and a modem and antenna for communication with the lab. Located just east of the solar tower.
 * A forest tower with some met instruments, and a datalogger that is connected to the [forest`
 `soil`
-`profiles](hiddencanyon:soilprofiles)via 2 multiplexers.`
+`profiles](hiddencanyon/hc_soilprofiles)via 2 multiplexers.`
 
 ===== Objectives ====
 
@@ -58,7 +58,7 @@ tower. Slope angle is 21-22° at the base of the tower. Aspect is 197°
 
 The datalogger at this tower is a Campbell CR23x called Met1. For more
 details see the [Hidden Canyon datalogger
-page](hiddencanyon:dataloggers).
+page](hiddencanyon/hc_dataloggers).
 
  **Communications: **
 
@@ -66,7 +66,7 @@ The Forest1 datalogger powers two radios, and a wireless modem via a
 Campbell AM6REL12 every 8 hours. This allows communications between the
 Met1 an Forest1 dataloggers and the Base radio, and communications via
 the internet with the wireless modem (see [communications
-page](hiddencanyon:communicationsystem)).
+page](hiddencanyon/hc_communicationsystem)).
 
 #### Forest tower
 
@@ -88,7 +88,7 @@ tower. Aspect is 205° (SSW).
 
 The datalogger at this tower is a Campbell CR23x called Forest1. For
 more details see the [Hidden Canyon datalogger
-page](hiddencanyon:dataloggers).
+page](hiddencanyon/hc_dataloggers).
 
  **Multiplexers: **
 
@@ -96,13 +96,13 @@ The Forest1 datalogger is connected to two Campbell AM16/32
 multiplexers. Mux1 is uphill of the forest tower and is connected to
 soil profiles 1-4. Mux2 is downhill of the forest tower and is connected
 to soil profiles 5-8. More detail on this setup is at the [Hidden Canyon
-soil profiles](hiddencanyon:soilprofiles) page.
+soil profiles](hiddencanyon/hc_soilprofiles) page.
 
  **Communications: **
 
 The Forest1 datalogger powers a radio via a relay every 8 hours. This
 radio communicates with the base radio (see [communications
-page](hiddencanyon:communicationsystem)).
+page](hiddencanyon/hc_communicationsystem)).
 
 #### Solar tower
 

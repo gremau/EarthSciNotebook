@@ -7,7 +7,7 @@
 * Slope: 20-22° at towers
 * Dominant tree species: Engelmann spruce, Subalpine fir, Aspen
 * There are 2 [georeferenced`
-`grids](hiddencanyon:georeferencing)and other markers.
+`grids](hiddencanyon/hc_georeferencing)and other markers.
 * Site of [ecohydrology`
 `experiments](hiddencanyon/hc_ecohydrology:overview)(snowmelt, soil carbon cycling, and plant water balance) 
 * Established by the Bowling Lab in the Fall of 2009.`
@@ -17,11 +17,11 @@
  **Hidden Canyon has:**
 
 * A [meteorological`
-`tower](hiddencanyon:mettowers)located in a clearing to the west of the study forest.
+`tower](hiddencanyon/hc_mettowers)located in a clearing to the west of the study forest.
 * A [forest`met`
-`tower](hiddencanyon:mettowers)that records aboveground and belowground climate variables in the forest.
+`tower](hiddencanyon/hc_mettowers)that records aboveground and belowground climate variables in the forest.
 * Eight [soil`
-`profiles](hiddencanyon:soilprofiles)that measure soil temperature and water content.
+`profiles](hiddencanyon/hc_soilprofiles)that measure soil temperature and water content.
 * Some [snow`
 `measurements](hiddencanyon/hc_ecohydrology:snowmeltlog_1), part of the [ecohydrology`
 `experiments](hiddencanyon/hc_ecohydrology:overview).
@@ -38,7 +38,7 @@
 This site is connected to the internet via a wireless modem. This modem
 is connected via radio to both dataloggers, so both can be accessed from
 the Bowling lab with LoggerNet. See [this
-page](hiddencanyon:communicationsystem) for information on
+page](hiddencanyon/hc_communicationsystem) for information on
 how this works.
 
 ## Site logs
@@ -46,14 +46,14 @@ how this works.
  **Activity logs document all site visits (beginning Dec 20, 2009)
         **
 
-* [2013`activity`log](hiddencanyon:hc2013_log)\
-* [2012`activity`log](hiddencanyon:hc2012_log)\
-* [2011`activity`log](hiddencanyon:hc2011_log)\
-* [2010`activity`log](hiddencanyon:hc2010_log)\
+* [2013`activity`log](hiddencanyon/hc_hc2013_log)\
+* [2012`activity`log](hiddencanyon/hc_hc2012_log)\
+* [2011`activity`log](hiddencanyon/hc_hc2011_log)\
+* [2010`activity`log](hiddencanyon/hc_hc2010_log)\
 * [HiddenCanyon`data`
-`analysis](hiddencanyon:analysislog_1)\
-* [Met`tower`log](hiddencanyon:mettowerlog_1)\
-* [Soil`profile`log](hiddencanyon:soilprofilelog_1)\
+`analysis](hiddencanyon/hc_analysislog_1)\
+* [Met`tower`log](hiddencanyon/hc_mettowerlog_1)\
+* [Soil`profile`log](hiddencanyon/hc_soilprofilelog_1)\
 * [Snowmelt`experiment`
 `log](hiddencanyon/hc_ecohydrology:snowmeltlog_1)
 

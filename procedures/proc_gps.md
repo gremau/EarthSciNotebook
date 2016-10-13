@@ -34,7 +34,7 @@ provided by them at:
 method).
 
 See the [Hidden Canyon
-georeferencing](hiddencanyon:georeferencing) page for info on
+georeferencing](hiddencanyon/hc_georeferencing) page for info on
 how we used this system.
 
 ## Data formats

@@ -1,18 +1,18 @@
 ## 2013 Hidden Canyon Logbook
 
 2013 visits to [Hidden Canyon
-site](hiddencanyon:sitedescription):
+site](hiddencanyon/hc_sitedescription.md):
 
-(also: [2010](hiddencanyon:hc2010_log),
-[2011](hiddencanyon:hc2011_log),
-[2012](hiddencanyon:hc2012_log))
+(also: [2010](hiddencanyon/hc_hc2010_log.md),
+[2011](hiddencanyon/hc_hc2011_log.md),
+[2012](hiddencanyon/hc_hc2012_log.md))
 
 7-8-2013
 --------
 
 * Removed last soil profiles (destroyed 2 Decagon sensors in process)
 * Broke down sensors and wiring on towers.
-* Pulled out the rest of the forest instrumentation and put in pile.`
+* Pulled out the rest of the forest instrumentation and put in pile.
 
 6-20-2013
 ---------
@@ -25,4 +25,4 @@ site](hiddencanyon:sitedescription):
 
 * Collected remaining litterbags - had to dig plot 3, litterbag 2 out of 10cm of snow.
 * Shut down F1 datalogger.
-* Removed profiles 5, 6, 7, and 8`
+* Removed profiles 5, 6, 7, and 8
