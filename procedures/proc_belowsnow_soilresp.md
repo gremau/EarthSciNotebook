@@ -10,7 +10,7 @@ characteristics (density, depth, tortuosity).
 
 In use at:
 
-* [Hidden`Canyon](hc_ecohydrology:soilresplog_1)
+* [Hidden`Canyon](hiddencanyon/hc_ecohydrology:soilresplog_1)
 
 ## Gas sampling inlets and installation
 

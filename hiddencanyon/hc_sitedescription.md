@@ -9,7 +9,7 @@
 * There are 2 [georeferenced`
 `grids](hiddencanyon:georeferencing)and other markers.
 * Site of [ecohydrology`
-`experiments](hc_ecohydrology:overview)(snowmelt, soil carbon cycling, and plant water balance) 
+`experiments](hiddencanyon/hc_ecohydrology:overview)(snowmelt, soil carbon cycling, and plant water balance) 
 * Established by the Bowling Lab in the Fall of 2009.`
 
 ## Measurements
@@ -23,14 +23,14 @@
 * Eight [soil`
 `profiles](hiddencanyon:soilprofiles)that measure soil temperature and water content.
 * Some [snow`
-`measurements](hc_ecohydrology:snowmeltlog_1), part of the [ecohydrology`
-`experiments](hc_ecohydrology:overview).
+`measurements](hiddencanyon/hc_ecohydrology:snowmeltlog_1), part of the [ecohydrology`
+`experiments](hiddencanyon/hc_ecohydrology:overview).
 * [Soil`
-`respiration](hc_ecohydrology:soilresplog_1)measurements
+`respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)measurements
 * [Decomposition`
-`measurements](hc_ecohydrology:litterbaglog_1)using litterbags
+`measurements](hiddencanyon/hc_ecohydrology:litterbaglog_1)using litterbags
 * [Xylem`water`
-`potential](hc_ecohydrology:ecosystemwaterlog_1)measurements
+`potential](hiddencanyon/hc_ecohydrology:ecosystemwaterlog_1)measurements
 * All trees have location, species, and status data [here](trees).`
 
 ## Communication
@@ -55,7 +55,7 @@ how this works.
 * [Met`tower`log](hiddencanyon:mettowerlog_1)\
 * [Soil`profile`log](hiddencanyon:soilprofilelog_1)\
 * [Snowmelt`experiment`
-`log](hc_ecohydrology:snowmeltlog_1)
+`log](hiddencanyon/hc_ecohydrology:snowmeltlog_1)
 
 ## TO DO list
 

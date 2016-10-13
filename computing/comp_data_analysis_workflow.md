@@ -3,7 +3,7 @@
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
-**See also:** [General programming](comp_programming) page.
+**See also:** [General programming](computing/comp_programming) page.
 
 ## Filesystem
 

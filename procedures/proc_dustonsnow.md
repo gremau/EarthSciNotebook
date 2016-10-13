@@ -7,10 +7,10 @@ dust similar to naturally deposited dust in the western U.S. and
 distribute it on a snowpack.
 
 * Prodedure in use at [Hidden`
-`Canyon](hiddencanyon:sitedescription)(and expected to influence [ecohydrology](hc_ecohydrology:overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
+`Canyon](hiddencanyon:sitedescription)(and expected to influence [ecohydrology](hiddencanyon/hc_ecohydrology:overview)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
 * [Regional`dust`sources](:westerndust)\
 * The [snowmelt`
-`measurements](hc_ecohydrology:snowmeltlog_1)page for Hidden Canyon.`
+`measurements](hiddencanyon/hc_ecohydrology:snowmeltlog_1)page for Hidden Canyon.`
 
 #### Dust collection and preparation
 

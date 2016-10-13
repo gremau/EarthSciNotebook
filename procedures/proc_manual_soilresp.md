@@ -6,7 +6,7 @@ soil respiration chamber (LiCor 6400-09).
 
 In use at:
 
-* [Hidden Canyon](hc_ecohydrology:soilresplog_1)
+* [Hidden Canyon](hiddencanyon/hc_ecohydrology:soilresplog_1)
 
 ## Collar installation
 

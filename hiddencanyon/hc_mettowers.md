@@ -18,7 +18,7 @@ site](hiddencanyon:sitedescription).
 
 - Continuous measurement of air temperature, relative humidity, windspeed and direction, soil and snow surface temperatures, snow depth, net radiation, and incoming and reflected PAR.
 - Provide environmental data to support the [ecohydrology`
-`experiments](hc_ecohydrology:overview)at Hidden Canyon.
+`experiments](hiddencanyon/hc_ecohydrology:overview)at Hidden Canyon.
 - Measurement of weather patterns and longer term climatic trends at Hidden Canyon site. 
 - Comparison of Hidden Canyon research results to results from similar studies at other sites with varying environmental conditions.
 - Measure the influence of forest cover on a subset of these measured environmental conditions (Temp/RH, surface temps, wind).`

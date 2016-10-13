@@ -1,10 +1,10 @@
 # Hidden Canyon data analysis
 
 This log mainly covers analysis of Hidden Canyon ecohydrology experiment
-data [(Project overview)](hc_ecohydrology:overview).
+data [(Project overview)](hiddencanyon/hc_ecohydrology:overview).
 
  **See also:** The [Data program
-        documentation](hc_ecohydrology:programdocs), and the
+        documentation](hiddencanyon/hc_ecohydrology:programdocs), and the
         Hidden Canyon [site
         description](hiddencanyon:sitedescription).
 

@@ -48,8 +48,8 @@ as a result. The experiment's plot and sensor designs are desribed in:
 `design`
 `page](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time. 
 * [Xylem`water`
-`potential](hc_ecohydrology:ecosystemwaterlog_1)(and [soil`
-`respiration](hc_ecohydrology:soilresplog_1)) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
+`potential](hiddencanyon/hc_ecohydrology:ecosystemwaterlog_1)(and [soil`
+`respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)) was measured during the 2010 growing season. Measurements were made on 9 large trees in each treatment. We found little difference between control and treatment and are considering switching to smaller trees for 2011.
 * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
 * Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
 
@@ -78,7 +78,7 @@ are measured in Control and dust addition plots, and these measurement
 locations are roughly the same (within 2m) at each measurement date.
 
 * [Hidden`Canyon`snowmelt`
-`log](hc_ecohydrology:snowmeltlog_1): dust deposition dates, SWE data, photos, etc.`
+`log](hiddencanyon/hc_ecohydrology:snowmeltlog_1): dust deposition dates, SWE data, photos, etc.`
 
 ### Melt timing
 
@@ -91,7 +91,7 @@ influences on snowpack energy balance. This method is still being
 developed.
 
 * [Hidden`Canyon`GRID`snowmelt`
-`log](hc_ecohydrology:gridmeltlog_1)
+`log](hiddencanyon/hc_ecohydrology:gridmeltlog_1)
 
 ### Regional SWE and melt rate
 
@@ -100,7 +100,7 @@ other stations in the region can provide important context for the
 Hidden Canyon experiments.
 
 *[Regional`snowpack`
-`log](hc_ecohydrology:regionalsnowpacklog_1)
+`log](hiddencanyon/hc_ecohydrology:regionalsnowpacklog_1)
 
 ### Soil water and plant xylem pressure
 
@@ -116,7 +116,7 @@ made between 1 and 5pm, and predawn measurements are made between 4 and
 avoided.
 
 * [Ecosystem`water`
-`log](hc_ecohydrology:ecosystemwaterlog_1): Xylem water potential, soil moisture, and related measurement data.`
+`log](hiddencanyon/hc_ecohydrology:ecosystemwaterlog_1): Xylem water potential, soil moisture, and related measurement data.`
 
 ### Snow surface measurements
 
@@ -128,7 +128,7 @@ have well defined measurement methods yet, but development of these
 methods is important.
 
 * [Snow`surface`
-`log](hc_ecohydrology:snowsurfacelog_1)
+`log](hiddencanyon/hc_ecohydrology:snowsurfacelog_1)
 
 ### Other logs
 
@@ -158,7 +158,7 @@ soil respiration and organic matter decomposition.
 ### Related projects
 
 * The [ecohydrology`
-`experiments](hc_ecohydrology:overview)at Hidden Canyon`
+`experiments](hiddencanyon/hc_ecohydrology:overview)at Hidden Canyon`
 
 ## Hypotheses
 
@@ -187,7 +187,7 @@ as a result. The experiment's plot and sensor designs are desribed in:
 `design`
 `page](hiddencanyon:snowmeltdesign)for a detailed layout. Each plot had 4 soil moisture profiles and two soil temperature profiles during this time.
 * [Soil`
-`respiration](hc_ecohydrology:soilresplog_1)was measured during the 2010 growing season at 10 collars in each plot (1 & 2). We found little difference between control and treatment and are considering adding more collars for 2011.
+`respiration](hiddencanyon/hc_ecohydrology:soilresplog_1)was measured during the 2010 growing season at 10 collars in each plot (1 & 2). We found little difference between control and treatment and are considering adding more collars for 2011.
 * Moisture and temperature profiles 5 (in lower plot 3) and 7 (lower plot 4) were installed and functional on October 15, 2010.
 * Snow inlets (6 inlets in plots 1 & 2, 3 inlets in plots 3 & 4) and litterbags (6 sets in each of 6 plots) were deployed in early October 2010.
 * Plots 3-6 were set up and measured for the 2011 snowmelt season. Currently plots 2, 4, and 5 are dust additions and 1,3, and 6 are controls.`
@@ -215,7 +215,7 @@ control and treatment collars so that soil temperature increases during
 the measurement period occur evenly between treatments.
 
 * [Hidden`Canyon`soil`respiration`
-`log](hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
+`log](hiddencanyon/hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
 
 #### Below-snow soil respiration
 
@@ -231,7 +231,7 @@ transfered into an evacuated Labco Exetainer with a syrnge, needle, and
 septa. Three samples of ambient air (above snow) are also collected.
 
 * [Hidden`Canyon`soil`respiration`
-`log](hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
+`log](hiddencanyon/hc_ecohydrology:soilresplog_1): measurement locations, dates, and preliminary data.`
 
 #### Litterbag decomposition
 
@@ -246,7 +246,7 @@ Measurements are made in both the Treatment (dust addition) and Control
 each set of bags every spring.
 
 * [Hidden`Canyon`litterbag`
-`log](hc_ecohydrology:litterbaglog_1): bag assembly, placement, recovery, and measurement.`
+`log](hiddencanyon/hc_ecohydrology:litterbaglog_1): bag assembly, placement, recovery, and measurement.`
 
 ### Other logs
 
