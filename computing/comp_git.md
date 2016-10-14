@@ -2,7 +2,7 @@
 
 A distributed version control system.
 
- **See also:** [Mercurial DVCS](computing/comp_mercurial.md)
+ **See also:** [Mercurial DVCS](comp_mercurial.md)
 
 ## Resources:
 
@@ -20,4 +20,4 @@ editor/diff preferences, etc. Directions can be found in the [git documentation]
 ## Basics of using Git
 
 Most of the basic commands for creating and managing a Git repository
-are very similar to [Mercurial](computing/comp_mercurial.md).
+are very similar to [Mercurial](comp_mercurial.md).

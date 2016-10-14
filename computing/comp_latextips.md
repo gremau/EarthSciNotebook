@@ -1,6 +1,6 @@
 # LaTeX tips
 
-**See also:** [comp_textfiles](computing/comp_textfiles.md), [comp_pandoc](computing/comp_pandoc.md)
+**See also:** [comp_textfiles](comp_textfiles.md), [comp_pandoc](comp_pandoc.md)
 
 ## General Resources
 

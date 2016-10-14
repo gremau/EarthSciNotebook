@@ -3,7 +3,7 @@
 Greg's notes on how data moves from collection, to the filesystem, then
 through the data analysis process.
 
-**See also:** [General programming](computing/comp_programming.md) page.
+**See also:** [General programming](comp_programming.md) page.
 
 ## Filesystem
 
@@ -46,7 +46,7 @@ This refers to current projects, each of which is stored in a
 ### Data collected in the field or lab
 
 - In general, this data must be transcribed from field sheets, downloaded from instruments, formatted, etc, and this is most often done using spreadsheets or text files. 
-  - Some formatting, editing, or summary creation of textfiles can be done with [shell scripts](computing/comp_shellscripts.md), [awk](computing/comp_awk.md), etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
+  - Some formatting, editing, or summary creation of textfiles can be done with [shell scripts](comp_shellscripts.md), [awk](comp_awk.md), etc, but be sure to document and save the scripts in the appropriate **projectname/data_analysis/** directory.
 - Processed data can be exported as a textfile to the **projectname/data_analysis/processed_data/** directory, or put in the rawdata/ directory (if it fits criteria above).
 - Data is then processed and analyzed with python, matlab, or other scripts located in the **projectname/data_analysis/** directory
 - This analysis generates outputs(datafiles, figures) that can be stored in **projectname/data_analysis/processed_data/** for further use in analysis, or in the **projectname/** directory, the wiki, or elsewhere for interpretation, publication, etc.
@@ -64,7 +64,7 @@ The generalized workflow looks like this:
 ### Data from elsewhere
 
 - Often this is downloaded as text data (ie, from SNOTEL, etc) in (hopefully) quality-checked form. However some munging may be necessary to trim, format, or otherwise make the data easier to use 
-  - Probably use [shell scripts](computing/comp_shellscripts.md), [awk](computing/comp_awk.md), etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
+  - Probably use [shell scripts](comp_shellscripts.md), [awk](comp_awk.md), etc, and again, be sure to document and save the scripts in the appropriate **projectname/data_analysis** directory.
 - Data can then be directly placed in the **~/data/rawdata/projectname/** directory
 - Follow steps 3 & 4, as above.`
 
@@ -115,4 +115,4 @@ versioned, it is stored in the rawdata directory and changes to that
 directory are logged in a README file.
 
 Versioning is currently done with
-[mercurial](computing/comp_mercurial.md), but [git](computing/comp_git.md) has a page here too.
+[mercurial](comp_mercurial.md), but [git](comp_git.md) has a page here too.

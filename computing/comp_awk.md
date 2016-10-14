@@ -1,9 +1,9 @@
 # AWK Notes
 
 Awk is great for editing delimited text files, and can be easily used in
-[shell scripts](computing/comp_shellscripts).
+[shell scripts](comp_shellscripts.md).
 
-Back to [general programming page](computing/comp_programming)
+Back to [general programming page](comp_programming.md)
 
 ## Basic stuff
 

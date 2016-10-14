@@ -11,7 +11,7 @@ to Matlab). Useful python extensions for this application are
 [SciKits](http://scikits.appspot.com/scikits). This page
 collects some general tips on developing Python code.
 
- **See also:** [NumPy tips](computing/comp_numpytips.md), the [IPython page](computing/comp_ipython.md), and the Python section of [the general programming page](computing/comp_programming.md).
+ **See also:** [NumPy tips](comp_numpytips.md), the [IPython page](comp_ipython.md), and the Python section of [the general programming page](comp_programming.md).
 
 ## Installing Python packages
 
