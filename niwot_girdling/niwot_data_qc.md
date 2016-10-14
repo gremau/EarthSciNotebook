@@ -61,8 +61,8 @@ in both years and for both sites. This technique should remove anomalies
 for CO~2~ (leaky vials, bad injections, IRMS area problems) and δ13C
 (diffusional wierdness and IRMS issues) data.
 
-{{ :niwot_girdling:nwt_forestd13co2.png?180|Niwot aboveground forest
-air d13C vs CO2 concentration}} There are also deep (>10cm depth)
+![media/niwot_girdling:nwt_forestd13co2.png?180|Niwot aboveground forest
+air d13C vs CO2 concentration] There are also deep (>10cm depth)
 measurements that have near-atmospheric δ13C values (> -12permil).
 This is most likely a mistake because any atmospheric air (-8 to
 -12permil - see fig at right) that is advected into the soil mixes with
@@ -84,6 +84,6 @@ FEF | 49 | 56 | 15 | 4 | 0 | 124 | 219 samples removed total
 Enr. deep d13CO2 \^ Total 2012 \^ | NWT | 70 | 20 | 4 | 4 | 2 | 100 | |
 FEF | 0 | 0 | 0 | 4 | 7 | 11 | 111 samples removed total
 
-{{ :niwot_girdling:girdling_baddata2011.png?400|Bad data removed
-2011}}{{ :niwot_girdling:girdling_baddata2012.png?400 |Bad data
-removed 2012 - note 2 sample lines from gasbench}}
+![media/niwot_girdling:girdling_baddata2011.png?400|Bad data removed
+2011]![media/niwot_girdling:girdling_baddata2012.png?400 |Bad data
+removed 2012 - note 2 sample lines from gasbench]

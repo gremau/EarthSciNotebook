@@ -55,7 +55,7 @@ We wish to analyze roughly 1 μmol CO~2~ in the mass spectrometer. TOC/TN
 analysis yielded TOC values in mgC/L. To convert:
 
 $$ V = \\frac{1}{(TOC \\times \\frac{0.001mg}{g}) \\times
-mwC\^{-1}}$$
+mwC\^{-1]$$
 
 where $V$ is the volume in μL of extract to oxidize to yield 1 μmol
 CO~2~, $TOC$ is the extract C concentration in mg/L, and $mwC$ is
@@ -73,7 +73,7 @@ amount to add to an exetainer for oxidation and IRMS analysis via the
 gasbench:
 
 $$ M = \\frac{342.296}{1 \\times 10\^6} \\times \\frac{1 mol \\
-\\mathrm{sucrose}}{12 mol \\ \\mathrm{C}} \* 1000mg/g = 0.0285mg $$
+\\mathrm{sucrose]{12 mol \\ \\mathrm{C] \* 1000mg/g = 0.0285mg $$
 
 #### Calculate amounts of Fenton's reagent and other reagents to use
 

@@ -20,7 +20,7 @@ directly from the NRCS Snow Survey/SNOTEL website
 
 #### Figure A
 
-{{ :west_stationdata:figa.png?200|}} Data distributions for selected
+![media/west_stationdata:figa.png?200|] Data distributions for selected
 variables discussed in this paper. They are plotted for the entire
 SNOTEL network of the interior western U.S. (Black bars - 551 sites in
 AZ, CO, ID, MT, NM, NV, UT, WY) and the subset of those sites that have
@@ -32,7 +32,7 @@ line in the same color.
 
 #### Figure B - Seasonal soil temperature and vwc patterns
 
-{{ :west_stationdata:figb.png?200|}} Time series of SWE, T~soil~, and
+![media/west_stationdata:figb.png?200|] Time series of SWE, T~soil~, and
 soil VWC from multiple years at the Currant Creek SNOTEL site (UT). All
 available wateryears for each variable are plotted in light gray, and a
 mean of all water years is plotted in black. Mean air temperature over
@@ -44,7 +44,7 @@ near zero C when a snowpack is present.
 
 #### Figure C - Elevational soil temperature gradients
 
-{{ :west_stationdata:figc.png?200|}} Mean January and July T~soil~
+![media/west_stationdata:figc.png?200|] Mean January and July T~soil~
 (20cm depth) plotted against site elevation at all Utah SNOTEL sites.
 Each point is a multi-year mean of the site's January or July
 temperature measurements from all available wateryears. T~soil~ remains
@@ -57,7 +57,7 @@ T~soil~ roughly follows the atmospheric temperature lapse rate.
 
 #### Figure D - Air-soil temperature offsets across the landscape
 
-{{ :west_stationdata:figd.png?200|}} Mean January T~soil~ (20cm depth)
+![media/west_stationdata:figd.png?200|] Mean January T~soil~ (20cm depth)
 and T~air~ plotted against site elevation at all Utah SNOTEL sites. Each
 point is a multi-year mean of the site's January temperature
 measurements from all available wateryears. T~soil~ is plotted with bars
@@ -70,8 +70,8 @@ temperature increase with elevation.
 
 #### Figure E - Snowpack effect on mean annual soil temperature
 
-{{ :west_stationdata:mast_mat_gradients.png?200|}}{{
-:west_stationdata:mast_diff_snowpackreg.png?200|}} Comparison of mean
+![media/west_stationdata:mast_mat_gradients.png?200|]{{
+:west_stationdata:mast_diff_snowpackreg.png?200|] Comparison of mean
 annual T~soil~ (MAST) and mean annual T~air~ (MAT) across all SNOTEL
 sites (with soil sensor profiles. Each point is MAST (grey) or MAT
 (blue) for one site during one wateryear. MAST is higher than MAT, and
@@ -83,7 +83,7 @@ regression.
 
 #### Figure F - Inter-annual variability in snowpack/soil temp
 
-{{ :west_stationdata:figf.png?200|}} T~soil~, T~air~, and SWE at Mosby
+![media/west_stationdata:figf.png?200|] T~soil~, T~air~, and SWE at Mosby
 Mountain SNOTEL site (UT) during two contrasting water years. In water
 year 2005, a large snowpack (SWE) accumulated early, leading to stable,
 near-zero T~soil~ during the remainder of the snowcovered period. In
@@ -94,7 +94,7 @@ much of the snowcovered period.
 
 #### Figure G - Early season snowpack and soil temperature
 
-{{ :west_stationdata:figg.png?200|}} Mean monthly T~soil~ plotted
+![media/west_stationdata:figg.png?200|] Mean monthly T~soil~ plotted
 against SWE. Each point is the mean T~soil~ for one month at an
 individual SNOTEL site. Two sensor depths are plotted for each site in
 December and January of all available water years. The solid lines are
@@ -105,8 +105,8 @@ for reference.
 
 #### Figure H - Effect of snowpack variability on growing season soil moisture
 
-{{ :west_stationdata:gsvwc_snowpack.png?100|}}{{
-:west_stationdata:gsvwc_snowrain.png?200|}} Melt timing has a greater
+![media/west_stationdata:gsvwc_snowpack.png?100|]{{
+:west_stationdata:gsvwc_snowrain.png?200|] Melt timing has a greater
 effect on growing season soil moisture than snowpack size.
 
 * Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.
@@ -116,7 +116,7 @@ effect on growing season soil moisture than snowpack size.
 
 #### Figure I - Stability of winter soil moisture
 
-{{ :west_stationdata:figi.png?120|}} Winter month soil VWC plotted
+![media/west_stationdata:figi.png?120|] Winter month soil VWC plotted
 against mean VWC of the 2 weeks period prior to snowpack onset. Soil VWC
 data is normalized to a value between 0 and 1. A one month datapoint for
 all sites and wateryears has been averaged into VWC units of 0.1 and
@@ -127,7 +127,7 @@ stable until the beginning of the snowmelt cycle.
 
 #### Figure J - Soil moisture histograms at 4 contrasting sites
 
-{{ :west_stationdata:figj.png?200|}} Histograms of soil water content
+![media/west_stationdata:figj.png?200|] Histograms of soil water content
 (normalized to between 0 and 1) for four SNOTEL sites with contrasting
 profiles of elevation and mean snowpack size. Mean snowpack size is
 determined from NRCS 30-year mean datasets for the site. The same six
@@ -140,7 +140,7 @@ line.
 
 #### Figure
 
-{{ :west_stationdata:monthlysoiltempgradient2.png?150|}} Monthly avg
+![media/west_stationdata:monthlysoiltempgradient2.png?150|] Monthly avg
 soil-air T offset by elevation
 
 * FIXME - this figure might be redundant, could be combined with air-soil T offsets (for 12 months)?`
