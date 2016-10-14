@@ -1,12 +1,12 @@
 # Handheld soil respiration measurements
 
 Growing season soil CO~2~ fluxes are measured at respiration collars
-using the [Li-Cor 6400](instruments:li-6400) and a handheld
+using the [Li-Cor 6400](instruments/inst_li-6400.md) and a handheld
 soil respiration chamber (LiCor 6400-09).
 
 In use at:
 
-* [Hidden Canyon](hiddencanyon/hc_soilresplog_1)
+* [Hidden Canyon](hiddencanyon/hc_soilresplog_1.md)
 
 ## Collar installation
 
@@ -24,7 +24,7 @@ they should be installed at least 12 hours prior to measurement.
 #### Materials checklist
 
 - LiCor 6400 (in carrying case)
-- LiCor 6400-09 handheld soil CO`~`2`~flux chamber (attaches to the IRGA)
+- LiCor 6400-09 handheld soil CO~2~ flux chamber (attaches to the IRGA)
 - Cables/tubing for connecting items 1 and 2 (in carrying case)
 - 2 fully charged LiCor batteries
 - 2 full charged **spare batteries**
@@ -33,13 +33,11 @@ they should be installed at least 12 hours prior to measurement.
   - Bring the probe AND its console
 - Notebook
 - Pen
-- Span gas tank - optional, see the notes in the [measurement`
-`procedure](instruments:li-6400).`
+- Span gas tank - optional, see the notes in the [measurement procedure](instruments:li-6400.md).
 
 #### Making measurements with the LI-6400
 
-The general procedure for operating the LiCor 6400 is on the
-**[instrument page.](instruments:li-6400)**
+The general procedure for operating the LiCor 6400 is on the **[instrument page.](instruments/inst_li-6400.md)**
 
 * This procedure will need to be adapted for each site (see below and notes on the instrument page)
 
@@ -60,16 +58,15 @@ The general procedure for operating the LiCor 6400 is on the
   * Night might exclude autotrophic components
   * Timing should probably be similar between measurement periods
 * **Order of collar measurement:**
-  * If measuring a control and treatment plot, alternate the measurements so that soil temperature changes during the measurement period occur evenly between treatments.`
+  * If measuring a control and treatment plot, alternate the measurements so that soil temperature changes during the measurement period occur evenly between treatments.
 
 #### Notes for Hidden Canyon
 
-* Typical `Aux`OP`Parameters`:
+* Typical `Aux OP Parameters`:
   * Extra drawdown = 5ppm
   * Flow = 500
   * Dead time = 20 sec
   * Minimum measurement time = 30 seconds
 * `Delta` of around 5-6 usually works best, more if there are lots of roots.
-* May need to modify things to stay within `Target`+/-`
-`Delta` range.
+* May need to modify things to stay within `Target +/- Delta` range.
 * Measure the soil temperature at 5cm and 15cm depths using the Omega probe (the Li-Cor one is busted)

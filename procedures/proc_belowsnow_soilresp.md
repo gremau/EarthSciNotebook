@@ -104,10 +104,10 @@ FIXME - add photo of this device
 Soil respiration rate can be calculated using Fick's law, adjusted for
 snowpack properties:
 
-$$ F = \\rho_a \\eta \\tau D \\frac{dC}{dz} $$
+$$ F = \rho_a \eta \tau D \frac{dC}{dz} $$
 
-where $\\rho_a$ is the molar density of air (adjusted for temperature
-and pressure using the Boyle-Charles law, $\\eta$ and $\\tau$ are
+where $\rho_a$ is the molar density of air (adjusted for temperature
+and pressure using the Boyle-Charles law, $\eta$ and $\tau$ are
 the air-filled porosity and tortuosity of the snowpack, respectively ,
 $D$ is the molecular diffusivity of CO~2~ in air (adjusted for
 temperature and pressure following Massman 1998), and $C$ is the mole

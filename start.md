@@ -41,7 +41,7 @@ edit content on this site should email <admin@pronghorns.net>.
 
 Before you begin take a look at:
 
-* [Rules and conventions](wiki/standards.md)
+* [Rules and conventions](wiki/wiki_standards.md)
 * The [FAQ](faq.md)
 
 ### Copyright information
@@ -55,5 +55,5 @@ licensed under the Apache License, version 2.0. You may not use these
 files except in compliance with this license. A copy of the license can
 be found at <http://www.apache.org/licenses/LICENSE-2.0>.
 
-Please see the [copyright page](wiki/copyright.md) for more on
+Please see the [copyright page](wiki/wiki_copyright.md) for more on
 software copyrights and licensing information.

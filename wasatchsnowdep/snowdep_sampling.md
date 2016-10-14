@@ -2,32 +2,29 @@
 
 ## Clean sampling materials in lab
 
-:   !: Do this the day before you depart for the field :!:
+**Do this the day before you depart for the field!!**
 
-Acid wash snow sampling tools
------------------------------
+### Acid wash snow sampling tools
 
 - Soak in 10% HCl (in fume hood) overnight
 - Rinse with DI water 5 times.
 - Air dry and place in previously rinsed Ziploc Bag (below)
 
-Serially rinse with DI water (5 times) then air dry:
-----------------------------------------------------
+### Serially rinse with DI water (5 times) then air dry:
 
 * Nalgene sample bottles
 * Coring bag (big Ziplocs)
 * Gallon Ziploc bags (for large samples)
 
-To make 10% HCl acid wash:
---------------------------
+### To make 10% HCl acid wash:
 
 - Stock solution is 36.4% (36.4g HCl in 100g soln). Density is 1.179g/ml.
-- density`^`-1`^`/concentration = ml of stock soln for 1 g HCl = 2.330ml•g`^`-1`^\
-- To make 1000ml of 10% solution requires 100g HCl and 900g H`~`2`~`O.
-- 100g HCl = 100g x 2.330ml•g`^`-1`^= 233 ml stock soln
+- density^-1^/concentration = ml of stock soln for 1 g HCl = 2.330ml•g^-1^\
+- To make 1000ml of 10% solution requires 100g HCl and 900g H~2~O.
+- 100g HCl = 100g x 2.330ml•g^-1^= 233 ml stock soln
 - For each liter of acid wash add 233ml of HCl stock solution to 767ml distilled water.`
 
-Leave this in a labelled basin in the fume hood :!:
+Leave this in a labeled(!) basin in the fume hood.
 
 ## Materials checklist
 
@@ -52,44 +49,44 @@ Leave this in a labelled basin in the fume hood :!:
 
 ## Field snow sampling procedure
 
-- Locate snow sampling board, or its center post.
-- One corner of the board's center post has tickmarks.
-- The 1ft square sampling surfaces cover 2 corners of the board. The first is directly out from the tickmarks and the second is 180° around from these marks.
-- If needed (in deeper snow) excavate the snowpack along an edge of each sampling surface for reference.
-- Open sampling kit and PUT ON CLEAN NITRILE GLOVES.
-- Remove  sampling tube from protective bags and place bags in a secure location. Don't get snow in them.
-- Insert snow sampling tube straight down into the snowpack roughly in the center of the 1st sampling surface. If there is a crust, or ice on the sampling surface, give the tube a couple of steady turns to cut through it.
-- Hold the sampling tube steady and excavate the snow from one side of the sampling tube with your other hand. 
-- Gently insert the sampling knife (black plastic putty knife - from the bin) between the bottom opening of the sampling tube and the sampling surface. Take care not to lose any of the sample.
-- Pull the tube and knife up from the board and gently slide the opening of the tube over the mouth of a 1l Nalgene sample bottle. You may need a helper to steady the bottle.
-- Gently tap the side of the tube to release the snow sample.
-- If the samples don't easily slide into the Nalgene bottle, try to transfer them through the blue funnel. Again, you may need a helper to manage this.
-- REPEAT steps 7-12 on the 2nd sampling surface (180° around the center post), putting the second sample in the same Nalgene bottle.
-- ** IF THE SNOWPACK IS SMALL ** (esp at low elevation/urban sites):
+1. Locate snow sampling board, or its center post.
+2. One corner of the board's center post has tickmarks.
+3. The 1ft square sampling surfaces cover 2 corners of the board. The first is directly out from the tickmarks and the second is 180° around from these marks.
+4. If needed (in deeper snow) excavate the snowpack along an edge of each sampling surface for reference.
+5. Open sampling kit and PUT ON CLEAN NITRILE GLOVES.
+6. Remove  sampling tube from protective bags and place bags in a secure location. Don't get snow in them.
+7. Insert snow sampling tube straight down into the snowpack roughly in the center of the 1st sampling surface. If there is a crust, or ice on the sampling surface, give the tube a couple of steady turns to cut through it.
+8. Hold the sampling tube steady and excavate the snow from one side of the sampling tube with your other hand. 
+9. Gently insert the sampling knife (black plastic putty knife - from the bin) between the bottom opening of the sampling tube and the sampling surface. Take care not to lose any of the sample.
+10. Pull the tube and knife up from the board and gently slide the opening of the tube over the mouth of a 1l Nalgene sample bottle. You may need a helper to steady the bottle.
+11. Gently tap the side of the tube to release the snow sample.
+12. If the samples don't easily slide into the Nalgene bottle, try to transfer them through the blue funnel. Again, you may need a helper to manage this.
+13. REPEAT steps 7-12 on the 2nd sampling surface (180° around the center post), putting the second sample in the same Nalgene bottle.
+14. ** IF THE SNOWPACK IS SMALL ** (esp at low elevation/urban sites):
   - Take multiple cores from each sampling surface, ie. 2 per side, or 3 per side.
   - This increases sample volume to something more useful (we are shooting for ~50ml or more).
   - Put these additional cores in the same Nalgene bottle.
   - ALWAYS write down the total number of cores taken on the sample bottle and in the field notebook.
-- If the Nalgene bottles are not large enough (large snowpack days) a clean, labeled 1gal ziploc can be used to hold samples.
-- RINSE the sampling tube with DI water using the spray bottle in the sampling bin and carefully put it back in its bags.
-- RINSE the sampling knife and funnel (if used) with DI water and put them back in the bin.
-- LABEL THE BOTTLE/BAGS with the site code and the date (yymmdd format). If multiple bottles/bags are used number them on the label.
-- Using the tape measure in the bin, take 4 snow depth measurements from:
+15. If the Nalgene bottles are not large enough (large snowpack days) a clean, labeled 1gal ziploc can be used to hold samples.
+16. RINSE the sampling tube with DI water using the spray bottle in the sampling bin and carefully put it back in its bags.
+17. RINSE the sampling knife and funnel (if used) with DI water and put them back in the bin.
+18. LABEL THE BOTTLE/BAGS with the site code and the date (yymmdd format). If multiple bottles/bags are used number them on the label.
+19. Using the tape measure in the bin, take 4 snow depth measurements from:
   - The first coring location (1)
   - The second coring location (1)
   - The undisturbed snow on the other two corners of the board (2)
   - Record these in the yellow field book.
-- Clean the snow off of the rest of the board, taking care to scrape all the ice off of the sampling surfaces. Use the blue scraper tool and DI water if needed, and make sure these surfaces are clean.
-- Rinse the scraper with DI and put it back in the bin
-- Place the board a relatively flat area away from overhanging vegetation or structures. This can be the original location you found it, but ONLY if you didn't have to dig a pit to get to the sampling surfaces. Always situate the sampling board at or near the top of the snowpack to minimize surface roughness effects on snow deposition.
-- Record any other pertinent notes about the sampling in the yellow field book. These should include:
+20. Clean the snow off of the rest of the board, taking care to scrape all the ice off of the sampling surfaces. Use the blue scraper tool and DI water if needed, and make sure these surfaces are clean.
+21. Rinse the scraper with DI and put it back in the bin
+22. Place the board a relatively flat area away from overhanging vegetation or structures. This can be the original location you found it, but ONLY if you didn't have to dig a pit to get to the sampling surfaces. Always situate the sampling board at or near the top of the snowpack to minimize surface roughness effects on snow deposition.
+23. Record any other pertinent notes about the sampling in the yellow field book. These should include:
   - Date and time
   - Weather (Is it snowing? About to snow? Raining? Is there a thick inversion? etc.)
   - The snow you sampled (Was it saturated with meltwater? Was there an ice crust at the bottom of your sample column? Other signs of melt? etc.)
   - Any disturbances to the snow or board (ski or animal tracks, blown over, etc)
   - Record if you needed to move the board to a new location for any reason (further than a few feet).
   - List the number of samples taken and containers used, any other notes needed to track these samples.
-- ** IF THE SNOW IS DEEPER THAN 50cm**, you will have sample in ~50cm increments until the the entire snow column is sampled. 
+24. **IF THE SNOW IS DEEPER THAN 50cm**, you will have sample in ~50cm increments until the the entire snow column is sampled. 
   - Dig a smooth pit wall down to the edge of the sampling surface.
   - Insert the tube just behind this wall as deeply as you can (but still holding the top).
   - Excavate along the tube by hand down to the bottom of the tube.
@@ -106,31 +103,30 @@ The water in the main channel of the stream in Big Cottonwood and Red
 Butte Canyons is sampled immediately following each snow sample
 collection.
 
-- After leaving the storm board label 2 60ml Nalgene bottles with the site code, date, the word "Stream", and number each bottle (1/2, 2/2) 
-- Wearing your sampling gloves, dip the bottles into the top 20cm of stream water at the designated location.
-- Collect water that is running swiftly (not stagnant or eddy water).
-- Leave about 1 cm of headspace at the top of each bottle.`
+1. After leaving the storm board label 2 60ml Nalgene bottles with the site code, date, the word "Stream", and number each bottle (1/2, 2/2) 
+2. Wearing your sampling gloves, dip the bottles into the top 20cm of stream water at the designated location.
+3. Collect water that is running swiftly (not stagnant or eddy water).
+4. Leave about 1 cm of headspace at the top of each bottle.`
 
 ## Urban transect snow samples
 
 These transects (Grandeur peak and Avenues) are sampled periodically
 during inversion events in Salt Lake City.
 
- **Current procedure: **
+**Current procedure:**
 
-- Select a site with continuous, undisturbed snow, away from trees and other overhanging objects.
-- Label and remove the cap from a clean 60ml Nalgene bottle.
-- Scrape open end of the bottle along the surface of the snowpack, allowing the top 1cm of snow crystals to be pushed into the bottle. **Try to sample only the top 1cm.**
-- Scrape in several paths along the undisturbed snow surface until the bottle fills up. Do not sample the snow you disturbed with your hand or the bottle in prior scrapings.
-- To compress the snow and make more room in the bottle, screw the cap back on and whack the bottom of the bottle against something hard like your shoe.
-- **Do not** push snow crystals into the bottle with your hand.
-- Repeat this process until the bottle is full.`
+1. Select a site with continuous, undisturbed snow, away from trees and other overhanging objects.
+2. Label and remove the cap from a clean 60ml Nalgene bottle.
+3. Scrape open end of the bottle along the surface of the snowpack, allowing the top 1cm of snow crystals to be pushed into the bottle. **Try to sample only the top 1cm.**
+4. Scrape in several paths along the undisturbed snow surface until the bottle fills up. Do not sample the snow you disturbed with your hand or the bottle in prior scrapings.
+5. To compress the snow and make more room in the bottle, screw the cap back on and whack the bottom of the bottle against something hard like your shoe.
+6. **Do not** push snow crystals into the bottle with your hand.
+7. Repeat this process until the bottle is full.`
 
- **Deprecated procedure - only used once for the Avenues transect:
-        **
+**Deprecated procedure - only used once for the Avenues transect:**
 
-- Select a site with continuous, undisturbed snow, away from trees and other overhanging objects.
-- Invert and insert a clean 0.5L Nalgene bottle into the snowpack up to its bottom, or to 2cm above the ground (whichever is first).
-- Isolate the sample using the plastic putty knife, tip the bottle right side up, and put the lid on.
-- LABEL the bottle with the site code and date.
-- Make notes about snow depth, sampling environment, and snow pack characteristics in the yellow log book.`
+1. Select a site with continuous, undisturbed snow, away from trees and other overhanging objects.
+2. Invert and insert a clean 0.5L Nalgene bottle into the snowpack up to its bottom, or to 2cm above the ground (whichever is first).
+3. Isolate the sample using the plastic putty knife, tip the bottle right side up, and put the lid on.
+4. LABEL the bottle with the site code and date.
+5. Make notes about snow depth, sampling environment, and snow pack characteristics in the yellow log book.`

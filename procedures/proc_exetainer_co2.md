@@ -13,40 +13,38 @@ LI-7000 was connected to a datalogger, and the injection integrals are
 recorded by the datalogger now. The timeseries produced by this can now
 be analyzed in MATLAB and bad peaks can be dealt with there.
 
-Used for:
----------
+**Used for:**
 
-* [Hidden`Canyon`soil`
-`respiration](hiddencanyon/hc_soilresplog_1)measurements (in winter)
+* [Hidden Canyon soil respiration](hiddencanyon/hc_soilresplog_1.md) measurements (in winter)
 
 (last revised on 120112 by Allison Chan)
 
-#### LI-7000
+## LI-7000
 
-- Turn on Li-7000 about 20-30 minutes before starting injections
-- While it is warming up, press “Shift, 6” to change the bottom display on the Li-7000.  Press “Pump Off” and then change the septum.
-- After the septum is replaced, press “Pump Fast” (a star should show up next to it).
-- Change the bottom display back to the “Reference/Calibration” mode by pressing “Shift, 1” and press “2” to switch the top display to show integrals.
-- Press “calib” on the bottom display and then choose “edit” (if “edit” is not an option, select “more”, until it becomes a choice in the bottom left corner).  In the edit menu, use the arrows to scroll down, select “make cell B match cell A”, and press “Ok”.  Then press “DoCO2” and “Done”.  On the top screen, the CO2 A and CO2 B concentrations should match.
-  - **This calibration should be done as often as needed throughout the injections**.  The two cells should be within 0.01-0.03 μm/m.`
+1. Turn on Li-7000 about 20-30 minutes before starting injections
+2. While it is warming up, press `Shift, 6` to change the bottom display on the Li-7000.  Press `Pump Off` and then change the septum.
+3. After the septum is replaced, press `Pump Fast` (a star should show up next to it).
+4. Change the bottom display back to the `Reference/Calibration` mode by pressing `Shift, 1` and press `2` to switch the top display to show integrals.
+5. Press `calib` on the bottom display and then choose `edit` (if `edit` is not an option, select `more`, until it becomes a choice in the bottom left corner).  In the edit menu, use the arrows to scroll down, select `make cell B match cell A`, and press `Ok`.  Then press `DoCO2` and `Done`.  On the top screen, the CO2 A and CO2 B concentrations should match.
+  - **This calibration should be done as often as needed throughout the injections**.  The two cells should be within 0.01-0.03 μm/m.
 
-#### Datalogger
+## Datalogger
 
-- Turn on the CR23X datalogger and connect to “Nebo” laptop (requires USB converter cord).  Open Loggernet, click on the “connect” icon and connect to datalogger.  
-- Under the “Program” section of the Connect window, be sure the co2_inj_v1.dld program is selected, then press Send and agree to all further windows that pop up (this should overwrite the previous round of data collection)
-  - **NOTE**: Resending the program doesn’t actually seem to erase the datalogger.  To manually erase the datalogger, press *A on the CR23X keypad and then press A 4 times to get to the Allocation Program Bytes screen.  Then enter 98765 and then A. (Not erasing the datalogger is only a problem in that will take longer to download data).
-- After sending the program, press 1 next to Graphs.  At this point, begin injections.`
+1. Turn on the CR23X datalogger and connect to `Nebo` laptop (requires USB converter cord).  Open Loggernet, click on the `connect` icon and connect to datalogger.  
+2. Under the `Program` section of the Connect window, be sure the co2_inj_v1.dld program is selected, then press Send and agree to all further windows that pop up (this should overwrite the previous round of data collection)
+  - **NOTE**: Resending the program doesn’t actually seem to erase the datalogger.  To manually erase the datalogger, press `A` on the CR23X keypad and then press `A` 4 times to get to the Allocation Program Bytes screen.  Then enter `98765` and then `A`. (Not erasing the datalogger is only a problem in that will take longer to download data).
+3. After sending the program, press 1 next to Graphs.  At this point, begin injections.
 
-#### Injections
+## Injections
 
-- Once the machine has warmed up, inject standards, using tanks that fit the CO2 range of the samples.  Tanks being used for the Niwot samples are 15 (395.78 ppm), J39 (3144 ppm), and J29 (14,051 ppm).  Change the septa on the tanks about every 75-100 samples.  After opening the tanks, flush the headspace with a 1.0 ml syringe with a sideport needle.
+1. Once the machine has warmed up, inject standards, using tanks that fit the CO2 range of the samples.  Tanks being used for the Niwot samples are 15 (395.78 ppm), J39 (3144 ppm), and J29 (14,051 ppm).  Change the septa on the tanks about every 75-100 samples.  After opening the tanks, flush the headspace with a 1.0 ml syringe with a sideport needle.
   - Be sure to support the needle when pushing into or pulling out of the septum to prevent the needle from bending.  Also be sure to hold the base of the needle when pulling out of the septum to prevent needle from being pulled off, and check periodically to make sure the plunger is screwed into the base.
-- Use a 1.0 ml syringe with a sideport needle and flush it 3 times with the first standard using the open and close sliders on the syringe.  Then fill the syringe up to 1.0 ml, close the syringe, withdraw it from the septum and compress it to 0.6 ml.
-- Bring the pressurized sample back to the Li-7000 and just before injecting into the septum, open the syringe and compress to 0.5 ml, then inject the 0.5 ml into the machine.  
-- Inject one sample of each of the 3 standards before beginning injecting unknowns.  The three standards should be injected (in an alternating order) after about every 12-15 samples.  
-- To inject unknowns, insert the needle into the exetainer and withdraw about 0.5 ml and flush.  Insert the needle again and flush about 3 times with the needle in the exetainer before pulling a 0.8 ml sample.  Close the syringe, withdraw the needle, and compress the sample to 0.6 ml.  As with the standards, open the syringe and compress to 0.5 ml and then inject 0.5 ml into the Li-7000.
-- Finish with one injection of each of the 3 standards.
-- To download the data, click Custom, under the Data Collection section of the Connect screen.  Name the data file and select location to save.  Then click Collect.`
+2. Use a 1.0 ml syringe with a sideport needle and flush it 3 times with the first standard using the open and close sliders on the syringe.  Then fill the syringe up to 1.0 ml, close the syringe, withdraw it from the septum and compress it to 0.6 ml.
+3. Bring the pressurized sample back to the Li-7000 and just before injecting into the septum, open the syringe and compress to 0.5 ml, then inject the 0.5 ml into the machine.  
+4. Inject one sample of each of the 3 standards before beginning injecting unknowns.  The three standards should be injected (in an alternating order) after about every 12-15 samples.  
+5. To inject unknowns, insert the needle into the exetainer and withdraw about 0.5 ml and flush.  Insert the needle again and flush about 3 times with the needle in the exetainer before pulling a 0.8 ml sample.  Close the syringe, withdraw the needle, and compress the sample to 0.6 ml.  As with the standards, open the syringe and compress to 0.5 ml and then inject 0.5 ml into the Li-7000.
+6. Finish with one injection of each of the 3 standards.
+7. To download the data, click `Custom`, under the Data Collection section of the Connect screen.  Name the data file and select location to save.  Then click `Collect`.
 
 ## Old Li-Cor 7000/TDL-TGA Method (Nicole/Andrew's)
 
@@ -68,7 +66,7 @@ See note at top of page about why this method was deprecated.
   - Take a 1.0ml syringe and flush it 3 times with your first standard using the open and close sliders on the syringe. Fill the syringe all the way up, close the syringe, withdraw it from the septum, and compress the standard gas until you feel resistance or until you get to 0.6ml. This pressurizes the syringe to avoid ambient contamination. 
   - Walk back to the LI-7000 and just before injecting into its septum, open the syringe and compress until you reach 0.5ml, then inject into the LI-7000. (**NOTE**: you will always inject 0.5ml into the LI-7000.)  Record the Integral value on the screen. Repeat this 3 times or more for each tank before you start and when you finish.  CO2 integral values should range within ± 5% of one another.
   - After injecting your standards you are ready to inject your unknowns. The procedure is similar, but less sample is flushed out of the vial. Insert the needle into the sample vial, fill the syringe to about 0.5, then withdraw and flush. Reinsert the syringe and flush several times **in the sample vial**. Then pull a 0.8ml sample, withdraw needle, compress to 0.6ml, inject 0.5ml and record the Integral as above.
-    - ** Be mindful of how much sample you may need to do isotopes (up to 5ml) and keep that much in the vial.**
+    - **Be mindful of how much sample you may need to do isotopes (up to 5ml) and keep that much in the vial.**
   - Before starting injections on the laser I usually get about 15-20 samples ahead on the LI-7000. (See page 6 for lab notebook set-up) 
 - Starting syringe program on the laser
   - On the valve relay controller switch 5 on and 1-4, 6-16 off. Unscrew the cap that reads remove for zero and change the septum where the samples are injected.
@@ -118,11 +116,11 @@ See note at top of page about why this method was deprecated.
   - Type in # of injections (use all injection times, even ones missed).
   - Type in the injection numbers of all the T1 injections in order (ex: [1;8;12;18;25])
   - If all injections aren’t good or injections are missed, comment out line 119 and uncomment out line 120 in the code. Specify the good sets of injections.
-  - MATLAB will go through each injection individually and the output file will be an excel file.csv that will be in the same place as your input hzdate.dat file.`
+  - MATLAB will go through each injection individually and the output file will be an excel file.csv that will be in the same place as your input hzdate.dat file.
 
 ## Notes for Hidden Canyon samples
 
 * Tanks/concentrations used: J39/3144ppm, J59/1504ppm, J20/461.23ppm (used once), J25/395ppm, and the big red 6000ppm tank (6356.6ppm).
 * Since isotopes are not being measured, I am flushing the syringe with 0.8ml of sample gas once before drawing the injection sample.
 * Sample draw is to 0.8ml, which is then compressed to 0.6.
-* Injection volume is still 0.5ml`
+* Injection volume is still 0.5ml

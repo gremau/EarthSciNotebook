@@ -30,12 +30,11 @@ GPS position and a GPS rover that references its positions to the base
 station. On occasion we have borrowed a Trimble 4700 DGPS system from
 Geology and Geophysics at the U. of Utah. Information on its use is
 provided by them at:
+
 <http://thermal.gg.utah.edu/facilities/gps/index.shtml> (we used the RTK
 method).
 
-See the [Hidden Canyon
-georeferencing](hiddencanyon/hc_georeferencing) page for info on
-how we used this system.
+See the [Hidden Canyon georeferencing](hiddencanyon/hc_georeferencing.md) page for info on how we used this system.
 
 ## Data formats
 
@@ -43,8 +42,6 @@ Unfortunately there is no standard output data format for GPS data among
 the many makers of GPS units. Luckily there are some open and
 interchangeable geodata formats and software tools to do the conversion.
 
-* [The`GPX`data`
-`format](http://www.topografix.com/gpx.asp)\
-* [GPSBabel`
-`software](http://www.gpsbabel.org/)- excellent for converting data formats.
-* FIXME - currently have no idea how to use Trimble DGPS data with any other software besides Trimble Geomatics Office.`
+* [The GPX data format](http://www.topografix.com/gpx.asp)
+* [GPSBabel software](http://www.gpsbabel.org/)- excellent for converting data formats.
+* FIXME - currently have no idea how to use Trimble DGPS data with any other software besides Trimble Geomatics Office.

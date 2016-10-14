@@ -23,7 +23,7 @@ Here are our field and data analysis procedures.
 - Using a compass place a North marker a few meters due north(magnetic) of the camera.
 - Orient the top of the camera so that the top of the photo will be at magnetic north (the marker will appear here in the photo).
 - Level the camera using a carpenter's level or the inclinometer of the compass.
-- Check the north orientation one more time, duck, remove lens cap, and take photo`
+- Check the north orientation one more time, duck, remove lens cap, and take photo
 
 ## Photo analysis software (GLA)
 
@@ -38,13 +38,12 @@ taken, and parameters used to model incoming radiation, are stored in a
 file called a //.scn// file. These can be loaded for multiple photos.
 The settings used for Hidden Canyon are shown below as an example.
 
-- The top of the photos that I take are referenced to magnetic North and need to be adjusted with the appropriate declination. Calculate this at [this`
-`NGDC`
-`site](http://www.ngdc.noaa.gov/geomag-web/#declination).
+- The top of the photos that I take are referenced to magnetic North and need to be adjusted with the appropriate declination. Calculate this at [this NGDC site](http://www.ngdc.noaa.gov/geomag-web/#declination).
 - Lens projection is Polar (azimuthal equidistant) for Sigma lenses.
-- Topographic mask: This is a vector of azimuth and zenith angles that masks the horizon line if there are ridglines, mountains, etc that block the sun at the photographic location for part of the day. These can be generated with a GIS, or with the provided software. They can be saved in a //.msk// file for use with multiple photos. Currently I just pick a photo and fuss with the array values until it looks right.`
+- Topographic mask: This is a vector of azimuth and zenith angles that masks the horizon line if there are ridglines, mountains, etc that block the sun at the photographic location for part of the day. These can be generated with a GIS, or with the provided software. They can be saved in a //.msk// file for use with multiple photos. Currently I just pick a photo and fuss with the array values until it looks right.
 
-<file> --- IMAGE --- Initial Cursor Point: 11.88 degrees. # Declination
+~~~ 
+--- IMAGE --- Initial Cursor Point: 11.88 degrees. # Declination
 Projection Distortion: Polar # For sigma lens
 
 --- SITE --- Latitude: 40:367 North Longitude: 111:342 West Elevation:
@@ -59,7 +58,8 @@ Regions: 36 Zenith Regions: 9
 --- RADIATION --- Data Source: Modelled Solar Constant: 1367 Output
 Units: Mols m-2 d-1 Cloudiness Index (kt): 0.5 BeamFraction: 0.5
 SpectralFraction: 0.5 Sky Brightness Dist.: UOC Model Clear-Sky Trans.:
-0.65 </file>
+0.65
+~~~
 
 ## Procedure for photo analysis in GLA
 
@@ -75,7 +75,7 @@ SpectralFraction: 0.5 Sky Brightness Dist.: UOC Model Clear-Sky Trans.:
 - For photos taken under a clear sky, it is wise to select the blue color plane before applying a threshold. It removes some glare and lens flare and improves the contrast between vegetation and sky. This change, and the threshold will appear in the "Working" image.
   - Once registered, the"Working" photo's properties, such as contrast, color depth, brightness, etc., can be modified using the menu system. These options may help improve the threshold process in the next step.
 - Apply a threshold to the photo and inspect photo using the zoom tool. If the threshold tool did a good job, vegetation and sky are accurately represented by black and white.
-- If the threshold looks good, calculate canopy structure and/or transmitted gap light. There are also several modeling routines that can calculate other aspects of canopy transmission.`
+- If the threshold looks good, calculate canopy structure and/or transmitted gap light. There are also several modeling routines that can calculate other aspects of canopy transmission.
 
 ### 2. Compute results
 
@@ -99,7 +99,7 @@ option to save detailed data for each sky region to a text file.
 * Trans Total is the sum of Trans Direct and Trans Diffuse.
 * **% Trans Direct** is the ratio of Trans Direct to Above Direct Mask multiplied by 100%.
 * **% Trans Diffuse** is the ratio of Trans Diffuse to Above Diffuse Mask multiplied by 100%.
-* **% Trans Total** is the ratio of Trans Total to Above Total Mask multiplied by 100%.`
+* **% Trans Total** is the ratio of Trans Total to Above Total Mask multiplied by 100%.
 
 After calculating and saving these values you can move on to the next
 image, OR...

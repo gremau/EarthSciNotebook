@@ -12,13 +12,13 @@ sampling. These forests must be within a 1 km radius and 100m
 elevational distance of the SNOTEL site. SNOTEL sites are selected to
 represent some aspect of the climatic, topographical, and snowpack
 variability present in forests of the western U.S. More info on site
-selection can be found ...:?:.
+selection can be found **???**
 
 ## SNOTEL soil survey supply list for each site visited
 
 - GPS
 - Camera
-- 15cm`^`2`^quadrat
+- 15cm^2^quadrat
 - Soil knife
 - Spatula or trowel
 - DBH tape
@@ -32,9 +32,9 @@ selection can be found ...:?:.
 - Shovel
 - 6 soil tins (when intact cores are not being collected)
 - 15 paper lunch bags
-- 7 paper grocery bags`
+- 7 paper grocery bags
 
- **Optional equipment **
+**Optional equipment**
 
 - 3 soil gas cans & sampling tubes
 - 2x4 block?
@@ -53,4 +53,4 @@ FIXME --- this is in need of an update.
 * 3 soil gas samples
 * 6 bulk density tins OR
 * 3-5 intact core sets, collected to at least 10cm depth from first mineral horizon.
-* 10 tree cores - 1 each from plots (largest tree) and 7 more from mature trees in stand.`
+* 10 tree cores - 1 each from plots (largest tree) and 7 more from mature trees in stand.

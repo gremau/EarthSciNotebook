@@ -3,16 +3,17 @@
 This document describes the long-term weather stations located in Red
 Butte Canyon.
 
-//Originally, this info was taken from /RedButte/RBCWeatherStations.doc
+*Originally, this info was taken from /RedButte/RBCWeatherStations.doc
 on the project Dropbox, last modified on 11/5/2007. It has been
-subsequently changed to reflect recent activity.//
+subsequently changed to reflect recent activity.*
 
 ## History
 
-For a history of these stations, begin by reading Ehleringer et al.
-1992. Red Butte Canyon Research Natural Area: History, Flora, Geology,
-Climate, and Ecology. Great Basin Naturalist 52(2), pp95-121. The
-present weather stations have been running since 1982 but are positioned
+For a history of these stations, begin by reading:
+
+ Ehleringer et al. 1992. Red Butte Canyon Research Natural Area: History, Flora, Geology,Climate, and Ecology. Great Basin Naturalist 52(2), pp95-121.
+
+The present weather stations have been running since 1982 but are positioned
 in the same locations as much older weather stations. At this time, the
 historical weather station data (prior to 1982) have not been
 aggregated, quality checked, and made available to the public.
@@ -41,8 +42,7 @@ Weather station 1 also collects data every ten minutes for all above
 mentioned sensors as well as for wind direction and photosynthetically
 active radiation (PAR).
 
-Log books
----------
+## Log books
 
 Log books are maintained for each weather station and, as of 11/5/2007,
 these were located in ASB room 510 in the eastern most cubicle. These,
@@ -50,14 +50,11 @@ however, only extend back to 2000 despite efforts to locate any
 historical documentation of these stations. Each log book has a copy of
 a topo map with the approximate location marked.
 
-Online maintenance log
-----------------------
+## Online maintenance log
 
-There is an up-to-date [maintenance log
-here](redbutte:rbweather_log).
+There is an up-to-date [maintenance log here](redbutte/rb_weather_log.md).
 
-Recent sensor history (>1982)
---------------------------------
+## Recent sensor history (>1982)
 
 The begin date of sensors on the current weather stations is shown here.
 Data could be present up to present, except for occasional gaps in the
@@ -75,13 +72,12 @@ CurrentData folder of the RBWS Dropbox.
   * 01 Jun, 1991 - Light measurements seem to end around this time for all stations.
   * 07 Apr & 14 May, 1992 - Begin WS2 & 4 precip sensor
   * 26 Apr, 1993 - Begin WS6 precip sensor.
-  * June 2004 - Order of column headings change`
+  * June 2004 - Order of column headings change
 
-Missing data
-------------
+## Missing data
 
-* **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6) ** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
-* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see [here](instruments:cr10dataloggers#Preventing_data_loss)).`
+* **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6)** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
+* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see [the "preventing data loss" section here](instruments/inst_cr10dataloggers.md)).
 
 ## Current Data
 
@@ -90,7 +86,7 @@ These data are made available to the general public at
 is viewable on the [RBC website](http://redbuttecanyon.net/)
 
 Currently, the daily data for all weather stations for all years are
-stored in a single file called “RBWSall_yymmdd.txt” where the yymmdd is
+stored in a single file called `RBWSall_yymmdd.txt` where the yymmdd is
 the most recent data collected. This daily file is also saved as an
 excel file that can be found online. Historically, the data were saved
 by year. These data can be found in an archived folder online as excel
@@ -98,9 +94,8 @@ files in their original state
 (http://ecophys.utah.edu/download/Red_Butte_Weather/YearlyDataFiles/).
 After compiling the data for all years and all stations into one file
 and plotting all data, it was discovered that all relative humidity data
-(or vapor pressure as it were) were logged incorrectly between 1992 and
-2000. These data have been removed from the currently updated data file.
-Peruse the “Quality Control of Web Files” folder located in the project
+(or vapor pressure as it were) were logged incorrectly between 1992 and 2000. These data have been removed from the currently updated data file.
+Peruse the `Quality Control of Web Files` folder located in the project
 Dropbox for more on this issue.
 
 ## Equipment and maintenance procedures
@@ -110,13 +105,13 @@ often as necessary. As of 3/5/2012, a tool box containing all necessary
 storage modules, keypads, tools and manuals could be found in the
 Bowling Lab, fourth floor of ASB.
 
-#### Station Description
+### Station Description
 
 Each weather station consists of a tripod, enclosure, Campbell CR10 (or
 CR10x at WS1) datalogger, solar panel, battery/power supply, storage
 module, and a number of sensors (which vary slightly between sites).
 
-#### Site Visit Protocol
+### Site Visit Protocol
 
  **Materials list**
 
@@ -131,24 +126,23 @@ module, and a number of sensors (which vary slightly between sites).
 
 Upon visiting each site, one should write the date of visitation in the
 log book along with the datalogger time, day of year, and year. With the
-keypad plugged in, press “\*5” to view the time, then press “A” to view
-the day of year, then “A” to view year. One should also write down all
-currently measured values by pressing “\*6” and then “A” to advance
+keypad plugged in, press `\*5` to view the time, then press `A` to view
+the day of year, then `A` to view year. One should also write down all
+currently measured values by pressing `\*6` and then `A` to advance
 through each value. Once the integrity of the station has been
 established by visual inspection and datalogger inspection, remove the
 existing storage module and replace it with one that has been erased and
 tested in the lab.
 
- **//IMPORTANT NOTE//** - Remember to load the weather station
-        program into location 8 of the replacement storage module. This
-        will keep the datalogger from forgetting its program after a
-        power outage. See
-        [here](instruments:cr10dataloggers#Preventing_Data_Loss).
+ **IMPORTANT NOTE** - Remember to load the weather station
+program into location 8 of the replacement storage module. This
+will keep the datalogger from forgetting its program after a
+power outage. See [Preventing Data Loss](instruments/inst_cr10dataloggers.md).
 
 Technical details on working with these dataloggers and storage modules
-can be found [here](instruments:cr10dataloggers).
+can be found [here](instruments/inst_cr10dataloggers.md).
 
-#### Datalogger Programs
+### Datalogger Programs
 
 The current programs running on each weather station can be found on the
 project Dropbox at: RedButte/CR10_Programs/Current Programs. One can
@@ -156,9 +150,9 @@ also obtain the program straight from the datalogger by dumping it to
 the storage module using the appropriate keystrokes…see datalogger
 manual.
 
-#### Data Reduction
+### Data Reduction
 
 After all storage modules have been collected, they should be downloaded
 using some version of Campbell Scientific software (currently
 LoggerNet). All data should be plotted to check for integrity before
-pasting into the “RBWSall_yymmdd” file and uploading to the web.
+pasting into the `RBWSall_yymmdd` file and uploading to the web.

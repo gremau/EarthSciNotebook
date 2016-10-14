@@ -1,11 +1,10 @@
 ## Red Butte Weather Station Logbook (Fall 2011 to present)
 
-Maintenance log and visits to [Red Butte weather
-stations](redbutte:weatherstations):
+Maintenance log and visits to [Red Butte weather stations](redbutte/rb_weatherstations.md):
 
 (also see:)
 
- **2-03-2014**
+**2-03-2014**
 
 * Modified new WS4 file (original data in WS4_140115_orig.dat):
   * Changed errors (6999, -6999) to NaN
@@ -45,29 +44,29 @@ stations](redbutte:weatherstations):
   * Check WS1 and replace battery (probably)
   * Fix WS6 program (missing fourth column in data output should be WS #)
 
- **1-20-2014**
+**1-20-2014**
 
 * Downloaded data from all storage modules and uploaded to Dropbox
-* Storage modules are cleared,tested, and have programs loaded.`
+* Storage modules are cleared,tested, and have programs loaded.
 
- **1-15-2014**
+**1-15-2014**
 
 * Pulled storage module from WS4 and WS6
 * WS 4 initially seemed to be unresponsive, but after testing voltage it again seemed fine.
 * Set the clocks for both.
-* All 4 stations have modules with the program loaded in location 8.`
+* All 4 stations have modules with the program loaded in location 8.
 
- **1-11-2014**
+**1-11-2014**
 
 * Pulled storage module from WS1 and WS2
-* WS1 seemed to not be collecting data at the time, so I reloaded the program and it then seemed alright.`
+* WS1 seemed to not be collecting data at the time, so I reloaded the program and it then seemed alright.
 
- **7-6-2013**
+**7-6-2013**
 
 * Replaced wind sensor at WS2 with a replacement from an Ehleringer storage cabinet. Seems to work fine (Met One 014C).
-* Sensor with the broken bearing was labeled and put back in the Ehleringer cabinet where the replacement came from.`
+* Sensor with the broken bearing was labeled and put back in the Ehleringer cabinet where the replacement came from.
 
- **6-7-2013**
+**6-7-2013**
 
 * Replaced T/RH sensor on WS1 with an HMP45AC that susan found.
   * I don't know much about this sensor (when it was last calibrated, etc.), and I used the standard multiplier and offset (in Campbell manual).
@@ -75,21 +74,21 @@ stations](redbutte:weatherstations):
   * The new program is in the project Dropbox (130606 version).
 * Swapped the storage module to get data from 5-23 to today.
   * The file for this period is in the Dropbox, and the data haven't been added to the aggregated files yet.
-`
 
- **5-31-2013**
+
+**5-31-2013**
 
 * Visited WS1
   * The Vaisala HMP35 is broken - one wire lead for the thermistor is sheared off.
-  * Temporarily put an old HMP35 (found at garden) on WS1 and removed the current one for inspection.`
+  * Temporarily put an old HMP35 (found at garden) on WS1 and removed the current one for inspection.
 
 * Visited WS4 & 6
   * Installed new storage modules
   * Transferred datalogger programs from new modules to dataloggers
   * Reset clocks
-  * Data is being collected again at these sites, and future power outages shouldn't cause a problem (programs are in location 8 in the SMs).`
+  * Data is being collected again at these sites, and future power outages shouldn't cause a problem (programs are in location 8 in the SMs).
 
- **5-29-2013**
+**5-29-2013**
 
 * Changed the date for all WS6 data files (that I have collected)
   * I did this based on storage module dates - so I know the start/stop dates for each file
@@ -120,9 +119,9 @@ stations](redbutte:weatherstations):
 * **TO DO:**
   * Swap storage modules for WS2-6 with modules that have programs loaded in location 8.
     * Load these on to 4 & 6 after they are swapped
-  * Test and replace T-RH unit on WS1`
+  * Test and replace T-RH unit on WS1
 
- **5-23-2013**
+**5-23-2013**
 
 * Revisited WS1 and WS4.
 * Cut the lock off of WS1 (never found the key), and swapped the storage module.
@@ -133,23 +132,23 @@ stations](redbutte:weatherstations):
 * Checked the WS4 battery and solar panel voltages and downloaded the running program from the CR10.
   * Battery and solar panels seem fine.
   * The running program looked invalid - was probably erased in a power outage.
-* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see [here](instruments:cr10dataloggers#Preventing_data_loss)).`
+* REMEMBER - When swapping out modules, store the datalogger program in location 8 (see [here](instruments:cr10dataloggers#Preventing_data_loss)).
 
- **5-3-2013**
+**5-3-2013**
 
 * Visited WS2, 4, & 6 to swap storage modules
 * WS4 & 6 were not collecting data, and appeared to have lost power (and their programs)
   * The data collection stopped soon after the fall 2012 visit.
   * WS6 Still thinks it is 2031 - need to reset clock
 * WS2 seems OK.
-* WS1 was was inaccessible because the key was missing from the usual place.`
+* WS1 was was inaccessible because the key was missing from the usual place.
 
- **1-8-2013**
+**1-8-2013**
 
 * Went to WS1 (Garden) and downloaded all data (Austin needed early Nov. data)
-* Reset clock on datalogger - it had reset itself to 4 years earlier for some reason. Date of this change was sometime after the last collection (early Nov).`
+* Reset clock on datalogger - it had reset itself to 4 years earlier for some reason. Date of this change was sometime after the last collection (early Nov).
 
- **11-2-5-2012**
+**11-2-5-2012**
 
 * Visited weather stations 1-4 and swapped out storage modules.
 * Took photos and checked wiring.
@@ -173,13 +172,13 @@ stations](redbutte:weatherstations):
     * Battery = capacity is better now, but there may be a bad connection and a slow decline in capacity.
   * **WS6** (top of Parleys fork)
     * This datalogger is having problems, looks like a short may be resetting the date. Most of the data seems intact though.
-    * :!: NOTE that I doctored the data file (using my best judgement) to remove bad data. There is a raw data file marked _orig on the data download site that contains the un-doctored data. Missing or removed data are marked as "NaN" in all other files.
+    * **NOTE** that I doctored the data file (using my best judgement) to remove bad data. There is a raw data file marked `_orig` on the data download site that contains the un-doctored data. Missing or removed data are marked as "NaN" in all other files.
     * T/RH = ok
     * Wind sensor = ok
     * Rain gauge = ok
-    * Battery = battery capacity back up to 12v? I think there must be a short somewhere.`
+    * Battery = battery capacity back up to 12v? I think there must be a short somewhere.
 
- **4-9-2012** Plotted 4/4 weather station data today:
+**4-9-2012** Plotted 4/4 weather station data today:
 
 * **WS1** (in the garden)
   * T/RH = ok
@@ -203,27 +202,27 @@ stations](redbutte:weatherstations):
   * T/RH = ok
   * Wind sensor = ok
   * Rain gauge = ok
-  * Battery = low capacity (down to 9-10V), seems to power the sensors though`
+  * Battery = low capacity (down to 9-10V), seems to power the sensors though
 
- **4-4-2012**
+**4-4-2012**
 
 * Visited weather stations 1-6 and swapped out storage modules.
 * Did some taping of wiring at weather stations 2 and 4 (insulation on wires is cracking)
 
- **11-28-2011** - Greg and Susan visited WS6
+**11-28-2011** - Greg and Susan visited WS6
 
 * Uploaded WS6_111122.dld program from the laptop
 * Verified that all sensors were working - all were, including the T/RH and precip gauge.
-* Replaced T/RH sensor shelter with a new one and realligned/reattached precip gauge.`
+* Replaced T/RH sensor shelter with a new one and realligned/reattached precip gauge.
 
- **11-21-22-2011**
+**11-21-22-2011**
 
 * SC32A jumper set as per CS instructions. It should be possible to connect to a CR10 with this in the field.
 * Rebuilt WS6 program from Dropbox using Edlog (Document DLD File). The most recent file was called WS2_071030.dld. Leaving T/RH calibrations (multiplier and offsets) alone even though it is likely we will replace this sensor. May have to do a calibration of all sensors in spring.
   * WS6_111122.CSI is now on Dropbox
-* Went through calibration data on Dropbox - Looks like all T/RH sensors were calibrated (except maybe #4)in the recent past using a dewpoint generator.`
+* Went through calibration data on Dropbox - Looks like all T/RH sensors were calibrated (except maybe #4)in the recent past using a dewpoint generator.
 
- **11-16-2011** - Plotted data from all sensors in matlab to look
+**11-16-2011** - Plotted data from all sensors in matlab to look
         at what sensors are working. This is what I found:
 
 * **WS1** (in the garden)
@@ -231,7 +230,7 @@ stations](redbutte:weatherstations):
   * Wind sensor 1 = not working
   * Wind sensor 2 = ok, and this has windspeed and wind direction
   * Rain gauge = ok
-  * PAR = ok, though there is a weird seasonal jump in PAR (by about 300μmol*m`^`-2`^` s`^`-1`^in the middle of summer)
+  * PAR = ok, though there is a weird seasonal jump in PAR (by about 300μmol m^-2^ s^-1^ in the middle of summer)
   * Battery = ok (no charging problems)
 * **WS2** (by the reservoir)
   * T/RH = ok
@@ -242,24 +241,21 @@ stations](redbutte:weatherstations):
   * T/RH = ok
   * Wind sensor = ok
   * Rain gauge = broken for the last 1.5 years
-  * Battery = seems to be losing capacity over time and may need replacement soon`
+  * Battery = seems to be losing capacity over time and may need replacement soon
 
- **10-7-2011**
+**10-7-2011**
 
 * Was able to download data from all 3 returned storage modules (WS1, 2, & 4)
-* See procedure [here](instruments:cr10dataloggers)\
-* Uplodaded data files to project Dropbox`
+* See procedure [here](instruments/inst_cr10dataloggers.md)
+* Uplodaded data files to project Dropbox
 
- **10-5-2011** - Susan and Greg visited WS6
+**10-5-2011** - Susan and Greg visited WS6
 
 * T/RH and rain sensors are both bent out of shape
-* Station appears to have lost power and there is no program running.`
+* Station appears to have lost power and there is no program running.
 
- **9-30-2011** - Collected storage module from WS1 at around
-        5:30pm
+**9-30-2011** - Collected storage module from WS1 at around 5:30pm
 
-<!-- -->
 
- **9-27-2011** - Susan and Greg collected storage modules from
-        WS2 & 4, did not reach WS6.
+**9-27-2011** - Susan and Greg collected storage modules from WS2 & 4, did not reach WS6.
 
