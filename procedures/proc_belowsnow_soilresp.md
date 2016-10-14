@@ -10,7 +10,7 @@ characteristics (density, depth, tortuosity).
 
 In use at:
 
-* [Hidden`Canyon](hiddencanyon/hc_soilresplog_1)
+* [Hidden Canyon](hiddencanyon/hc_soilresplog_1.md)
 
 ## Gas sampling inlets and installation
 
@@ -23,11 +23,9 @@ will not disturb the CO~2~ diffusion gradient near the inlet. Tubing is
 fitted with a Swagelok stainless coupling and plug. THe coupling can be
 connected to a complementary fitting on the pump/sampling assembly.
 Inlets are located in what are intended to be spatially representative
-replications in each plot. Each [soil temperature/moisture
-profile](hiddencanyon/hc_soilprofiles) currently is associated
+replications in each plot. Each [soil temperature/moisture profile](hiddencanyon/hc_soilprofiles.md) currently is associated
 with 3 inlets. There are thus 9 inlets each in the control and treatment
-plots in the [Hidden Canyon snowpack
-manipulation](hiddencanyon/hc_snowmeltdesign).
+plots in the [Hidden Canyon snowpack manipulation](hiddencanyon/hc_snowmeltdesign.md).
 
 #### Pump time calculation
 
@@ -38,12 +36,12 @@ pumping away this volume, the below-snow air is then sampled with the
 pump/sampling assembly. To calculate this volume and the time needed to
 pump it away follow this procedure:
 
-- Measure the length of the tubing (//l//) between the inlet and sampling port in centimeters (to the nearest 50cm is ok).
-- The tubing has an inner diameter of 1/4 inch, which is 0.635cm (this is //r//).
-- The volume of this tubing (//V//)is calculated as: //πr`^`2`^* l//
+- Measure the length of the tubing (`l`) between the inlet and sampling port in centimeters (to the nearest 50cm is ok).
+- The tubing has an inner diameter of 1/4 inch, which is 0.635cm (this is `r`).
+- The volume of this tubing (`V`)is calculated as: $πr^2^ * l$
 - The pump claims to pump at 4000ml per minute, but we will reduce this a bit with the pin valve on a flowmeter
-- Calculate the time needed to pump out air in the tubing as //V/flowrate//, so if we set the valve to allow 500ml per minute the time needed to pump out the stagnant air in the tubing is //V///500.
-- Have these pump times for each inlet calculated before heading into the field to sample.`
+- Calculate the time needed to pump out air in the tubing as `V/flowrate`, so if we set the valve to allow 500ml per minute the time needed to pump out the stagnant air in the tubing is `V`/500.
+- Have these pump times for each inlet calculated before heading into the field to sample.
 
 ## Pump/sampling assembly
 
@@ -77,7 +75,7 @@ FIXME - add photo of this device
 - Luer-lock needles (bring spares)
 - Sharpie for marking exetainers
 - Spare septa
-- 5/8 and 9/16 wrenches`
+- 5/8 and 9/16 wrenches
 
 #### Procedure
 
@@ -94,12 +92,12 @@ FIXME - add photo of this device
 - Fill syringe to the necessary volume - exetainers are 12ml, but fill to at least 15ml at high elevation sites (see site recommendations below).
 - Insert needle and empty syringe sample into the labeled exetainer.
 - Repeat steps 4-12 for the rest of the ports, them move to the next set and remove again.
-- Be sure to collect three atmospheric samples (through the syringe) during the sampling campaign.`
+- Be sure to collect three atmospheric samples (through the syringe) during the sampling campaign.
 
 ## Measuring the Exetainers
 
-* Exetainers are returned to the lab and measured for CO`~`2`~concentration and δ`^`13`^`CO`~`2`~using a LI-7000 (CO`~`2`~`) open path system, and a tunable diode laser spectrometer (C isotopes).
-* See the **protocol** for this [here](procedures/proc_exetainer_CO2).`
+* Exetainers are returned to the lab and measured for CO~2~ concentration and δ^13^CO~2~ using a LI-7000 (CO~2~) open path system, and a tunable diode laser spectrometer (C isotopes).
+* See the **protocol** for this [here](procedures/proc_exetainer_CO2).
 
 ## Calculating respiration rates and isotope ratios
 
@@ -121,4 +119,4 @@ FIXME - add isotope ratios?
 
 * Fill syringe to 15ml so that exetainers are slightly pressurized before being brought down to a lower elevation (and higher pressure).
 * Many of the inlets are plugged, so there may need to be a revision of the install procedure.
-* Tubing lengths and pump times for each inlet are located in the HC_inlets spreadsheet.`
+* Tubing lengths and pump times for each inlet are located in the HC_inlets spreadsheet.

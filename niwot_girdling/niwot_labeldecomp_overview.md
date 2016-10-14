@@ -1,4 +1,3 @@
-:   ?::?::?:
 
 THIS EXPERIMENT IS CURRENTLY ON HOLD
 
@@ -16,22 +15,17 @@ decomposition of labeled needle litter under low, and normal (control)
 snowpack treatments. We expect that winter snowpack size is a key driver
 of interannual variability in soil temperature and moisture, and that
 this variability has consequences for biological C (and N) cycling in
-soils. See [Schmidt and Lipson,
-2004](http://www.springerlink.com/content/q24181x7w1t775xk/)((Schmidt
+soils. See [Schmidt and Lipson, 2004](http://www.springerlink.com/content/q24181x7w1t775xk/)((Schmidt
 SK, Lipson DA (2004) Microbial growth under the snow: implications for
 nutrient and alleochemical availability in temperate soils. Plant Soil
-259:1–7. <doi:10.1023/B:PLSO.0000020933.32473.7e>)), [Schmidt et al,
-2008](http://www.springerlink.com/content/p018343t68346351/)((Schmidt
+259:1–7. <doi:10.1023/B:PLSO.0000020933.32473.7e>)), [Schmidt et al, 2008](http://www.springerlink.com/content/p018343t68346351/)((Schmidt
 SK, Wilson KL, Gebauer MM, Meyer AF, King AJ (2008a) Phylogeny and
 ecophysiology of opportunistic ‘‘snow molds’’ from a sub-alpine forest
-ecosystem. Microb Ecol . <doi:10.1007/s00248-008-9387-6>)), [Schmidt et
-al,
-2007](http://www.esajournals.org/doi/abs/10.1890/06-0164)((Schmidt
+ecosystem. Microb Ecol . <doi:10.1007/s00248-008-9387-6>)), [Schmidt et al, 2007](http://www.esajournals.org/doi/abs/10.1890/06-0164)((Schmidt
 SK, Costello EK, Nemergut DR, Cleveland CC, Reed SC, Weintraub MN et al
 (2007) Biogeochemical consequences of rapid microbial turnover and
 seasonal succession in soil. Ecology 88:1379–1385.
-<doi:10.1890/06-0164>)), [Monson et al,
-2006](http://www.nature.com/nature/journal/v439/n7077/full/nature04555.html)((Monson,
+<doi:10.1890/06-0164>)), [Monson et al, 2006](http://www.nature.com/nature/journal/v439/n7077/full/nature04555.html)((Monson,
 R. K., D. A. Lipson, S. P. Burns, A. A. Turnipseed, A. C. Delany, M. W.
 Williams, and S. K. Schmidt (2006), Winter forest soil respiration
 controlled by climate and microbial community composition, Nature, 439,
@@ -39,9 +33,9 @@ controlled by climate and microbial community composition, Nature, 439,
 
 ## Hypotheses
 
-- Winter decomposition and associated soil `^`13`^`CO`~`2`~efflux are reduced in low snowpack years (simulated by snow removal), and this effect is correlated with lower soil temperatures and a shorter snow-covered period.
-- Control snowpack plots will have longer periods of below-snow decomposition, and shorter periods of growing-season soil drought, leading to greater cumulative decomposition and soil `^`13`^`CO`~`2`~during the experiment.
-- Labeled carbon compounds will be more rapidly added to stable fractions of the soil organic matter in control snowpack treatments.`
+- Winter decomposition and associated soil ^13^CO~2~ efflux are reduced in low snowpack years (simulated by snow removal), and this effect is correlated with lower soil temperatures and a shorter snow-covered period.
+- Control snowpack plots will have longer periods of below-snow decomposition, and shorter periods of growing-season soil drought, leading to greater cumulative decomposition and soil ^13^CO~2~ during the experiment.
+- Labeled carbon compounds will be more rapidly added to stable fractions of the soil organic matter in control snowpack treatments.
 
 ## Experimental design
 
@@ -85,7 +79,7 @@ will be replicated (n = 3-5) under these treatments:
 
 - Snow removal: Snow shoveled to a constant 20cm depth for the entire winter.
 - Control: Undisturbed snowpack
-- No-Label control: Undisturbed snowpack, no label addition`
+- No-Label control: Undisturbed snowpack, no label addition
 
 The experimental design without and with roots is summarized in these
 tables:
@@ -166,7 +160,7 @@ carbon isotope ratios using an EA-IRMS system at the SIRFER lab
 If microcosms are used, similar measurements and methods will be
 employed with each set of microcosms that are returned to the lab.
 
-See the [measurements page](measurements:label_decomposition)
+See the [measurements page](procedures/proc_label_decomposition.md)
 for more detail.
 
 ## Issues to address
@@ -177,4 +171,4 @@ for more detail.
 - Using microcosms, would it be possible to have a true mass balance of the label? Will the mass of 13C respired, and added to SOM pools at the harvest of the microcosms all add up to what was originally added as labeled litter?
 - There are problems with calculating flux rates from soil beneath a disturbed snowpack.
 - What parts of the SOM are we going to measure for changes in enrichment? What do these SOM fractions represent?
-- What is the overall significance? Climate variability (in the form of snow depth) leads to biologically mediated changes in C processing and storage? Snow removal may decrease respiration, but does this lead to increases in stored soil C, or could a reduced rate of processing litter into longer-lived C compounds lead to less soil C storage?`
+- What is the overall significance? Climate variability (in the form of snow depth) leads to biologically mediated changes in C processing and storage? Snow removal may decrease respiration, but does this lead to increases in stored soil C, or could a reduced rate of processing litter into longer-lived C compounds lead to less soil C storage?

@@ -5,7 +5,7 @@ From Janet Hurley - last modified 090610
 ### NOTE - recent changes to procedure
 
 * Janet B. has slightly changed placement of the Zn/Ti tube and the small Fe tube that fit within the reaction tube.
-* Also, there is a three strikes target pounding procedure.`
+* Also, there is a three strikes target pounding procedure.
 
 ## Precombustion procedures
 
@@ -20,7 +20,7 @@ From Janet Hurley - last modified 090610
 - Preload 200 mg CuO (about 2 spatulas full) into tubes using precut plastic funnel.
 - Precombust quartz tubes loaded with CuO at 900ºC for 2 hours. Place tubes in a steel basket or other high-temperature container for precombustion. Do not place them in Pyrex beakers, which will begin to melt at about 800ºC, or aluminum baskets or racks, which will melt at around 650ºC.
 - Wear gloves to prevent contaminating precombusted tubes.
-- To minimize static problems, store precombusted quartz tubes in batches wrapped in aluminum foil in bubble desiccator with water in bottom.`
+- To minimize static problems, store precombusted quartz tubes in batches wrapped in aluminum foil in bubble desiccator with water in bottom.
 
 ## Loading combustion tubes
 
@@ -36,7 +36,7 @@ From Janet Hurley - last modified 090610
 - Place tubes into protective steel sleeves and into the muffle furnace. Place tubes in systematic order and record sample names on ordered worksheet in case tube labeling is baked off.
 - Combust at 900ºC for 2 hours and allow to cool overnight.
 - Once combustion is complete and the tubes have cooled, remove from steel sleeves and retrace labels with a Sharpie marker. Wear gloves to handle combusted sample tubes, and wipe steel dust off of tubes with Kimwipes.
-- If not performing gas transfer right away, store combusted samples in a beaker in a clean cabinet for up to one week.`
+- If not performing gas transfer right away, store combusted samples in a beaker in a clean cabinet for up to one week.
 
 ## Preparation of reaction tubes
 
@@ -45,7 +45,7 @@ From Janet Hurley - last modified 090610
 - Fire polish the open end of each tube with the torch.
 - Burn a small dimple into the side of each tube at ¾ inch (2 cm) from the base of the tube.
 - Precombust the 9 mm Pyrex tubes and the 6 mm Kimble culture tubes at 500ºC for 3 hours and 550ºC for 4 hours.
-- Store precombusted Pyrex tubing wrapped in aluminum foil in a bubble desiccator with dry desiccant. Always handle precombusted reaction tubes with gloves to prevent contaminating them.`
+- Store precombusted Pyrex tubing wrapped in aluminum foil in a bubble desiccator with dry desiccant. Always handle precombusted reaction tubes with gloves to prevent contaminating them.
 
 ## Loading reaction tubes
 
@@ -57,7 +57,7 @@ From Janet Hurley - last modified 090610
 - Place an iron-loaded 6 mm tube into each preloaded 9 mm tube, by tilting the 9 mm tube and allowing the 6 mm tube to slide gently to rest on the dimple.
 - Bake the tubes and loaded reagents at 300ºC for 1 hour.
 - Cover the preloaded reaction tubes with foil to prevent contamination.
-- Store preloaded tubes under vacuum in bubble dessicator for up to 2 weeks before use. If not used before two weeks, tubes may be prebaked again at 300ºC for 1 hour and used.`
+- Store preloaded tubes under vacuum in bubble dessicator for up to 2 weeks before use. If not used before two weeks, tubes may be prebaked again at 300ºC for 1 hour and used.
 
 ## CO2 gas transfer
 
@@ -95,13 +95,13 @@ From Janet Hurley - last modified 090610
 -  Open all valves to the vacuum and allow gauges to return to baseline.
 - Remove the ethanol slurry from the water trap and secure the dewar flask cover over the slurry mixture. The mixture may remain cold enough for use the next day.
 - Remove dewar flasks containing liquid nitrogen and replace any remaining into one of the 4-liter storage dewars.
-- Close the main valve (large red valve) between the pump and the vacuum line.`
+- Close the main valve (large red valve) between the pump and the vacuum line.
 
 ## Graphitization
 
 - Once 2 aluminum blocks are stocked with 40 sealed reaction tubes, complete a graphitization worksheet listing sample names for each position in each block. Each set of 40 samples must contain at least one 14C-dead blank such as acetanilide, six primary standards (OX2), and three secondary standards (2 ANU-sucrose, 1 IAEA C3).
 - Place loaded aluminum blocks into the muffle furnace and bake at 500ºC for 3 hours, then 550ºC for 4 hours.
-- Allow reaction tubes to cool overnight.`
+- Allow reaction tubes to cool overnight.
 
 ## Preparation of aluminum cathodes
 
@@ -116,7 +116,7 @@ From Janet Hurley - last modified 090610
 - Remove aluminum ribbons from the drill bit and stage before proceeding to drill additional cathodes.
 - Inspect drilled cathodes under a dissection microscope to be sure that the holes are centered in the funnel.
 - Clean the work area after desired amount of cathodes are drilled.
-- Store clean cathodes in a clean plastic container with tight fitting lid.`
+- Store clean cathodes in a clean plastic container with tight fitting lid.
 
 ## Pressing graphite into cathodes
 
@@ -137,4 +137,4 @@ From Janet Hurley - last modified 090610
 - If a flat shiny surface is not apparent, inspect the graphite target under a dissection microscope. Each graphite target should be flat and shiny, and contain no loose powder. Repeat pressing if necessary. Excessive loose powder can be picked up with clean magnetic forceps and returned to the cathode hole.
 - Once a flat and shiny surface is achieved, place the cathode into the appropriate position in the 96-well plate.
 - Before moving on to the next sample, clean the cathode holder, the sleeve, forceps, and the press pin as above.
-- Clean and put away all equipment when finished pressing and turn off the laminar flow hood.`
+- Clean and put away all equipment when finished pressing and turn off the laminar flow hood.
