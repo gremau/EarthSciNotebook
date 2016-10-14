@@ -3,12 +3,12 @@
 A variety of computation tools for doing math and statistics in data
 analysis.
 
-See also: [General programming info](procedures/proc_programming)
+See also: [General programming info](computing/comp_programming.md)
 on some of the tools mentioned below
 
 ## General numerical tools
 
-* [NumPy](procedures/proc_numpytips)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.`
+* [NumPy](computing/comp_numpytips.md)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
 
 ## Statistics
 
@@ -20,9 +20,9 @@ on some of the tools mentioned below
   * Timeseries analysis
   * Missing data functions
   * Some stats may be moved to StatsModels (below)
-* [StatsModels](http://statsmodels.sourceforge.net)- Python module with classes and functions for many statistical models, tests, and data exploration.`
+* [StatsModels](http://statsmodels.sourceforge.net)- Python module with classes and functions for many statistical models, tests, and data exploration.
 
 ## Symbolic Math
 
 * [Maxima](http://maxima.sourceforge.net/)- a computer algebra system (similar to Mathematica/Maple)
-* [SymPy](http://sympy.org/en/index.html)- Symbolic math/algebra with Python.`
+* [SymPy](http://sympy.org/en/index.html)- Symbolic math/algebra with Python.

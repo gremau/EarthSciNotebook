@@ -1,6 +1,6 @@
 # Niwot/Fraser girdling study data QC
 
- **See also:** [Activity log](activitylog_1)
+ **See also:** [Activity log](niwot_girdling/niwot_activitylog_1.md)
 
 ## Soil CO2 data
 
@@ -13,7 +13,7 @@ remove datapoints that fall far outside of the distribution of a
 statistic describing our data (outliers). In this case, we use a
 regression line and remove data that falls too far away from this
 predicted line. Finding and removing problematic data and outliers, is
-done in the *irga_gasbench_process.m* script.
+done in the `irga_gasbench_process.m` script.
 
 #### Problematic sampling dates
 

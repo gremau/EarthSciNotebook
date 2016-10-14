@@ -4,13 +4,9 @@ Time series analysis is applied to data coming from a dynamical system,
 ie, where a variable changes over time. The goal is to understand the
 dynamical system (with a model) using the noisy data you have.
 
- **Resources **
+ **Resources**
 
-<!-- -->
-
--   [Shumway and Stouffer's
-    book](http://www.stat.pitt.edu/stoffer/tsa3/) on time
-    series analysis.
+* [Shumway and Stouffer's book](http://www.stat.pitt.edu/stoffer/tsa3/) on time series analysis.
 
 ## Moving window statistics
 
@@ -25,7 +21,7 @@ to remember when coding these:
 ### Mean
 
 * Use `filter` in MATLAB if there is no missing data.
-* [moving_average](http://www.mathworks.com/matlabcentral/fileexchange/12276-movingaverage-v3-1-mar-2008)MATLAB`
+* [moving_average](http://www.mathworks.com/matlabcentral/fileexchange/12276-movingaverage-v3-1-mar-2008) MATLAB
 
 ### Median
 
@@ -35,20 +31,15 @@ to remember when coding these:
 
 ### Standard Deviation
 
-* A [MATLAB`
-`implementation](http://www.mathworks.com/matlabcentral/fileexchange/9428-moving-window-standard-deviation)
+* A [MATLAB implementation](http://www.mathworks.com/matlabcentral/fileexchange/9428-moving-window-standard-deviation)
 
 ## Filtering/smoothing
 
-Links:
-------
+### Links:
 
-  * Hampel filter [implementation`in`
-`Matlab](http://www.mathworks.com/matlabcentral/fileexchange/34795-outlier-detection-and-removal-hampel)(on Matlab Central).
-  * [Robert`Pearson's`
-`blog](http://exploringdatablog.blogspot.com/search/label/data%20cleaning)posts on data cleaning, particularly the Hampel filter.
-  * Another [article`by`Ron`
-`Pearson](http://www.edn.com/design/systems-design/4340430/Scrub-data-with-scale-invariant-nonlinear-digital-filters)on different non-linear filtering methods.`
+* Hampel filter [implementation in Matlab](http://www.mathworks.com/matlabcentral/fileexchange/34795-outlier-detection-and-removal-hampel)(on Matlab Central).
+  * [Robert Pearson's blog](http://exploringdatablog.blogspot.com/search/label/data%20cleaning)posts on data cleaning, particularly the Hampel filter.
+  * Another [article by Ron Pearson](http://www.edn.com/design/systems-design/4340430/Scrub-data-with-scale-invariant-nonlinear-digital-filters)on different non-linear filtering methods.
 
 ## Mean of multiple timeseries (aggregate)
 
@@ -56,8 +47,8 @@ This is useful when similar timeseries need to be averaged, such as
 one-year timeseries data for multiple sites, or generating an average
 timeseries from multiple years.
 
-* In MATLAB, `accumarray()*seems to work for this.
-* In R, there are a few ways: `aggregate()*`, and maybe some functions in the `doBy` package.`
+* In MATLAB, `accumarray()` seems to work for this.
+* In R, there are a few ways: `aggregate()`, and maybe some functions in the `doBy` package.
 
 ## Autocorrelation
 
@@ -66,7 +57,7 @@ the value at another time (s)? Put another way, is there a time lag
 effect, or a memory effect, or does today depend on yesterday?
 
 * the Autocorrelation function ('acf') can be applied in R.
-* ARMA and ARIMA models are also useful.`
+* ARMA and ARIMA models are also useful.
 
 ## Spectral analysis
 
@@ -74,18 +65,17 @@ effect, or a memory effect, or does today depend on yesterday?
 
 Method for deconstructing a time series into notional components:
 
-* a Trend Component
+* A trend component
 * Seasonal components - reflect seasonality
 * Cyclical components - repeated, but non-periodic fluctuations
-* Irregular components - random or stochastic influences - often a residual of the timeseries.`
+* Irregular components - random or stochastic influences - often a residual of the timeseries.
 
 ## Prediction and forecasting
 
 ## Multivariate models
 
-*[TSA`package`for`
-`R](http://cran.r-project.org/web/packages/TSA/)\
-*A bunch of resources in [this](http://stackoverflow.com/questions/1714280/multivariate-time-series-modelling-in-r)and [this](http://stats.stackexchange.com/questions/18375/how-to-fit-an-arimax-model-with-r)SE question]]`
+* [TSA package for R](http://cran.r-project.org/web/packages/TSA/)
+* A bunch of resources in [this](http://stackoverflow.com/questions/1714280/multivariate-time-series-modelling-in-r)and [this](http://stats.stackexchange.com/questions/18375/how-to-fit-an-arimax-model-with-r) SE question
 
 ## Time series regression
 
@@ -97,6 +87,5 @@ timestep become independent variables in the model.
 
 ## R packages
 
-* [forecast](http://cran.r-project.org/web/packages/forecast/index.html)\
-* [TSA`
-`package](http://cran.r-project.org/web/packages/TSA/)
+* [forecast](http://cran.r-project.org/web/packages/forecast/index.html)
+* [TSA package](http://cran.r-project.org/web/packages/TSA/)

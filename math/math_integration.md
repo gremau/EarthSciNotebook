@@ -9,10 +9,9 @@ ways to do it.
 
 * The [scipy.integrate](http://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html)package offers some ways to do this:`
 
-  trapz         -- Use trapezoidal rule to compute integral from samples.
-  cumtrapz      -- Use trapezoidal rule to cumulatively compute integral.
-  simps         -- Use Simpson's rule to compute integral from samples.
-  romb          -- Use Romberg Integration to compute integral from
-                  (2**k + 1) evenly-spaced samples.
+    trapz         -- Use trapezoidal rule to compute integral from samples.
+    cumtrapz      -- Use trapezoidal rule to cumulatively compute integral.
+    simps         -- Use Simpson's rule to compute integral from samples.
+    romb          -- Use Romberg Integration to compute integral from (`2**k + 1`) evenly-spaced samples.
                   
-* MATLAB also has similar functions.`
+* MATLAB also has similar functions.
