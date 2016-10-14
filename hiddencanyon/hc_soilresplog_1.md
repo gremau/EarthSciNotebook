@@ -9,13 +9,13 @@
 * First complete set of measurements (all 20 collars) at Hidden Canyon on July 23.
 * Further sampling days: August 14th, Sept 3rd, Sept 24th, Oct 16th.
 * Replaced collar T1 (0.5m west) on October 15th.
-* Forgot the temperature probes Oct 16th.`
+* Forgot the temperature probes Oct 16th.
 
 ## Fall/Early Winter 2010
 
 * Installed 18 snow inlets in early October
 * 6 each in plot 1 & 2 (3 around each profile), and 3 each in plot 3 & 4 (near Profiles 5 & 7).
-* Tubing ends need to be capped and the sampling protocol needs to be developed.`
+* Tubing ends need to be capped and the sampling protocol needs to be developed.
 
 # 2011 Soil Respiration measurements
 
@@ -33,7 +33,7 @@
 ## July 13-14
 
 * Installed respiration collars on the evening of the 13th
-* Measured respiration on the morning of the 14th`
+* Measured respiration on the morning of the 14th
 
 Collar Locations: \^ Plot \^ Collar number \^ Location Desc \^
 Coordinates \^ Notes \^ | 1 | 1 | Litterbags 1 | | | | 1 | 2 |

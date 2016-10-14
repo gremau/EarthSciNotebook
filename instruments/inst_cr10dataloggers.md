@@ -29,15 +29,15 @@ the datalogger in different modes to recieve commands.
 
 ### CR10KD keypad commands
 
-* *0 - Show running table status
-* *5 - View and set clock
-* *6 - View input locations
-* *7 - Display Final Storage data
-* *9 - Storage module commands (download data, etc)
-* *D - Save/load programs to or from storage module
+* `*0` - Show running table status
+* `*5` - View and set clock
+* `*6` - View input locations
+* `*7` - Display Final Storage data
+* `*9` - Storage module commands (download data, etc)
+* `*D` - Save/load programs to or from storage module
 * Once a mode above has been entered, values in different locations can be accessed with:
-  * A - advance one location
-  * B - go back one location`
+  * `A` - advance one location
+  * `B` - go back one location`
 
 ## Working with Campbell storage modules
 
@@ -67,19 +67,19 @@ CR10KD (downloading data at least) in the field but... no idea how.
 - Disconnect module, and make a note of where the program is located
 - **In the field** connect the storage module to the SC12 cable and then attach the CR10KD keypad to the other end of the cable.
 - Use the program transfer mode (*D) to transfer programs. On the CR10D keypad press (treat A like enter?):
-  - *D -  Enter *D Mode
-  - 7XA -  Address Storage Module X (1-8 - in our case there is only one module, so use 1)
-  - 1YA - Save Program in Storage Module as Y (Y=1..8 - the location where the program is/was stored)
-  - 2YA  - Load Program Y from Storage Module
-  - 3YA  - Erase Program Y from Storage Module`
+  - `*D` - Enter *D Mode
+  - `7XA` -  Address Storage Module X (1-8 - in our case there is only one module, so use 1)
+  - `1YA` - Save Program in Storage Module as Y (Y=1..8 - the location where the program is/was stored)
+  - `2YA`  - Load Program Y from Storage Module
+  - `3YA`  - Erase Program Y from Storage Module`
 
 ### Setting the clock
 
-- *5 - Enter clock mode
-- AXXXXA - Advance to year, then enter year (XXXX), save with A.
-- AYYYA - Advance to day of year, enter doy (YYY), save with A.
-- AHHMMA - Advance to time, enter hours and minutes(HHMM), save with A.
-- *0 - Back to status mode.`
+- `*5` - Enter clock mode
+- `AXXXXA` - Advance to year, then enter year (XXXX), save with A.
+- `AYYYA` - Advance to day of year, enter doy (YYY), save with A.
+- `AHHMMA` - Advance to time, enter hours and minutes(HHMM), save with A.
+- `*0` - Back to status mode.
 
 ## Preventing data loss
 
@@ -94,6 +94,5 @@ program from storage module location 8 if it exists. So, when storage
 modules are swapped out, it pays to have the logger program loaded in
 location 8 of the replacement module.
 
- **Load programs into storage module locations using the Loggernet
-        SMS utility.**
+**Load programs into storage module locations using the Loggernet SMS utility.**
 

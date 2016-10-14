@@ -2,9 +2,7 @@
 
 This protocol was adapted from Brad Erkkila's and Abby Howell-Dinger's
 descriptions of how to run samples on the EA-IRMS systems at the
-University of Utah's [SIRFER
-facility](http://sirfer.utah.edu). It mainly addresses C and
-N analysis (% and 13C/15N) of soil samples, but could be adapted for
+University of Utah's [SIRFER facility](http://sirfer.utah.edu). It mainly addresses C and N analysis (% and 13C/15N) of soil samples, but could be adapted for
 other uses.
 
 ## Instruments
@@ -17,8 +15,8 @@ for both units, but there are some slight adjustments depending on which
 machine is being used.
 
 * Reference gases (which are selected through the Conflo interface) are plumbed differently
-  * Saltbush reference 1 = N`~`2`~`, reference 2 = CO`~`2`~\
-  * Madeye is reversed - reference 1 = CO`~`2`~`, reference 2 = N`~`2`~\
+  * Saltbush reference 1 = N~2~, reference 2 = CO~2~
+  * Madeye is reversed - reference 1 = CO~2~, reference 2 = N~2~
 * Valve placement is a bit different
   * The autoloader He pressure valve is directly under the autosampler on Madeye, and behind the EA instrument on Saltbush.`
 
@@ -32,12 +30,12 @@ machine is being used.
 - Load the samples into the sample wheel in sequential order (1-50, or 1-100 depending on which wheel is being used).
 - Close the sampler and replace and tighten the screws.
 - Open the vacuum to the autosampler using the green valve behind it.
-- Tighten the screws on the autosampler door again. //The autosampler chamber will continue to be evacuated as the next steps are completed//.
+- Tighten the screws on the autosampler door again. *The autosampler chamber will continue to be evacuated as the next steps are completed*.
 - Fill out the `elog` with the data for this EA-IRMS run (name, job #, etc). The `elog` is an excel file found on the desktop of the unit.
 - Open the EA loader spreadsheet and enter sample ID and weight information.
   - Open MS Excel > recently used documents > more, and open either the 50 or 100 sample EA_loader.xls file.
   - Enter sample ID's in column A, starting with row 16 (the first 15 are conditioners).
-  - Enter sample weights in column B :?: using micrograms. These will be automatically converted to milligrams in the next column to the right.
+  - Enter sample weights in column B (?) using micrograms. These will be automatically converted to milligrams in the next column to the right.
 - Now open the IsoDat Acquisition software, located in the Windows XP quick launch bar (lower left of desktop).
 - In Acquisition, we must open a measurement instruction sequence.
   - These are located in the Sequences tab on the lower left window of the interface.
@@ -48,32 +46,31 @@ machine is being used.
   - Close the pinvalve marked Otto (on Madeye :?:).
   - Open the EA pinvalve.
   - Make sure the green MS valve is open.
-- Now copy and paste the sample ID's and weights from the EA_loader.xls file to the Acquisition datasheet. Column A (IDs) should go in Acquisition's `Identifier`
-`1` column, and Column D (weights) should be copied to the `Amount` column.
+- Now copy and paste the sample ID's and weights from the EA_loader.xls file to the Acquisition datasheet. Column A (IDs) should go in Acquisition's `Identifier1` column, and Column D (weights) should be copied to the `Amount` column.
 - Make sure that the column to the right of Identifier 1 correctly shows which samples are samples, which are references (with an RM), and which are other types of samples.
-- Also make sure that the Methods column lists the correct method for all the samples (N2_CO2+He_1.seq).
+- Also make sure that the Methods column lists the correct method for all the samples (N2_CO2+He_1.seq).mmilodela
 - Fill out the Comments column - this collects quality control and calibration data for every run.
   - List the pressure (to the nearest 100psi) of all the reference gases
     - Primary He (Orange)
     - Secondary He (Orange - regulator marked secondary)
-    - N`~`2`~(Blue)
-    - CO`~`2`~(Silver)
+    - N~2~ (Blue)
+    - CO~2~ (Silver)
     - O`~`2`~(Green - in middle of room).
-  - Fill in mV value for a peak center on N`~`2`~(mass 28) and CO`~`2`~(mass 44).
-    - Select N`~`2`~in the dropdown on the lower left of the interface
-    - Open the Conflo interface (middle left window of interface) and turn off all reference gases other than N`~`2`~`.
+  - Fill in mV value for a peak center on N~2~ (mass 28) and CO~2~ (mass 44).
+    - Select N~2~ in the dropdown on the lower left of the interface
+    - Open the Conflo interface (middle left window of interface) and turn off all reference gases other than N~2~ `.
     - Push the peak center button (green bell curve on upper far left).
-    - Do the same process for CO`~`2`~(first changing dropdown).
+    - Do the same process for CO~2~ (first changing dropdown).
     - There is also the possibility to do a jump calibration (ask Abby or Leslie Chesson).
-  - Check the background values for N`~`2`~\
-    - Switch dropdown menu to N`~`2`~\
+  - Check the background values for N~2~
+    - Switch dropdown menu to N~2~
     - Turn off all reference gases in the Conflo interface
     - Record mV for mass 28 and 29.
   - Time to jump
     - Open methods tab (lower left of interface)
     - Go to the method being used N2_CO2....
     - Go to time events
-    - Add together the CO`~`2`~switch time and the wait time (should be something like 290).
+    - Add together the CO~2~ switch time and the wait time (should be something like 290).
   - Record the number of samples on the combustion column (counter on front of EA).
   - Record the furnace temperature
 - Now close the vacuum valve.
@@ -87,7 +84,7 @@ machine is being used.
   - Export the file name to job #.
   - Check the background (should show low N2 background #s) before hitting OK
 - The job is now running - watch the first samples go through
-  - there should be a flat-topped reference gas set of peaks, then 2 peaks for N, a blip related to the IRMS jump, then 3  peaks for C, and another flat topped reference peak.`
+  - there should be a flat-topped reference gas set of peaks, then 2 peaks for N, a blip related to the IRMS jump, then 3  peaks for C, and another flat topped reference peak.
 
 ## Data reduction
 
@@ -120,9 +117,8 @@ machine is being used.
   - Open the `Workspace` program.
   - Open the directory named with the job number.
   - All chromatograms are saved according to number, double click to open.
-  - There is a table under the chromatogram with a column for `Area`
-`All` with volt-seconds units.
+  - There is a table under the chromatogram with a column for `Area All` with volt-seconds units.
   - For N peaks, peak areas less than 15 volt-seconds are too small.
   - For C peaks, large samples will result in squared-off peaks (sensor maxed out).
 - Check whether any corrections are justified.
-- Import the references into the filemaker database.`
+- Import the references into the filemaker database.

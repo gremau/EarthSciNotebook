@@ -10,14 +10,14 @@ dataloggers are both a bit tricky.
 
 ## Installation
 
-#### Standard auger method
+### Standard auger method
 
 This installation is for uniform, fine textured soils. Details
 [here](http://www.campbellsci.com/enviroscan). In rocky
 mountain soils it is better to opt for the slurry method below (in my
 opinion).
 
-#### Slurry method
+### Slurry method
 
 This installation is suitable for soils in which augering a uniform hole
 for the access tube is difficult. This includes rocky, non-uniform soils
@@ -39,9 +39,7 @@ measurements of absolute soil moisture unless extensive calibrations are
 done using the slurry and field soil (this sounds like it would be very
 difficult in practice).
 
-## Datalogger communication
-
-#### Wiring
+## Datalogger Wiring
 
 Our sensors have the old revision of the SDI interface board (v1.2). At
 the top of the board are 5 input/output pins labeled from 1 to 5. Most
@@ -52,13 +50,13 @@ are (in order):
 - not used
 - not used
 - Ground
-- SDI-12 data`
+- SDI-12 data
 
 The +12V and Ground wires must be connected to an appropriate power
 source (12V/SW12V and G on a Campbell 23x for example) and the SDI-12
 data wire must connect to an SDI-12 capable serial port.
 
-#### Datalogger control
+## Datalogger control
 
 Measurement commands are issued with SDI-12 from a serial port. For
 example, on a Campbell edlog datalogger, the SDI-12 Recorder instruction
@@ -68,9 +66,7 @@ work. The sensor then takes measurements at each sensor along the probe
 and sends back a scaled frequency measurement and a water content that
 is derived from this scaled frequency (WC alone can also be sent).
 
-Edlog program
--------------
+### Edlog program
 
-==
 
-is a working program for measuring a Sentek probe with 4 sensors using a Campbell cr23x datalogger.`
+[media/code/sentek_test_1.csi](media/code/sentek_test_1.csi) is a working program for measuring a Sentek probe with 4 sensors using a Campbell cr23x datalogger.

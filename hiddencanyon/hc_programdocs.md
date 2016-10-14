@@ -16,4 +16,4 @@ unknown samples.
 * **User Input:** 
   * Allows exclusion of one data period (GUI selection by user)
   * Numbered peaks can be excluded (enter integer list at command line) - Fixes issue with bad peaks after high (14000ppm) cal injections. See Feb 21 [log entry](hiddencanyon/hc_analysislog_1.md).
-* **Outputs** //2 Plots// - One with raw datalogger data, cumsum, and calculated peaks, and one with calibration RMS values. //1 datafile// with integrals and calibrated CO`~`2`~ppm`
+* **Outputs** //2 Plots// - One with raw datalogger data, cumsum, and calculated peaks, and one with calibration RMS values. //1 datafile// with integrals and calibrated CO~2~ ppm
