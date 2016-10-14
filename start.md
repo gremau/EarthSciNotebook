@@ -28,11 +28,11 @@ without guarantee of quality, accuracy, or safety.
 
 ## Using this site
 
-This [wp>wiki](wp>wiki) records day to day research
+This [wiki](http://en.wikipedia.org/wiki/wiki) records day to day research
 activities for various research projects, including field and lab notes,
 method development, preliminary results, data analysis code, figures,
 photos, and discussions. It is essentially an open version of the
-electronic [wp>lab notebook](wp>lab_notebook) for [Greg
+electronic [lab notebook](http://en.wikipedia.org/wiki/lab_notebook) for [Greg
 Maurer's](http://pronghorns.net/about.html) research
 projects. Because it is a wiki, this site can also be used for
 scientific collaboration. Those who would like to add to, comment on, or

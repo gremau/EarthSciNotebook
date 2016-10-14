@@ -2,7 +2,7 @@
 
 Data analysis often calls for testing whether two or more sets of
 numbers are related in some way (see
-[wp>Correlation_and_dependence](wp>Correlation_and_dependence)).
+[Correlation_and_dependence](http://en.wikipedia.org/wiki/Correlation_and_dependence)).
 Here are some methods to test for or describe a relationship (usually a
 linear one) between random variables, or two sets of data.
 
@@ -27,7 +27,7 @@ regression on the same data.
 
 Linear regression is related to correlation and a sample correlation can
 be calculated as the square root of the R^2^
-([wp>Coefficient_of_determination](wp>Coefficient_of_determination)),
+([Coefficient_of_determination](http://en.wikipedia.org/wiki/Coefficient_of_determination)),
 with the sign of the slope of the regression line (the coefficient of
 x).
 
