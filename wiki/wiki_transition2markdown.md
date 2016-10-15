@@ -1,6 +1,6 @@
-Welcome to the gremau.github.io wiki!
+# Migrating from Dokuwiki to markdown pages
 
-I am in the process of migrating my old wiki to here.
+I am in the process of migrating my old wiki from a Dokuwiki installation to a collection of markdown pages that I can maintain with git and some web tools (GitHub, ReadtheDocs, etc).
 
 Steps for this are:
 
@@ -20,7 +20,7 @@ Steps for this are:
 
     :%s/<NBSP>/ /g
 
-where entering <NBSP> is accomplished with <CTRL-k>+space+space
+where entering `<NBSP>` is accomplished with `<CTRL-k>+space+space`
 
 Or - remove in all files with sed:
 
@@ -33,5 +33,12 @@ Or - remove in all files with sed:
     find . -type f -exec sed -i 's/<code bash>/~~~/g' {} + 
     find . -type f -exec sed -i 's/-   -   / **/g' {} +
 
+7. Change all links to the markdown convention of:
 
-The first page to be complete is [Start](start.md)
+    [linktext]({subdir/}markdownpage.md) 
+
+or, for relative links to pages in other subdirectories:
+
+    [linktext](/subdir/markdownpage.md)
+
+8. Convert tables - a pain...
