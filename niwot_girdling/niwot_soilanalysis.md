@@ -5,7 +5,7 @@
 These were run for %C and δ^13^C at
 [SIRFER](http://sirfer.utah.edu/).
 
-* [Soil prep](procedures/proc_ea-irms_soilprep)methods.
+* [Soil prep](/procedures/proc_ea-irms_soilprep)methods.
 
 ## Soil extracts
 
@@ -18,7 +18,7 @@ extracts at SIRFER.
 
 ## Preliminary info
 
-* 5g soil extracted with 25ml of 0.5M K ~ 2`~`SO`~`4`~\
+* 5g soil extracted with 25ml of 0.5M K~2~SO~4~
 * Nicole Trahan's data from similar Niwot Ridge soil extracts show between 200 and 2500 µg C/g of dry soil.
   * If ours are similar, we should expect between 40 and 500 µgC/ml of extract.
 
@@ -44,14 +44,14 @@ run the CO~2~ to the mass spec from the Gasbench. Here is a proposed
 outline:
 
 - Prepare sugar standard extracts (for testing and as reference material during analysis)
-  - See [sugar standards section](procedures/proc_soilextract_13c.md)
+  - See [sugar standards section](/procedures/proc_soilextract_13c.md)
 - Place a small amount of extract in an Exetainer.
 - Scrub out all CO~2~ in the headspace of the vial (vacuum?).
 - Add an oxidant to convert C in extracts to CO~2~. There are multiple possible oxidants.
 - Load exetainers into the Gasbench and run through the MS from there.
   - It may be necessary to purify the CO~2~ before it enters the MS using some type of cryotrapping.
 
-[See the full procedure](procedures/proc_soilextract_13c.md)
+[See the full procedure](/procedures/proc_soilextract_13c.md)
 
 ## References
 

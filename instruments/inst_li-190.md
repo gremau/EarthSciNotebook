@@ -27,8 +27,7 @@ conductor (Neg), resistor, ground jumper | \^ gnd | ground jumper |
         the multiplier is entered as a negative value in the
         datalogger program.
 
-Converting the multiplier to mV
--------------------------------
+## Converting the multiplier to mV
 
 μA current output can be converted to mV using Ohm's law (Voltage =
 Current \* Resistance). Multipliers (`mult`) are given as -μmol s^-1^ m^2^ per

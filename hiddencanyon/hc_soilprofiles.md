@@ -3,29 +3,29 @@ FIXME
 # Hidden Canyon soil profiles
 
 A number of soil moisture and soil moisture/temperature profiles are
-replicated throughout the [Hidden Canyon site](hiddencanyon/hc_sitedescription.md). They provide continuous measurement of soil moisture and soil temperature at three depths. Installation began in the fall of 2009.
+replicated throughout the [Hidden Canyon site](hc_sitedescription.md). They provide continuous measurement of soil moisture and soil temperature at three depths. Installation began in the fall of 2009.
 
 *Measurement start date: 11 November, 2009*
 
  **Relevant links:**
 
-* These sensor profiles are tied in to the [Hidden Canyon towers](hiddencanyon/hc_mettowers.md)
-* Plot layouts, snowpack treatments, and profile locations are [detailed here](hiddencanyon/hc_overview.md)
-* Profile data is analysed using procedures [described here](procedures/proc_sensordata_tips.md)
+* These sensor profiles are tied in to the [Hidden Canyon towers](hc_mettowers.md)
+* Plot layouts, snowpack treatments, and profile locations are [detailed here](hc_overview.md)
+* Profile data is analysed using procedures [described here](/procedures/proc_sensordata_tips.md)
 
 ## Objectives
 
 - Record seasonal and interannual changes in soil moisture and temperature at three depths.
-- Provide soil moisture/temperature data to support the [ecohydrology experiments](hiddencanyon/hc_overview.md) at Hidden Canyon.
+- Provide soil moisture/temperature data to support the [ecohydrology experiments](hc_overview.md) at Hidden Canyon.
 - Measure differences in SM/ST in high and low stand density areas and high and low slope position
 - Measure differences in SM/ST in snowmelt treatment and control plots
 
 ## Methods
 
-![media/hiddencanyon/hc_profiles1_scaled.jpg?250|Installation of Campbell
+![media/hc_profiles1_scaled.jpg?250|Installation of Campbell
 616 sensors]
 
- Soil moisture and temperature sensor profiles were installed at [Hidden Canyon](hiddencanyon/hc_sitedescription.md) in
+ Soil moisture and temperature sensor profiles were installed at [Hidden Canyon](hc_sitedescription.md) in
 October of 2009 and 2010. One square meter soil pits were excavated to a
 depth of 70-80 cm. Soil was excavated in layers, placed on tarps, and
 three sensors were inserted into the vertical face of the excavated pit
@@ -34,15 +34,15 @@ inserted at 5 cm, 20 cm, and 60 cm depths and the layers of excavated
 soil were replaced in order, and compacted using foot pressure. Several
 types of sensors are in use, in separate profiles. Four sensor profiles
 (1d, 2d, 3d, 4d) measure both soil temperature and soil volumetric water
-content using [Decagon EC-TM's](hiddencanyon/hc_soilprofiles.md)
+content using [Decagon EC-TM's](hc_soilprofiles.md)
 (combination sensors. Four profiles (1,2,3,4) measure soil volumetric
-water content only using [CS-616's]([hiddencanyon/soilprofiles.md) or
-[Campbell CS-615's](hiddencanyon/soilprofiles.md)
+water content only using [CS-616's]([soilprofiles.md) or
+[Campbell CS-615's](soilprofiles.md)
 sensors. Two sensor profiles (5 & 7) have both water content
 reflectometers (CS-616s) and thermistors (Campbell 107s) installed in
 the same pit. Sensors are multiplexed at three separate Campbell
 AM-16/32 multiplexers and are controlled and read by a [Campbell CR23x
-datalogger](hiddencanyon/hc_dataloggers.md) (Forest1).
+datalogger](hc_dataloggers.md) (Forest1).
 
 Multiplexer, datalogger, and sensor connections are documented in .
 
@@ -110,17 +110,17 @@ More to come on this later.
 
 ### Multiplexers
 
-* Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the [forest tower](hiddencanyon/hc_mettowers.md).
-* Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the [forest tower](hiddencanyon/hc_mettowers.md).
+* Profiles 1, 1d, 3, & 3d are multiplexed at Mux 1, a Campbell AM16/32 downhill of the [forest tower](hc_mettowers.md).
+* Profiles 2, 2d, 4, & 4d are multiplexed at Mux 2, a Campbell AM16/32B uphill of the [forest tower](hc_mettowers.md).
 * Profiles 5 and 7 are multiplexed at Mux 3, a Campbell AM 16/32 at about 48E and 25N.
-* More on wiring and programming for these instruments is in and on the [Hidden Canyon datalogger page](hiddencanyon/hc_dataloggers.md).
+* More on wiring and programming for these instruments is in and on the [Hidden Canyon datalogger page](hc_dataloggers.md).
 
 ## 2010 Soil profile log
 
 * CS-615 sensors in Profile 2 began working as of 14 Jan, 2010 (New EDLOG program)--- *[Greg Maurer](primaryproductivity@gmail.com) 2010/01/15 11:03*
 * Decagon sensors in Profile 4d-60cm, Profile 3d-20cm, Profile 1d-60cm are not working. Tested these three sensors with a direct connection to a datalogger at the sensor leads and they all appear to be dead (-INF signal in Loggernet). --- *[Greg Maurer](primaryproductivity@gmail.com) 2010/02/19 08:15*
 * Three malfunctioning sensors (4d-60, 3d-20, 1d-60) were replaced Sept 8, 2010. They appear to work.
-* Renumbered site plots and profiles. Plots are 1-6 in order from east to west, profiles are sequential starting downslope in plot 1 (Profile 1), upslope plot 1 (Profile 2), downslope plot 2 (Profile 3), etc... See the [experimental design page](hiddencanyon/hc_overview.md)for more details on this.
+* Renumbered site plots and profiles. Plots are 1-6 in order from east to west, profiles are sequential starting downslope in plot 1 (Profile 1), upslope plot 1 (Profile 2), downslope plot 2 (Profile 3), etc... See the [experimental design page](hc_overview.md)for more details on this.
 * Installed new profiles, numbers 5 and 7, in early October. These have Campbell CS-616s and 107 thermistors at each depth.
 * Rewired and reordered sensors at Mux 1 and 2, installed Mux 3 and wired profiles 5 and 7 to it. Forest 1 datalogger was down from Oct 8th to the 15th. 
 * Installed new Forest1 datalogger program (v4) and the new Forest1 measurement scheme became operational at ~2:30pm Oct 16th.
@@ -128,4 +128,4 @@ More to come on this later.
 
 ## Maintenance and data log
 
-See [here](hiddencanyon/soilprofilelog_1.md)
+See [here](soilprofilelog_1.md)

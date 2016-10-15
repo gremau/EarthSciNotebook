@@ -15,7 +15,7 @@ be analyzed in MATLAB and bad peaks can be dealt with there.
 
 **Used for:**
 
-* [Hidden Canyon soil respiration](hiddencanyon/hc_soilresplog_1.md) measurements (in winter)
+* [Hidden Canyon soil respiration](/hiddencanyon/hc_soilresplog_1.md) measurements (in winter)
 
 (last revised on 120112 by Allison Chan)
 

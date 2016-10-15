@@ -1,12 +1,12 @@
 # Handheld soil respiration measurements
 
 Growing season soil CO~2~ fluxes are measured at respiration collars
-using the [Li-Cor 6400](instruments/inst_li-6400.md) and a handheld
+using the [Li-Cor 6400](/instruments/inst_li-6400.md) and a handheld
 soil respiration chamber (LiCor 6400-09).
 
 In use at:
 
-* [Hidden Canyon](hiddencanyon/hc_soilresplog_1.md)
+* [Hidden Canyon](/hiddencanyon/hc_soilresplog_1.md)
 
 ## Collar installation
 
@@ -37,7 +37,7 @@ they should be installed at least 12 hours prior to measurement.
 
 #### Making measurements with the LI-6400
 
-The general procedure for operating the LiCor 6400 is on the **[instrument page.](instruments/inst_li-6400.md)**
+The general procedure for operating the LiCor 6400 is on the **[instrument page.](/instruments/inst_li-6400.md)**
 
 * This procedure will need to be adapted for each site (see below and notes on the instrument page)
 

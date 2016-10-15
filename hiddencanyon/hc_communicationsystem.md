@@ -1,13 +1,13 @@
 # Communications system at Hidden Canyon
 
-Communication with the [two dataloggers](hiddencanyon/hc_dataloggers.md) at [Hidden Canyon](hiddencanyon/hc_sitedescription.md) is made possible using
+Communication with the [two dataloggers](hc_dataloggers.md) at [Hidden Canyon](hc_sitedescription.md) is made possible using
 a wireless modem and three spread-spectrum radios.
 
 ## Devices and connectivity
 
 ### Sierra Wireless Raven XTG Modem (1)
 
-* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the [Met tower](hiddencanyon/hc_mettowers.md).
+* Antenna is a dual band (800-1900 Mhz, with 5.12 and 6.12dB signal gain respectively) Wilson "Trucker" whip antenna mounted on the [Met tower](hc_mettowers.md).
 * Connected to the internet via the AT&T wireless network
 * Fixed IP address
 * Modem can be configured with Sierra's AceManager program on a Windows machine.

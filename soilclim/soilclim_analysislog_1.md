@@ -2,7 +2,7 @@
 
 This log mainly covers analysis of SNOTEL soil profile data.
 
-**See also:** The [project overview](soilclim/soilclim_overview.md).
+**See also:** The [project overview](soilclim_overview.md).
 
 **3/26/2013**
 

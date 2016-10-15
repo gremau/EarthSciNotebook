@@ -1,6 +1,6 @@
 ## Red Butte Weather Station Logbook (Fall 2011 to present)
 
-Maintenance log and visits to [Red Butte weather stations](redbutte/rb_weatherstations.md):
+Maintenance log and visits to [Red Butte weather stations](rb_weatherstations.md):
 
 (also see:)
 
@@ -246,7 +246,7 @@ Maintenance log and visits to [Red Butte weather stations](redbutte/rb_weatherst
 **10-7-2011**
 
 * Was able to download data from all 3 returned storage modules (WS1, 2, & 4)
-* See procedure [here](instruments/inst_cr10dataloggers.md)
+* See procedure [here](/instruments/inst_cr10dataloggers.md)
 * Uplodaded data files to project Dropbox
 
 **10-5-2011** - Susan and Greg visited WS6

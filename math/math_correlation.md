@@ -31,7 +31,7 @@ be calculated as the square root of the R^2^
 * Use `lm` in R
 * Use `regress` in MATLAB.
 * Numpy has `polyfit` and Scipy has `linregress`
-* See other notes [here](math/math_linear_regression.md).
+* See other notes [here](math_linear_regression.md).
 
 ## Non-parametric
 

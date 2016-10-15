@@ -5,7 +5,7 @@ storing and exchanging data. Here are some tips and utilities for
 manipulating and effectively using text files in a UNIX-like
 environment.
 
- **See also:** [General programming page](/programming.md), [the Awk page](/awk.md), [Vim tips](/vimtips.md), the [shell scripting page](/shellscripts.md).
+ **See also:** [General programming page](comp_programming.md), [the Awk page](comp_awk.md), [Vim tips](comp_vimtips.md), the [shell scripting page](comp_shellscripts.md).
 
 ## Text operations
 

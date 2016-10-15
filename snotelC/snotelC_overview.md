@@ -9,7 +9,7 @@ U.S. along with descriptive information about that forest.
 
 ### Related projects
 
-* The [SNOTEL soil climate project](soilclim/soilclim_overview.md).
+* The [SNOTEL soil climate project](/soilclim/soilclim_overview.md).
 
 ## Hypotheses
 
@@ -19,7 +19,7 @@ U.S. along with descriptive information about that forest.
 
 ## Methods
 
-* [Growing season soil respiration](procedures/proc_manual_soilresp.md) with the [Li-Cor 6400 system](instruments/inst_li-6400.md).
-* [Below-snow soil respiration](procedures/proc_belowsnow_soilresp.md)measurements made with the inlet/tubing system and exetainers.
-* [Litterbag mass loss](procedures/proc_litterbags.md)measurement of winter and summer decomposition.
+* [Growing season soil respiration](/procedures/proc_manual_soilresp.md) with the [Li-Cor 6400 system](/instruments/inst_li-6400.md).
+* [Below-snow soil respiration](/procedures/proc_belowsnow_soilresp.md)measurements made with the inlet/tubing system and exetainers.
+* [Litterbag mass loss](/procedures/proc_litterbags.md)measurement of winter and summer decomposition.
 

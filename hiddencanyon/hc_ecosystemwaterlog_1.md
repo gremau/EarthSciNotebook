@@ -1,6 +1,6 @@
 ## 2010 xylem water potential
 
-![media/hiddencanyon/hc_2010_psi.png?300|2010 xylem pressure
+![media/hc_2010_psi.png?300|2010 xylem pressure
 measurements]
 
 * First complete set of measurements were made on Aug 2nd and 3rd from 9 large (40ft +) trees each in plot one and two.

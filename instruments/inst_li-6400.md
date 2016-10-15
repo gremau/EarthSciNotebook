@@ -5,7 +5,7 @@ consists of the Li-Cor 6400 Portable Photosynthesis system, coupled to
 the Li-Cor 6400-09 Soil CO~2~ Flux Chamber.
 
 This system is currently in use measuring [soil respiration at Hidden
-Canyon](hiddencanyon/hc_soilresplog_1.md) and site-specific
+Canyon](/hiddencanyon/hc_soilresplog_1.md) and site-specific
 additions to this protocol will be posted on the linked page.
 
 ## Measurement protocol
@@ -79,16 +79,14 @@ notes at the end of the protocol.*
   - Note anything unusual!!
 24. When the machine is done move to the next collar and repeat from step 17.
 
-Measurement notes
------------------
+## Measurement notes
 
 - Steps 5-8 must be performed every time the 6400 is turned off and back on!
 - Battery voltage is displayed on the main menu and also under display `g` in `New`
 `Measurements` mode. It is a good idea to check this once in a while, but a good pair of batteries generally lasts 3-4 hours. Think about changing them when voltage drops below 12v.
 - Keep the console out of direct sunlight, especially if it is hot. It must be shaded with something or else the screen will eventually go blank (LCD problem)
 
-Site variability notes
-----------------------
+## Site variability notes
 
 These directions were written for use at Corral Pocket, which has
 extremely low CO~2~ fluxes. At higher productivity sites several things
@@ -136,7 +134,7 @@ number of cycles from 3 to 2 (in `New Measurements` menu level 7)
 - Don't let it get wet. If measurements must be made in rain, cover everything - console and chamber - with plastic bags. Remember that a rainstorm is not a good time to make accurate respiration measurements.
 - When the Drierite becomes mostly pink it is time to change both canisters of chemicals. The canisters can be unscrewed from the console using the small knobs below the scrub/bypass knobs. Do not empty or fill the canisters through the top  - unscrew the bottom cap. Use gloves, don't inhale the dust, put the old stuff in waste containers, etc.
 
-#### Maintenance Log
+### Maintenance Log
 
 * The Li-Cor temperature probe is currently broken. Substitute the omega probe for soil temp measurements.
 * Replaced chemical traps (Drierite and Soda-lime) and bought 2 new batteries in July 2010.

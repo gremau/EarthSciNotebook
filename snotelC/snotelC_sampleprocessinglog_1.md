@@ -6,9 +6,9 @@ sites.
 **See also:**
 
 * The sampling spreadsheet in the project directory logs EVERY sample returned from the field.
-* The [Sample tables](snotelC/snotelC_sampletables.md)page summarizes the samples for each site and their processing/analysis history.
-* The [SNOTEL visit log](snotelC/snotelC_log_1.md)for notes on site visits.
-* The [initial processing procedures](snotelC/snotelC_sampleprocessing.md)for returned samples. This links to other procedures.
+* The [Sample tables](snotelC_sampletables.md)page summarizes the samples for each site and their processing/analysis history.
+* The [SNOTEL visit log](snotelC_log_1.md)for notes on site visits.
+* The [initial processing procedures](snotelC_sampleprocessing.md)for returned samples. This links to other procedures.
 
 **6-22-2012**
 

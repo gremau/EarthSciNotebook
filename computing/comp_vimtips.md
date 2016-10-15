@@ -2,7 +2,7 @@
 
 Notes on using Vim effectively.
 
-**See also:** [General programming page](/programming.md), [shell scripting page](/shellscripts.md), [the Awk page](/awk.md), [Textfile tips](/textfiles.md).
+**See also:** [General programming page](comp_programming.md), [shell scripting page](comp_shellscripts.md), [the Awk page](comp_awk.md), [Textfile tips](comp_textfiles.md).
 
 ## .vimrc
 

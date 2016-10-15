@@ -1,6 +1,6 @@
 ## SNOTEL network soil temperature and moisture
 
-[Project overview](soilclim/soilclim_overview.md)
+[Project overview](soilclim_overview.md)
 
 ## Introduction
 

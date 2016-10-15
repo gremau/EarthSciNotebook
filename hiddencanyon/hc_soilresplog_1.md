@@ -1,6 +1,6 @@
 # 2010 Soil Respiration measurements
 
-[[media/hiddencanyon/hc_2010_rs.png|width=350px|alt=2010 Respiration collars]]
+[[media/hc_2010_rs.png|width=350px|alt=2010 Respiration collars]]
 
 ## Growing season 2010
 
