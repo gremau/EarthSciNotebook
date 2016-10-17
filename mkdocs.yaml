@@ -1,3 +1,4 @@
+site_name: Earth Science Notebook
 pages:
     - 'Introduction': 'index.md'
     - 'Full topic index': 'topicindex.md'
