@@ -126,6 +126,6 @@ non-LaTeX output formats.
 TeX math can be used by putting it between dollar signs. One dollar sign
 (each side) for inline mode, and two for display math. Most LaTeX math
 mode symbols are also transferred to other output formats. For example,
-rendering HTML documents with greek characters (such as $\\theta$)
+rendering HTML documents with greek characters (such as $\theta$)
 will result in unicode (default) greek characters in the rendered HTML.
 There are also options for using MathML, MathJax, if this doesn't work.

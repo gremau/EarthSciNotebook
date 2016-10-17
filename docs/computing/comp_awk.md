@@ -79,8 +79,7 @@ awk -F "," '( $1 == "snotel" ) && ( $7 > 7000 ) { print }' AZ_soilstations.csv
   * END (true if awk reaches the EOF)
   * BEGIN (true before awk reads anything)
 
-Built in functions
-------------------
+### Built in functions
 
 * gsub(r,s)       substitutes s for r globally in current input line, returns the  number of substitutions 
 * gsub(r,s,t)     substitutes s for r in t globally, returns number of substitutions 

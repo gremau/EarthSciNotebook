@@ -17,8 +17,8 @@ Both of these dataloggers are connected via radio to the [communications system]
 - Vaisala temp/RH sensor, *Dec 20, 2009*
 - Met One windspeed and direction sensor, *Jan 7, 2010*
 - Texas Electronics rain gauge, *Dec 20, 2009*
-- Upward looking PAR ([LI-190](/instruments/_instli-190.md)), *Nov 11, 2009*
-- Downward looking PAR ([LI-190](/instruments/inst_li-190.md)), *Jan 25, 2010*
+- Upward looking PAR ([LI-190](../instruments/inst_li-190.md)), *Nov 11, 2009*
+- Downward looking PAR ([LI-190](../instruments/inst_li-190.md)), *Jan 25, 2010*
 - REBS Net Radiation sensor, *Jan 7, 2010* (day windset started working), *Jan 25, 2010* Negative correction factor changed
 - Judd Snow Depth sensor, *Jan 14, 2010*, offest changed to 340cm *Aug 26, 2010*.
 - Apogee IR radiometer (snow surface below tower), *Dec 20, 2009*
