@@ -1,0 +1,4 @@
+pages:
+    - 'Introduction': 'index.md'
+    - 'Full topic index': 'topicindex.md'
+    - 'Computing':'topicindex.md#Data analysis and instrumentation'
