@@ -6,9 +6,9 @@ accelerate the spring snowmelt cycle. This is a procedure to generate
 dust similar to naturally deposited dust in the western U.S. and
 distribute it on a snowpack.
 
-* Prodedure in use at [Hidden Canyon](/hiddencanyon/hc_sitedescription.md)(and expected to influence [ecohydrology](/hiddencanyon/hc_overview.md)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
+* Prodedure in use at [Hidden Canyon](../hiddencanyon/hc_sitedescription.md)(and expected to influence [ecohydrology](../hiddencanyon/hc_overview.md)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
 * [Regional dust sources](westerndust.md)
-* The [snowmelt measurements](/hiddencanyon/hc_snowmeltlog_1.md) page for Hidden Canyon.
+* The [snowmelt measurements](../hiddencanyon/hc_snowmeltlog_1.md) page for Hidden Canyon.
 
 ## Dust collection and preparation
 

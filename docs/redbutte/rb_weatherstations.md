@@ -77,7 +77,7 @@ CurrentData folder of the RBWS Dropbox.
 ## Missing data
 
 * **Oct 29, 2007 -> May 26, 2009 (all data, WS2, 4, 6)** - :?: The last data collection prior to Fall 2011 appears to have been in late 2007. Is there a missing datafile between these dates? Was available memory on the storage module exceeded?
-* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see [the "preventing data loss" section here](/instruments/inst_cr10dataloggers.md)).
+* **Nov 10, 2012 -> May 31, 2013 (all data, WS4, 6)** - The datalogger programs were erased, probably during a power outage. This is a hard lesson that programs need to be loaded on replacement storage modules (see [the "preventing data loss" section here](../instruments/inst_cr10dataloggers.md)).
 
 ## Current Data
 
@@ -137,10 +137,10 @@ tested in the lab.
  **IMPORTANT NOTE** - Remember to load the weather station
 program into location 8 of the replacement storage module. This
 will keep the datalogger from forgetting its program after a
-power outage. See [Preventing Data Loss](/instruments/inst_cr10dataloggers.md).
+power outage. See [Preventing Data Loss](../instruments/inst_cr10dataloggers.md).
 
 Technical details on working with these dataloggers and storage modules
-can be found [here](/instruments/inst_cr10dataloggers.md).
+can be found [here](../instruments/inst_cr10dataloggers.md).
 
 ### Datalogger Programs
 

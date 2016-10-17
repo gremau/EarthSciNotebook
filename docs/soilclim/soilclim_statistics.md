@@ -36,7 +36,7 @@ For more on this see:
 
 ## PCA
 
-The current approach uses [principal components analysis](/math/math_pca.md). Briefly:
+The current approach uses [principal components analysis](../math/math_pca.md). Briefly:
 
 - Create matrices of environmental variables that may predict each the three dependent variables of interest (mean below-snow temperature, mean Jan+Feb+March soil moisture, and mean Jul+Aug+Sep soil moisture). These can be fairly large and include monthly means of the variables of interest (Tair, Precip, SWE, etc) as well as longer means (multiple months).
 - Run a PCA analyses on these matrices and select the first few principal components based on variance explained.

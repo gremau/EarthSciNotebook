@@ -34,7 +34,7 @@ provided by them at:
 <http://thermal.gg.utah.edu/facilities/gps/index.shtml> (we used the RTK
 method).
 
-See the [Hidden Canyon georeferencing](/hiddencanyon/hc_georeferencing.md) page for info on how we used this system.
+See the [Hidden Canyon georeferencing](../hiddencanyon/hc_georeferencing.md) page for info on how we used this system.
 
 ## Data formats
 

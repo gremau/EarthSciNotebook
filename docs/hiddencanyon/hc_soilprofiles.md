@@ -11,7 +11,7 @@ replicated throughout the [Hidden Canyon site](hc_sitedescription.md). They prov
 
 * These sensor profiles are tied in to the [Hidden Canyon towers](hc_mettowers.md)
 * Plot layouts, snowpack treatments, and profile locations are [detailed here](hc_overview.md)
-* Profile data is analysed using procedures [described here](/procedures/proc_sensordata_tips.md)
+* Profile data is analysed using procedures [described here](../procedures/proc_sensordata_tips.md)
 
 ## Objectives
 

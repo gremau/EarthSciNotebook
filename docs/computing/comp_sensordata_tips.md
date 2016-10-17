@@ -65,5 +65,5 @@ Many techniques for filtering and smoothing timeseries data are
 explicitly mathematical using moving means, variances, standard
 deviations or other statistics.
 
-See the [timeseries analysis page](/math/math_timeseries.md) for more,
+See the [timeseries analysis page](../math/math_timeseries.md) for more,
 and for examples.

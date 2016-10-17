@@ -38,7 +38,7 @@ Mexico flux gradient?
 ## SNOTEL and SCAN raw data files
 
 Files are downloaded as .csv (usually), and are often edited using
-various [text editing and data file handling tools](/procedures/proc_programming.md).
+various [text editing and data file handling tools](../procedures/proc_programming.md).
 
 ### Soil station inventory files
 

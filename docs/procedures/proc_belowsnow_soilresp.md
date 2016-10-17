@@ -10,7 +10,7 @@ characteristics (density, depth, tortuosity).
 
 In use at:
 
-* [Hidden Canyon](/hiddencanyon/hc_soilresplog_1.md)
+* [Hidden Canyon](../hiddencanyon/hc_soilresplog_1.md)
 
 ## Gas sampling inlets and installation
 
@@ -23,9 +23,9 @@ will not disturb the CO~2~ diffusion gradient near the inlet. Tubing is
 fitted with a Swagelok stainless coupling and plug. THe coupling can be
 connected to a complementary fitting on the pump/sampling assembly.
 Inlets are located in what are intended to be spatially representative
-replications in each plot. Each [soil temperature/moisture profile](/hiddencanyon/hc_soilprofiles.md) currently is associated
+replications in each plot. Each [soil temperature/moisture profile](../hiddencanyon/hc_soilprofiles.md) currently is associated
 with 3 inlets. There are thus 9 inlets each in the control and treatment
-plots in the [Hidden Canyon snowpack manipulation](/hiddencanyon/hc_snowmeltdesign.md).
+plots in the [Hidden Canyon snowpack manipulation](../hiddencanyon/hc_snowmeltdesign.md).
 
 #### Pump time calculation
 

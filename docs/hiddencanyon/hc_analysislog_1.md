@@ -9,7 +9,7 @@ data [(Project overview)](hc_overview.md).
 **03-20-2012**
 
 Re-analyzing photos from 4/24/2012 (swe locations before leafout) again.
-In addition to the standard settings (see [canopy photo procedure](/procedures/proc_canopyphotos.md) I am using these settings:
+In addition to the standard settings (see [canopy photo procedure](../procedures/proc_canopyphotos.md) I am using these settings:
 
 * This time am using growing season Mar. 1 to June 30.
 * Using HCfullmask.msk.

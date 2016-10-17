@@ -48,12 +48,12 @@ as a result. The experiment's plot and sensor designs are desribed in:
 
 ## Methods
 
-* [Dust-on-snow procedures page](/procedures/proc_dustonsnow.md): info on dust and how it is applied.
-* [SWE measurements](/procedures/proc_measuringswe.md): Measuring snowmelt (SWE disappearance) with a Federal Sampler is described here.
-* [Measuring xylem water potential](/procedures/proc_xylempressure.md)with a pressure bomb. 
-* [Measuring sublimation at the snow surface](/procedures/proc_snowpacksublimation.md)(multiple methods).
-* [Snowpack albedo measurements](/procedures/proc_snowpackalbedo.md)\
-* [Measuring snowpack dust loading](/procedures/proc_snowpackdustloading.md)(natural or artificial).
+* [Dust-on-snow procedures page](../procedures/proc_dustonsnow.md): info on dust and how it is applied.
+* [SWE measurements](../procedures/proc_measuringswe.md): Measuring snowmelt (SWE disappearance) with a Federal Sampler is described here.
+* [Measuring xylem water potential](../procedures/proc_xylempressure.md)with a pressure bomb. 
+* [Measuring sublimation at the snow surface](../procedures/proc_snowpacksublimation.md)(multiple methods).
+* [Snowpack albedo measurements](../procedures/proc_snowpackalbedo.md)\
+* [Measuring snowpack dust loading](../procedures/proc_snowpackdustloading.md)(natural or artificial).
 
 ## Measurement details and logs
 
@@ -167,9 +167,9 @@ as a result. The experiment's plot and sensor designs are desribed in:
 
 ## Methods
 
-* [Growing season soil respiration](/procedures/proc_manual_soilresp.md) with the [Li-Cor 6400 system](/instruments/li-6400.md).
-* [Below-snow soil respiration](/procedures/proc_belowsnow_soilresp.md)measurements made with the inlet/tubing system and exetainers.
-* [Litterbag mass loss](/procedures/proc_litterbags.md) measurement of winter and summer decomposition. 
+* [Growing season soil respiration](../procedures/proc_manual_soilresp.md) with the [Li-Cor 6400 system](../instruments/li-6400.md).
+* [Below-snow soil respiration](../procedures/proc_belowsnow_soilresp.md)measurements made with the inlet/tubing system and exetainers.
+* [Litterbag mass loss](../procedures/proc_litterbags.md) measurement of winter and summer decomposition. 
 
 ## Measurement details and logs
 

@@ -47,7 +47,7 @@ more on sampling methods
   - One sample sifted through 2mm mesh to remove fine roots, then save ~20g of each (>2mm & <2mm fractions) for density fractionation.
   - A larger bulk sample ground in coffee grinder and archived in a sample cup for further SOM analysis.
 
-The first sample will be separated with [density fractionation](/procedures/proc_soildensityfractionation.md) and fractions then undergo [prep for EA-IRMS](/procedures/proc_ea-irms_soilprep.md) analysis. The second sample can be subsampled for immediate [prep for EA-IRMS](/procedures/proc_ea-irms_soilprep.md) analysis.
+The first sample will be separated with [density fractionation](../procedures/proc_soildensityfractionation.md) and fractions then undergo [prep for EA-IRMS](../procedures/proc_ea-irms_soilprep.md) analysis. The second sample can be subsampled for immediate [prep for EA-IRMS](../procedures/proc_ea-irms_soilprep.md) analysis.
 
 ## Mineral 0-10
 
@@ -62,7 +62,7 @@ The first sample will be separated with [density fractionation](/procedures/proc
 Note that for 2008 samples half of the oven-dried bulk samples were
 immediately archived for rock, sand, silt, clay fraction analysis.
 
-The archived soil sample can be further subsampled for [density fractionation](/procedures/proc_soildensityfractionation.md) (with fractions then undergoing [prep for EA-IRMS](/procedures/proc_ea-irms_soilprep.md)), or for immediate [prep](/procedures/proc_ea-irms_soilprep.md) and EA-IRMS analysis.
+The archived soil sample can be further subsampled for [density fractionation](../procedures/proc_soildensityfractionation.md) (with fractions then undergoing [prep for EA-IRMS](../procedures/proc_ea-irms_soilprep.md)), or for immediate [prep](../procedures/proc_ea-irms_soilprep.md) and EA-IRMS analysis.
 
 ## Fine roots
 

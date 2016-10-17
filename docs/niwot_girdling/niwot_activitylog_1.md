@@ -38,7 +38,7 @@ See the [data QC page](niwot_data_qc.md).
 
 I am making local copies of my scripts, and giving them my own naming
 system. I will place them under version control with
-[Mercurial](/computing/comp_mercurial.md).
+[Mercurial](../computing/comp_mercurial.md).
 
  **2/7/2013**
 

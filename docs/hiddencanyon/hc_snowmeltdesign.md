@@ -4,7 +4,7 @@
 control plots and installed profiles in 2010] There are two 10 by ~60
 meter plots in the Hidden Canyon forest that are parallel to each other
 and separated by a 5m corridor. One swath serves as the treatment plot
-and receives regular [dust additions](/procedures/proc_dustonsnow.md)
+and receives regular [dust additions](../procedures/proc_dustonsnow.md)
 during the spring. The other is a control and receives only natural dust
 loading. Each plot is instrumented as follows:
 

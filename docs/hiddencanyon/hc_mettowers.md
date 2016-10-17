@@ -28,8 +28,8 @@ layouts is tabulated in .
 
 #### Met tower
 
-![media/img_3847_scaled_.jpg?200|Met tower enclosure and
-solar tower (background)] ![media/img_3825_scaled_.jpg?235|Instruments on Met tower]
+![../media/img_3847_scaled_.jpg?200|Met tower enclosure and
+solar tower (background)] ![../media/img_3825_scaled_.jpg?235|Instruments on Met tower]
 
 The Met tower is a mast about 7m tall, with an East/West oriented boom
 at 3.7m height and a N/S oriented crossbar at 3.8 m height. The tower is
@@ -63,7 +63,7 @@ the internet with the wireless modem (see [communications page](hc_communication
 
 #### Forest tower
 
-![media/img_3788_scaled_.jpg?200|Forest tower and
+![../media/img_3788_scaled_.jpg?200|Forest tower and
 enclosure] The forest tower is a fencepost about 2.5m tall with an
 East/West oriented boom at the top of the post. It is located 40.5m east
 and downhill of the Met tower. Slope angle is 20-21° at the base of the
