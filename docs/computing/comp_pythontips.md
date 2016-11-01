@@ -15,18 +15,12 @@ collects some general tips on developing Python code.
 
 ## Installing Python packages
 
-Installation of packages from [PyPI](http://pypi.python.org)
-(the Python Package Index) is generally done with easy_install, which
-is part of **python-setuptools**. Also install **python-dev** so
-that new packages can be built locally.
+In general, I now use the [Anaconda python distribution](https://www.continuum.io/downloads) which provides current "data science" packages for python with an installer (`conda`) to manage versions and dependencies. The "Miniconda" install is an nice way to start. `conda` docs are [here](http://conda.pydata.org/docs/index.html)
 
-Then:
+The main Python package repository is [PyPI](http://pypi.python.org)
+(the Python Package Index) and installation from PyPI is generally done
+using [`pip`](https://pip.pypa.io/en/latest/)
 
-easy_install [packagename]`
-
- **NOTE** that easy_install will no longer work with Python 3.0 and
-        [pip](http://www.pip-installer.org/en/latest/index.html)
-        will have to be used.
 
 ## The datetime module
 

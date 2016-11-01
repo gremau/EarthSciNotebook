@@ -10,6 +10,10 @@ The `~/.vimrc` file is where vim looks first for settings when starting
 up. `~/.gvimrc` can be used to set options in the GUI version of Vim.
 `.vimrc` is read first.
 
+### Setting VIM defaults:
+
+* <https://github.com/tpope/vim-sensible>
+
 ## Encrypting files
 
 Files can be encrypted using the `-x` flag. Typing:
