@@ -8,7 +8,12 @@ It seems there are 2 versions of this product: 1) The original datasets produced
 
 * [Original, uncorrected data](http://e4ftl01.cr.usgs.gov/MOLT/)
 
-* [Version 55](ftp://ftp.ntsg.umt.edu/pub/MODIS/NTSG_Products/MOD17/), available in annual (A3), monthly (Monthly_MOD17A2), and 8 day (A2) datasets.
+* [Version 55](ftp://ftp.ntsg.umt.edu/pub/MODIS/NTSG_Products/MOD17/), available in several time formats:
+    - Annual (A3, MOD17A3 directory) data
+    - Monthly (Monthly A2, Monthly_MOD17A2 directory), in year and month subdirectories
+    - 8 day (A2, MOD17A2 directory) in year and day of year subdirectories
+    - In each subdirectory there is one .hdf file for each tile (see projection and tiling info below)
+    
 
 
 ## References
@@ -23,5 +28,5 @@ It seems there are 2 versions of this product: 1) The original datasets produced
 ## Getting the data
 
 1. Go to the links listed above and navigate to the correct directory
-2. MODIS data comes in spatial extents following the ["MODIS Sinusoidal tiling system"](https://lpdaac.usgs.gov/dataset_discovery/modis)
+2. MODIS data comes in spatial extent tiles following the ["MODIS Sinusoidal tiling system"](https://lpdaac.usgs.gov/dataset_discovery/modis)
     - For New Mexico the correct tiles are is H8V5 and H9V5
