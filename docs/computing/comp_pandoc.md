@@ -12,7 +12,7 @@ Be sure to install:
 * pandoc-data
 * pandoc-citeproc (for citations)
 
-## Basic use
+## Basic use for creating PDFs
 
 `pandoc -o` writes output to the file following the `-o`, with
 formatting based on the file extension. For example, the following
@@ -23,11 +23,13 @@ command creates a pdf file from a text file (via pdflatex):
 There are other options for specifying input and output files or
 formats, but this is the simplest.
 
-### Formatting options
 
-The formatting of the output document can be set either at the
+## PDF formatting options
+
+The output formatting of a pdf document can be set either at the
 commandline, or by using a header or template file during the
 conversion.
+
 
 ### Passing variables
 
@@ -39,6 +41,7 @@ settings during a pandoc conversion.
 
 Other variables that can be passed with `-V` are
 [here](http://johnmacfarlane.net/pandoc/README.html#templates)
+
 
 ### Include in header
 
@@ -52,6 +55,7 @@ useful when adding LaTeX formatting commands to the intermediate .tex
 file before creating the pdf.
 
     pandoc cv_master.txt -H '/path/to/header/' -o cv_master.pdf
+
 
 ### Custom document templates
 
@@ -77,6 +81,7 @@ using packages, etc. A couple I use for pdfs of journal articles are:
 
     \usepackage[margin=1in]{geometry}
     \usepackage{textcomp} % provides \textdegree
+
 
 ### Other formatting
 
@@ -104,9 +109,9 @@ specified with `--csl=FILE`, where `FILE` is a .csl file (found at
 <http://citationstyles.org>). Natbib and biblatex can be used in LaTeX
 output (pdf) by including them as commandline options.
 
-## Working with LaTeX
+## Working directly with LaTeX
 
-Pandoc markdown is a nice way to draft LaTeX documents. Pandoc can be
+Pandoc markdown is a nice way to draft LaTeX documents. Pandoc markdown can be
 rendered to TeX (`-o document.tex`), or rendered as a PDF via `pdflatex`
 (`-o document.pdf`). Raw TeX and LaTeX can be included in a markdown
 document and it will be passed to the pdflatex writer. For more info on
@@ -121,7 +126,7 @@ this to work yet//. Inline TeX placed between *\\begin* and *\\end* tags
 will be interpreted as LaTeX instead of markdown, and will be ignored in
 non-LaTeX output formats.
 
-## Math mode
+### Math mode
 
 TeX math can be used by putting it between dollar signs. One dollar sign
 (each side) for inline mode, and two for display math. Most LaTeX math
@@ -129,3 +134,12 @@ mode symbols are also transferred to other output formats. For example,
 rendering HTML documents with greek characters (such as $\theta$)
 will result in unicode (default) greek characters in the rendered HTML.
 There are also options for using MathML, MathJax, if this doesn't work.
+
+## Errors with unicode special characters
+
+Pandoc will pass unicode characters in a document to `pdflatex` that it may 
+not know how to display. This is pretty common with greek characters that are 
+used outside of math mode. In this case it is probably best to use the Xetex
+interpreter instead. This can be specified by sending `latex-engine=xelatex`
+to pandoc. Of course, Xetex must be installed, which is most easily done
+by installing the full TexLive distribution (large).
