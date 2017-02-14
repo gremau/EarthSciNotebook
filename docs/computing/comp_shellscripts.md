@@ -138,13 +138,13 @@ A similar effect to the substitution could be done with basename.
 
 **Sed, Awk, and tr** all replace characters or patterns in textfiles. To remove all spaces from a directory of textfiles:
 
-~~~{~bash}
+~~~{.bash}
 for i in  .csv; do tr -d ' ' < "$i" > "${i/.csv}2.csv"; done
 ~~~
 
 To replace each line's first occurrence of a given phrase with another pattern, either of these will work:
 
-~~~{.bash}\
+~~~{.bash}
 for i in  *.csv; do sed 's/station id/station_id/' < "$i" >  "${i/.csv}2.csv"; done
 ~~~
 

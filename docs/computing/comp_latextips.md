@@ -1,4 +1,6 @@
-# LaTeX tips
+# LaTeX notes
+
+Notes for using Tex and related things like Latex. In practice I access latex through `pandoc` commands.
 
 **See also:** [comp_textfiles](comp_textfiles.md), [comp_pandoc](comp_pandoc.md)
 
@@ -10,6 +12,14 @@
 * [Harvard math dept. reference](http://www.math.harvard.edu/texman/)
 * A simple [LaTeX pre-viewer](http://www.tlhiv.org/ltxpreview/) that can be used for code on this page.
 * An [SE question](http://stackoverflow.com/q/193298/1282366) with lots of tips and best practices for LaTeX.
+
+
+## Installing
+
+### Debian
+
+The full TexLive (`texlive_full`) distribution is very big, so installing the subset that includes latex, the `texlive` package, is probably wise. When using funny unicode symbols when making pdfs with [pandoc](comp_pandoc.md) Xetex (`texlive-xetex` package) is very helpful
+
 
 ## Citations
 
@@ -31,7 +41,8 @@ special characters are present). Open bibtex in vim and do:
 * A [natbib reference sheet](http://merkel.zoneo.net/Latex/natbib.php).
 * [Some tips](http://libguides.mit.edu/content.php?pid=55482&sid=406343#6) on using Zotero with BibTeX
 
-## Making tables
+
+## Making Tables
 
 It may be easier to make and format the table in a spreadsheet first,
 and some spreadsheets can export tables directly to LaTeX format.
@@ -53,9 +64,9 @@ zab & rab & oof\\
 \end{tabular}
 ~~~
 
-A better way is to use the
+Depending on the table, a nicer/easier way could be to use the
 [Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/)
-package, and use something like this:
+package, and do something like this:
 
 ~~~{.latex}
 \begin{tabular}{ccc}
@@ -73,11 +84,12 @@ zab & rab & oof\\
 TeX/LaTeX excels at this. Mathematical statements or formulas are
 generally placed between dollar signs. Here are a few resources:
 
--   <http://www.math.uiuc.edu/~hildebr/tex/course/intro2.html>
+* <http://www.math.uiuc.edu/~hildebr/tex/course/intro2.html>
+
 
 ## Comments, TODOs, and other document annotations
 
-Comments can be added to a document with the *%* signifying the
+Comments can be added to a Tex or latex document with the `%` signifying the
 beginning of a comment. If a document is reviewed by another and they
 add these types of comments, they will be picked up by a diff between
 the original and the patch.
@@ -86,7 +98,10 @@ the original and the patch.
 
 * The [todonotes package](http://ctan.org/pkg/todonotes) places callouts (Word style) in the compiled document.
 
+
 ## Converting to Word/LO formats
+
+[Pandoc](comp_pandoc.md) should do this, or...
 
 * [This tex.se question](http://tex.stackexchange.com/q/4145) has some great ideas and links.
 * There are other ideas in [this SE question](http://stackoverflow.com/q/615738/1282366)

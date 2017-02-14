@@ -4,7 +4,7 @@
 
 ## Installation
 
-Fits inside a 1 inch Schedule 40 PVC pipe, though may want slightly larger to fit a membrane around the thing.
+Fits inside a 1 inch Schedule 40 PVC pipe, but in order to fint a membrane the thinner-walled 1 inch class 200 will be preferable.
 
 Membrane materials:
 
@@ -12,5 +12,17 @@ Membrane materials:
     * Gore-Tex socks - source?
 
 ## Datalogger programming
+
+Sensors can output data in several configurations, both analog (voltage and current) and digital (Modbus).
+
+### Single ended voltage measurement
+
+With probes configured for analog output at 0-5V, a single ended or differential voltage measurement can be used to measure the probe. In Campbell dataloggers the relevant commands are SeVolt
+
+    
+
+## Temperature, pressure, and other compensations
+
+Temperature compensation can be performed by 
 
  
