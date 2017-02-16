@@ -75,10 +75,10 @@ Principal components scores can be used like measured variables, i.e.,
 they can be analyzed with statistics such as regression or ANOVA. There
 are 2 criterion to use before doing this. First, the axes must be
 normally distributed, which is easily checked with standard [normality
-tests](math_normalitytests.md). If an axis is not normally
+tests](normalitytests.md). If an axis is not normally
 distributed, different inferential statistical tests, such as
 non-parametric methods like Spearmans correlation or Kruskal Wallace
-ANOVA can be used (see [here](math_correlation.md)). Also,
+ANOVA can be used (see [here](correlation.md)). Also,
 Monte-Carlo tests can be used, comparing the results of a correlation
 test, with the same test run on a large number of randomized versions of
 the data. The second criteria is that there should be no a priori

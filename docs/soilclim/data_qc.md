@@ -3,7 +3,7 @@
 This page helps track bad, incomplete, or otherwise excluded data from
 SNOTEL sites.
 
- **See also:** [Project overview](soilclim_overview.md), [Programming documentation](soilclim_programdocs.md), [Data collection/prep](soilclim_data.md), [Data analysis log](soilclim_analysislog_1.md)
+ **See also:** [Project overview](overview.md), [Programming documentation](programdocs.md), [Data collection/prep](data.md), [Data analysis log](analysislog_1.md)
 
 ## Procedure for screening data files
 

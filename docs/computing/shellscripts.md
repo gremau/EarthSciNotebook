@@ -3,7 +3,7 @@
 Notes on using the Unix shell (bash, ash, et. al) to manipulate files,
 text, etc.
 
- **See also:** [General programming page](comp_programming.md), [the Awk page](comp_awk.md), [Vim tips](comp_vimtips.md), [Text file tips](comp_textfiles.md).
+ **See also:** [General programming page](programming.md), [the Awk page](awk.md), [Vim tips](vimtips.md), [Text file tips](textfiles.md).
 
 ## Basic stuff
 
@@ -100,7 +100,7 @@ commands with a semicolon.
 * `tr`: (translate) deletes (-d) or replaces characters in a file
 * `tail`: prints the last //n// lines in a given file (good for removing headers).
 * `sed` commands (see [this tutorial](http://www.grymoire.com/Unix/Sed.html))
-* [awk oneliners](comp_awk.md)
+* [awk oneliners](awk.md)
 * `find`: ????
 
 For example in a particular directory, a list of files with the .csv

@@ -2,12 +2,12 @@
 
 This is a place to collect the statistical approach, as well as specific statistical methods, for analysis of data from the SNOTEL soil climate project.
 
-**See also:** [Project overview](soilclim_overview.md), [Data analysis log](soilclim_analysislog_1.md)
+**See also:** [Project overview](overview.md), [Data analysis log](analysislog_1.md)
 
 ## Hypotheses
 
 The (working) hypotheses are something like this (see the [publication
-outline](soilclim_publicationoutline.md) for more):
+outline](publicationoutline.md) for more):
 
 - Seasonal snowpacks dampen elevational gradients in Tsoil.
 - Snowpack variability leads to biologically important variability in Tsoil .
@@ -36,7 +36,7 @@ For more on this see:
 
 ## PCA
 
-The current approach uses [principal components analysis](../math/math_pca.md). Briefly:
+The current approach uses [principal components analysis](../math/pca.md). Briefly:
 
 - Create matrices of environmental variables that may predict each the three dependent variables of interest (mean below-snow temperature, mean Jan+Feb+March soil moisture, and mean Jul+Aug+Sep soil moisture). These can be fairly large and include monthly means of the variables of interest (Tair, Precip, SWE, etc) as well as longer means (multiple months).
 - Run a PCA analyses on these matrices and select the first few principal components based on variance explained.

@@ -1,11 +1,11 @@
 # Hidden Canyon dataloggers
 
-There are two Campbell CR23x dataloggers at [Hidden Canyon](hc_sitedescription.md):
+There are two Campbell CR23x dataloggers at [Hidden Canyon](sitedescription.md):
 
-* **Met1** is located on the [met tower](hc_mettowers.md)and it logs meteorological data and powers the [modem and the Base and Met1 radios](hc_communicationsystem.md).
-* **Forest1** is located on the [forest tower](hc_mettowers.md)and it logs meteorological data and [soil profile](hc_soilprofiles.md)data (via 3 multiplexers).
+* **Met1** is located on the [met tower](mettowers.md)and it logs meteorological data and powers the [modem and the Base and Met1 radios](communicationsystem.md).
+* **Forest1** is located on the [forest tower](mettowers.md)and it logs meteorological data and [soil profile](soilprofiles.md)data (via 3 multiplexers).
 
-Both of these dataloggers are connected via radio to the [communications system](hc_communicationsystem.md).
+Both of these dataloggers are connected via radio to the [communications system](communicationsystem.md).
 
 ## Met1
 
@@ -17,8 +17,8 @@ Both of these dataloggers are connected via radio to the [communications system]
 - Vaisala temp/RH sensor, *Dec 20, 2009*
 - Met One windspeed and direction sensor, *Jan 7, 2010*
 - Texas Electronics rain gauge, *Dec 20, 2009*
-- Upward looking PAR ([LI-190](../instruments/inst_li-190.md)), *Nov 11, 2009*
-- Downward looking PAR ([LI-190](../instruments/inst_li-190.md)), *Jan 25, 2010*
+- Upward looking PAR ([LI-190](../instruments/li-190.md)), *Nov 11, 2009*
+- Downward looking PAR ([LI-190](../instruments/li-190.md)), *Jan 25, 2010*
 - REBS Net Radiation sensor, *Jan 7, 2010* (day windset started working), *Jan 25, 2010* Negative correction factor changed
 - Judd Snow Depth sensor, *Jan 14, 2010*, offest changed to 340cm *Aug 26, 2010*.
 - Apogee IR radiometer (snow surface below tower), *Dec 20, 2009*
@@ -54,7 +54,7 @@ Both of these dataloggers are connected via radio to the [communications system]
 
 ### Soil profile sensors (via MUX1 and MUX2)
 
-see the [soil profile page](hc_soilprofiles.md) for more details
+see the [soil profile page](soilprofiles.md) for more details
 
 - 12 Decagon EC-TM sensors
 - 18 Campbell CS-616/615 sensors

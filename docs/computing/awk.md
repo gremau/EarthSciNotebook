@@ -1,9 +1,9 @@
 # AWK Notes
 
 Awk is great for editing delimited text files, and can be easily used in
-[shell scripts](comp_shellscripts.md).
+[shell scripts](shellscripts.md).
 
-Back to [general programming page](comp_programming.md)
+Back to [general programming page](programming.md)
 
 ## Basic stuff
 
@@ -101,7 +101,7 @@ awk -F "," '( $1 == "snotel" ) && ( $7 > 7000 ) { print }' AZ_soilstations.csv
 * Input can come from files or be piped in from shell commands.
 * Output can be redirected into files or piped to bash, etc.
 * Lots of these are from [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/) or [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)
-* Also see examples in the [shell scripting page](procedures/proc_shellscripts).
+* Also see examples in the [shell scripting page](shellscripts.md).
 
 Convert Windows/DOS newlines (CRLF) to Unix newlines (LF) from Unix.
 Removes the carriage return (\\r) **at the end** of the line ($ at

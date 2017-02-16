@@ -1,15 +1,15 @@
 # Hidden Canyon data analysis
 
 This log mainly covers analysis of Hidden Canyon ecohydrology experiment
-data [(Project overview)](hc_overview.md).
+data [(Project overview)](overview.md).
 
-**See also:** The [Data program documentation](hc_programdocs.md), and the Hidden Canyon [site description](hc_sitedescription.md).
+**See also:** The [Data program documentation](programdocs.md), and the Hidden Canyon [site description](sitedescription.md).
 
 
 **03-20-2012**
 
 Re-analyzing photos from 4/24/2012 (swe locations before leafout) again.
-In addition to the standard settings (see [canopy photo procedure](../procedures/proc_canopyphotos.md) I am using these settings:
+In addition to the standard settings (see [canopy photo procedure](../procedures/canopyphotos.md) I am using these settings:
 
 * This time am using growing season Mar. 1 to June 30.
 * Using HCfullmask.msk.

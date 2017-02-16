@@ -2,7 +2,7 @@
 
 Notes for using Tex and related things like Latex. In practice I access latex through `pandoc` commands.
 
-**See also:** [comp_textfiles](comp_textfiles.md), [comp_pandoc](comp_pandoc.md)
+**See also:** [comp_textfiles](textfiles.md), [comp_pandoc](pandoc.md)
 
 ## General Resources
 
@@ -18,7 +18,7 @@ Notes for using Tex and related things like Latex. In practice I access latex th
 
 ### Debian
 
-The full TexLive (`texlive_full`) distribution is very big, so installing the subset that includes latex, the `texlive` package, is probably wise. When using funny unicode symbols when making pdfs with [pandoc](comp_pandoc.md) Xetex (`texlive-xetex` package) is very helpful
+The full TexLive (`texlive_full`) distribution is very big, so installing the subset that includes latex, the `texlive` package, is probably wise. When using funny unicode symbols when making pdfs with [pandoc](pandoc.md) Xetex (`texlive-xetex` package) is very helpful
 
 
 ## Citations
@@ -101,7 +101,7 @@ the original and the patch.
 
 ## Converting to Word/LO formats
 
-[Pandoc](comp_pandoc.md) should do this, or...
+[Pandoc](pandoc.md) should do this, or...
 
 * [This tex.se question](http://tex.stackexchange.com/q/4145) has some great ideas and links.
 * There are other ideas in [this SE question](http://stackoverflow.com/q/615738/1282366)

@@ -1,7 +1,7 @@
 ## SNOTEL survey site visits
 
 
-**See also:** The [Sample processing log](snotelC_sampleprocessinglog_1.md), and [sample tables](snotelC_sampletables.md) for tracking samples.
+**See also:** The [Sample processing log](sampleprocessinglog_1.md), and [sample tables](sampletables.md) for tracking samples.
 
 
 **No sites were visited in 2010**

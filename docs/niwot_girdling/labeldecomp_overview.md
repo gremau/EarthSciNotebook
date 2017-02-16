@@ -159,7 +159,7 @@ carbon isotope ratios using an EA-IRMS system at the SIRFER lab
 If microcosms are used, similar measurements and methods will be
 employed with each set of microcosms that are returned to the lab.
 
-See the [measurements page](../procedures/proc_label_decomposition.md)
+See the [measurements page](../procedures/label_decomposition.md)
 for more detail.
 
 ## Issues to address

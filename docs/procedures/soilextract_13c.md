@@ -190,7 +190,7 @@ respectively.
 
 ### Procedure
 
-1. Determine expected concentrations to create a test range. For the Niwot-FEF soils, see [here](niwot_girdling/niwot_girdling:soilanalysis).
+1. Determine expected concentrations to create a test range. For the Niwot-FEF soils, see [here](niwot_girdling/girdling:soilanalysis).
   - Using similar data gathered by Nicole Trahan we determined a rough range of concentrations of carbon that might be present in our soil samples, and that we would want to test with the sugar standards. Nicole had concentrations ranging from 200-2500 micrograms of carbon per gram of soil. Our extracts have 5 grams of soil per 25 milliliters, so the desired test range we calculated for our soil was 40 – 500 micrograms of carbon per milliliter of extract. We divided the range into five, and included a low value to come up with the test concentrations of 20, 40, 150, 270, 380, and 500 micrograms of carbon.
 2. Make 1 L of a 0.5 M K~2~SO~4~solution
 3. Add 500 ml of DI water to a 500 ml volumetric flask 

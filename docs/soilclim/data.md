@@ -4,7 +4,7 @@ Collection of environmental data, including met and soils data, from
 NRCS, Ameriflux, and other research stations and its processing for
 analysis is covered here.
 
- **See also:** [Overview page](soilclim_overview.md), [Data program documentation](soilclim_programdocs.md), [Data analysis log](soilclim_analysislog_1.md)
+ **See also:** [Overview page](overview.md), [Data program documentation](programdocs.md), [Data analysis log](analysislog_1.md)
 
 *Start date: 25 Jan, 2010*
 
@@ -38,7 +38,7 @@ Mexico flux gradient?
 ## SNOTEL and SCAN raw data files
 
 Files are downloaded as .csv (usually), and are often edited using
-various [text editing and data file handling tools](../procedures/proc_programming.md).
+various [text editing and data file handling tools](../procedures/programming.md).
 
 ### Soil station inventory files
 
@@ -162,12 +162,12 @@ detailed info on sensor maintenance, movement, or replacement.
 ## Data processing and filtering
 
 For info on how the data were quality checked and filtered, see the
-[data quality control](soilclim_data_qc.md) page.
+[data quality control](data_qc.md) page.
 
 Programs that load and process the raw data, as well as the outputs they
-produce, are documented [here](soilclim_programdocs.md). Some of the
+produce, are documented [here](programdocs.md). Some of the
 development of these programs and results are documented
-[here](soilclim_analysislog_1.md).
+[here](analysislog_1.md).
 
 ## Older data
 

@@ -28,14 +28,14 @@ Possible influences include:
 
 ## Methods
 
-* [Data sources/collection](soilclim_data.md) for western U.S. climate and soils data.
-* [Data quality control](soilclim_data_qc.md) - Bad data removal procedures
-* [Data analysis log](soilclim_analysislog_1.md) 
-* [Programming documentation](soilclim_programdocs.md)
-* [Statistics](soilclim_statistics.md) - Multiple regression and PCA.
+* [Data sources/collection](data.md) for western U.S. climate and soils data.
+* [Data quality control](data_qc.md) - Bad data removal procedures
+* [Data analysis log](analysislog_1.md) 
+* [Programming documentation](programdocs.md)
+* [Statistics](statistics.md) - Multiple regression and PCA.
 * Data will be analyzed for mountain and lowland sites in the interior western U.S., including the stats of AZ, CO, ID, MT, NM, NV, UT, and WY.
 
 ## Results
 
-* [Preliminary data and activity log](soilclim_analysislog_1.md)
-* [Publication outline](soilclim_publicationoutline.md) - Journal article outline, including figures and discussion.
+* [Preliminary data and activity log](analysislog_1.md)
+* [Publication outline](publicationoutline.md) - Journal article outline, including figures and discussion.

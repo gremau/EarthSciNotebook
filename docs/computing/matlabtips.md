@@ -1,7 +1,7 @@
 # Matlab tips
 
 Notes for using Matlab effectively for data analysis. **See also:**
-[General programming](comp_programming.md), [Sensor data tips](comp_sensordata_tips.md) pages
+[General programming](programming.md), [Sensor data tips](sensordata_tips.md) pages
 
 ## Put date ticklabels on an X-axis
 

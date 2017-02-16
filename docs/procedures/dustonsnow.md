@@ -6,9 +6,9 @@ accelerate the spring snowmelt cycle. This is a procedure to generate
 dust similar to naturally deposited dust in the western U.S. and
 distribute it on a snowpack.
 
-* Prodedure in use at [Hidden Canyon](../hiddencanyon/hc_sitedescription.md)(and expected to influence [ecohydrology](../hiddencanyon/hc_overview.md)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
+* Prodedure in use at [Hidden Canyon](../hiddencanyon/sitedescription.md)(and expected to influence [ecohydrology](../hiddencanyon/overview.md)(plant water balance, soil moisture, C cycling) in plots with enhanced dust deposition.
 * [Regional dust sources](westerndust.md)
-* The [snowmelt measurements](../hiddencanyon/hc_snowmeltlog_1.md) page for Hidden Canyon.
+* The [snowmelt measurements](../hiddencanyon/snowmeltlog_1.md) page for Hidden Canyon.
 
 ## Dust collection and preparation
 
@@ -38,7 +38,7 @@ layer until the snowpack has melted completely.
 
 ## Useful measurements
 
-* Measuring snowmelt (SWE disappearance) is best done by sampling the snowpack with a Federal Sampler as described on the [SWE measurement](proc_measuringswe.md) page.
-* [Measuring sublimation at the snow surface](proc_snowsurfacesublimation.md)(multiple methods).
-* [Snowpack albedo measurements](proc_snowpackalbedo.md)
-* [Measuring snowpack dust loading](proc_snowpackdustloading.md)(natural or artificial).
+* Measuring snowmelt (SWE disappearance) is best done by sampling the snowpack with a Federal Sampler as described on the [SWE measurement](measuringswe.md) page.
+* [Measuring sublimation at the snow surface](snowsurfacesublimation.md)(multiple methods).
+* [Snowpack albedo measurements](snowpackalbedo.md)
+* [Measuring snowpack dust loading](snowpackdustloading.md)(natural or artificial).

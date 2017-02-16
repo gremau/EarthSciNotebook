@@ -2,7 +2,7 @@
 
 This log mainly covers ...
 
-**See also:** [Data QC](niwot_data_qc.md), [Soil analysis methods](niwot_soilanalysis.md)
+**See also:** [Data QC](data_qc.md), [Soil analysis methods](soilanalysis.md)
 
 
 **3/7/2014**
@@ -20,7 +20,7 @@ This log mainly covers ...
  **4/25/2013**
 
 * Have begun grinding flask soils from July 1, 2011
-* Working on method for %C and 13C of soil extractions (fumigated and non-fumigated). See [here](niwot_soilanalysis.md)
+* Working on method for %C and 13C of soil extractions (fumigated and non-fumigated). See [here](soilanalysis.md)
 
  **4/11/2013**
 
@@ -32,18 +32,18 @@ Now have data for soil and flask data.
  **2/12/2013**
 
 Have finished making a bad data removal routine for the soil CO2 data.
-See the [data QC page](niwot_data_qc.md).
+See the [data QC page](data_qc.md).
 
  **2/11/2013**
 
 I am making local copies of my scripts, and giving them my own naming
 system. I will place them under version control with
-[Mercurial](../computing/comp_mercurial.md).
+[Mercurial](../computing/mercurial.md).
 
  **2/7/2013**
 
 * We now have all the soil CO2 data back from Brad and it all plots fine in MATLAB.
-* I'm making a [data QC page](niwot_data_qc.md)to keep track of how we clean this dataset.
+* I'm making a [data QC page](data_qc.md)to keep track of how we clean this dataset.
 
  **1/31/2013**
 

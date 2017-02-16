@@ -3,12 +3,12 @@
 A variety of computation tools for doing math and statistics in data
 analysis.
 
-See also: [General programming info](../computing/comp_programming.md)
+See also: [General programming info](../computing/programming.md)
 on some of the tools mentioned below
 
 ## General numerical tools
 
-* [NumPy](../computing/comp_numpytips.md)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
+* [NumPy](../computing/numpytips.md)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
 
 ## Statistics
 

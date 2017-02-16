@@ -1,6 +1,6 @@
 # Niwot/Fraser girdling study data QC
 
- **See also:** [Activity log](niwot_activitylog_1.md)
+ **See also:** [Activity log](activitylog_1.md)
 
 ## Soil CO2 data
 

@@ -3,18 +3,18 @@ FIXME
 # Hidden Canyon towers
 
 These towers are responsible for power, aboveground sensor measurements
-(meteorological), and communication at the [Hidden Canyon site](hc_sitedescription.md).
+(meteorological), and communication at the [Hidden Canyon site](sitedescription.md).
 
  **There are three total towers at Hidden Canyon:**
 
 * A solar tower with solar panels, a battery box, and charge controllers. Located in the clearing.
 * A met tower with meteorological instrumentation, a datalogger, and a modem and antenna for communication with the lab. Located just east of the solar tower.
-* A forest tower with some met instruments, and a datalogger that is connected to the [forest soil profiles](hc_soilprofiles.md)via 2 multiplexers.
+* A forest tower with some met instruments, and a datalogger that is connected to the [forest soil profiles](soilprofiles.md)via 2 multiplexers.
 
 ## Objectives
 
 - Continuous measurement of air temperature, relative humidity, windspeed and direction, soil and snow surface temperatures, snow depth, net radiation, and incoming and reflected PAR.
-- Provide environmental data to support the [ecohydrology experiments](hc_overview.md)at Hidden Canyon.
+- Provide environmental data to support the [ecohydrology experiments](overview.md)at Hidden Canyon.
 - Measurement of weather patterns and longer term climatic trends at Hidden Canyon site. 
 - Comparison of Hidden Canyon research results to results from similar studies at other sites with varying environmental conditions.
 - Measure the influence of forest cover on a subset of these measured environmental conditions (Temp/RH, surface temps, wind).
@@ -52,14 +52,14 @@ tower. Slope angle is 21-22° at the base of the tower. Aspect is 197°
  **Datalogger:**
 
 The datalogger at this tower is a Campbell CR23x called Met1. For more
-details see the [Hidden Canyon datalogger page](hc_dataloggers.md).
+details see the [Hidden Canyon datalogger page](dataloggers.md).
 
  **Communications:**
 
 The Forest1 datalogger powers two radios, and a wireless modem via a
 Campbell AM6REL12 every 8 hours. This allows communications between the
 Met1 an Forest1 dataloggers and the Base radio, and communications via
-the internet with the wireless modem (see [communications page](hc_communicationsystem.md)).
+the internet with the wireless modem (see [communications page](communicationsystem.md)).
 
 #### Forest tower
 
@@ -80,7 +80,7 @@ tower. Aspect is 205° (SSW).
  **Datalogger:**
 
 The datalogger at this tower is a Campbell CR23x called Forest1. For
-more details see the [Hidden Canyon datalogger page](hc_dataloggers.md).
+more details see the [Hidden Canyon datalogger page](dataloggers.md).
 
  **Multiplexers:**
 
@@ -88,13 +88,13 @@ The Forest1 datalogger is connected to two Campbell AM16/32
 multiplexers. Mux1 is uphill of the forest tower and is connected to
 soil profiles 1-4. Mux2 is downhill of the forest tower and is connected
 to soil profiles 5-8. More detail on this setup is at the [Hidden Canyon
-soil profiles](hc_soilprofiles.md) page.
+soil profiles](soilprofiles.md) page.
 
  **Communications:**
 
 The Forest1 datalogger powers a radio via a relay every 8 hours. This
 radio communicates with the base radio (see [communications
-page](hc_communicationsystem.md)).
+page](communicationsystem.md)).
 
 #### Solar tower
 
@@ -107,4 +107,4 @@ battery box with 5 batteries at the base of the mast.
 
 ## Maintenance and data log
 
-See [here](hc_mettowerlog_1.md).
+See [here](mettowerlog_1.md).

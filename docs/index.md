@@ -25,5 +25,5 @@ licensed under the Apache License, version 2.0. You may not use these
 files except in compliance with this license. A copy of the license can
 be found at <http://www.apache.org/licenses/LICENSE-2.0>.
 
-Please see the [copyright page](wiki/wiki_copyright.md) for more on
+Please see the [copyright page](wiki/copyright.md) for more on
 software copyrights and licensing information.
