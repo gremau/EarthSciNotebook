@@ -1,5 +1,0 @@
-site_name: Earth Science Notebook
-pages:
-    - 'Introduction': 'index.md'
-    - 'Full topic index': 'topicindex.md'
-    - 'Computing':'topicindex.md#Data analysis and instrumentation'

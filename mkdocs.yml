@@ -1,0 +1,11 @@
+site_name: EarthSciNotebook
+site_author: Gregory E. Maurer
+#pages:
+#    - Home: 'index.md'
+#    - Activity Log: 'activitylog.md'
+#    - To Do list: 'todo.md'
+#    - Sites: 'sites/SitesIndex.md'
+theme: readthedocs
+repo_url: https://github.com/gremau/EarthSciNotebook/
+edit_uri: edit/master/docs/
+
