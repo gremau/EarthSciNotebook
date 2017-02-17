@@ -1,5 +1,3 @@
-FIXME
-
 # Western U.S. snowpacks, soils, and climate
 
 Analysis of environmental data, including snowpack, soil moisture, and

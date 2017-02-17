@@ -1,5 +1,3 @@
-FIXME
-
 ## Litterbag mass loss
 
 Litterbags were constructed of 10 x 15cm pieces of black nylon and gray

@@ -1,5 +1,3 @@
-FIXME
-
 # Hidden Canyon ecohydrology experiments
 
 Hidden Canyon is the site of experiments and measurements designed to

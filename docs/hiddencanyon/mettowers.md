@@ -1,5 +1,3 @@
-FIXME
-
 # Hidden Canyon towers
 
 These towers are responsible for power, aboveground sensor measurements
