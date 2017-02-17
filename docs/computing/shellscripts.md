@@ -1,9 +1,9 @@
-# Shell scripting tips
+# Shell scripting notes
 
 Notes on using the Unix shell (bash, ash, et. al) to manipulate files,
 text, etc.
 
- **See also:** [General programming page](programming.md), [the Awk page](awk.md), [Vim tips](vim_notes.md), [Text file tips](textfiles.md).
+ **See also:** [General programming page](programming.md), [the Awk page](awk.md), [Vim notes](vim_notes.md), [Text files](textfiles.md).
 
 ## Basic stuff
 

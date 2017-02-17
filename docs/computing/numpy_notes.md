@@ -1,10 +1,9 @@
-# NumPy tips
+# NumPy notes
 
 NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
 
- **See also:** [Python tips](python_notes.md),
-        [General programming](procedures/programming) pages.
+ **See also:** [Python notes](python_notes.md), [General programming](programming.md) pages.
 
 ## Date/time objects and arrays
 

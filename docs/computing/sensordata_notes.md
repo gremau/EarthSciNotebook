@@ -1,4 +1,4 @@
-# Tips for working with sensor data
+# Notes on working with sensor data
 
 Collected tips for analyzing data in datalogger output files, SNOTEL
 site datasets, or other continuous timeseries data.

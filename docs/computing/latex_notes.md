@@ -2,7 +2,7 @@
 
 Notes for using Tex and related things like Latex. In practice I access latex through `pandoc` commands.
 
-**See also:** [comp_textfiles](textfiles.md), [comp_pandoc](pandoc.md)
+**See also:** [textfiles](textfiles.md), [pandoc](pandoc.md)
 
 ## General Resources
 

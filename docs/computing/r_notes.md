@@ -1,4 +1,4 @@
-# R tips
+# R notes
 
 ## Installing and using libraries
 

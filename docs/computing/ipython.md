@@ -3,8 +3,7 @@
 Assorted notes on using the ipython interactive shell. Official
 documentation is at <http://ipython.org>.
 
- **See also:** [General programming](programming.md),
-        [Python tips](pythontips) pages.
+ **See also:** [General programming](programming.md), [Python notes](python_notes.md) pages.
 
 ## Basics
 
