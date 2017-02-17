@@ -4,8 +4,8 @@ Collected tips for analyzing data in datalogger output files, SNOTEL
 site datasets, or other continuous timeseries data.
 
  **See also:** [General programming](programming.md),
-        [Matlab tips](matlabtips.md), and [Python
-        tips](pythontips.md) pages.
+        [Matlab tips](matlab_notes.md), and [Python
+        tips](python_notes.md) pages.
 
 ## Normalizing sensor timeseries
 

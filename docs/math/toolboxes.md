@@ -8,7 +8,7 @@ on some of the tools mentioned below
 
 ## General numerical tools
 
-* [NumPy](../computing/numpytips.md)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
+* [NumPy](../computing/numpy_notes.md)- Implements n-dimensional arrays and related numerical methods. Most python math/stats toolboxes are built on this module.
 
 ## Statistics
 

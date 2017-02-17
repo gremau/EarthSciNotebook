@@ -47,30 +47,29 @@ necessary.
 
 * [Manual soil respiration measurements](procedures/manual_soilresp.md) (Hidden Canyon)
 * [Below-snow respiration measurements](procedures/belowsnow_soilresp.md)(Hidden Canyon)
-* [procedures/litterbags](procedures/litterbags.md)
+* [Litterbags](procedures/litterbags.md)
 * [Dust deposition on snowpacks](procedures/dustonsnow.md) (Hidden Canyon)
-* [procedures/measuringswe](procedures/measuringswe.md)
-* [procedures/xylempressure](procedures/xylempressure.md)
-* [procedures/snowpacksublimation](procedures/snowpacksublimation.md)
+* [Xylem Pressure](procedures/xylempressure.md)
+* [Snowpack Sublimation](procedures/snowpacksublimation.md)
 * [Canopy photography](procedures/canopyphotos.md)
 * [Georeferencing with GPS](procedures/gps.md)
 
 ## Data analysis and instrumentation programming
 
 * [Data analysis programming](computing/programming.md): General info for using Python/MATLAB/Octave/R for data analysis
-* [Python tips](computing/pythontips.md), [Numpy tips](computing/numpytips.md), [Using IPython](computing/ipython.md)
-* [Matlab tips](computing/matlabtips.md)
-* [Shell scripts](computing/shellscripts.md), [AWK](computing/awk.md), [Vim](computing/vimtips.md), and [assorted textfile tips](computing/textfiles.md)
+* [Python notes](computing/python_notes.md), [Numpy notes](computing/numpy_notes.md), [Using IPython](computing/ipython.md)
+* [Matlab notes](computing/matlab_notes.md)
+* [Shell scripts](computing/shellscripts.md), [AWK](computing/awk.md), [Vim](computing/vim_notes.md), and [assorted textfile notes](computing/textfiles.md)
 * [mercurial](computing/mercurial.md), and [git](computing/git.md): 2 version control systems.
-* [Tips for analyzing sensor timeseries](computing/sensordata_tips.md)
+* [Tips for analyzing sensor timeseries](computing/sensordata_notes.md)
 * [Workflow for data analysis](computing/data_analysis_workflow.md)
 * [Geospatial data analysis](computing/geospatial.md)
 
 ## Research writing
 
-* [Text file tips](computing/textfiles.md)
+* [Text file notes](computing/textfiles.md)
 * [Pandoc](computing/pandoc.md) document converter and markup syntax.
-* [LaTeX tips](computing/latextips.md)
+* [LaTeX notes](computing/latex_notes.md)
 
 # Math
 
@@ -117,7 +116,7 @@ activity/maintenance logs, etc.
 
 * [Site description](hiddencanyon/sitedescription.md), [Tree location data](hiddencanyon/trees.md)
 * Instrumentation: [communicationsystem](hiddencanyon/communicationsystem.md), [dataloggers](hiddencanyon/dataloggers.md), [mettowers](hiddencanyon/mettowers.md), [soilprofiles](hiddencanyon/soilprofiles.md) 
-* [2010 activity log](hiddencanyon/2010_log.md), [2011 activity log](hiddencanyon/2011_log.md), [2012 activity log](hiddencanyon/2012_log.md), [data analysis log](hiddencanyon/analysislog_1.md)
+* [Fieldwork log (2009-2013)](hiddencanyon/fieldwork_log.md), [data analysis log](hiddencanyon/analysislog_1.md)
 
 ## Red Butte Canyon
 

@@ -3,14 +3,14 @@
 NumPy gives array classes and other tools useful in data analysis.
 Official documentation is [here](http://docs.scipy.org/doc/).
 
- **See also:** [Python tips](pythontips.md),
+ **See also:** [Python tips](python_notes.md),
         [General programming](procedures/programming) pages.
 
 ## Date/time objects and arrays
 
 ### Python *datetime* module
 
-Python's *datetime* module suplies the core functionality for handling datetime objects. Descriptions of its core classes, and their attribute and methods are briefly covered [here](pythontips.md), or see Python's more extensive [Datetime library reference](http://docs.python.org/library/datetime.html).
+Python's *datetime* module suplies the core functionality for handling datetime objects. Descriptions of its core classes, and their attribute and methods are briefly covered [here](python_notes.md), or see Python's more extensive [Datetime library reference](http://docs.python.org/library/datetime.html).
 
 #### Input/output datetime arrays with NumPy
 

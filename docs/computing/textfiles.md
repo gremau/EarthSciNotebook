@@ -5,7 +5,7 @@ storing and exchanging data. Here are some tips and utilities for
 manipulating and effectively using text files in a UNIX-like
 environment.
 
- **See also:** [General programming page](programming.md), [the Awk page](awk.md), [Vim tips](vimtips.md), the [shell scripting page](shellscripts.md).
+ **See also:** [General programming page](programming.md), [the Awk page](awk.md), [Vim tips](vim_notes.md), the [shell scripting page](shellscripts.md).
 
 ## Text operations
 
@@ -66,4 +66,4 @@ files, etc.).
   * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)
   * [kramdown](http://kramdown.rubyforge.org)
 
-I tend to use [Pandoc](/comp_pandoc.md) to create documents.
+I tend to use [Pandoc](pandoc.md) to create documents.

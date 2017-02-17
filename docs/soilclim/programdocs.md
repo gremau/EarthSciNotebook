@@ -2,7 +2,7 @@
 
 These are program file descriptions for programs used to analyze data
 supplied by the NRCS. Analysis of soil profiles at these data stations
-relies heavily on techniques [described here](../procedures/sensordata_tips.md).
+relies heavily on techniques [described here](../procedures/sensordata_notes.md).
 
 **See also:** [Project overview](overview.md), [Data collection/prep](data.md), [Data analysis log](analysislog_1.md), [Data quality control](data_qc.md)
 

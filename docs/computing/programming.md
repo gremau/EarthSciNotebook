@@ -10,7 +10,7 @@ editors, or testing tools, and notes/tips for using them effectively.
 Notes about data analysis techniques/conventions, independent of
 language/interface.
 
-* [Sensor data notes](sensordata_tips.md) on working with continuous sensor timeseries (from dataloggers, SNOTEL sites, etc.)
+* [Sensor data notes](sensordata_notes.md) on working with continuous sensor timeseries (from dataloggers, SNOTEL sites, etc.)
 * [Data analysis workflow](data_analysis_workflow.md) - Notes on collecting, storing, and moving data through the analysis process.
 
 
@@ -21,7 +21,7 @@ language/interface.
 * A fairly complete [Vim commands cheatsheet](http://bullium.com/support/vim.html).
 * [The Vim tips wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 * [Seven Habits](http://www.moolenaar.net/habits.html) for effective text editing.
-* [My Vim notes](vimtips.md)
+* [My Vim notes](vim_notes.md)
 
 **An excellent general overview of text/data file handling** in  a Unix environment is provided by Unix for Poets, by Kenneth Ward Church. PDFs of this are all over the internet.
 
@@ -79,9 +79,9 @@ Python (and its scientific extensions) have a large user/developer community sup
 Collected notes, tips, and tricks for using any of the Python tools
 above.
 
-* [General Python notes](pythontips.md) on debugging, code structure, and other aspects of development.
+* [General Python notes](python_notes.md) on debugging, code structure, and other aspects of development.
 * [Ipython](ipython.md)
-* [NumPy notes](numpytips.md) - Various notes on using the NumPy package.
+* [NumPy notes](numpy_notes.md) - Various notes on using the NumPy package.
 
 ### Other
 
@@ -101,7 +101,7 @@ scientific and engineering computing.
 * [Function reference](http://www.mathworks.com/help/techdoc/ref/f16-6011.html)
 * [MATLAB Central](http://www.mathworks.com/matlabcentral/) - the official user/developer community, including a [file exchange](http://www.mathworks.com/matlabcentral/fileexchange/).
 * [Kluid forums](http://www.kluid.com/mlib/index.php) has matlab and octave forums.
-* [My MATLAB notes](matlabtips.md)
+* [My MATLAB notes](matlab_notes.md)
 
 ### Clones of Matlab
 
@@ -122,7 +122,7 @@ and graphics.
 * [R manuals](http://cran.r-project.org/manuals.html)
 * [R wiki](http://rwiki.sciviews.org/doku.php)
 * [knitr](https://github.com/yihui/knitr#readme) - a nice report generating engine for R
-* [My R notes](rtips.md)
+* [My R notes](r_notes.md)
 
 
 ## Math and Stats tools
