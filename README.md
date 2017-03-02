@@ -2,4 +2,4 @@
 
 These are the markdown files for my research notebook.
 
-See it rendered at <http://earthscinotebook.readthedocs.io/>
+They can be rendered locally using [Mkdocs](http://www.mkdocs.org/) and the latest version is built on [ReadTheDocs.io](http://earthscinotebook.readthedocs.io/)
