@@ -12,12 +12,6 @@ The best place to start is the **[Complete topic index](topicindex.md)**
 
 ## Copyright information
 
-All site content, unless otherwise noted, is licensed under the [CC Attribution Share Alike](http://creativecommons.org/licenses/by-sa/4.0) (CC-BY-SA) license
-4.0.
+All site content, unless otherwise noted and including sourcefiles at [my GitHub account](http://github.com/gremau/EarthSciNotebook), is licensed under the [CC Attribution Share Alike](http://creativecommons.org/licenses/by-sa/4.0) (CC-BY-SA) license 4.0.
 
-Unless otherwise noted, all software and source code is copyrighted
-2007-2017 (c) *[Greg Maurer](greg@pronghorns.net)* and is
-licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0). You may not use these files except in compliance with this license.
-
-Please see the [copyright page](wiki/copyright.md) for more on
-software copyrights and licensing information.
+Unless otherwise noted, software and source code at [my GitHub account](http://github.com/gremau/) that these pages link to is copyrighted 2007-2017 (c) *[Greg Maurer](greg@pronghorns.net)* and is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0). You may not use these files except in compliance with this license.
