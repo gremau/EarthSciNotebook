@@ -3,11 +3,13 @@
 There are a number of different copyrights and licenses that users of
 this website and its content should be aware of.
 
-## Content created in this wiki
+## Content on these pages
 
-All content created in the wiki at <http://pronghorns.net/wiki>, by any
-user, is licensed under the **Creative Commons Attribution Share-Alike
-license** (abbreviation: CC-BY-SA).
+All content created on the Ecology and Earth Systems Notebook 
+at <https://earthscinotebook.readthedocs.io/en/latest/> or 
+<https://github.com/gremau/EarthSciNotebook>, by any user, is licensed
+under the **Creative Commons Attribution Share-Alike license** (abbreviation: 
+CC BY-SA).
 
 This means you have these rights:
 
@@ -27,7 +29,7 @@ to the originating source and copyright/licensing information.
 ## Source code posted in the wiki
 
 Unless it is otherwise noted, all software and source code, including
-Python®, R®, or MATLAB® scripts, are copyright 2007-2013 (c) *[Greg
+Python®, R®, or MATLAB® scripts, are copyright 2007-2017 (c) *[Greg
 Maurer](greg@pronghorns.net)*.
 
 All software and source code distributed on these pages is licensed
@@ -43,9 +45,6 @@ the License.
 * "Python" is a registered trademark of the [Python Software Foundation](http://www.python.org).
 * "R" is a registered trademark of the [R Software Foundation](http://www.r-project.org/).
 * "MATLAB" is a registered trademark of [The MathWorks](http://www.mathworks.com).
-
-## The wiki itself
-
 
 ## Further reading on copyrights and licensing
 
