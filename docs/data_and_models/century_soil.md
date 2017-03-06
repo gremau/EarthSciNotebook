@@ -2,7 +2,7 @@
 
 The [CENTURY model](https://www.nrel.colostate.edu/projects/century/) is an ecosystem model used to simulate carbon and nutrient dynamics (N, S, P) for different types of ecosystems including grasslands, agricultural lands, forests and savannas. 
 
-The manual for the model is [here](https://www.nrel.colostate.edu/projects/century/MANUAL/html_manual/man96.html). Be sure to see the [addendum](http://www.nrel.colostate.edu/projects/century/MANUAL/html_manual/man96.html#ADDENDUM) also.
+The manual for the model is [here](https://www.nrel.colostate.edu/projects/century/MANUAL/html_manual/man96.html). Be sure to see the [manual addendum](http://www.nrel.colostate.edu/projects/century/MANUAL/html_manual/man96.html#ADDENDUM), [tutorial](http://www.nrel.colostate.edu/projects/century/century_tutorial.pdf), and [parameterization workbook](http://www.nrel.colostate.edu/projects/century/CENTURY%20Parameterization%20Workbook.pdf) also.
 
 **Miscellaneous links:**
 
