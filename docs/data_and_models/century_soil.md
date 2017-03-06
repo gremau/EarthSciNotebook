@@ -15,13 +15,14 @@ The manual for the model is [here](https://www.nrel.colostate.edu/projects/centu
 
 1. Download the model and build the components in the CENTURY, EVENT100, FILE100, and LIST100 subdirectories (using `make`, see README files in each subdir)
 
-2. Create a simulation folder that contains the appropriate files (including century, list100, file100, and event100 executables). See README's and manual for a complete list of files.
+2. Create a simulation folder that contains the appropriate files. Basically this will include the century, list100, file100, and event100 executables and all the parameter files. See README's and manual for a complete list of files.
 
-3. Parameterize the model for your site.  There are twelve data files that store these parameters that are used by Century during a simulation. These files can be created and updated using the FILE100 program. The most important is the <site>.100 file that is specific to your site.
+3. Parameterize the model for your site.  There are twelve data files that store these parameters that are used by Century during a simulation. These files can be created and updated using the FILE100 program. The most important is the `<site>.100` file that is specific to your site.
+    * Note that I cannot get the `file100` executable to work on my linux system unless it is within the original FILE100 directories (so parameter files must be moved there for editing, or edited with text editor)
 
-4. Establish the simulation time and schedule events to occur using the EVENT100 program.
+4. Establish the simulation time and schedule events to occur using the EVENT100 program. This will create a .sch file that can be used to run a simulation
 
-5. Run the model.
+5. Run the model with `century -s <schedule.file> -n <binary.output.file>`
 
 6. Model will output a binary file that should be converted to ascii with LIST100 program. Run `list100`, choose options, then the [output variables](http://www.nrel.colostate.edu/projects/century/MANUAL/html_manual/man96.html#OUT_VARS) you want to print in the new file.
 

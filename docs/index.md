@@ -2,7 +2,7 @@
 
 # Ecology and Earth Systems Notebook
 
-This is [my](http://greg.pronghorns.net) set of notes about ecology and earth system science. I use it as a research notebook to document project activities, lab and field procedures, notes on data analysis and statistics, preliminary results, and general info on the nuts and bolts of doing research. Topics here slant towards my reseach interests (biogeochemistry and ecohydrology) and it is is not particularly organized or well-written, but it is posted so that others might derive some value from it.
+This is [my](http://greg.pronghorns.net) set of notes about ecology and earth system science. I use it as a research notebook to document project activities, lab and field procedures, notes on data analysis and statistics, preliminary results, and general info on the nuts and bolts of doing research. Topics here slant towards my reseach interests (biogeochemistry and ecohydrology) and pages are not very organized or well-written. I've posted it nevertheless so others might derive some value from it.
 
 **Cautionary note:** All data, code, figures, results, and discussions are presented in their raw, preliminary form. They have not been peer reviewed and are provided without guarantee of quality, accuracy, or safety. Feel free to contact me with questions and to suggest changes or additions.
 
