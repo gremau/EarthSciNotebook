@@ -1,8 +1,8 @@
 # Leaf Area Index
 
-There are many different methods for measuring and estimating Leaf Area Index. Other vegetation coverage and biomass indices, such as coverage or Plant Area Index are similar to or can be related to LAI. See the [wikipedia page](https://en.wikipedia.org/wiki/Leaf_area_index) for additional details. This is about some fairly easy methods to get at LAI (or similar measures) using digital images.
+There are many different methods for measuring and estimating Leaf Area Index. Other vegetation coverage and biomass indices, such as canopy transmissivity or Plant Area Index are similar to or can be related to LAI. See the [wikipedia page](https://en.wikipedia.org/wiki/Leaf_area_index) for additional details. This is about some fairly easy methods to get at LAI (or similar measures) using digital images.
 
-## Using ImageJ
+## Plant area index using ImageJ
 
 ImageJ, software created for biological image analysis by NIH ([available here](https://imagej.nih.gov/ij/), can be used to calculate leaf area at several scales if there is sufficient contrast between the leaves/canopy and the background. Below are instructions for calculating plant area index from aerial images, such as those available from Google Earth.
 
