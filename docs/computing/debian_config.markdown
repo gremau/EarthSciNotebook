@@ -51,6 +51,17 @@ Liquorix kernels can also be installed and upgraded with the smxi script (smxi.o
 
 Kernels from Debian or other repos can be customised using the kernel-package program. See <http://www.debian.org/doc/FAQ/ch-kernel.en.html>
 
+## VPN configuration
+
+OpenConnect is the open source project allowing connection to Cisco AnyConnect networks, but there are other vpn options. Installing the package below installes the openconnect package and the NetworkManager plugin. 
+
+<https://github.com/cboettig/berkeley-linux-config/blob/master/vpn.md>
+
+    apt-get install network-manager-openconnect-gnome
+
+You can also use openconnect on the commandline, for example:
+
+    openconnect ucbvpn.berkeley.edu
 
 ## KERNEL MODULES
 
@@ -232,13 +243,41 @@ See: <http://wiki.debian.org/SystemPrinting>, cups help screens in <http://local
 4. Make a list of hostnames and ips in `/etc/hosts` for easier access to frequenly accessed hosts.
 
 ## THUNDERBIRD/ICEDOVE
+
 1. Install icedove.
 2. run `icedove -profilemanager`, create a profile and point it to the profile in `~/data/thunderbird-profiles/pu3xvoh`
 
+## Python for data analysis
+
+Download miniconda from here: <https://conda.io/miniconda.html> and run with
+
+    bash <miniconda-file-name>
+
+Conda is the package manager and `conda install <package-name> will install packages. To keep conda install small by cleaning out tarballs and old packages use `conda clean -tp`.
+
+## R
+
+Install with apt. There are other ways, as with conda, but this seems easier. Conda does not have all the packages I need.
+
+    sudo apt-get install r-base r-base-dev
+
+To run R in Jupyter notebooks install [IRKernel](https://irkernel.github.io/installation/#linux-panel) using the linux source method (libzmq3-dev first).
+
+Then use install.packages('xxx') to get packages, and remember that R updates will require package reinstallation.
+
+Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
+
+Common packages: tidyverse, xts, rgdal
 
 ## MATLAB
 
 Matlab installer for linux is pretty straightforward these days. MATLAB can be installed in /usr/local/ unless there is not enough space (3-6 GB depending on toolboxes).
+
+## GDAL
+
+May be required for rgdal and other stuff (qgis should bring this in I think).
+
+sudo apt-get install libproj-dev libgdal-dev
 
 ## WIFI
 
