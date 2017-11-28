@@ -78,8 +78,8 @@ The SMXI script also has a procedure for adding and removing particular modules.
 
 ###INSTALLED KERNEL MODULES:
  
-`tp-smapi` and `hdaps` - advanced battery control and harddrive protection for thinkpads.
-(see: <http://www.thinkwiki.org/wiki/Tp_smapi>)
+`hdaps` - advanced harddrive protection for thinkpads.
+(tp-smapi no longer supported by new thinkpads, see: <http://www.thinkwiki.org/wiki/Tp_smapi>)
 
 1. Liquorix kernels come with `tp_smapi` and `hdaps` modules compiled
 
@@ -188,7 +188,7 @@ Add this line to fstab:
 
 A NAS drive can be browsed and edited a variety of ways. Note that there are a number of users using the <share-name> share. Mounting the drive with CIFS can be done with these steps:
 
-1. Create the `/media/bowling_nas/` directory
+1. Create the `/media/nas_name/` directory
 
 2. This command (as root) should mount the drive:
 
@@ -232,20 +232,23 @@ See: <http://wiki.debian.org/SystemPrinting>, cups help screens in <http://local
 
 `openssh-client` should be installed for ssh access to remote hosts. For added security, it is best to use public/private keys during ssh sessions. To do this:
 
-1. Generate a public/private ssh key pair with `ssh-keygen -t rsa -C "email address"`
+1. Generate a public/private ssh key pair with `ssh-keygen -t rsa -b 4096 -C "email address"`
    
     This will put a public/private key pair in the `~/.ssh` directory. You will be asked for a passphrase, which will be needed when sending the public key to a host computer.
 
-2. Copy the public key to a host using `ssh-copy-id user@hostid`, or by manually appending the public key to the hosts `.ssh/authorized_keys` file
+2. Copy the public key to a remote host using `ssh-copy-id user@hostid`, or by manually appending the public key to the hosts `.ssh/authorized_keys` file, like:
+
+    cat ~/.ssh/id_rsa.pub | ssh user@server 'cat >> .ssh/authorized_keys'
 
 3. `ssh-agent` can save the passphrase for your public key, just use `ssh-add ~/.ssh/id_rsa`. Ive never gotten this to work in XFCE. Needs to be done at the creation of the desktop or bash session, but I'm not sure how this works. Try using `keychain`, `seahorse`, etc for this. Or read this -> <https://wiki.archlinux.org/index.php/SSH_Keys> or the GitHub tutorial.
 
 4. Make a list of hostnames and ips in `/etc/hosts` for easier access to frequenly accessed hosts.
 
-## THUNDERBIRD/ICEDOVE
+## THUNDERBIRD
 
-1. Install icedove.
+1. Install thunderbird
 2. run `icedove -profilemanager`, create a profile and point it to the profile in `~/data/thunderbird-profiles/pu3xvoh`
+    - alternatively, just move the profile folder into `~/.thunderbird` and edit the `profiles.ini` file to point to that folder (pu3xvoh.default)
 
 ## Python for data analysis
 
@@ -254,6 +257,8 @@ Download miniconda from here: <https://conda.io/miniconda.html> and run with
     bash <miniconda-file-name>
 
 Conda is the package manager and `conda install <package-name> will install packages. To keep conda install small by cleaning out tarballs and old packages use `conda clean -tp`.
+
+The anaconda distribution also includes pandoc, which plays well with the system Tex distribution.
 
 ## R
 
@@ -267,17 +272,27 @@ Then use install.packages('xxx') to get packages, and remember that R updates wi
 
 Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
 
-Common packages: tidyverse, xts, rgdal
+Common packages: tidyverse, xts, rgdal, data.table, automap
 
 ## MATLAB
 
 Matlab installer for linux is pretty straightforward these days. MATLAB can be installed in /usr/local/ unless there is not enough space (3-6 GB depending on toolboxes).
+
+To get a desktop launcher in the menu (with icon), do:
+
+	sudo wget http://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png -O /usr/share/icons/matlab.png
+
+then make a matlab.desktop file in /usr/share/applications/ that points to the icon and executes `matlab -desktop`
 
 ## GDAL
 
 May be required for rgdal and other stuff (qgis should bring this in I think).
 
 sudo apt-get install libproj-dev libgdal-dev
+
+## TeX
+
+I install the `texlive` package from debian repositories. It is smaller than `texlive-full`, but still very functional. For use with pandoc I also install...
 
 ## WIFI
 
@@ -295,13 +310,6 @@ See <http://wiki.debian.org/WiFi> , <http://wiki.debian.org/iwlagn> , and <http:
 
 ### Other steps
 
-To connect to UConnect at school I created a new wicd template:
-
-1. Copy the default peap-tkip template (`/etc/wicd/encryption/templates`).
-2. Change it to use WPA2 protocol and CCMP for pairwise and group settings (rather than TKIP only).
-3. Save in the wicd templates directory as peap-ccmp
-4. Add peap-ccmp to the active list in the same directory.
-5. Connect to Uconnect with the wpa supplicant parameters on the UofU tech website.
 
 
 ## CONSOLE BEEPS
@@ -330,12 +338,13 @@ I used the wiki at http://crunchbanglinux.org/wiki/urxvt
 Also see wiki.archlinux.org/index.php/Rxvt-unicode
 
 ## VIM
-Installed vim with vim-gtk
+
+Installed vim with vim-gtk3
 Configured in .vimrc using the Brad Moolenar example from vim website
 Added `set nobackup" to keep annoying backup files (file.txt~) away.
 
-
 ##BITTORRENT SYNC
+
 1. Download binary from http://labs.bittorrent.com/experiments/sync.html
 2. Extract binary and move to desired folder (probably /usr/local/installed)
 3. Run with './btsync'
@@ -344,6 +353,7 @@ Added `set nobackup" to keep annoying backup files (file.txt~) away.
 May want to autostart this
 
 ## DIGITAL CAMERA
+
 I installed Shotwell as a photo organizer
 This relies on libgphoto2 to communicate with my Canon cameras, it all seems to work as long as this is installed.
 Gphoto2 can be used to access cameras on the command line.
