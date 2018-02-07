@@ -106,7 +106,7 @@ The SMXI script also has a procedure for adding and removing particular modules.
 
 ## UPDATES and UPGRADES
 
-Generally, use apt-get (not apt-get):
+Generally, use apt-get:
 
     apt-get update
     apt-get safe-upgrade  # OR dist-upgrade (same as full-upgrade)
@@ -272,7 +272,7 @@ Then use install.packages('xxx') to get packages, and remember that R updates wi
 
 Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
 
-Common packages: tidyverse, xts, rgdal, data.table, automap
+Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, SPEI
 
 ## MATLAB
 
