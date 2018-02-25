@@ -42,6 +42,8 @@ settings during a pandoc conversion.
 Other variables that can be passed with `-V` are
 [here](http://johnmacfarlane.net/pandoc/README.html#templates)
 
+Note that some of these variables, such as geometry, can also be passed in a YAML metadata block. See [here](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block) for details.
+
 
 ### Include in header
 
@@ -140,6 +142,6 @@ There are also options for using MathML, MathJax, if this doesn't work.
 Pandoc will pass unicode characters in a document to `pdflatex` that it may 
 not know how to display. This is pretty common with greek characters that are 
 used outside of math mode. In this case it is probably best to use the Xetex
-interpreter instead. This can be specified by sending `latex-engine=xelatex`
+interpreter instead. This can be specified by sending `--latex-engine=xelatex`
 to pandoc. Of course, Xetex must be installed, which is most easily done
 by installing the full TexLive distribution (large).

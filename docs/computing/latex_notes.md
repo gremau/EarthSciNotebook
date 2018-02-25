@@ -44,13 +44,10 @@ special characters are present). Open bibtex in vim and do:
 
 ## Making Tables
 
-It may be easier to make and format the table in a spreadsheet first,
-and some spreadsheets can export tables directly to LaTeX format.
-Gnumeric, and Libre Calc (using
-[Calc2LaTeX](http://calc2latex.sourceforge.net/)) do a decent
-job, but there will still be formatting to make it look nice. Once you
-have some data to format into a LaTeX table, this is the traditional way
-to do it:
+It may be easier to make and format the table in a spreadsheet first, and some spreadsheets can export tables directly to LaTeX format.
+Gnumeric, and Libre Calc (using [Calc2LaTeX](http://calc2latex.sourceforge.net/)) do a decent job, but there will still be formatting to make it look nice.
+Table data can also be pasted into [this website](http://www.tablesgenerator.com/latex_tables) to generate latex formatted tables.
+Once you have some data to format into a LaTeX table, this is the traditional way to do it:
 
 ~~~{.latex}
 \begin{tabular}{|c|c|c|}
@@ -64,9 +61,7 @@ zab & rab & oof\\
 \end{tabular}
 ~~~
 
-Depending on the table, a nicer/easier way could be to use the
-[Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/)
-package, and do something like this:
+Depending on the table, a nicer/easier way could be to use the [Booktabs](http://www.tex.ac.uk/tex-archive/macros/latex/contrib/booktabs/) package, and do something like this:
 
 ~~~{.latex}
 \begin{tabular}{ccc}
