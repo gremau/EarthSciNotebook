@@ -23,7 +23,8 @@ language/interface.
 * [Seven Habits](http://www.moolenaar.net/habits.html) for effective text editing.
 * [My Vim notes](vim_notes.md)
 
-**An excellent general overview of text/data file handling** in  a Unix environment is provided by Unix for Poets, by Kenneth Ward Church. PDFs of this are all over the internet.
+**An excellent general overview of text/data file handling** in  a Unix environment
+is provided by Unix for Poets, by Kenneth Ward Church. PDFs of this are all over the internet.
 
 ### Other useful resources (including some on this wiki)
 
@@ -127,7 +128,8 @@ and graphics.
 
 ## Math and Stats tools
 
-Many toolboxes are available, either standalone or in Python, R, and Matlab, for math and statistical applications. See the [math toolbox page](../math/toolboxes.md) page.
+Many toolboxes are available, either standalone or in Python, R, and Matlab,
+for math and statistical applications. See the [math toolbox page](../math/toolboxes.md) page.
 
 
 ## Testing data analysis functions

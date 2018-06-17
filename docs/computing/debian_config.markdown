@@ -53,7 +53,7 @@ Kernels from Debian or other repos can be customised using the kernel-package pr
 
 ## VPN configuration
 
-OpenConnect is the open source project allowing connection to Cisco AnyConnect networks, but there are other vpn options. Installing the package below installes the openconnect package and the NetworkManager plugin. 
+OpenConnect is the open source project allowing connection to Cisco AnyConnect networks, but there are other vpn options. Installing the package below installes the openconnect package and should make it available in the NetworkManager plugin applet. 
 
 <https://github.com/cboettig/berkeley-linux-config/blob/master/vpn.md>
 
@@ -106,12 +106,12 @@ The SMXI script also has a procedure for adding and removing particular modules.
 
 ## UPDATES and UPGRADES
 
-Generally, use apt-get:
+Generally, use apt:
 
-    apt-get update
-    apt-get safe-upgrade  # OR dist-upgrade (same as full-upgrade)
+    apt update
+    apt upgrade  # OR dist-upgrade (same as full-upgrade)
 
-The reference suggests that apt-get dist-upgrade may be more suited to major upgrades (between releases, stable to testing, etc)
+The reference suggests that apt dist-upgrade may be more suited to major upgrades (between releases, stable to testing, etc)
 <http://www.debian.org/doc/FAQ/ch-uptodate.en.html>
 
 ## Google Drive
@@ -274,6 +274,8 @@ Often R complains about missing Debian packages (curl, ssl) and may fail if mini
 
 Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, SPEI
 
+Note: you have to put these in a vector ( `c('tidyverse', 'xts', ...)` )
+
 ## MATLAB
 
 Matlab installer for linux is pretty straightforward these days. MATLAB can be installed in /usr/local/ unless there is not enough space (3-6 GB depending on toolboxes).
@@ -292,7 +294,7 @@ sudo apt-get install libproj-dev libgdal-dev
 
 ## TeX
 
-I install the `texlive` package from debian repositories. It is smaller than `texlive-full`, but still very functional. For use with pandoc I also install...
+I install the `texlive` package from debian repositories. It is smaller than `texlive-full`, but still very functional. For use with pandoc I also install`texlive-xetex`.
 
 ## WIFI
 
@@ -357,6 +359,18 @@ May want to autostart this
 I installed Shotwell as a photo organizer
 This relies on libgphoto2 to communicate with my Canon cameras, it all seems to work as long as this is installed.
 Gphoto2 can be used to access cameras on the command line.
+
+## SKYPE
+
+See here: <https://wiki.debian.org/skype>
+
+There is a skype for linux deb package to download at:
+
+<https://www.skype.com/en/get-skype/>
+
+## SIGNAL
+
+https://signal.org has instructions for the desktop app
 
 ## OTHER STUFF
 
