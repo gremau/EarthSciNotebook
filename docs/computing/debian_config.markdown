@@ -272,7 +272,7 @@ Then use install.packages('xxx') to get packages, and remember that R updates wi
 
 Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
 
-Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, SPEI
+Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, ggmap, cowplot, SPEI
 
 Note: you have to put these in a vector ( `c('tidyverse', 'xts', ...)` )
 
