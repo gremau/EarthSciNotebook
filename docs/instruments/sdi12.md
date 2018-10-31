@@ -6,7 +6,7 @@ SDI12 is a protocol for addressing and interacting with sensors in a network con
 
 ## Wiring for Campbell dataloggers
 
-SDI12 devices generally have at least 3 wires - power, ground, and serial communication. For a Campbell device the power will come from a 12V port (12V or SW12V), ground is G, and the serial wire connects to one of the COM ports (C1-C8). there may also be ground and shield wires for the serial circuit that should be connected to a G terminal.
+SDI12 devices generally have at least 3 wires - power, ground, and serial communication. For a Campbell datalogger device the power will come from a 12V port (12V or SW12V), ground is G, and the serial wire connects to one of the COM ports (C1-C8). there may also be ground and shield wires for the serial circuit that should be connected to a G terminal.
 
 ## Changing SDI12 addresses
 
@@ -25,6 +25,6 @@ SDI12 commands can be sent through a terminal program using the SDI12 protocol. 
 
 The `aM!` and `aMx!` SDI12 commands, where `a` is the SDI12 address and `x` is a command modifier, are used to poll the sensor. Command `aM!` returns three values: VWC, EC, and T. Note that some sensors use internal logical tests to remove erroneous values (outside operational limits or accuracy specs) and return errorvalues such as 99999. Depending on the sensor, these logical tests may be ignored by sending the correct `Mx!` command.
 
-In a CR Basic, the command to read an SDI12 sensor is `SDI12Recorder()`. The
+In CR Basic, the command to read an SDI12 sensor is `SDI12Recorder()`. The
 
  

@@ -272,9 +272,11 @@ Then use install.packages('xxx') to get packages, and remember that R updates wi
 
 Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
 
-Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, ggmap, cowplot, SPEI
+Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, ggmap, cowplot, raster, SPEI
 
 Note: you have to put these in a vector ( `c('tidyverse', 'xts', ...)` )
+
+Sometimes it is easier to install packages from the debian repo than cran. This was the case for rgl (sudo apt install r-cran-rgl).
 
 ## MATLAB
 
@@ -312,7 +314,11 @@ See <http://wiki.debian.org/WiFi> , <http://wiki.debian.org/iwlagn> , and <http:
 
 ### Other steps
 
+## VirtualBox
 
+There are a couple ways to install it - covered here: https://wiki.debian.org/VirtualBox
+
+I use the oracle ppa, and add it to /etc/apt/sources.list.d/virtualbox.list
 
 ## CONSOLE BEEPS
 
