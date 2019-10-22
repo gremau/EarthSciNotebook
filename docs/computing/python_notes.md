@@ -15,7 +15,13 @@ collects some general tips on developing Python code.
 
 ## Installing Python packages
 
-In general, I now use the [Anaconda python distribution](https://www.continuum.io/downloads) which provides current "data science" packages for python with an installer (`conda`) to manage versions and dependencies. The "Miniconda" install is an nice way to start. `conda` docs are [here](http://conda.pydata.org/docs/index.html)
+Download miniconda from here: <https://conda.io/miniconda.html> and run with
+
+    bash <miniconda-file-name>
+
+Conda is the package manager and `conda install <package-name> will install packages. To keep conda install small by cleaning out tarballs and old packages use `conda clean -tp`.
+
+The anaconda distribution also includes pandoc, which plays well with the system Tex distribution.
 
 The main Python package repository is [PyPI](http://pypi.python.org)
 (the Python Package Index) and installation from PyPI is generally done

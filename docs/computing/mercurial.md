@@ -1,5 +1,7 @@
 # Version control with Mercurial
 
+**WARNING: This page is out of date**
+
 ## Resources
 
 * [Mercurial: The Definitive Guide](http://hgbook.red-bean.com/read/) - an online copy of Sullivan book published by O'Reilly.
@@ -8,7 +10,7 @@
 
 ## Installing and configuring
 
-- Install in debian with `apt-get install mercurial`
+- Install in debian with `apt install mercurial`
 - Create ~/.hgrc and add the following lines:`
 
 ~~~

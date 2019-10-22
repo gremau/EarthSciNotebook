@@ -1,73 +1,46 @@
 # R notes
 
-## Installing and using libraries
+## Installing and updating
+
+**On Debian**
+
+To install R:
+
+    sudo apt-get install r-base r-base-dev
+
+**On MacOS**
+
+    brew install r
+
+### Package management
+
+Install packages using `install.packages()`. Whenever R has a new update in the distribution (3.4 to 3.5, for example), packages will generally need to be reinstalled also. The location they are installed to can vary and R may ask.
+
+Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
+
+**On Debian**
 
 Packages are installed from a CRAN repository to a local library
 directory. The default users library must be created at
-*~/R/x86_64-pc-linux-gnu-library/{version#}*, but packages can also
-be installed to */usr/local/lib/R/site-library* if permissions allow.
+`~/R/x86_64-pc-linux-gnu-library/{version#}`, but packages can also
+be installed to `/usr/local/lib/R/site-library` if permissions allow.
 
-Install packages using:
+**On MacOS**
 
-  install.packages(c('nlme', 'lattice', 'knitr', 'ggplot2'))
+Packages are installed to `/Library/Frameworks/R.framework/Versions/3.6/Resources/library`
 
-This will prompt the user to select a CRAN mirror (and make a user
-library if it is not already there).
+### Package list
 
-Packages can then be loaded from a library with:
+ My usual list of packages to update is:
 
-  library('ggplot2')
+  install.packages(c('tidyverse', 'xts', 'rgdal', 'data.table', 'automap', 'forecast', 'ggmap', 'cowplot', 'raster', 'SPEI', 'lubridate'))
 
 Sometimes the core R packages on Debian go out of date and need to be
 updated. Start R with *sudo* and run:
 
   update.packages()
 
-For other, user-installed R packages, run
-*update.packages('{packagename}')*.
+## Jupyter R notebooks
 
-## knitr
+To run R in Jupyter notebooks install [IRKernel](https://irkernel.github.io/installation/#linux-panel) using the linux source method (libzmq3-dev first).
 
-Knitr allows literate programming with R - i.e. R code is written into
-latex, markdown, or other text markup formats. Running *knitr* will then
-convert the document by processing the markup, running the R code, and
-embedding all the output into a PDF, HTML, or document. This
-functionality is accessible from Rstudio also.
-
-It's easiest (for me) to use knitr with markdown. This means creating
-*file.Rmd* and embedding code in "chunks" that look like:
-
-~~~
-```{r}
-  plot(y ~ x)
-```
-~~~
-
-There are a number of options that can be put in the braces at the start
-of the chunk to influence how the code is run and incorporated into the
-output of the file. The resulting *.Rmd* file can be converted (from
-within R), by running *knit2html*:
-
-~~~{.r}
-library(knitr)
-knit2html(file.Rmd)
-~~~
-
-#### Stitch
-
-Stitch is knitr's most basic way to output results from an R script:
-
-~~~{.r}
-library('knitr')
-stitch_rhtml('scriptname.r')
-~~~
-
-This outputs an .html file that embeds all code and output (plots,
-tables, objects, etc) in the document. Nicely viewable in a browser.
-*stitch* can also do latex, but its not working for me yet.
-
- **Resources**
-
-* [knitr github page](https://github.com/yihui/knitr#readme)\
-* A nice [tutorial](http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHowto)\
-* Another nice, but basic, [tutorial](http://gforge.se/2012/08/getting-started-with-knitr-and-sweave/) on Sweave and Knitr.`

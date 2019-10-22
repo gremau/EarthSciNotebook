@@ -1,7 +1,9 @@
 DebianConf.markdown
 ===================
 
-This documents my maintenance routines and personal configurations of Debian and other software on this laptop. Useful web documents are listed in each section, and additional information is available in the main reference and other support documents.
+This documents my maintenance routines and personal configurations of Debian and other software for my Debian laptop. Useful web documents are listed in each section, and additional information is available in the main reference and other support documents.
+
+Specific softwares (R, Python, LaTex, etc.) have thier own pages in the notebook.
 
 ## Debian references
 * Ref manual: <http://www.debian.org/doc/manuals/debian-reference/index.en.html>
@@ -10,6 +12,7 @@ This documents my maintenance routines and personal configurations of Debian and
 * Index of other support: <http://www.debian.org/support>
 
 ## SOURCES
+
 Currently tracking testing. Not using the name (jessie)
 
 Other entries in sources.list:
@@ -250,53 +253,11 @@ See: <http://wiki.debian.org/SystemPrinting>, cups help screens in <http://local
 2. run `icedove -profilemanager`, create a profile and point it to the profile in `~/data/thunderbird-profiles/pu3xvoh`
     - alternatively, just move the profile folder into `~/.thunderbird` and edit the `profiles.ini` file to point to that folder (pu3xvoh.default)
 
-## Python for data analysis
-
-Download miniconda from here: <https://conda.io/miniconda.html> and run with
-
-    bash <miniconda-file-name>
-
-Conda is the package manager and `conda install <package-name> will install packages. To keep conda install small by cleaning out tarballs and old packages use `conda clean -tp`.
-
-The anaconda distribution also includes pandoc, which plays well with the system Tex distribution.
-
-## R
-
-Install with apt. There are other ways, as with conda, but this seems easier. Conda does not have all the packages I need.
-
-    sudo apt-get install r-base r-base-dev
-
-To run R in Jupyter notebooks install [IRKernel](https://irkernel.github.io/installation/#linux-panel) using the linux source method (libzmq3-dev first).
-
-Then use install.packages('xxx') to get packages, and remember that R updates will require package reinstallation.
-
-Often R complains about missing Debian packages (curl, ssl) and may fail if miniconda/anaconda is already installed (may want to change dir name).
-
-Common packages: tidyverse, xts, rgdal, data.table, automap, forecast, ggmap, cowplot, raster, SPEI
-
-Note: you have to put these in a vector ( `c('tidyverse', 'xts', ...)` )
-
-Sometimes it is easier to install packages from the debian repo than cran. This was the case for rgl (sudo apt install r-cran-rgl).
-
-## MATLAB
-
-Matlab installer for linux is pretty straightforward these days. MATLAB can be installed in /usr/local/ unless there is not enough space (3-6 GB depending on toolboxes).
-
-To get a desktop launcher in the menu (with icon), do:
-
-	sudo wget http://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png -O /usr/share/icons/matlab.png
-
-then make a matlab.desktop file in /usr/share/applications/ that points to the icon and executes `matlab -desktop`
-
 ## GDAL
 
 May be required for rgdal and other stuff (qgis should bring this in I think).
 
 sudo apt-get install libproj-dev libgdal-dev
-
-## TeX
-
-I install the `texlive` package from debian repositories. It is smaller than `texlive-full`, but still very functional. For use with pandoc I also install`texlive-xetex`.
 
 ## WIFI
 
@@ -409,12 +370,7 @@ All logs are in /var/log/. They can be viewed in a terminal using less, more, et
 * powertop
 * vim-gtk - set prefs with .vimrc (use moolenaar example)
 * google-earth - installed with smxi
-* chromium-browser
 * gimp
-* numpy
-* scipy
-* matplotlib
-* ipython
 * shotwell
 * rdesktop (remote desktop for windows access)
 * mpd (music player daemon)

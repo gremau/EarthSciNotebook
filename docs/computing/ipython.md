@@ -68,44 +68,4 @@ IPython will automatically start the debugger on any uncaught exception.
 `%prun` will run a statement through the python code profiler.
 
 
-## The Qt console
 
-IPython has a ligthweight, Qt enhanced terminal that allows some extra
-functionality.
-
-* The Debian package: ipython-qtconsole.
-* Start with: ipython qtconsole
-* arguments can be passed to this start statement (`--pylab`)
-* type `%guiref` to see a quick introduction of its main features.
-* [Feature description](http://ipython.org/ipython-doc/stable/interactive/qtconsole.html)
-
-
-## Features
-
-### Multi-line editing
-
-To input and edit code on multiple lines press Ctrl-Enter after the
-first line. This puts the console in multiline editing mode and
-additional lines can be added and edited. To run the lines of code
-append a blank line and hit Enter or use Shift-Enter.
-
-### %loadpy
-
-The `%loadpy` magic takes any python script (must end in `.py`), and
-pastes its contents as your next input, so you can edit it before
-executing.
-
-### Inline plotting
-
-Matplotlib plots can now be displayed right in the terminal window. To
-make this happen all the time, start the qtconsole with:
-`--pylab=inlineMatplotlib` figures can also be individually embedded in
-the qtconsole workspace using something like `display(gcf())`
-
-### Saving "notebooks"
-
-Qtconsole activity can be saved in HTML or XHTML, with inline figures in
-PNG or SVG format. To switch the inline figure format to use SVG during
-an active session, do:
-
-    In [10]: %config InlineBackend.figure_format = 'svg'

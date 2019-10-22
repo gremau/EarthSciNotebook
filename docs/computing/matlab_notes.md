@@ -3,6 +3,16 @@
 Notes for using Matlab effectively for data analysis. **See also:**
 [General programming](programming.md), [Sensor data notes](sensordata_notes.md) pages
 
+## Installation on linux
+
+Matlab installer for linux is pretty straightforward these days. MATLAB can be installed in /usr/local/ unless there is not enough space (3-6 GB depending on toolboxes).
+
+To get a desktop launcher in the menu (with icon), do:
+
+	sudo wget http://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png -O /usr/share/icons/matlab.png
+
+then make a matlab.desktop file in /usr/share/applications/ that points to the icon and executes `matlab -desktop`
+
 ## Put date ticklabels on an X-axis
 
 When plotting a timeseries it is often hard to tell when the data is
