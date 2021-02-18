@@ -7,4 +7,4 @@ site_author: Gregory E. Maurer
 #    - Sites: 'sites/SitesIndex.md'
 theme: readthedocs
 repo_url: https://github.com/gremau/EarthSciNotebook/
-edit_uri: edit/master/docs/
+edit_uri: edit/main/docs/
