@@ -70,8 +70,9 @@ temperature increase with elevation.
 
 ### Figure E - Snowpack effect on mean annual soil temperature
 
-![media/west_stationdata:mast_mat_gradients.png?200|]{{
-:west_stationdata:mast_diff_snowpackreg.png?200|] Comparison of mean
+![media/west_stationdata:mast_mat_gradients.png?200|]
+![media/west_stationdata:mast_diff_snowpackreg.png?200|]
+Comparison of mean
 annual T~soil~ (MAST) and mean annual T~air~ (MAT) across all SNOTEL
 sites (with soil sensor profiles. Each point is MAST (grey) or MAT
 (blue) for one site during one wateryear. MAST is higher than MAT, and
