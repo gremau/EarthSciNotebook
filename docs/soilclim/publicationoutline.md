@@ -106,8 +106,8 @@ for reference.
 
 ### Figure H - Effect of snowpack variability on growing season soil moisture
 
-![media/west_stationdata:gsvwc_snowpack.png?100|]{{
-:west_stationdata:gsvwc_snowrain.png?200|] Melt timing has a greater
+![media/west_stationdata:gsvwc_snowpack.png?100|]
+![west_stationdata:gsvwc_snowrain.png?200|] Melt timing has a greater
 effect on growing season soil moisture than snowpack size.
 
 * Panel A: Mean July, August, September soil moisture plotted versus the peak SWE of the prior spring snowpack.
